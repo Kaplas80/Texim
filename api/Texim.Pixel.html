@@ -1,0 +1,544 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Pixel
+   | Texim extensible image API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Pixel
+   | Texim extensible image API ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../dev/toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="../guides/Contributing.html" title="Guides">Guides</a>
+                      </li>
+                      <li>
+                          <a href="../dev/Changelog.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/SceneGate/Texim" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="../dev/Changelog.html" title="Changelog" class="">Changelog</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">API</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Texim.html" title="Texim" class="">Texim</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Texim.BgMode.html" title="BgMode" class="">BgMode</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.ColorExtension.html" title="ColorExtension" class="">ColorExtension</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.ColorFormat.html" title="ColorFormat" class="">ColorFormat</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.ColorFormatExtension.html" title="ColorFormatExtension" class="">ColorFormatExtension</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.CompressMapping.html" title="CompressMapping" class="">CompressMapping</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.ImageConverter.html" title="ImageConverter" class="">ImageConverter</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.ImageMapConverter.html" title="ImageMapConverter" class="">ImageMapConverter</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Map.html" title="Map" class="">Map</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Mapable.html" title="Mapable" class="">Mapable</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.MapInfo.html" title="MapInfo" class="">MapInfo</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.MatchMapping.html" title="MatchMapping" class="">MatchMapping</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Palette.html" title="Palette" class="">Palette</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Pixel.html" title="Pixel" class="">Pixel</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.PixelArray.html" title="PixelArray" class="">PixelArray</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.PixelEncoding.html" title="PixelEncoding" class="">PixelEncoding</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.PixelEncodingExtension.html" title="PixelEncodingExtension" class="">PixelEncodingExtension</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.PixelExtension.html" title="PixelExtension" class="">PixelExtension</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Texim.Processing.html" title="Texim.Processing" class="">Texim.Processing</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Processing.BasicQuantization.html" title="BasicQuantization" class="">BasicQuantization</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Processing.ColorQuantization.html" title="ColorQuantization" class="">ColorQuantization</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Processing.ExhaustivePaletteSearch.html" title="ExhaustivePaletteSearch" class="">ExhaustivePaletteSearch</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Processing.FixedPaletteQuantization.html" title="FixedPaletteQuantization" class="">FixedPaletteQuantization</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Processing.NearestNeighbour-1.html" title="NearestNeighbour&lt;T&gt;" class="">NearestNeighbour&lt;T&gt;</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Texim.Pixel">
+  
+  
+  <h1 id="Texim_Pixel" data-uid="Texim.Pixel" class="text-break">Struct Pixel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.html">Texim</a></h6>
+  <h6><strong>Assembly</strong>: Texim.dll</h6>
+  <h5 id="Texim_Pixel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct Pixel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel__ctor_System_UInt32_System_UInt32_System_Boolean_.md&amp;value=---%0Auid%3A%20Texim.Pixel.%23ctor(System.UInt32%2CSystem.UInt32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L32">View Source</a>
+  </span>
+  <a id="Texim_Pixel__ctor_" data-uid="Texim.Pixel.#ctor*"></a>
+  <h4 id="Texim_Pixel__ctor_System_UInt32_System_UInt32_System_Boolean_" data-uid="Texim.Pixel.#ctor(System.UInt32,System.UInt32,System.Boolean)">Pixel(UInt32, UInt32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Pixel(uint info, uint alpha, bool isIndexed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">info</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isIndexed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_Alpha.md&amp;value=---%0Auid%3A%20Texim.Pixel.Alpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L54">View Source</a>
+  </span>
+  <a id="Texim_Pixel_Alpha_" data-uid="Texim.Pixel.Alpha*"></a>
+  <h4 id="Texim_Pixel_Alpha" data-uid="Texim.Pixel.Alpha">Alpha</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte Alpha { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_Info.md&amp;value=---%0Auid%3A%20Texim.Pixel.Info%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L49">View Source</a>
+  </span>
+  <a id="Texim_Pixel_Info_" data-uid="Texim.Pixel.Info*"></a>
+  <h4 id="Texim_Pixel_Info" data-uid="Texim.Pixel.Info">Info</h4>
+  <div class="markdown level1 summary"><p>Gets the pixel info.
+If it's indexed it returns the color index otherwise, it returns a 32bit BGR value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Info { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><p>The pixel info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_IsIndexed.md&amp;value=---%0Auid%3A%20Texim.Pixel.IsIndexed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L39">View Source</a>
+  </span>
+  <a id="Texim_Pixel_IsIndexed_" data-uid="Texim.Pixel.IsIndexed*"></a>
+  <h4 id="Texim_Pixel_IsIndexed" data-uid="Texim.Pixel.IsIndexed">IsIndexed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIndexed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_ChangeInfo_System_UInt32_.md&amp;value=---%0Auid%3A%20Texim.Pixel.ChangeInfo(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L59">View Source</a>
+  </span>
+  <a id="Texim_Pixel_ChangeInfo_" data-uid="Texim.Pixel.ChangeInfo*"></a>
+  <h4 id="Texim_Pixel_ChangeInfo_System_UInt32_" data-uid="Texim.Pixel.ChangeInfo(System.UInt32)">ChangeInfo(UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Pixel ChangeInfo(uint info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">info</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Texim.Pixel.html">Pixel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Texim.Pixel.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L64">View Source</a>
+  </span>
+  <a id="Texim_Pixel_Equals_" data-uid="Texim.Pixel.Equals*"></a>
+  <h4 id="Texim_Pixel_Equals_System_Object_" data-uid="Texim.Pixel.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_GetHashCode.md&amp;value=---%0Auid%3A%20Texim.Pixel.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L76">View Source</a>
+  </span>
+  <a id="Texim_Pixel_GetHashCode_" data-uid="Texim.Pixel.GetHashCode*"></a>
+  <h4 id="Texim_Pixel_GetHashCode" data-uid="Texim.Pixel.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel_ToString.md&amp;value=---%0Auid%3A%20Texim.Pixel.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L83">View Source</a>
+  </span>
+  <a id="Texim_Pixel_ToString_" data-uid="Texim.Pixel.ToString*"></a>
+  <h4 id="Texim_Pixel_ToString" data-uid="Texim.Pixel.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Pixel.md&amp;value=---%0Auid%3A%20Texim.Pixel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Pixel.cs/#L30" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 2021 SceneGate
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

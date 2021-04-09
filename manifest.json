@@ -1,0 +1,449 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/Texim/Texim/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "qkhEwGlHAknpJZr+7A/7zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "BZ0VODnHMYVNEQAaHcAVqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.BgMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.BgMode.html",
+          "hash": "rh1htfzmCcUzS75ybzdgtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.ColorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.ColorExtension.html",
+          "hash": "eJ6HH0d04jTvRPXBC/WwbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.ColorFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.ColorFormat.html",
+          "hash": "ujKc6irCu0bUq3fpa14YQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.ColorFormatExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.ColorFormatExtension.html",
+          "hash": "UpcBW5kKmtFor74ZUWbDxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.CompressMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.CompressMapping.html",
+          "hash": "kxMVtVPo643eIAjjf/jlZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.ImageConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.ImageConverter.html",
+          "hash": "591rjOYdvDgOY8/4o8cd8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.ImageMapConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.ImageMapConverter.html",
+          "hash": "P911aDBLO49oySEE3vL9QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Map.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Map.html",
+          "hash": "jXf8iMQSsIT8Vh5que2+Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.MapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.MapInfo.html",
+          "hash": "mm144SRdYVBJE5dNVcwkTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Mapable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Mapable.html",
+          "hash": "HKdHal7m4k3eIF8zX3x8rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.MatchMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.MatchMapping.html",
+          "hash": "iiizPFhT6W/6ZQkGTyNqwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Palette.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Palette.html",
+          "hash": "CcHP5xV6Bg9qVrVQ/OLz4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Pixel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Pixel.html",
+          "hash": "yliB1HTaEbkJxmT7pRSGog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.PixelArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.PixelArray.html",
+          "hash": "zcGp52jDsoJmVwFQ7p3/hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.PixelEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.PixelEncoding.html",
+          "hash": "DOs/j8SXgi82jwCcMnUIrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.PixelEncodingExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.PixelEncodingExtension.html",
+          "hash": "ks3ncGirTgvpDcQSJwmVuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.PixelExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.PixelExtension.html",
+          "hash": "irx5ZPsG0pENUo2euMjH/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Processing.BasicQuantization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Processing.BasicQuantization.html",
+          "hash": "93+tHz4khbd8owpT697yGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Processing.ColorQuantization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Processing.ColorQuantization.html",
+          "hash": "xMxG44RUcO08+HswwZam0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Processing.ExhaustivePaletteSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Processing.ExhaustivePaletteSearch.html",
+          "hash": "f9EG14sHfbAP4uh8lefxHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Processing.FixedPaletteQuantization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Processing.FixedPaletteQuantization.html",
+          "hash": "JvEQqeuvsrJP3ySYvy/fIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Processing.NearestNeighbour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Processing.NearestNeighbour-1.html",
+          "hash": "Btzql0ku6oBC7MS03EtXWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Processing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Processing.html",
+          "hash": "L1xYhmvILhIji7FmC+IQtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.html",
+          "hash": "Nr1kupMDeN2fl4Y50EAujQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "dev/Changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/Changelog.html",
+          "hash": "6GmRY9G+jXreKxKclXLyeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "dev/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "dev/toc.html",
+          "hash": "yTwvIo7ZNuzs32BeNdwq/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/Contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Contributing.html",
+          "hash": "onHhT7W+/Fuut+ca/SR4zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html",
+          "hash": "SMP9rs/wzqbYpu+cOhBfSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "p8GCRt6TGbWlx9gUhq1okw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "CqfQuCuT/vnZx0sqYUz2CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 24,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
