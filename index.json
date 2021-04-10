@@ -222,7 +222,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (April 09, 2021) | Texim extensible image API",
-    "keywords": "vNext (April 09, 2021) As part of this release we had 4 issues closed. Enhancements #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
+    "keywords": "vNext (April 09, 2021) As part of this release we had 5 issues closed. Enhancements #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
