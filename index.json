@@ -4,6 +4,11 @@
     "title": "Enum BgMode | Texim extensible image API",
     "keywords": "Enum BgMode Namespace : Texim Assembly : Texim.dll Syntax public enum BgMode : int Fields Name Description Affine Extended Text"
   },
+  "api/Texim.CollectionExtensions.html": {
+    "href": "api/Texim.CollectionExtensions.html",
+    "title": "Class CollectionExtensions | Texim extensible image API",
+    "keywords": "Class CollectionExtensions Inheritance Object CollectionExtensions Namespace : Texim Assembly : Texim.dll Syntax public static class CollectionExtensions : object Methods | Improve this Doc View Source Add<T>(Collection<T>, IEnumerable<T>) Declaration public static void Add<T>(this Collection<T> collection, IEnumerable<T> source) Parameters Type Name Description Collection <T> collection IEnumerable <T> source Type Parameters Name Description T"
+  },
   "api/Texim.ColorExtension.html": {
     "href": "api/Texim.ColorExtension.html",
     "title": "Class ColorExtension | Texim extensible image API",
@@ -19,15 +24,80 @@
     "title": "Class ColorFormatExtension | Texim extensible image API",
     "keywords": "Class ColorFormatExtension Inheritance Object ColorFormatExtension Namespace : Texim Assembly : Texim.dll Syntax public static class ColorFormatExtension : object Methods | Improve this Doc View Source Bpp(ColorFormat) Declaration public static int Bpp(this ColorFormat format) Parameters Type Name Description ColorFormat format Returns Type Description Int32 | Improve this Doc View Source IsIndexed(ColorFormat) Declaration public static bool IsIndexed(this ColorFormat format) Parameters Type Name Description ColorFormat format Returns Type Description Boolean | Improve this Doc View Source MaxColors(ColorFormat) Declaration public static int MaxColors(this ColorFormat format) Parameters Type Name Description ColorFormat format Returns Type Description Int32 | Improve this Doc View Source PackColor(ColorFormat, UInt32) Declaration public static uint PackColor(this ColorFormat format, uint pxInfo) Parameters Type Name Description ColorFormat format UInt32 pxInfo Returns Type Description UInt32 | Improve this Doc View Source UnpackColor(ColorFormat, UInt32) Declaration public static uint UnpackColor(this ColorFormat format, uint info) Parameters Type Name Description ColorFormat format UInt32 info Returns Type Description UInt32"
   },
+  "api/Texim.Colors.Bgr555.html": {
+    "href": "api/Texim.Colors.Bgr555.html",
+    "title": "Class Bgr555 | Texim extensible image API",
+    "keywords": "Class Bgr555 Inheritance Object Bgr555 Implements IColorEncoding Namespace : Texim.Colors Assembly : Texim.dll Syntax public class Bgr555 : object, IColorEncoding Properties | Improve this Doc View Source BytesPerColor Declaration public static int BytesPerColor { get; } Property Value Type Description Int32 | Improve this Doc View Source Instance Declaration public static Bgr555 Instance { get; } Property Value Type Description Bgr555 Methods | Improve this Doc View Source Decode(Span<Byte>) Declaration public Rgb[] Decode(Span<byte> data) Parameters Type Name Description Span < Byte > data Returns Type Description Rgb [] | Improve this Doc View Source Decode(Stream) Declaration public Rgb Decode(Stream stream) Parameters Type Name Description Stream stream Returns Type Description Rgb | Improve this Doc View Source Decode(Stream, Int32) Declaration public Rgb[] Decode(Stream stream, int numColors) Parameters Type Name Description Stream stream Int32 numColors Returns Type Description Rgb [] | Improve this Doc View Source Encode(IEnumerable<Rgb>) Declaration public byte[] Encode(IEnumerable<Rgb> colors) Parameters Type Name Description IEnumerable < Rgb > colors Returns Type Description Byte [] | Improve this Doc View Source Encode(Rgb) Declaration public byte[] Encode(Rgb color) Parameters Type Name Description Rgb color Returns Type Description Byte [] | Improve this Doc View Source FromUInt16(UInt16) Declaration public static Rgb FromUInt16(ushort value) Parameters Type Name Description UInt16 value Returns Type Description Rgb | Improve this Doc View Source ToUInt16(Rgb) Declaration public static ushort ToUInt16(Rgb color) Parameters Type Name Description Rgb color Returns Type Description UInt16 Implements IColorEncoding"
+  },
+  "api/Texim.Colors.html": {
+    "href": "api/Texim.Colors.html",
+    "title": "Namespace Texim.Colors | Texim extensible image API",
+    "keywords": "Namespace Texim.Colors Classes Bgr555 IOExtensions Rgb32 Rgba32 Structs Rgb Interfaces IColorEncoding"
+  },
+  "api/Texim.Colors.IColorEncoding.html": {
+    "href": "api/Texim.Colors.IColorEncoding.html",
+    "title": "Interface IColorEncoding | Texim extensible image API",
+    "keywords": "Interface IColorEncoding Namespace : Texim.Colors Assembly : Texim.dll Syntax public interface IColorEncoding Methods | Improve this Doc View Source Decode(Span<Byte>) Declaration Rgb[] Decode(Span<byte> data) Parameters Type Name Description Span < Byte > data Returns Type Description Rgb [] | Improve this Doc View Source Decode(Stream) Declaration Rgb Decode(Stream stream) Parameters Type Name Description Stream stream Returns Type Description Rgb | Improve this Doc View Source Decode(Stream, Int32) Declaration Rgb[] Decode(Stream stream, int numColors) Parameters Type Name Description Stream stream Int32 numColors Returns Type Description Rgb [] | Improve this Doc View Source Encode(IEnumerable<Rgb>) Declaration byte[] Encode(IEnumerable<Rgb> colors) Parameters Type Name Description IEnumerable < Rgb > colors Returns Type Description Byte [] | Improve this Doc View Source Encode(Rgb) Declaration byte[] Encode(Rgb color) Parameters Type Name Description Rgb color Returns Type Description Byte []"
+  },
+  "api/Texim.Colors.IOExtensions.html": {
+    "href": "api/Texim.Colors.IOExtensions.html",
+    "title": "Class IOExtensions | Texim extensible image API",
+    "keywords": "Class IOExtensions Inheritance Object IOExtensions Namespace : Texim.Colors Assembly : Texim.dll Syntax public static class IOExtensions : object Methods | Improve this Doc View Source ReadColor<T>(DataReader) Declaration public static Rgb ReadColor<T>(this DataReader reader) where T : IColorEncoding, new() Parameters Type Name Description DataReader reader Returns Type Description Rgb Type Parameters Name Description T | Improve this Doc View Source ReadColors<T>(DataReader, Int32) Declaration public static Rgb[] ReadColors<T>(this DataReader reader, int numColors) where T : IColorEncoding, new() Parameters Type Name Description DataReader reader Int32 numColors Returns Type Description Rgb [] Type Parameters Name Description T | Improve this Doc View Source Write<T>(DataWriter, IEnumerable<Rgb>) Declaration public static void Write<T>(this DataWriter writer, IEnumerable<Rgb> colors) where T : IColorEncoding, new() Parameters Type Name Description DataWriter writer IEnumerable < Rgb > colors Type Parameters Name Description T | Improve this Doc View Source Write<T>(DataWriter, Rgb) Declaration public static void Write<T>(this DataWriter writer, Rgb color) where T : IColorEncoding, new() Parameters Type Name Description DataWriter writer Rgb color Type Parameters Name Description T"
+  },
+  "api/Texim.Colors.Rgb.html": {
+    "href": "api/Texim.Colors.Rgb.html",
+    "title": "Struct Rgb | Texim extensible image API",
+    "keywords": "Struct Rgb Namespace : Texim.Colors Assembly : Texim.dll Syntax public struct Rgb Constructors | Improve this Doc View Source Rgb(Byte, Byte, Byte) Declaration public Rgb(byte red, byte green, byte blue) Parameters Type Name Description Byte red Byte green Byte blue | Improve this Doc View Source Rgb(Byte, Byte, Byte, Byte) Declaration public Rgb(byte red, byte green, byte blue, byte alpha) Parameters Type Name Description Byte red Byte green Byte blue Byte alpha Properties | Improve this Doc View Source Alpha Declaration public byte Alpha { get; } Property Value Type Description Byte | Improve this Doc View Source Blue Declaration public byte Blue { get; } Property Value Type Description Byte | Improve this Doc View Source Green Declaration public byte Green { get; } Property Value Type Description Byte | Improve this Doc View Source Red Declaration public byte Red { get; } Property Value Type Description Byte Methods | Improve this Doc View Source ToColor() Declaration public Color ToColor() Returns Type Description Color"
+  },
+  "api/Texim.Colors.Rgb32.html": {
+    "href": "api/Texim.Colors.Rgb32.html",
+    "title": "Class Rgb32 | Texim extensible image API",
+    "keywords": "Class Rgb32 Inheritance Object Rgba32 Rgb32 Implements IColorEncoding Inherited Members Rgba32.BytesPerColor Rgba32.Decode(Stream) Rgba32.Decode(Stream, Int32) Rgba32.Decode(Span<Byte>) Rgba32.Encode(Rgb) Rgba32.Encode(IEnumerable<Rgb>) Namespace : Texim.Colors Assembly : Texim.dll Syntax public class Rgb32 : Rgba32, IColorEncoding Constructors | Improve this Doc View Source Rgb32() Declaration public Rgb32() Properties | Improve this Doc View Source Instance Declaration public static Rgb32 Instance { get; } Property Value Type Description Rgb32 Implements IColorEncoding"
+  },
+  "api/Texim.Colors.Rgba32.html": {
+    "href": "api/Texim.Colors.Rgba32.html",
+    "title": "Class Rgba32 | Texim extensible image API",
+    "keywords": "Class Rgba32 Inheritance Object Rgba32 Rgb32 Implements IColorEncoding Namespace : Texim.Colors Assembly : Texim.dll Syntax public class Rgba32 : object, IColorEncoding Constructors | Improve this Doc View Source Rgba32() Declaration public Rgba32() Properties | Improve this Doc View Source BytesPerColor Declaration public static int BytesPerColor { get; } Property Value Type Description Int32 | Improve this Doc View Source Instance Declaration public static Rgba32 Instance { get; } Property Value Type Description Rgba32 Methods | Improve this Doc View Source Decode(Span<Byte>) Declaration public Rgb[] Decode(Span<byte> data) Parameters Type Name Description Span < Byte > data Returns Type Description Rgb [] | Improve this Doc View Source Decode(Stream) Declaration public Rgb Decode(Stream stream) Parameters Type Name Description Stream stream Returns Type Description Rgb | Improve this Doc View Source Decode(Stream, Int32) Declaration public Rgb[] Decode(Stream stream, int numColors) Parameters Type Name Description Stream stream Int32 numColors Returns Type Description Rgb [] | Improve this Doc View Source Encode(IEnumerable<Rgb>) Declaration public byte[] Encode(IEnumerable<Rgb> colors) Parameters Type Name Description IEnumerable < Rgb > colors Returns Type Description Byte [] | Improve this Doc View Source Encode(Rgb) Declaration public byte[] Encode(Rgb color) Parameters Type Name Description Rgb color Returns Type Description Byte [] Implements IColorEncoding"
+  },
   "api/Texim.CompressMapping.html": {
     "href": "api/Texim.CompressMapping.html",
     "title": "Class CompressMapping | Texim extensible image API",
     "keywords": "Class CompressMapping Inheritance Object Mapable CompressMapping MatchMapping Inherited Members Mapable.mappedImage Mapable.mapInfo Mapable.TileSize Mapable.GetMappedImage() Mapable.GetMapInfo() Mapable.Search(Pixel[], List<Pixel[]>) Namespace : Texim Assembly : Texim.dll Syntax public class CompressMapping : Mapable Methods | Improve this Doc View Source Map(Pixel[]) Declaration public override void Map(Pixel[] image) Parameters Type Name Description Pixel [] image Overrides Mapable.Map(Pixel[]) | Improve this Doc View Source Map(Pixel[], Int32[]) Declaration public override void Map(Pixel[] image, int[] palettes) Parameters Type Name Description Pixel [] image Int32 [] palettes Overrides Mapable.Map(Pixel[], Int32[]) | Improve this Doc View Source Search(Pixel[], List<Pixel[]>, System.Drawing.Size, out Boolean, out Boolean) Declaration protected static int Search(Pixel[] tile, List<Pixel[]> tiles, System.Drawing.Size tileSize, out bool flipX, out bool flipY) Parameters Type Name Description Pixel [] tile List < Pixel []> tiles System.Drawing.Size tileSize Boolean flipX Boolean flipY Returns Type Description Int32"
   },
+  "api/Texim.Formats.html": {
+    "href": "api/Texim.Formats.html",
+    "title": "Namespace Texim.Formats | Texim extensible image API",
+    "keywords": "Namespace Texim.Formats Classes Palette2BinaryBitmap Palette2BinaryRiff PaletteCollection2ContainerBitmap RawBinary2Palette RawPaletteParameters"
+  },
+  "api/Texim.Formats.Palette2BinaryBitmap.html": {
+    "href": "api/Texim.Formats.Palette2BinaryBitmap.html",
+    "title": "Class Palette2BinaryBitmap | Texim extensible image API",
+    "keywords": "Class Palette2BinaryBitmap Inheritance Object Palette2BinaryBitmap Implements IConverter < IPalette , BinaryFormat > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class Palette2BinaryBitmap : IInitializer<ImageFormat>, IConverter<IPalette, BinaryFormat> Methods | Improve this Doc View Source Convert(IPalette) Declaration public BinaryFormat Convert(IPalette source) Parameters Type Name Description IPalette source Returns Type Description BinaryFormat | Improve this Doc View Source Initialize(ImageFormat) Declaration public void Initialize(ImageFormat parameters) Parameters Type Name Description ImageFormat parameters Implements IConverter<, >"
+  },
+  "api/Texim.Formats.Palette2BinaryRiff.html": {
+    "href": "api/Texim.Formats.Palette2BinaryRiff.html",
+    "title": "Class Palette2BinaryRiff | Texim extensible image API",
+    "keywords": "Class Palette2BinaryRiff Inheritance Object Palette2BinaryRiff Implements IConverter < IPalette , BinaryFormat > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class Palette2BinaryRiff : IInitializer<bool>, IConverter<IPalette, BinaryFormat> Properties | Improve this Doc View Source GimpCompatibility Declaration public bool GimpCompatibility { get; set; } Property Value Type Description Boolean | Improve this Doc View Source Version Declaration public static int Version { get; } Property Value Type Description Int32 Methods | Improve this Doc View Source Convert(IPalette) Declaration public BinaryFormat Convert(IPalette palette) Parameters Type Name Description IPalette palette Returns Type Description BinaryFormat | Improve this Doc View Source Initialize(Boolean) Declaration public void Initialize(bool parameters) Parameters Type Name Description Boolean parameters Implements IConverter<, >"
+  },
+  "api/Texim.Formats.PaletteCollection2ContainerBitmap.html": {
+    "href": "api/Texim.Formats.PaletteCollection2ContainerBitmap.html",
+    "title": "Class PaletteCollection2ContainerBitmap | Texim extensible image API",
+    "keywords": "Class PaletteCollection2ContainerBitmap Inheritance Object PaletteCollection2ContainerBitmap Implements IConverter < PaletteCollection , NodeContainerFormat > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class PaletteCollection2ContainerBitmap : IInitializer<ImageFormat>, IConverter<PaletteCollection, NodeContainerFormat> Methods | Improve this Doc View Source Convert(PaletteCollection) Declaration public NodeContainerFormat Convert(PaletteCollection source) Parameters Type Name Description PaletteCollection source Returns Type Description NodeContainerFormat | Improve this Doc View Source Initialize(ImageFormat) Declaration public void Initialize(ImageFormat parameters) Parameters Type Name Description ImageFormat parameters Implements IConverter<, >"
+  },
+  "api/Texim.Formats.RawBinary2Palette.html": {
+    "href": "api/Texim.Formats.RawBinary2Palette.html",
+    "title": "Class RawBinary2Palette | Texim extensible image API",
+    "keywords": "Class RawBinary2Palette Inheritance Object RawBinary2Palette Implements IConverter < BinaryFormat , Palette > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawBinary2Palette : IInitializer<RawPaletteParameters>, IConverter<BinaryFormat, Palette> Methods | Improve this Doc View Source Convert(BinaryFormat) Declaration public Palette Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source Returns Type Description Palette | Improve this Doc View Source Initialize(RawPaletteParameters) Declaration public void Initialize(RawPaletteParameters parameters) Parameters Type Name Description RawPaletteParameters parameters Implements IConverter<, >"
+  },
+  "api/Texim.Formats.RawPaletteParameters.html": {
+    "href": "api/Texim.Formats.RawPaletteParameters.html",
+    "title": "Class RawPaletteParameters | Texim extensible image API",
+    "keywords": "Class RawPaletteParameters Inheritance Object RawPaletteParameters Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawPaletteParameters : object Properties | Improve this Doc View Source ColorEncoding Declaration public IColorEncoding ColorEncoding { get; set; } Property Value Type Description IColorEncoding | Improve this Doc View Source Default Declaration public static RawPaletteParameters Default { get; } Property Value Type Description RawPaletteParameters | Improve this Doc View Source Offset Declaration public long Offset { get; set; } Property Value Type Description Int64 | Improve this Doc View Source Size Declaration public int Size { get; set; } Property Value Type Description Int32"
+  },
   "api/Texim.html": {
     "href": "api/Texim.html",
     "title": "Namespace Texim | Texim extensible image API",
-    "keywords": "Namespace Texim Classes ColorExtension ColorFormatExtension CompressMapping ImageConverter ImageMapConverter Map Mapable MatchMapping Palette PixelArray PixelEncodingExtension PixelExtension Structs MapInfo Pixel Enums BgMode ColorFormat PixelEncoding"
+    "keywords": "Namespace Texim Classes CollectionExtensions ColorExtension ColorFormatExtension CompressMapping ImageConverter ImageMapConverter Map Mapable MatchMapping Palette PixelArray PixelEncodingExtension PixelExtension Structs MapInfo Pixel Enums BgMode ColorFormat PixelEncoding"
   },
   "api/Texim.ImageConverter.html": {
     "href": "api/Texim.ImageConverter.html",
@@ -63,6 +133,31 @@
     "href": "api/Texim.Palette.html",
     "title": "Class Palette | Texim extensible image API",
     "keywords": "Class Palette Inheritance Object Palette Namespace : Texim Assembly : Texim.dll Syntax public class Palette : IFormat Constructors | Improve this Doc View Source Palette() Declaration public Palette() | Improve this Doc View Source Palette(Color[]) Declaration public Palette(Color[] palette) Parameters Type Name Description Color [] palette | Improve this Doc View Source Palette(Color[][]) Declaration public Palette(Color[][] palette) Parameters Type Name Description Color [][] palette Properties | Improve this Doc View Source NumPalettes Declaration public int NumPalettes { get; } Property Value Type Description Int32 | Improve this Doc View Source Palettes Declaration public IEnumerable<Color[]> Palettes { get; } Property Value Type Description IEnumerable < Color []> Methods | Improve this Doc View Source CreateBitmap(Color[]) Declaration public static Bitmap CreateBitmap(Color[] colors) Parameters Type Name Description Color [] colors Returns Type Description Bitmap | Improve this Doc View Source CreateBitmap(Int32) Declaration public Bitmap CreateBitmap(int index) Parameters Type Name Description Int32 index Returns Type Description Bitmap | Improve this Doc View Source GetColor(Int32, Int32) Declaration public Color GetColor(int paletteIndex, int colorIndex) Parameters Type Name Description Int32 paletteIndex Int32 colorIndex Returns Type Description Color | Improve this Doc View Source GetPalette(Int32) Declaration public Color[] GetPalette(int index) Parameters Type Name Description Int32 index Returns Type Description Color [] | Improve this Doc View Source GetPalettes() Declaration public Color[][] GetPalettes() Returns Type Description Color [][] | Improve this Doc View Source SetPalette(Color[]) Declaration public void SetPalette(Color[] palette) Parameters Type Name Description Color [] palette | Improve this Doc View Source SetPalette(Color[][]) Declaration public void SetPalette(Color[][] palette) Parameters Type Name Description Color [][] palette | Improve this Doc View Source ToAcoFormat(String, Int32) Declaration public void ToAcoFormat(string outPath, int index) Parameters Type Name Description String outPath Int32 index | Improve this Doc View Source ToWinPaletteFormat(String, Int32, Boolean) Declaration public void ToWinPaletteFormat(string outPath, int index, bool gimpCompability) Parameters Type Name Description String outPath Int32 index Boolean gimpCompability"
+  },
+  "api/Texim.Palettes.html": {
+    "href": "api/Texim.Palettes.html",
+    "title": "Namespace Texim.Palettes | Texim extensible image API",
+    "keywords": "Namespace Texim.Palettes Classes Palette PaletteCollection Interfaces IPalette IPaletteCollection"
+  },
+  "api/Texim.Palettes.IPalette.html": {
+    "href": "api/Texim.Palettes.IPalette.html",
+    "title": "Interface IPalette | Texim extensible image API",
+    "keywords": "Interface IPalette Namespace : Texim.Palettes Assembly : Texim.dll Syntax public interface IPalette : IFormat Properties | Improve this Doc View Source Colors Declaration Collection<Rgb> Colors { get; } Property Value Type Description Collection < Rgb >"
+  },
+  "api/Texim.Palettes.IPaletteCollection.html": {
+    "href": "api/Texim.Palettes.IPaletteCollection.html",
+    "title": "Interface IPaletteCollection | Texim extensible image API",
+    "keywords": "Interface IPaletteCollection Namespace : Texim.Palettes Assembly : Texim.dll Syntax public interface IPaletteCollection : IFormat Properties | Improve this Doc View Source Palettes Declaration Collection<IPalette> Palettes { get; } Property Value Type Description Collection < IPalette >"
+  },
+  "api/Texim.Palettes.Palette.html": {
+    "href": "api/Texim.Palettes.Palette.html",
+    "title": "Class Palette | Texim extensible image API",
+    "keywords": "Class Palette Inheritance Object Palette Implements IPalette IFormat Namespace : Texim.Palettes Assembly : Texim.dll Syntax public class Palette : object, IPalette, IFormat Constructors | Improve this Doc View Source Palette() Declaration public Palette() | Improve this Doc View Source Palette(IEnumerable<Rgb>) Declaration public Palette(IEnumerable<Rgb> initialColors) Parameters Type Name Description IEnumerable < Rgb > initialColors Properties | Improve this Doc View Source Colors Declaration public Collection<Rgb> Colors { get; } Property Value Type Description Collection < Rgb > Implements IPalette IFormat"
+  },
+  "api/Texim.Palettes.PaletteCollection.html": {
+    "href": "api/Texim.Palettes.PaletteCollection.html",
+    "title": "Class PaletteCollection | Texim extensible image API",
+    "keywords": "Class PaletteCollection Inheritance Object PaletteCollection Implements IPaletteCollection IFormat Namespace : Texim.Palettes Assembly : Texim.dll Syntax public class PaletteCollection : object, IPaletteCollection, IFormat Constructors | Improve this Doc View Source PaletteCollection() Declaration public PaletteCollection() | Improve this Doc View Source PaletteCollection(IEnumerable<IPalette>) Declaration public PaletteCollection(IEnumerable<IPalette> initialPalettes) Parameters Type Name Description IEnumerable < IPalette > initialPalettes Properties | Improve this Doc View Source Palettes Declaration public Collection<IPalette> Palettes { get; } Property Value Type Description Collection < IPalette > Implements IPaletteCollection IFormat"
   },
   "api/Texim.Pixel.html": {
     "href": "api/Texim.Pixel.html",
@@ -127,7 +222,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (April 09, 2021) | Texim extensible image API",
-    "keywords": "vNext (April 09, 2021) As part of this release we had 3 issues closed. Enhancements #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
+    "keywords": "vNext (April 09, 2021) As part of this release we had 4 issues closed. Enhancements #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",

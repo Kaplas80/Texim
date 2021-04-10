@@ -37,6 +37,28 @@ references:
   commentId: F:Texim.BgMode.Text
   fullName: Texim.BgMode.Text
   nameWithType: BgMode.Text
+- uid: Texim.CollectionExtensions
+  name: CollectionExtensions
+  href: api/Texim.CollectionExtensions.html
+  commentId: T:Texim.CollectionExtensions
+  fullName: Texim.CollectionExtensions
+  nameWithType: CollectionExtensions
+- uid: Texim.CollectionExtensions.Add*
+  name: Add
+  href: api/Texim.CollectionExtensions.html#Texim_CollectionExtensions_Add_
+  commentId: Overload:Texim.CollectionExtensions.Add
+  isSpec: "True"
+  fullName: Texim.CollectionExtensions.Add
+  nameWithType: CollectionExtensions.Add
+- uid: Texim.CollectionExtensions.Add``1(Collection{``0},IEnumerable{``0})
+  name: Add<T>(Collection<T>, IEnumerable<T>)
+  href: api/Texim.CollectionExtensions.html#Texim_CollectionExtensions_Add__1_Collection___0__IEnumerable___0__
+  commentId: M:Texim.CollectionExtensions.Add``1(Collection{``0},IEnumerable{``0})
+  name.vb: Add(Of T)(Collection(Of T), IEnumerable(Of T))
+  fullName: Texim.CollectionExtensions.Add<T>(Collection<T>, IEnumerable<T>)
+  fullName.vb: Texim.CollectionExtensions.Add(Of T)(Collection(Of T), IEnumerable(Of T))
+  nameWithType: CollectionExtensions.Add<T>(Collection<T>, IEnumerable<T>)
+  nameWithType.vb: CollectionExtensions.Add(Of T)(Collection(Of T), IEnumerable(Of T))
 - uid: Texim.ColorExtension
   name: ColorExtension
   href: api/Texim.ColorExtension.html
@@ -324,6 +346,456 @@ references:
   isSpec: "True"
   fullName: Texim.ColorFormatExtension.UnpackColor
   nameWithType: ColorFormatExtension.UnpackColor
+- uid: Texim.Colors
+  name: Texim.Colors
+  href: api/Texim.Colors.html
+  commentId: N:Texim.Colors
+  fullName: Texim.Colors
+  nameWithType: Texim.Colors
+- uid: Texim.Colors.Bgr555
+  name: Bgr555
+  href: api/Texim.Colors.Bgr555.html
+  commentId: T:Texim.Colors.Bgr555
+  fullName: Texim.Colors.Bgr555
+  nameWithType: Bgr555
+- uid: Texim.Colors.Bgr555.BytesPerColor
+  name: BytesPerColor
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_BytesPerColor
+  commentId: P:Texim.Colors.Bgr555.BytesPerColor
+  fullName: Texim.Colors.Bgr555.BytesPerColor
+  nameWithType: Bgr555.BytesPerColor
+- uid: Texim.Colors.Bgr555.BytesPerColor*
+  name: BytesPerColor
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_BytesPerColor_
+  commentId: Overload:Texim.Colors.Bgr555.BytesPerColor
+  isSpec: "True"
+  fullName: Texim.Colors.Bgr555.BytesPerColor
+  nameWithType: Bgr555.BytesPerColor
+- uid: Texim.Colors.Bgr555.Decode(Span{System.Byte})
+  name: Decode(Span<Byte>)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_Span_System_Byte__
+  commentId: M:Texim.Colors.Bgr555.Decode(Span{System.Byte})
+  name.vb: Decode(Span(Of Byte))
+  fullName: Texim.Colors.Bgr555.Decode(Span<System.Byte>)
+  fullName.vb: Texim.Colors.Bgr555.Decode(Span(Of System.Byte))
+  nameWithType: Bgr555.Decode(Span<Byte>)
+  nameWithType.vb: Bgr555.Decode(Span(Of Byte))
+- uid: Texim.Colors.Bgr555.Decode(Stream)
+  name: Decode(Stream)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_Stream_
+  commentId: M:Texim.Colors.Bgr555.Decode(Stream)
+  fullName: Texim.Colors.Bgr555.Decode(Stream)
+  nameWithType: Bgr555.Decode(Stream)
+- uid: Texim.Colors.Bgr555.Decode(Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_Stream_System_Int32_
+  commentId: M:Texim.Colors.Bgr555.Decode(Stream,System.Int32)
+  fullName: Texim.Colors.Bgr555.Decode(Stream, System.Int32)
+  nameWithType: Bgr555.Decode(Stream, Int32)
+- uid: Texim.Colors.Bgr555.Decode*
+  name: Decode
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_
+  commentId: Overload:Texim.Colors.Bgr555.Decode
+  isSpec: "True"
+  fullName: Texim.Colors.Bgr555.Decode
+  nameWithType: Bgr555.Decode
+- uid: Texim.Colors.Bgr555.Encode(IEnumerable{Texim.Colors.Rgb})
+  name: Encode(IEnumerable<Rgb>)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Encode_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.Bgr555.Encode(IEnumerable{Texim.Colors.Rgb})
+  name.vb: Encode(IEnumerable(Of Rgb))
+  fullName: Texim.Colors.Bgr555.Encode(IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.Bgr555.Encode(IEnumerable(Of Texim.Colors.Rgb))
+  nameWithType: Bgr555.Encode(IEnumerable<Rgb>)
+  nameWithType.vb: Bgr555.Encode(IEnumerable(Of Rgb))
+- uid: Texim.Colors.Bgr555.Encode(Texim.Colors.Rgb)
+  name: Encode(Rgb)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Encode_Texim_Colors_Rgb_
+  commentId: M:Texim.Colors.Bgr555.Encode(Texim.Colors.Rgb)
+  fullName: Texim.Colors.Bgr555.Encode(Texim.Colors.Rgb)
+  nameWithType: Bgr555.Encode(Rgb)
+- uid: Texim.Colors.Bgr555.Encode*
+  name: Encode
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Encode_
+  commentId: Overload:Texim.Colors.Bgr555.Encode
+  isSpec: "True"
+  fullName: Texim.Colors.Bgr555.Encode
+  nameWithType: Bgr555.Encode
+- uid: Texim.Colors.Bgr555.FromUInt16(System.UInt16)
+  name: FromUInt16(UInt16)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_FromUInt16_System_UInt16_
+  commentId: M:Texim.Colors.Bgr555.FromUInt16(System.UInt16)
+  fullName: Texim.Colors.Bgr555.FromUInt16(System.UInt16)
+  nameWithType: Bgr555.FromUInt16(UInt16)
+- uid: Texim.Colors.Bgr555.FromUInt16*
+  name: FromUInt16
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_FromUInt16_
+  commentId: Overload:Texim.Colors.Bgr555.FromUInt16
+  isSpec: "True"
+  fullName: Texim.Colors.Bgr555.FromUInt16
+  nameWithType: Bgr555.FromUInt16
+- uid: Texim.Colors.Bgr555.Instance
+  name: Instance
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Instance
+  commentId: P:Texim.Colors.Bgr555.Instance
+  fullName: Texim.Colors.Bgr555.Instance
+  nameWithType: Bgr555.Instance
+- uid: Texim.Colors.Bgr555.Instance*
+  name: Instance
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Instance_
+  commentId: Overload:Texim.Colors.Bgr555.Instance
+  isSpec: "True"
+  fullName: Texim.Colors.Bgr555.Instance
+  nameWithType: Bgr555.Instance
+- uid: Texim.Colors.Bgr555.ToUInt16(Texim.Colors.Rgb)
+  name: ToUInt16(Rgb)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_ToUInt16_Texim_Colors_Rgb_
+  commentId: M:Texim.Colors.Bgr555.ToUInt16(Texim.Colors.Rgb)
+  fullName: Texim.Colors.Bgr555.ToUInt16(Texim.Colors.Rgb)
+  nameWithType: Bgr555.ToUInt16(Rgb)
+- uid: Texim.Colors.Bgr555.ToUInt16*
+  name: ToUInt16
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_ToUInt16_
+  commentId: Overload:Texim.Colors.Bgr555.ToUInt16
+  isSpec: "True"
+  fullName: Texim.Colors.Bgr555.ToUInt16
+  nameWithType: Bgr555.ToUInt16
+- uid: Texim.Colors.IColorEncoding
+  name: IColorEncoding
+  href: api/Texim.Colors.IColorEncoding.html
+  commentId: T:Texim.Colors.IColorEncoding
+  fullName: Texim.Colors.IColorEncoding
+  nameWithType: IColorEncoding
+- uid: Texim.Colors.IColorEncoding.Decode(Span{System.Byte})
+  name: Decode(Span<Byte>)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_Span_System_Byte__
+  commentId: M:Texim.Colors.IColorEncoding.Decode(Span{System.Byte})
+  name.vb: Decode(Span(Of Byte))
+  fullName: Texim.Colors.IColorEncoding.Decode(Span<System.Byte>)
+  fullName.vb: Texim.Colors.IColorEncoding.Decode(Span(Of System.Byte))
+  nameWithType: IColorEncoding.Decode(Span<Byte>)
+  nameWithType.vb: IColorEncoding.Decode(Span(Of Byte))
+- uid: Texim.Colors.IColorEncoding.Decode(Stream)
+  name: Decode(Stream)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_Stream_
+  commentId: M:Texim.Colors.IColorEncoding.Decode(Stream)
+  fullName: Texim.Colors.IColorEncoding.Decode(Stream)
+  nameWithType: IColorEncoding.Decode(Stream)
+- uid: Texim.Colors.IColorEncoding.Decode(Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_Stream_System_Int32_
+  commentId: M:Texim.Colors.IColorEncoding.Decode(Stream,System.Int32)
+  fullName: Texim.Colors.IColorEncoding.Decode(Stream, System.Int32)
+  nameWithType: IColorEncoding.Decode(Stream, Int32)
+- uid: Texim.Colors.IColorEncoding.Decode*
+  name: Decode
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_
+  commentId: Overload:Texim.Colors.IColorEncoding.Decode
+  isSpec: "True"
+  fullName: Texim.Colors.IColorEncoding.Decode
+  nameWithType: IColorEncoding.Decode
+- uid: Texim.Colors.IColorEncoding.Encode(IEnumerable{Texim.Colors.Rgb})
+  name: Encode(IEnumerable<Rgb>)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Encode_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.IColorEncoding.Encode(IEnumerable{Texim.Colors.Rgb})
+  name.vb: Encode(IEnumerable(Of Rgb))
+  fullName: Texim.Colors.IColorEncoding.Encode(IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.IColorEncoding.Encode(IEnumerable(Of Texim.Colors.Rgb))
+  nameWithType: IColorEncoding.Encode(IEnumerable<Rgb>)
+  nameWithType.vb: IColorEncoding.Encode(IEnumerable(Of Rgb))
+- uid: Texim.Colors.IColorEncoding.Encode(Texim.Colors.Rgb)
+  name: Encode(Rgb)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Encode_Texim_Colors_Rgb_
+  commentId: M:Texim.Colors.IColorEncoding.Encode(Texim.Colors.Rgb)
+  fullName: Texim.Colors.IColorEncoding.Encode(Texim.Colors.Rgb)
+  nameWithType: IColorEncoding.Encode(Rgb)
+- uid: Texim.Colors.IColorEncoding.Encode*
+  name: Encode
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Encode_
+  commentId: Overload:Texim.Colors.IColorEncoding.Encode
+  isSpec: "True"
+  fullName: Texim.Colors.IColorEncoding.Encode
+  nameWithType: IColorEncoding.Encode
+- uid: Texim.Colors.IOExtensions
+  name: IOExtensions
+  href: api/Texim.Colors.IOExtensions.html
+  commentId: T:Texim.Colors.IOExtensions
+  fullName: Texim.Colors.IOExtensions
+  nameWithType: IOExtensions
+- uid: Texim.Colors.IOExtensions.ReadColor*
+  name: ReadColor
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColor_
+  commentId: Overload:Texim.Colors.IOExtensions.ReadColor
+  isSpec: "True"
+  fullName: Texim.Colors.IOExtensions.ReadColor
+  nameWithType: IOExtensions.ReadColor
+- uid: Texim.Colors.IOExtensions.ReadColor``1(DataReader)
+  name: ReadColor<T>(DataReader)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColor__1_DataReader_
+  commentId: M:Texim.Colors.IOExtensions.ReadColor``1(DataReader)
+  name.vb: ReadColor(Of T)(DataReader)
+  fullName: Texim.Colors.IOExtensions.ReadColor<T>(DataReader)
+  fullName.vb: Texim.Colors.IOExtensions.ReadColor(Of T)(DataReader)
+  nameWithType: IOExtensions.ReadColor<T>(DataReader)
+  nameWithType.vb: IOExtensions.ReadColor(Of T)(DataReader)
+- uid: Texim.Colors.IOExtensions.ReadColors*
+  name: ReadColors
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColors_
+  commentId: Overload:Texim.Colors.IOExtensions.ReadColors
+  isSpec: "True"
+  fullName: Texim.Colors.IOExtensions.ReadColors
+  nameWithType: IOExtensions.ReadColors
+- uid: Texim.Colors.IOExtensions.ReadColors``1(DataReader,System.Int32)
+  name: ReadColors<T>(DataReader, Int32)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColors__1_DataReader_System_Int32_
+  commentId: M:Texim.Colors.IOExtensions.ReadColors``1(DataReader,System.Int32)
+  name.vb: ReadColors(Of T)(DataReader, Int32)
+  fullName: Texim.Colors.IOExtensions.ReadColors<T>(DataReader, System.Int32)
+  fullName.vb: Texim.Colors.IOExtensions.ReadColors(Of T)(DataReader, System.Int32)
+  nameWithType: IOExtensions.ReadColors<T>(DataReader, Int32)
+  nameWithType.vb: IOExtensions.ReadColors(Of T)(DataReader, Int32)
+- uid: Texim.Colors.IOExtensions.Write*
+  name: Write
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write_
+  commentId: Overload:Texim.Colors.IOExtensions.Write
+  isSpec: "True"
+  fullName: Texim.Colors.IOExtensions.Write
+  nameWithType: IOExtensions.Write
+- uid: Texim.Colors.IOExtensions.Write``1(DataWriter,IEnumerable{Texim.Colors.Rgb})
+  name: Write<T>(DataWriter, IEnumerable<Rgb>)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write__1_DataWriter_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.IOExtensions.Write``1(DataWriter,IEnumerable{Texim.Colors.Rgb})
+  name.vb: Write(Of T)(DataWriter, IEnumerable(Of Rgb))
+  fullName: Texim.Colors.IOExtensions.Write<T>(DataWriter, IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.IOExtensions.Write(Of T)(DataWriter, IEnumerable(Of Texim.Colors.Rgb))
+  nameWithType: IOExtensions.Write<T>(DataWriter, IEnumerable<Rgb>)
+  nameWithType.vb: IOExtensions.Write(Of T)(DataWriter, IEnumerable(Of Rgb))
+- uid: Texim.Colors.IOExtensions.Write``1(DataWriter,Texim.Colors.Rgb)
+  name: Write<T>(DataWriter, Rgb)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write__1_DataWriter_Texim_Colors_Rgb_
+  commentId: M:Texim.Colors.IOExtensions.Write``1(DataWriter,Texim.Colors.Rgb)
+  name.vb: Write(Of T)(DataWriter, Rgb)
+  fullName: Texim.Colors.IOExtensions.Write<T>(DataWriter, Texim.Colors.Rgb)
+  fullName.vb: Texim.Colors.IOExtensions.Write(Of T)(DataWriter, Texim.Colors.Rgb)
+  nameWithType: IOExtensions.Write<T>(DataWriter, Rgb)
+  nameWithType.vb: IOExtensions.Write(Of T)(DataWriter, Rgb)
+- uid: Texim.Colors.Rgb
+  name: Rgb
+  href: api/Texim.Colors.Rgb.html
+  commentId: T:Texim.Colors.Rgb
+  fullName: Texim.Colors.Rgb
+  nameWithType: Rgb
+- uid: Texim.Colors.Rgb.#ctor(System.Byte,System.Byte,System.Byte)
+  name: Rgb(Byte, Byte, Byte)
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_System_Byte_System_Byte_System_Byte_
+  commentId: M:Texim.Colors.Rgb.#ctor(System.Byte,System.Byte,System.Byte)
+  fullName: Texim.Colors.Rgb.Rgb(System.Byte, System.Byte, System.Byte)
+  nameWithType: Rgb.Rgb(Byte, Byte, Byte)
+- uid: Texim.Colors.Rgb.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  name: Rgb(Byte, Byte, Byte, Byte)
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_System_Byte_System_Byte_System_Byte_System_Byte_
+  commentId: M:Texim.Colors.Rgb.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  fullName: Texim.Colors.Rgb.Rgb(System.Byte, System.Byte, System.Byte, System.Byte)
+  nameWithType: Rgb.Rgb(Byte, Byte, Byte, Byte)
+- uid: Texim.Colors.Rgb.#ctor*
+  name: Rgb
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_
+  commentId: Overload:Texim.Colors.Rgb.#ctor
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb.Rgb
+  nameWithType: Rgb.Rgb
+- uid: Texim.Colors.Rgb.Alpha
+  name: Alpha
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Alpha
+  commentId: P:Texim.Colors.Rgb.Alpha
+  fullName: Texim.Colors.Rgb.Alpha
+  nameWithType: Rgb.Alpha
+- uid: Texim.Colors.Rgb.Alpha*
+  name: Alpha
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Alpha_
+  commentId: Overload:Texim.Colors.Rgb.Alpha
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb.Alpha
+  nameWithType: Rgb.Alpha
+- uid: Texim.Colors.Rgb.Blue
+  name: Blue
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Blue
+  commentId: P:Texim.Colors.Rgb.Blue
+  fullName: Texim.Colors.Rgb.Blue
+  nameWithType: Rgb.Blue
+- uid: Texim.Colors.Rgb.Blue*
+  name: Blue
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Blue_
+  commentId: Overload:Texim.Colors.Rgb.Blue
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb.Blue
+  nameWithType: Rgb.Blue
+- uid: Texim.Colors.Rgb.Green
+  name: Green
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Green
+  commentId: P:Texim.Colors.Rgb.Green
+  fullName: Texim.Colors.Rgb.Green
+  nameWithType: Rgb.Green
+- uid: Texim.Colors.Rgb.Green*
+  name: Green
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Green_
+  commentId: Overload:Texim.Colors.Rgb.Green
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb.Green
+  nameWithType: Rgb.Green
+- uid: Texim.Colors.Rgb.Red
+  name: Red
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Red
+  commentId: P:Texim.Colors.Rgb.Red
+  fullName: Texim.Colors.Rgb.Red
+  nameWithType: Rgb.Red
+- uid: Texim.Colors.Rgb.Red*
+  name: Red
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Red_
+  commentId: Overload:Texim.Colors.Rgb.Red
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb.Red
+  nameWithType: Rgb.Red
+- uid: Texim.Colors.Rgb.ToColor
+  name: ToColor()
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_ToColor
+  commentId: M:Texim.Colors.Rgb.ToColor
+  fullName: Texim.Colors.Rgb.ToColor()
+  nameWithType: Rgb.ToColor()
+- uid: Texim.Colors.Rgb.ToColor*
+  name: ToColor
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_ToColor_
+  commentId: Overload:Texim.Colors.Rgb.ToColor
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb.ToColor
+  nameWithType: Rgb.ToColor
+- uid: Texim.Colors.Rgb32
+  name: Rgb32
+  href: api/Texim.Colors.Rgb32.html
+  commentId: T:Texim.Colors.Rgb32
+  fullName: Texim.Colors.Rgb32
+  nameWithType: Rgb32
+- uid: Texim.Colors.Rgb32.#ctor
+  name: Rgb32()
+  href: api/Texim.Colors.Rgb32.html#Texim_Colors_Rgb32__ctor
+  commentId: M:Texim.Colors.Rgb32.#ctor
+  fullName: Texim.Colors.Rgb32.Rgb32()
+  nameWithType: Rgb32.Rgb32()
+- uid: Texim.Colors.Rgb32.#ctor*
+  name: Rgb32
+  href: api/Texim.Colors.Rgb32.html#Texim_Colors_Rgb32__ctor_
+  commentId: Overload:Texim.Colors.Rgb32.#ctor
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb32.Rgb32
+  nameWithType: Rgb32.Rgb32
+- uid: Texim.Colors.Rgb32.Instance
+  name: Instance
+  href: api/Texim.Colors.Rgb32.html#Texim_Colors_Rgb32_Instance
+  commentId: P:Texim.Colors.Rgb32.Instance
+  fullName: Texim.Colors.Rgb32.Instance
+  nameWithType: Rgb32.Instance
+- uid: Texim.Colors.Rgb32.Instance*
+  name: Instance
+  href: api/Texim.Colors.Rgb32.html#Texim_Colors_Rgb32_Instance_
+  commentId: Overload:Texim.Colors.Rgb32.Instance
+  isSpec: "True"
+  fullName: Texim.Colors.Rgb32.Instance
+  nameWithType: Rgb32.Instance
+- uid: Texim.Colors.Rgba32
+  name: Rgba32
+  href: api/Texim.Colors.Rgba32.html
+  commentId: T:Texim.Colors.Rgba32
+  fullName: Texim.Colors.Rgba32
+  nameWithType: Rgba32
+- uid: Texim.Colors.Rgba32.#ctor
+  name: Rgba32()
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32__ctor
+  commentId: M:Texim.Colors.Rgba32.#ctor
+  fullName: Texim.Colors.Rgba32.Rgba32()
+  nameWithType: Rgba32.Rgba32()
+- uid: Texim.Colors.Rgba32.#ctor*
+  name: Rgba32
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32__ctor_
+  commentId: Overload:Texim.Colors.Rgba32.#ctor
+  isSpec: "True"
+  fullName: Texim.Colors.Rgba32.Rgba32
+  nameWithType: Rgba32.Rgba32
+- uid: Texim.Colors.Rgba32.BytesPerColor
+  name: BytesPerColor
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_BytesPerColor
+  commentId: P:Texim.Colors.Rgba32.BytesPerColor
+  fullName: Texim.Colors.Rgba32.BytesPerColor
+  nameWithType: Rgba32.BytesPerColor
+- uid: Texim.Colors.Rgba32.BytesPerColor*
+  name: BytesPerColor
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_BytesPerColor_
+  commentId: Overload:Texim.Colors.Rgba32.BytesPerColor
+  isSpec: "True"
+  fullName: Texim.Colors.Rgba32.BytesPerColor
+  nameWithType: Rgba32.BytesPerColor
+- uid: Texim.Colors.Rgba32.Decode(Span{System.Byte})
+  name: Decode(Span<Byte>)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_Span_System_Byte__
+  commentId: M:Texim.Colors.Rgba32.Decode(Span{System.Byte})
+  name.vb: Decode(Span(Of Byte))
+  fullName: Texim.Colors.Rgba32.Decode(Span<System.Byte>)
+  fullName.vb: Texim.Colors.Rgba32.Decode(Span(Of System.Byte))
+  nameWithType: Rgba32.Decode(Span<Byte>)
+  nameWithType.vb: Rgba32.Decode(Span(Of Byte))
+- uid: Texim.Colors.Rgba32.Decode(Stream)
+  name: Decode(Stream)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_Stream_
+  commentId: M:Texim.Colors.Rgba32.Decode(Stream)
+  fullName: Texim.Colors.Rgba32.Decode(Stream)
+  nameWithType: Rgba32.Decode(Stream)
+- uid: Texim.Colors.Rgba32.Decode(Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_Stream_System_Int32_
+  commentId: M:Texim.Colors.Rgba32.Decode(Stream,System.Int32)
+  fullName: Texim.Colors.Rgba32.Decode(Stream, System.Int32)
+  nameWithType: Rgba32.Decode(Stream, Int32)
+- uid: Texim.Colors.Rgba32.Decode*
+  name: Decode
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_
+  commentId: Overload:Texim.Colors.Rgba32.Decode
+  isSpec: "True"
+  fullName: Texim.Colors.Rgba32.Decode
+  nameWithType: Rgba32.Decode
+- uid: Texim.Colors.Rgba32.Encode(IEnumerable{Texim.Colors.Rgb})
+  name: Encode(IEnumerable<Rgb>)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Encode_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.Rgba32.Encode(IEnumerable{Texim.Colors.Rgb})
+  name.vb: Encode(IEnumerable(Of Rgb))
+  fullName: Texim.Colors.Rgba32.Encode(IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.Rgba32.Encode(IEnumerable(Of Texim.Colors.Rgb))
+  nameWithType: Rgba32.Encode(IEnumerable<Rgb>)
+  nameWithType.vb: Rgba32.Encode(IEnumerable(Of Rgb))
+- uid: Texim.Colors.Rgba32.Encode(Texim.Colors.Rgb)
+  name: Encode(Rgb)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Encode_Texim_Colors_Rgb_
+  commentId: M:Texim.Colors.Rgba32.Encode(Texim.Colors.Rgb)
+  fullName: Texim.Colors.Rgba32.Encode(Texim.Colors.Rgb)
+  nameWithType: Rgba32.Encode(Rgb)
+- uid: Texim.Colors.Rgba32.Encode*
+  name: Encode
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Encode_
+  commentId: Overload:Texim.Colors.Rgba32.Encode
+  isSpec: "True"
+  fullName: Texim.Colors.Rgba32.Encode
+  nameWithType: Rgba32.Encode
+- uid: Texim.Colors.Rgba32.Instance
+  name: Instance
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Instance
+  commentId: P:Texim.Colors.Rgba32.Instance
+  fullName: Texim.Colors.Rgba32.Instance
+  nameWithType: Rgba32.Instance
+- uid: Texim.Colors.Rgba32.Instance*
+  name: Instance
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Instance_
+  commentId: Overload:Texim.Colors.Rgba32.Instance
+  isSpec: "True"
+  fullName: Texim.Colors.Rgba32.Instance
+  nameWithType: Rgba32.Instance
 - uid: Texim.CompressMapping
   name: CompressMapping
   href: api/Texim.CompressMapping.html
@@ -371,6 +843,224 @@ references:
   isSpec: "True"
   fullName: Texim.CompressMapping.Search
   nameWithType: CompressMapping.Search
+- uid: Texim.Formats
+  name: Texim.Formats
+  href: api/Texim.Formats.html
+  commentId: N:Texim.Formats
+  fullName: Texim.Formats
+  nameWithType: Texim.Formats
+- uid: Texim.Formats.Palette2BinaryBitmap
+  name: Palette2BinaryBitmap
+  href: api/Texim.Formats.Palette2BinaryBitmap.html
+  commentId: T:Texim.Formats.Palette2BinaryBitmap
+  fullName: Texim.Formats.Palette2BinaryBitmap
+  nameWithType: Palette2BinaryBitmap
+- uid: Texim.Formats.Palette2BinaryBitmap.Convert(Texim.Palettes.IPalette)
+  name: Convert(IPalette)
+  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Convert_Texim_Palettes_IPalette_
+  commentId: M:Texim.Formats.Palette2BinaryBitmap.Convert(Texim.Palettes.IPalette)
+  fullName: Texim.Formats.Palette2BinaryBitmap.Convert(Texim.Palettes.IPalette)
+  nameWithType: Palette2BinaryBitmap.Convert(IPalette)
+- uid: Texim.Formats.Palette2BinaryBitmap.Convert*
+  name: Convert
+  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Convert_
+  commentId: Overload:Texim.Formats.Palette2BinaryBitmap.Convert
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2BinaryBitmap.Convert
+  nameWithType: Palette2BinaryBitmap.Convert
+- uid: Texim.Formats.Palette2BinaryBitmap.Initialize(ImageFormat)
+  name: Initialize(ImageFormat)
+  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Initialize_ImageFormat_
+  commentId: M:Texim.Formats.Palette2BinaryBitmap.Initialize(ImageFormat)
+  fullName: Texim.Formats.Palette2BinaryBitmap.Initialize(ImageFormat)
+  nameWithType: Palette2BinaryBitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.Palette2BinaryBitmap.Initialize*
+  name: Initialize
+  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Initialize_
+  commentId: Overload:Texim.Formats.Palette2BinaryBitmap.Initialize
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2BinaryBitmap.Initialize
+  nameWithType: Palette2BinaryBitmap.Initialize
+- uid: Texim.Formats.Palette2BinaryRiff
+  name: Palette2BinaryRiff
+  href: api/Texim.Formats.Palette2BinaryRiff.html
+  commentId: T:Texim.Formats.Palette2BinaryRiff
+  fullName: Texim.Formats.Palette2BinaryRiff
+  nameWithType: Palette2BinaryRiff
+- uid: Texim.Formats.Palette2BinaryRiff.Convert(Texim.Palettes.IPalette)
+  name: Convert(IPalette)
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Convert_Texim_Palettes_IPalette_
+  commentId: M:Texim.Formats.Palette2BinaryRiff.Convert(Texim.Palettes.IPalette)
+  fullName: Texim.Formats.Palette2BinaryRiff.Convert(Texim.Palettes.IPalette)
+  nameWithType: Palette2BinaryRiff.Convert(IPalette)
+- uid: Texim.Formats.Palette2BinaryRiff.Convert*
+  name: Convert
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Convert_
+  commentId: Overload:Texim.Formats.Palette2BinaryRiff.Convert
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2BinaryRiff.Convert
+  nameWithType: Palette2BinaryRiff.Convert
+- uid: Texim.Formats.Palette2BinaryRiff.GimpCompatibility
+  name: GimpCompatibility
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_GimpCompatibility
+  commentId: P:Texim.Formats.Palette2BinaryRiff.GimpCompatibility
+  fullName: Texim.Formats.Palette2BinaryRiff.GimpCompatibility
+  nameWithType: Palette2BinaryRiff.GimpCompatibility
+- uid: Texim.Formats.Palette2BinaryRiff.GimpCompatibility*
+  name: GimpCompatibility
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_GimpCompatibility_
+  commentId: Overload:Texim.Formats.Palette2BinaryRiff.GimpCompatibility
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2BinaryRiff.GimpCompatibility
+  nameWithType: Palette2BinaryRiff.GimpCompatibility
+- uid: Texim.Formats.Palette2BinaryRiff.Initialize(System.Boolean)
+  name: Initialize(Boolean)
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Initialize_System_Boolean_
+  commentId: M:Texim.Formats.Palette2BinaryRiff.Initialize(System.Boolean)
+  fullName: Texim.Formats.Palette2BinaryRiff.Initialize(System.Boolean)
+  nameWithType: Palette2BinaryRiff.Initialize(Boolean)
+- uid: Texim.Formats.Palette2BinaryRiff.Initialize*
+  name: Initialize
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Initialize_
+  commentId: Overload:Texim.Formats.Palette2BinaryRiff.Initialize
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2BinaryRiff.Initialize
+  nameWithType: Palette2BinaryRiff.Initialize
+- uid: Texim.Formats.Palette2BinaryRiff.Version
+  name: Version
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Version
+  commentId: P:Texim.Formats.Palette2BinaryRiff.Version
+  fullName: Texim.Formats.Palette2BinaryRiff.Version
+  nameWithType: Palette2BinaryRiff.Version
+- uid: Texim.Formats.Palette2BinaryRiff.Version*
+  name: Version
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Version_
+  commentId: Overload:Texim.Formats.Palette2BinaryRiff.Version
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2BinaryRiff.Version
+  nameWithType: Palette2BinaryRiff.Version
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap
+  name: PaletteCollection2ContainerBitmap
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html
+  commentId: T:Texim.Formats.PaletteCollection2ContainerBitmap
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap
+  nameWithType: PaletteCollection2ContainerBitmap
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.PaletteCollection)
+  name: Convert(PaletteCollection)
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_Texim_Palettes_PaletteCollection_
+  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.PaletteCollection)
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.PaletteCollection)
+  nameWithType: PaletteCollection2ContainerBitmap.Convert(PaletteCollection)
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Convert*
+  name: Convert
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_
+  commentId: Overload:Texim.Formats.PaletteCollection2ContainerBitmap.Convert
+  isSpec: "True"
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Convert
+  nameWithType: PaletteCollection2ContainerBitmap.Convert
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
+  name: Initialize(ImageFormat)
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Initialize_ImageFormat_
+  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
+  nameWithType: PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize*
+  name: Initialize
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Initialize_
+  commentId: Overload:Texim.Formats.PaletteCollection2ContainerBitmap.Initialize
+  isSpec: "True"
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize
+  nameWithType: PaletteCollection2ContainerBitmap.Initialize
+- uid: Texim.Formats.RawBinary2Palette
+  name: RawBinary2Palette
+  href: api/Texim.Formats.RawBinary2Palette.html
+  commentId: T:Texim.Formats.RawBinary2Palette
+  fullName: Texim.Formats.RawBinary2Palette
+  nameWithType: RawBinary2Palette
+- uid: Texim.Formats.RawBinary2Palette.Convert(BinaryFormat)
+  name: Convert(BinaryFormat)
+  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Convert_BinaryFormat_
+  commentId: M:Texim.Formats.RawBinary2Palette.Convert(BinaryFormat)
+  fullName: Texim.Formats.RawBinary2Palette.Convert(BinaryFormat)
+  nameWithType: RawBinary2Palette.Convert(BinaryFormat)
+- uid: Texim.Formats.RawBinary2Palette.Convert*
+  name: Convert
+  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Convert_
+  commentId: Overload:Texim.Formats.RawBinary2Palette.Convert
+  isSpec: "True"
+  fullName: Texim.Formats.RawBinary2Palette.Convert
+  nameWithType: RawBinary2Palette.Convert
+- uid: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParameters)
+  name: Initialize(RawPaletteParameters)
+  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_Texim_Formats_RawPaletteParameters_
+  commentId: M:Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParameters)
+  fullName: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParameters)
+  nameWithType: RawBinary2Palette.Initialize(RawPaletteParameters)
+- uid: Texim.Formats.RawBinary2Palette.Initialize*
+  name: Initialize
+  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_
+  commentId: Overload:Texim.Formats.RawBinary2Palette.Initialize
+  isSpec: "True"
+  fullName: Texim.Formats.RawBinary2Palette.Initialize
+  nameWithType: RawBinary2Palette.Initialize
+- uid: Texim.Formats.RawPaletteParameters
+  name: RawPaletteParameters
+  href: api/Texim.Formats.RawPaletteParameters.html
+  commentId: T:Texim.Formats.RawPaletteParameters
+  fullName: Texim.Formats.RawPaletteParameters
+  nameWithType: RawPaletteParameters
+- uid: Texim.Formats.RawPaletteParameters.ColorEncoding
+  name: ColorEncoding
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_ColorEncoding
+  commentId: P:Texim.Formats.RawPaletteParameters.ColorEncoding
+  fullName: Texim.Formats.RawPaletteParameters.ColorEncoding
+  nameWithType: RawPaletteParameters.ColorEncoding
+- uid: Texim.Formats.RawPaletteParameters.ColorEncoding*
+  name: ColorEncoding
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_ColorEncoding_
+  commentId: Overload:Texim.Formats.RawPaletteParameters.ColorEncoding
+  isSpec: "True"
+  fullName: Texim.Formats.RawPaletteParameters.ColorEncoding
+  nameWithType: RawPaletteParameters.ColorEncoding
+- uid: Texim.Formats.RawPaletteParameters.Default
+  name: Default
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Default
+  commentId: P:Texim.Formats.RawPaletteParameters.Default
+  fullName: Texim.Formats.RawPaletteParameters.Default
+  nameWithType: RawPaletteParameters.Default
+- uid: Texim.Formats.RawPaletteParameters.Default*
+  name: Default
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Default_
+  commentId: Overload:Texim.Formats.RawPaletteParameters.Default
+  isSpec: "True"
+  fullName: Texim.Formats.RawPaletteParameters.Default
+  nameWithType: RawPaletteParameters.Default
+- uid: Texim.Formats.RawPaletteParameters.Offset
+  name: Offset
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Offset
+  commentId: P:Texim.Formats.RawPaletteParameters.Offset
+  fullName: Texim.Formats.RawPaletteParameters.Offset
+  nameWithType: RawPaletteParameters.Offset
+- uid: Texim.Formats.RawPaletteParameters.Offset*
+  name: Offset
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Offset_
+  commentId: Overload:Texim.Formats.RawPaletteParameters.Offset
+  isSpec: "True"
+  fullName: Texim.Formats.RawPaletteParameters.Offset
+  nameWithType: RawPaletteParameters.Offset
+- uid: Texim.Formats.RawPaletteParameters.Size
+  name: Size
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Size
+  commentId: P:Texim.Formats.RawPaletteParameters.Size
+  fullName: Texim.Formats.RawPaletteParameters.Size
+  nameWithType: RawPaletteParameters.Size
+- uid: Texim.Formats.RawPaletteParameters.Size*
+  name: Size
+  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Size_
+  commentId: Overload:Texim.Formats.RawPaletteParameters.Size
+  isSpec: "True"
+  fullName: Texim.Formats.RawPaletteParameters.Size
+  nameWithType: RawPaletteParameters.Size
 - uid: Texim.ImageConverter
   name: ImageConverter
   href: api/Texim.ImageConverter.html
@@ -1136,6 +1826,132 @@ references:
   isSpec: "True"
   fullName: Texim.Palette.ToWinPaletteFormat
   nameWithType: Palette.ToWinPaletteFormat
+- uid: Texim.Palettes
+  name: Texim.Palettes
+  href: api/Texim.Palettes.html
+  commentId: N:Texim.Palettes
+  fullName: Texim.Palettes
+  nameWithType: Texim.Palettes
+- uid: Texim.Palettes.IPalette
+  name: IPalette
+  href: api/Texim.Palettes.IPalette.html
+  commentId: T:Texim.Palettes.IPalette
+  fullName: Texim.Palettes.IPalette
+  nameWithType: IPalette
+- uid: Texim.Palettes.IPalette.Colors
+  name: Colors
+  href: api/Texim.Palettes.IPalette.html#Texim_Palettes_IPalette_Colors
+  commentId: P:Texim.Palettes.IPalette.Colors
+  fullName: Texim.Palettes.IPalette.Colors
+  nameWithType: IPalette.Colors
+- uid: Texim.Palettes.IPalette.Colors*
+  name: Colors
+  href: api/Texim.Palettes.IPalette.html#Texim_Palettes_IPalette_Colors_
+  commentId: Overload:Texim.Palettes.IPalette.Colors
+  isSpec: "True"
+  fullName: Texim.Palettes.IPalette.Colors
+  nameWithType: IPalette.Colors
+- uid: Texim.Palettes.IPaletteCollection
+  name: IPaletteCollection
+  href: api/Texim.Palettes.IPaletteCollection.html
+  commentId: T:Texim.Palettes.IPaletteCollection
+  fullName: Texim.Palettes.IPaletteCollection
+  nameWithType: IPaletteCollection
+- uid: Texim.Palettes.IPaletteCollection.Palettes
+  name: Palettes
+  href: api/Texim.Palettes.IPaletteCollection.html#Texim_Palettes_IPaletteCollection_Palettes
+  commentId: P:Texim.Palettes.IPaletteCollection.Palettes
+  fullName: Texim.Palettes.IPaletteCollection.Palettes
+  nameWithType: IPaletteCollection.Palettes
+- uid: Texim.Palettes.IPaletteCollection.Palettes*
+  name: Palettes
+  href: api/Texim.Palettes.IPaletteCollection.html#Texim_Palettes_IPaletteCollection_Palettes_
+  commentId: Overload:Texim.Palettes.IPaletteCollection.Palettes
+  isSpec: "True"
+  fullName: Texim.Palettes.IPaletteCollection.Palettes
+  nameWithType: IPaletteCollection.Palettes
+- uid: Texim.Palettes.Palette
+  name: Palette
+  href: api/Texim.Palettes.Palette.html
+  commentId: T:Texim.Palettes.Palette
+  fullName: Texim.Palettes.Palette
+  nameWithType: Palette
+- uid: Texim.Palettes.Palette.#ctor
+  name: Palette()
+  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette__ctor
+  commentId: M:Texim.Palettes.Palette.#ctor
+  fullName: Texim.Palettes.Palette.Palette()
+  nameWithType: Palette.Palette()
+- uid: Texim.Palettes.Palette.#ctor(IEnumerable{Texim.Colors.Rgb})
+  name: Palette(IEnumerable<Rgb>)
+  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette__ctor_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Palettes.Palette.#ctor(IEnumerable{Texim.Colors.Rgb})
+  name.vb: Palette(IEnumerable(Of Rgb))
+  fullName: Texim.Palettes.Palette.Palette(IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Palettes.Palette.Palette(IEnumerable(Of Texim.Colors.Rgb))
+  nameWithType: Palette.Palette(IEnumerable<Rgb>)
+  nameWithType.vb: Palette.Palette(IEnumerable(Of Rgb))
+- uid: Texim.Palettes.Palette.#ctor*
+  name: Palette
+  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette__ctor_
+  commentId: Overload:Texim.Palettes.Palette.#ctor
+  isSpec: "True"
+  fullName: Texim.Palettes.Palette.Palette
+  nameWithType: Palette.Palette
+- uid: Texim.Palettes.Palette.Colors
+  name: Colors
+  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette_Colors
+  commentId: P:Texim.Palettes.Palette.Colors
+  fullName: Texim.Palettes.Palette.Colors
+  nameWithType: Palette.Colors
+- uid: Texim.Palettes.Palette.Colors*
+  name: Colors
+  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette_Colors_
+  commentId: Overload:Texim.Palettes.Palette.Colors
+  isSpec: "True"
+  fullName: Texim.Palettes.Palette.Colors
+  nameWithType: Palette.Colors
+- uid: Texim.Palettes.PaletteCollection
+  name: PaletteCollection
+  href: api/Texim.Palettes.PaletteCollection.html
+  commentId: T:Texim.Palettes.PaletteCollection
+  fullName: Texim.Palettes.PaletteCollection
+  nameWithType: PaletteCollection
+- uid: Texim.Palettes.PaletteCollection.#ctor
+  name: PaletteCollection()
+  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection__ctor
+  commentId: M:Texim.Palettes.PaletteCollection.#ctor
+  fullName: Texim.Palettes.PaletteCollection.PaletteCollection()
+  nameWithType: PaletteCollection.PaletteCollection()
+- uid: Texim.Palettes.PaletteCollection.#ctor(IEnumerable{Texim.Palettes.IPalette})
+  name: PaletteCollection(IEnumerable<IPalette>)
+  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection__ctor_IEnumerable_Texim_Palettes_IPalette__
+  commentId: M:Texim.Palettes.PaletteCollection.#ctor(IEnumerable{Texim.Palettes.IPalette})
+  name.vb: PaletteCollection(IEnumerable(Of IPalette))
+  fullName: Texim.Palettes.PaletteCollection.PaletteCollection(IEnumerable<Texim.Palettes.IPalette>)
+  fullName.vb: Texim.Palettes.PaletteCollection.PaletteCollection(IEnumerable(Of Texim.Palettes.IPalette))
+  nameWithType: PaletteCollection.PaletteCollection(IEnumerable<IPalette>)
+  nameWithType.vb: PaletteCollection.PaletteCollection(IEnumerable(Of IPalette))
+- uid: Texim.Palettes.PaletteCollection.#ctor*
+  name: PaletteCollection
+  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection__ctor_
+  commentId: Overload:Texim.Palettes.PaletteCollection.#ctor
+  isSpec: "True"
+  fullName: Texim.Palettes.PaletteCollection.PaletteCollection
+  nameWithType: PaletteCollection.PaletteCollection
+- uid: Texim.Palettes.PaletteCollection.Palettes
+  name: Palettes
+  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection_Palettes
+  commentId: P:Texim.Palettes.PaletteCollection.Palettes
+  fullName: Texim.Palettes.PaletteCollection.Palettes
+  nameWithType: PaletteCollection.Palettes
+- uid: Texim.Palettes.PaletteCollection.Palettes*
+  name: Palettes
+  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection_Palettes_
+  commentId: Overload:Texim.Palettes.PaletteCollection.Palettes
+  isSpec: "True"
+  fullName: Texim.Palettes.PaletteCollection.Palettes
+  nameWithType: PaletteCollection.Palettes
 - uid: Texim.Pixel
   name: Pixel
   href: api/Texim.Pixel.html
