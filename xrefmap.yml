@@ -945,12 +945,12 @@ references:
   commentId: T:Texim.Formats.PaletteCollection2ContainerBitmap
   fullName: Texim.Formats.PaletteCollection2ContainerBitmap
   nameWithType: PaletteCollection2ContainerBitmap
-- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.PaletteCollection)
-  name: Convert(PaletteCollection)
-  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_Texim_Palettes_PaletteCollection_
-  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.PaletteCollection)
-  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.PaletteCollection)
-  nameWithType: PaletteCollection2ContainerBitmap.Convert(PaletteCollection)
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.IPaletteCollection)
+  name: Convert(IPaletteCollection)
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_Texim_Palettes_IPaletteCollection_
+  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.IPaletteCollection)
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.IPaletteCollection)
+  nameWithType: PaletteCollection2ContainerBitmap.Convert(IPaletteCollection)
 - uid: Texim.Formats.PaletteCollection2ContainerBitmap.Convert*
   name: Convert
   href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_

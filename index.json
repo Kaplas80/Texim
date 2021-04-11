@@ -82,7 +82,7 @@
   "api/Texim.Formats.PaletteCollection2ContainerBitmap.html": {
     "href": "api/Texim.Formats.PaletteCollection2ContainerBitmap.html",
     "title": "Class PaletteCollection2ContainerBitmap | Texim extensible image API",
-    "keywords": "Class PaletteCollection2ContainerBitmap Inheritance Object PaletteCollection2ContainerBitmap Implements IConverter < PaletteCollection , NodeContainerFormat > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class PaletteCollection2ContainerBitmap : IInitializer<ImageFormat>, IConverter<PaletteCollection, NodeContainerFormat> Methods | Improve this Doc View Source Convert(PaletteCollection) Declaration public NodeContainerFormat Convert(PaletteCollection source) Parameters Type Name Description PaletteCollection source Returns Type Description NodeContainerFormat | Improve this Doc View Source Initialize(ImageFormat) Declaration public void Initialize(ImageFormat parameters) Parameters Type Name Description ImageFormat parameters Implements IConverter<, >"
+    "keywords": "Class PaletteCollection2ContainerBitmap Inheritance Object PaletteCollection2ContainerBitmap Implements IConverter < IPaletteCollection , NodeContainerFormat > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class PaletteCollection2ContainerBitmap : IInitializer<ImageFormat>, IConverter<IPaletteCollection, NodeContainerFormat> Methods | Improve this Doc View Source Convert(IPaletteCollection) Declaration public NodeContainerFormat Convert(IPaletteCollection source) Parameters Type Name Description IPaletteCollection source Returns Type Description NodeContainerFormat | Improve this Doc View Source Initialize(ImageFormat) Declaration public void Initialize(ImageFormat parameters) Parameters Type Name Description ImageFormat parameters Implements IConverter<, >"
   },
   "api/Texim.Formats.RawBinary2Palette.html": {
     "href": "api/Texim.Formats.RawBinary2Palette.html",
@@ -222,7 +222,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (April 09, 2021) | Texim extensible image API",
-    "keywords": "vNext (April 09, 2021) As part of this release we had 5 issues closed. Enhancements #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
+    "keywords": "vNext (April 09, 2021) As part of this release we had 6 issues closed. Enhancements #6 Implement NCLR palette format #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
