@@ -1409,6 +1409,19 @@ references:
   isSpec: "True"
   fullName: Texim.Pixels.Indexed4Bpp.BitsToPixel
   nameWithType: Indexed4Bpp.BitsToPixel
+- uid: Texim.Pixels.Indexed4Bpp.Instance
+  name: Instance
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_Instance
+  commentId: P:Texim.Pixels.Indexed4Bpp.Instance
+  fullName: Texim.Pixels.Indexed4Bpp.Instance
+  nameWithType: Indexed4Bpp.Instance
+- uid: Texim.Pixels.Indexed4Bpp.Instance*
+  name: Instance
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_Instance_
+  commentId: Overload:Texim.Pixels.Indexed4Bpp.Instance
+  isSpec: "True"
+  fullName: Texim.Pixels.Indexed4Bpp.Instance
+  nameWithType: Indexed4Bpp.Instance
 - uid: Texim.Pixels.Indexed4Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
   href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_PixelToBits_Texim_Pixels_IndexedPixel_
@@ -1454,6 +1467,19 @@ references:
   isSpec: "True"
   fullName: Texim.Pixels.Indexed8Bpp.BitsToPixel
   nameWithType: Indexed8Bpp.BitsToPixel
+- uid: Texim.Pixels.Indexed8Bpp.Instance
+  name: Instance
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_Instance
+  commentId: P:Texim.Pixels.Indexed8Bpp.Instance
+  fullName: Texim.Pixels.Indexed8Bpp.Instance
+  nameWithType: Indexed8Bpp.Instance
+- uid: Texim.Pixels.Indexed8Bpp.Instance*
+  name: Instance
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_Instance_
+  commentId: Overload:Texim.Pixels.Indexed8Bpp.Instance
+  isSpec: "True"
+  fullName: Texim.Pixels.Indexed8Bpp.Instance
+  nameWithType: Indexed8Bpp.Instance
 - uid: Texim.Pixels.Indexed8Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
   href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_PixelToBits_Texim_Pixels_IndexedPixel_
@@ -1499,6 +1525,19 @@ references:
   isSpec: "True"
   fullName: Texim.Pixels.IndexedA3I5.BitsToPixel
   nameWithType: IndexedA3I5.BitsToPixel
+- uid: Texim.Pixels.IndexedA3I5.Instance
+  name: Instance
+  href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_Instance
+  commentId: P:Texim.Pixels.IndexedA3I5.Instance
+  fullName: Texim.Pixels.IndexedA3I5.Instance
+  nameWithType: IndexedA3I5.Instance
+- uid: Texim.Pixels.IndexedA3I5.Instance*
+  name: Instance
+  href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_Instance_
+  commentId: Overload:Texim.Pixels.IndexedA3I5.Instance
+  isSpec: "True"
+  fullName: Texim.Pixels.IndexedA3I5.Instance
+  nameWithType: IndexedA3I5.Instance
 - uid: Texim.Pixels.IndexedA3I5.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
   href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_PixelToBits_Texim_Pixels_IndexedPixel_
@@ -1544,6 +1583,19 @@ references:
   isSpec: "True"
   fullName: Texim.Pixels.IndexedA5I3.BitsToPixel
   nameWithType: IndexedA5I3.BitsToPixel
+- uid: Texim.Pixels.IndexedA5I3.Instance
+  name: Instance
+  href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_Instance
+  commentId: P:Texim.Pixels.IndexedA5I3.Instance
+  fullName: Texim.Pixels.IndexedA5I3.Instance
+  nameWithType: IndexedA5I3.Instance
+- uid: Texim.Pixels.IndexedA5I3.Instance*
+  name: Instance
+  href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_Instance_
+  commentId: Overload:Texim.Pixels.IndexedA5I3.Instance
+  isSpec: "True"
+  fullName: Texim.Pixels.IndexedA5I3.Instance
+  nameWithType: IndexedA5I3.Instance
 - uid: Texim.Pixels.IndexedA5I3.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
   href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_PixelToBits_Texim_Pixels_IndexedPixel_
@@ -1783,6 +1835,14 @@ references:
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSwizzling(Size, System.Int32)
   nameWithType: TileSwizzling<T>.TileSwizzling(Size, Int32)
   nameWithType.vb: TileSwizzling(Of T).TileSwizzling(Size, Int32)
+- uid: Texim.Pixels.TileSwizzling`1.#ctor(System.Int32)
+  name: TileSwizzling(Int32)
+  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1__ctor_System_Int32_
+  commentId: M:Texim.Pixels.TileSwizzling`1.#ctor(System.Int32)
+  fullName: Texim.Pixels.TileSwizzling<T>.TileSwizzling(System.Int32)
+  fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSwizzling(System.Int32)
+  nameWithType: TileSwizzling<T>.TileSwizzling(Int32)
+  nameWithType.vb: TileSwizzling(Of T).TileSwizzling(Int32)
 - uid: Texim.Pixels.TileSwizzling`1.#ctor*
   name: TileSwizzling
   href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1__ctor_
