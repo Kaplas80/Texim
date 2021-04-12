@@ -1377,96 +1377,96 @@ references:
   isSpec: "True"
   fullName: Texim.Pixels.IIndexedPixelEncoding.Encode
   nameWithType: IIndexedPixelEncoding.Encode
-- uid: Texim.Pixels.Indexed4bpp
-  name: Indexed4bpp
-  href: api/Texim.Pixels.Indexed4bpp.html
-  commentId: T:Texim.Pixels.Indexed4bpp
-  fullName: Texim.Pixels.Indexed4bpp
-  nameWithType: Indexed4bpp
-- uid: Texim.Pixels.Indexed4bpp.BitsPerPixel
+- uid: Texim.Pixels.Indexed4Bpp
+  name: Indexed4Bpp
+  href: api/Texim.Pixels.Indexed4Bpp.html
+  commentId: T:Texim.Pixels.Indexed4Bpp
+  fullName: Texim.Pixels.Indexed4Bpp
+  nameWithType: Indexed4Bpp
+- uid: Texim.Pixels.Indexed4Bpp.BitsPerPixel
   name: BitsPerPixel
-  href: api/Texim.Pixels.Indexed4bpp.html#Texim_Pixels_Indexed4bpp_BitsPerPixel
-  commentId: P:Texim.Pixels.Indexed4bpp.BitsPerPixel
-  fullName: Texim.Pixels.Indexed4bpp.BitsPerPixel
-  nameWithType: Indexed4bpp.BitsPerPixel
-- uid: Texim.Pixels.Indexed4bpp.BitsPerPixel*
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsPerPixel
+  commentId: P:Texim.Pixels.Indexed4Bpp.BitsPerPixel
+  fullName: Texim.Pixels.Indexed4Bpp.BitsPerPixel
+  nameWithType: Indexed4Bpp.BitsPerPixel
+- uid: Texim.Pixels.Indexed4Bpp.BitsPerPixel*
   name: BitsPerPixel
-  href: api/Texim.Pixels.Indexed4bpp.html#Texim_Pixels_Indexed4bpp_BitsPerPixel_
-  commentId: Overload:Texim.Pixels.Indexed4bpp.BitsPerPixel
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsPerPixel_
+  commentId: Overload:Texim.Pixels.Indexed4Bpp.BitsPerPixel
   isSpec: "True"
-  fullName: Texim.Pixels.Indexed4bpp.BitsPerPixel
-  nameWithType: Indexed4bpp.BitsPerPixel
-- uid: Texim.Pixels.Indexed4bpp.BitsToPixel(System.Byte)
+  fullName: Texim.Pixels.Indexed4Bpp.BitsPerPixel
+  nameWithType: Indexed4Bpp.BitsPerPixel
+- uid: Texim.Pixels.Indexed4Bpp.BitsToPixel(System.Byte)
   name: BitsToPixel(Byte)
-  href: api/Texim.Pixels.Indexed4bpp.html#Texim_Pixels_Indexed4bpp_BitsToPixel_System_Byte_
-  commentId: M:Texim.Pixels.Indexed4bpp.BitsToPixel(System.Byte)
-  fullName: Texim.Pixels.Indexed4bpp.BitsToPixel(System.Byte)
-  nameWithType: Indexed4bpp.BitsToPixel(Byte)
-- uid: Texim.Pixels.Indexed4bpp.BitsToPixel*
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsToPixel_System_Byte_
+  commentId: M:Texim.Pixels.Indexed4Bpp.BitsToPixel(System.Byte)
+  fullName: Texim.Pixels.Indexed4Bpp.BitsToPixel(System.Byte)
+  nameWithType: Indexed4Bpp.BitsToPixel(Byte)
+- uid: Texim.Pixels.Indexed4Bpp.BitsToPixel*
   name: BitsToPixel
-  href: api/Texim.Pixels.Indexed4bpp.html#Texim_Pixels_Indexed4bpp_BitsToPixel_
-  commentId: Overload:Texim.Pixels.Indexed4bpp.BitsToPixel
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsToPixel_
+  commentId: Overload:Texim.Pixels.Indexed4Bpp.BitsToPixel
   isSpec: "True"
-  fullName: Texim.Pixels.Indexed4bpp.BitsToPixel
-  nameWithType: Indexed4bpp.BitsToPixel
-- uid: Texim.Pixels.Indexed4bpp.PixelToBits(Texim.Pixels.IndexedPixel)
+  fullName: Texim.Pixels.Indexed4Bpp.BitsToPixel
+  nameWithType: Indexed4Bpp.BitsToPixel
+- uid: Texim.Pixels.Indexed4Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
-  href: api/Texim.Pixels.Indexed4bpp.html#Texim_Pixels_Indexed4bpp_PixelToBits_Texim_Pixels_IndexedPixel_
-  commentId: M:Texim.Pixels.Indexed4bpp.PixelToBits(Texim.Pixels.IndexedPixel)
-  fullName: Texim.Pixels.Indexed4bpp.PixelToBits(Texim.Pixels.IndexedPixel)
-  nameWithType: Indexed4bpp.PixelToBits(IndexedPixel)
-- uid: Texim.Pixels.Indexed4bpp.PixelToBits*
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_PixelToBits_Texim_Pixels_IndexedPixel_
+  commentId: M:Texim.Pixels.Indexed4Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
+  fullName: Texim.Pixels.Indexed4Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
+  nameWithType: Indexed4Bpp.PixelToBits(IndexedPixel)
+- uid: Texim.Pixels.Indexed4Bpp.PixelToBits*
   name: PixelToBits
-  href: api/Texim.Pixels.Indexed4bpp.html#Texim_Pixels_Indexed4bpp_PixelToBits_
-  commentId: Overload:Texim.Pixels.Indexed4bpp.PixelToBits
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_PixelToBits_
+  commentId: Overload:Texim.Pixels.Indexed4Bpp.PixelToBits
   isSpec: "True"
-  fullName: Texim.Pixels.Indexed4bpp.PixelToBits
-  nameWithType: Indexed4bpp.PixelToBits
-- uid: Texim.Pixels.Indexed8bpp
-  name: Indexed8bpp
-  href: api/Texim.Pixels.Indexed8bpp.html
-  commentId: T:Texim.Pixels.Indexed8bpp
-  fullName: Texim.Pixels.Indexed8bpp
-  nameWithType: Indexed8bpp
-- uid: Texim.Pixels.Indexed8bpp.BitsPerPixel
+  fullName: Texim.Pixels.Indexed4Bpp.PixelToBits
+  nameWithType: Indexed4Bpp.PixelToBits
+- uid: Texim.Pixels.Indexed8Bpp
+  name: Indexed8Bpp
+  href: api/Texim.Pixels.Indexed8Bpp.html
+  commentId: T:Texim.Pixels.Indexed8Bpp
+  fullName: Texim.Pixels.Indexed8Bpp
+  nameWithType: Indexed8Bpp
+- uid: Texim.Pixels.Indexed8Bpp.BitsPerPixel
   name: BitsPerPixel
-  href: api/Texim.Pixels.Indexed8bpp.html#Texim_Pixels_Indexed8bpp_BitsPerPixel
-  commentId: P:Texim.Pixels.Indexed8bpp.BitsPerPixel
-  fullName: Texim.Pixels.Indexed8bpp.BitsPerPixel
-  nameWithType: Indexed8bpp.BitsPerPixel
-- uid: Texim.Pixels.Indexed8bpp.BitsPerPixel*
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsPerPixel
+  commentId: P:Texim.Pixels.Indexed8Bpp.BitsPerPixel
+  fullName: Texim.Pixels.Indexed8Bpp.BitsPerPixel
+  nameWithType: Indexed8Bpp.BitsPerPixel
+- uid: Texim.Pixels.Indexed8Bpp.BitsPerPixel*
   name: BitsPerPixel
-  href: api/Texim.Pixels.Indexed8bpp.html#Texim_Pixels_Indexed8bpp_BitsPerPixel_
-  commentId: Overload:Texim.Pixels.Indexed8bpp.BitsPerPixel
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsPerPixel_
+  commentId: Overload:Texim.Pixels.Indexed8Bpp.BitsPerPixel
   isSpec: "True"
-  fullName: Texim.Pixels.Indexed8bpp.BitsPerPixel
-  nameWithType: Indexed8bpp.BitsPerPixel
-- uid: Texim.Pixels.Indexed8bpp.BitsToPixel(System.Byte)
+  fullName: Texim.Pixels.Indexed8Bpp.BitsPerPixel
+  nameWithType: Indexed8Bpp.BitsPerPixel
+- uid: Texim.Pixels.Indexed8Bpp.BitsToPixel(System.Byte)
   name: BitsToPixel(Byte)
-  href: api/Texim.Pixels.Indexed8bpp.html#Texim_Pixels_Indexed8bpp_BitsToPixel_System_Byte_
-  commentId: M:Texim.Pixels.Indexed8bpp.BitsToPixel(System.Byte)
-  fullName: Texim.Pixels.Indexed8bpp.BitsToPixel(System.Byte)
-  nameWithType: Indexed8bpp.BitsToPixel(Byte)
-- uid: Texim.Pixels.Indexed8bpp.BitsToPixel*
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsToPixel_System_Byte_
+  commentId: M:Texim.Pixels.Indexed8Bpp.BitsToPixel(System.Byte)
+  fullName: Texim.Pixels.Indexed8Bpp.BitsToPixel(System.Byte)
+  nameWithType: Indexed8Bpp.BitsToPixel(Byte)
+- uid: Texim.Pixels.Indexed8Bpp.BitsToPixel*
   name: BitsToPixel
-  href: api/Texim.Pixels.Indexed8bpp.html#Texim_Pixels_Indexed8bpp_BitsToPixel_
-  commentId: Overload:Texim.Pixels.Indexed8bpp.BitsToPixel
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsToPixel_
+  commentId: Overload:Texim.Pixels.Indexed8Bpp.BitsToPixel
   isSpec: "True"
-  fullName: Texim.Pixels.Indexed8bpp.BitsToPixel
-  nameWithType: Indexed8bpp.BitsToPixel
-- uid: Texim.Pixels.Indexed8bpp.PixelToBits(Texim.Pixels.IndexedPixel)
+  fullName: Texim.Pixels.Indexed8Bpp.BitsToPixel
+  nameWithType: Indexed8Bpp.BitsToPixel
+- uid: Texim.Pixels.Indexed8Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
-  href: api/Texim.Pixels.Indexed8bpp.html#Texim_Pixels_Indexed8bpp_PixelToBits_Texim_Pixels_IndexedPixel_
-  commentId: M:Texim.Pixels.Indexed8bpp.PixelToBits(Texim.Pixels.IndexedPixel)
-  fullName: Texim.Pixels.Indexed8bpp.PixelToBits(Texim.Pixels.IndexedPixel)
-  nameWithType: Indexed8bpp.PixelToBits(IndexedPixel)
-- uid: Texim.Pixels.Indexed8bpp.PixelToBits*
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_PixelToBits_Texim_Pixels_IndexedPixel_
+  commentId: M:Texim.Pixels.Indexed8Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
+  fullName: Texim.Pixels.Indexed8Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
+  nameWithType: Indexed8Bpp.PixelToBits(IndexedPixel)
+- uid: Texim.Pixels.Indexed8Bpp.PixelToBits*
   name: PixelToBits
-  href: api/Texim.Pixels.Indexed8bpp.html#Texim_Pixels_Indexed8bpp_PixelToBits_
-  commentId: Overload:Texim.Pixels.Indexed8bpp.PixelToBits
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_PixelToBits_
+  commentId: Overload:Texim.Pixels.Indexed8Bpp.PixelToBits
   isSpec: "True"
-  fullName: Texim.Pixels.Indexed8bpp.PixelToBits
-  nameWithType: Indexed8bpp.PixelToBits
+  fullName: Texim.Pixels.Indexed8Bpp.PixelToBits
+  nameWithType: Indexed8Bpp.PixelToBits
 - uid: Texim.Pixels.IndexedA3I5
   name: IndexedA3I5
   href: api/Texim.Pixels.IndexedA3I5.html
