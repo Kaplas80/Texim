@@ -526,6 +526,503 @@ references:
   isSpec: "True"
   fullName: Texim.Colors.Rgba32.Instance
   nameWithType: Rgba32.Instance
+- uid: Texim.Compressions.Nitro
+  name: Texim.Compressions.Nitro
+  href: api/Texim.Compressions.Nitro.html
+  commentId: N:Texim.Compressions.Nitro
+  fullName: Texim.Compressions.Nitro
+  nameWithType: Texim.Compressions.Nitro
+- uid: Texim.Compressions.Nitro.IndexedMapImage
+  name: IndexedMapImage
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html
+  commentId: T:Texim.Compressions.Nitro.IndexedMapImage
+  fullName: Texim.Compressions.Nitro.IndexedMapImage
+  nameWithType: IndexedMapImage
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Height
+  name: Height
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Height
+  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Height
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Height
+  nameWithType: IndexedMapImage.Height
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Height*
+  name: Height
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Height_
+  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Height
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Height
+  nameWithType: IndexedMapImage.Height
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Maps
+  name: Maps
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Maps
+  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Maps
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Maps
+  nameWithType: IndexedMapImage.Maps
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Maps*
+  name: Maps
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Maps_
+  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Maps
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Maps
+  nameWithType: IndexedMapImage.Maps
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Pixels
+  name: Pixels
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Pixels
+  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Pixels
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Pixels
+  nameWithType: IndexedMapImage.Pixels
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Pixels*
+  name: Pixels
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Pixels_
+  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Pixels
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Pixels
+  nameWithType: IndexedMapImage.Pixels
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Width
+  name: Width
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Width
+  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Width
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Width
+  nameWithType: IndexedMapImage.Width
+- uid: Texim.Compressions.Nitro.IndexedMapImage.Width*
+  name: Width
+  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Width_
+  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Width
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IndexedMapImage.Width
+  nameWithType: IndexedMapImage.Width
+- uid: Texim.Compressions.Nitro.IOExtensions
+  name: IOExtensions
+  href: api/Texim.Compressions.Nitro.IOExtensions.html
+  commentId: T:Texim.Compressions.Nitro.IOExtensions
+  fullName: Texim.Compressions.Nitro.IOExtensions
+  nameWithType: IOExtensions
+- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(DataReader)
+  name: ReadMapInfo(DataReader)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfo_DataReader_
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(DataReader)
+  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(DataReader)
+  nameWithType: IOExtensions.ReadMapInfo(DataReader)
+- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo*
+  name: ReadMapInfo
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfo_
+  commentId: Overload:Texim.Compressions.Nitro.IOExtensions.ReadMapInfo
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo
+  nameWithType: IOExtensions.ReadMapInfo
+- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(DataReader,System.Int32)
+  name: ReadMapInfos(DataReader, Int32)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfos_DataReader_System_Int32_
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(DataReader,System.Int32)
+  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(DataReader, System.Int32)
+  nameWithType: IOExtensions.ReadMapInfos(DataReader, Int32)
+- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos*
+  name: ReadMapInfos
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfos_
+  commentId: Overload:Texim.Compressions.Nitro.IOExtensions.ReadMapInfos
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos
+  nameWithType: IOExtensions.ReadMapInfos
+- uid: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,IEnumerable{Texim.Compressions.Nitro.MapInfo})
+  name: Write(DataWriter, IEnumerable<MapInfo>)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_DataWriter_IEnumerable_Texim_Compressions_Nitro_MapInfo__
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,IEnumerable{Texim.Compressions.Nitro.MapInfo})
+  name.vb: Write(DataWriter, IEnumerable(Of MapInfo))
+  fullName: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter, IEnumerable<Texim.Compressions.Nitro.MapInfo>)
+  fullName.vb: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter, IEnumerable(Of Texim.Compressions.Nitro.MapInfo))
+  nameWithType: IOExtensions.Write(DataWriter, IEnumerable<MapInfo>)
+  nameWithType.vb: IOExtensions.Write(DataWriter, IEnumerable(Of MapInfo))
+- uid: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,Texim.Compressions.Nitro.MapInfo)
+  name: Write(DataWriter, MapInfo)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_DataWriter_Texim_Compressions_Nitro_MapInfo_
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,Texim.Compressions.Nitro.MapInfo)
+  fullName: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter, Texim.Compressions.Nitro.MapInfo)
+  nameWithType: IOExtensions.Write(DataWriter, MapInfo)
+- uid: Texim.Compressions.Nitro.IOExtensions.Write*
+  name: Write
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_
+  commentId: Overload:Texim.Compressions.Nitro.IOExtensions.Write
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IOExtensions.Write
+  nameWithType: IOExtensions.Write
+- uid: Texim.Compressions.Nitro.IScreenMap
+  name: IScreenMap
+  href: api/Texim.Compressions.Nitro.IScreenMap.html
+  commentId: T:Texim.Compressions.Nitro.IScreenMap
+  fullName: Texim.Compressions.Nitro.IScreenMap
+  nameWithType: IScreenMap
+- uid: Texim.Compressions.Nitro.IScreenMap.Height
+  name: Height
+  href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Height
+  commentId: P:Texim.Compressions.Nitro.IScreenMap.Height
+  fullName: Texim.Compressions.Nitro.IScreenMap.Height
+  nameWithType: IScreenMap.Height
+- uid: Texim.Compressions.Nitro.IScreenMap.Height*
+  name: Height
+  href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Height_
+  commentId: Overload:Texim.Compressions.Nitro.IScreenMap.Height
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IScreenMap.Height
+  nameWithType: IScreenMap.Height
+- uid: Texim.Compressions.Nitro.IScreenMap.Maps
+  name: Maps
+  href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Maps
+  commentId: P:Texim.Compressions.Nitro.IScreenMap.Maps
+  fullName: Texim.Compressions.Nitro.IScreenMap.Maps
+  nameWithType: IScreenMap.Maps
+- uid: Texim.Compressions.Nitro.IScreenMap.Maps*
+  name: Maps
+  href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Maps_
+  commentId: Overload:Texim.Compressions.Nitro.IScreenMap.Maps
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IScreenMap.Maps
+  nameWithType: IScreenMap.Maps
+- uid: Texim.Compressions.Nitro.IScreenMap.Width
+  name: Width
+  href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Width
+  commentId: P:Texim.Compressions.Nitro.IScreenMap.Width
+  fullName: Texim.Compressions.Nitro.IScreenMap.Width
+  nameWithType: IScreenMap.Width
+- uid: Texim.Compressions.Nitro.IScreenMap.Width*
+  name: Width
+  href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Width_
+  commentId: Overload:Texim.Compressions.Nitro.IScreenMap.Width
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.IScreenMap.Width
+  nameWithType: IScreenMap.Width
+- uid: Texim.Compressions.Nitro.MapCompression
+  name: MapCompression
+  href: api/Texim.Compressions.Nitro.MapCompression.html
+  commentId: T:Texim.Compressions.Nitro.MapCompression
+  fullName: Texim.Compressions.Nitro.MapCompression
+  nameWithType: MapCompression
+- uid: Texim.Compressions.Nitro.MapCompression.Convert(Texim.Images.IIndexedImage)
+  name: Convert(IIndexedImage)
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Convert_Texim_Images_IIndexedImage_
+  commentId: M:Texim.Compressions.Nitro.MapCompression.Convert(Texim.Images.IIndexedImage)
+  fullName: Texim.Compressions.Nitro.MapCompression.Convert(Texim.Images.IIndexedImage)
+  nameWithType: MapCompression.Convert(IIndexedImage)
+- uid: Texim.Compressions.Nitro.MapCompression.Convert*
+  name: Convert
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Convert_
+  commentId: Overload:Texim.Compressions.Nitro.MapCompression.Convert
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapCompression.Convert
+  nameWithType: MapCompression.Convert
+- uid: Texim.Compressions.Nitro.MapCompression.Initialize(Size)
+  name: Initialize(Size)
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Initialize_Size_
+  commentId: M:Texim.Compressions.Nitro.MapCompression.Initialize(Size)
+  fullName: Texim.Compressions.Nitro.MapCompression.Initialize(Size)
+  nameWithType: MapCompression.Initialize(Size)
+- uid: Texim.Compressions.Nitro.MapCompression.Initialize*
+  name: Initialize
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Initialize_
+  commentId: Overload:Texim.Compressions.Nitro.MapCompression.Initialize
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapCompression.Initialize
+  nameWithType: MapCompression.Initialize
+- uid: Texim.Compressions.Nitro.MapDecompression
+  name: MapDecompression
+  href: api/Texim.Compressions.Nitro.MapDecompression.html
+  commentId: T:Texim.Compressions.Nitro.MapDecompression
+  fullName: Texim.Compressions.Nitro.MapDecompression
+  nameWithType: MapDecompression
+- uid: Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Images.IIndexedImage)
+  name: Convert(IIndexedImage)
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Convert_Texim_Images_IIndexedImage_
+  commentId: M:Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Images.IIndexedImage)
+  fullName: Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Images.IIndexedImage)
+  nameWithType: MapDecompression.Convert(IIndexedImage)
+- uid: Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Pixels.IndexedPixel[])
+  name: Convert(IndexedPixel[])
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Convert_Texim_Pixels_IndexedPixel___
+  commentId: M:Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Pixels.IndexedPixel[])
+  name.vb: Convert(IndexedPixel())
+  fullName: Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Pixels.IndexedPixel[])
+  fullName.vb: Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Pixels.IndexedPixel())
+  nameWithType: MapDecompression.Convert(IndexedPixel[])
+  nameWithType.vb: MapDecompression.Convert(IndexedPixel())
+- uid: Texim.Compressions.Nitro.MapDecompression.Convert*
+  name: Convert
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Convert_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompression.Convert
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapDecompression.Convert
+  nameWithType: MapDecompression.Convert
+- uid: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParameters)
+  name: Initialize(MapDecompressionParameters)
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Initialize_Texim_Compressions_Nitro_MapDecompressionParameters_
+  commentId: M:Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParameters)
+  fullName: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParameters)
+  nameWithType: MapDecompression.Initialize(MapDecompressionParameters)
+- uid: Texim.Compressions.Nitro.MapDecompression.Initialize*
+  name: Initialize
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Initialize_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompression.Initialize
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapDecompression.Initialize
+  nameWithType: MapDecompression.Initialize
+- uid: Texim.Compressions.Nitro.MapDecompressionParameters
+  name: MapDecompressionParameters
+  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html
+  commentId: T:Texim.Compressions.Nitro.MapDecompressionParameters
+  fullName: Texim.Compressions.Nitro.MapDecompressionParameters
+  nameWithType: MapDecompressionParameters
+- uid: Texim.Compressions.Nitro.MapDecompressionParameters.Map
+  name: Map
+  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_Map
+  commentId: P:Texim.Compressions.Nitro.MapDecompressionParameters.Map
+  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.Map
+  nameWithType: MapDecompressionParameters.Map
+- uid: Texim.Compressions.Nitro.MapDecompressionParameters.Map*
+  name: Map
+  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_Map_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParameters.Map
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.Map
+  nameWithType: MapDecompressionParameters.Map
+- uid: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  name: TileSize
+  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_TileSize
+  commentId: P:Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  nameWithType: MapDecompressionParameters.TileSize
+- uid: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize*
+  name: TileSize
+  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_TileSize_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  nameWithType: MapDecompressionParameters.TileSize
+- uid: Texim.Compressions.Nitro.MapInfo
+  name: MapInfo
+  href: api/Texim.Compressions.Nitro.MapInfo.html
+  commentId: T:Texim.Compressions.Nitro.MapInfo
+  fullName: Texim.Compressions.Nitro.MapInfo
+  nameWithType: MapInfo
+- uid: Texim.Compressions.Nitro.MapInfo.#ctor(System.Byte)
+  name: MapInfo(Byte)
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo__ctor_System_Byte_
+  commentId: M:Texim.Compressions.Nitro.MapInfo.#ctor(System.Byte)
+  fullName: Texim.Compressions.Nitro.MapInfo.MapInfo(System.Byte)
+  nameWithType: MapInfo.MapInfo(Byte)
+- uid: Texim.Compressions.Nitro.MapInfo.#ctor(System.Int16)
+  name: MapInfo(Int16)
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo__ctor_System_Int16_
+  commentId: M:Texim.Compressions.Nitro.MapInfo.#ctor(System.Int16)
+  fullName: Texim.Compressions.Nitro.MapInfo.MapInfo(System.Int16)
+  nameWithType: MapInfo.MapInfo(Int16)
+- uid: Texim.Compressions.Nitro.MapInfo.#ctor*
+  name: MapInfo
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.MapInfo.#ctor
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapInfo.MapInfo
+  nameWithType: MapInfo.MapInfo
+- uid: Texim.Compressions.Nitro.MapInfo.HorizontalFlip
+  name: HorizontalFlip
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_HorizontalFlip
+  commentId: P:Texim.Compressions.Nitro.MapInfo.HorizontalFlip
+  fullName: Texim.Compressions.Nitro.MapInfo.HorizontalFlip
+  nameWithType: MapInfo.HorizontalFlip
+- uid: Texim.Compressions.Nitro.MapInfo.HorizontalFlip*
+  name: HorizontalFlip
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_HorizontalFlip_
+  commentId: Overload:Texim.Compressions.Nitro.MapInfo.HorizontalFlip
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapInfo.HorizontalFlip
+  nameWithType: MapInfo.HorizontalFlip
+- uid: Texim.Compressions.Nitro.MapInfo.PaletteIndex
+  name: PaletteIndex
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_PaletteIndex
+  commentId: P:Texim.Compressions.Nitro.MapInfo.PaletteIndex
+  fullName: Texim.Compressions.Nitro.MapInfo.PaletteIndex
+  nameWithType: MapInfo.PaletteIndex
+- uid: Texim.Compressions.Nitro.MapInfo.PaletteIndex*
+  name: PaletteIndex
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_PaletteIndex_
+  commentId: Overload:Texim.Compressions.Nitro.MapInfo.PaletteIndex
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapInfo.PaletteIndex
+  nameWithType: MapInfo.PaletteIndex
+- uid: Texim.Compressions.Nitro.MapInfo.TileIndex
+  name: TileIndex
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_TileIndex
+  commentId: P:Texim.Compressions.Nitro.MapInfo.TileIndex
+  fullName: Texim.Compressions.Nitro.MapInfo.TileIndex
+  nameWithType: MapInfo.TileIndex
+- uid: Texim.Compressions.Nitro.MapInfo.TileIndex*
+  name: TileIndex
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_TileIndex_
+  commentId: Overload:Texim.Compressions.Nitro.MapInfo.TileIndex
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapInfo.TileIndex
+  nameWithType: MapInfo.TileIndex
+- uid: Texim.Compressions.Nitro.MapInfo.ToInt16
+  name: ToInt16()
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_ToInt16
+  commentId: M:Texim.Compressions.Nitro.MapInfo.ToInt16
+  fullName: Texim.Compressions.Nitro.MapInfo.ToInt16()
+  nameWithType: MapInfo.ToInt16()
+- uid: Texim.Compressions.Nitro.MapInfo.ToInt16*
+  name: ToInt16
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_ToInt16_
+  commentId: Overload:Texim.Compressions.Nitro.MapInfo.ToInt16
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapInfo.ToInt16
+  nameWithType: MapInfo.ToInt16
+- uid: Texim.Compressions.Nitro.MapInfo.VerticalFlip
+  name: VerticalFlip
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_VerticalFlip
+  commentId: P:Texim.Compressions.Nitro.MapInfo.VerticalFlip
+  fullName: Texim.Compressions.Nitro.MapInfo.VerticalFlip
+  nameWithType: MapInfo.VerticalFlip
+- uid: Texim.Compressions.Nitro.MapInfo.VerticalFlip*
+  name: VerticalFlip
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_VerticalFlip_
+  commentId: Overload:Texim.Compressions.Nitro.MapInfo.VerticalFlip
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapInfo.VerticalFlip
+  nameWithType: MapInfo.VerticalFlip
+- uid: Texim.Compressions.Nitro.ScreenMap
+  name: ScreenMap
+  href: api/Texim.Compressions.Nitro.ScreenMap.html
+  commentId: T:Texim.Compressions.Nitro.ScreenMap
+  fullName: Texim.Compressions.Nitro.ScreenMap
+  nameWithType: ScreenMap
+- uid: Texim.Compressions.Nitro.ScreenMap.#ctor(System.Int32,System.Int32)
+  name: ScreenMap(Int32, Int32)
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap__ctor_System_Int32_System_Int32_
+  commentId: M:Texim.Compressions.Nitro.ScreenMap.#ctor(System.Int32,System.Int32)
+  fullName: Texim.Compressions.Nitro.ScreenMap.ScreenMap(System.Int32, System.Int32)
+  nameWithType: ScreenMap.ScreenMap(Int32, Int32)
+- uid: Texim.Compressions.Nitro.ScreenMap.#ctor*
+  name: ScreenMap
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.ScreenMap.#ctor
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.ScreenMap.ScreenMap
+  nameWithType: ScreenMap.ScreenMap
+- uid: Texim.Compressions.Nitro.ScreenMap.Height
+  name: Height
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Height
+  commentId: P:Texim.Compressions.Nitro.ScreenMap.Height
+  fullName: Texim.Compressions.Nitro.ScreenMap.Height
+  nameWithType: ScreenMap.Height
+- uid: Texim.Compressions.Nitro.ScreenMap.Height*
+  name: Height
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Height_
+  commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Height
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.ScreenMap.Height
+  nameWithType: ScreenMap.Height
+- uid: Texim.Compressions.Nitro.ScreenMap.Maps
+  name: Maps
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Maps
+  commentId: P:Texim.Compressions.Nitro.ScreenMap.Maps
+  fullName: Texim.Compressions.Nitro.ScreenMap.Maps
+  nameWithType: ScreenMap.Maps
+- uid: Texim.Compressions.Nitro.ScreenMap.Maps*
+  name: Maps
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Maps_
+  commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Maps
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.ScreenMap.Maps
+  nameWithType: ScreenMap.Maps
+- uid: Texim.Compressions.Nitro.ScreenMap.Width
+  name: Width
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Width
+  commentId: P:Texim.Compressions.Nitro.ScreenMap.Width
+  fullName: Texim.Compressions.Nitro.ScreenMap.Width
+  nameWithType: ScreenMap.Width
+- uid: Texim.Compressions.Nitro.ScreenMap.Width*
+  name: Width
+  href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Width_
+  commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Width
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.ScreenMap.Width
+  nameWithType: ScreenMap.Width
+- uid: Texim.Compressions.Nitro.TileExtensions
+  name: TileExtensions
+  href: api/Texim.Compressions.Nitro.TileExtensions.html
+  commentId: T:Texim.Compressions.Nitro.TileExtensions
+  fullName: Texim.Compressions.Nitro.TileExtensions
+  nameWithType: TileExtensions
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory{Texim.Pixels.IndexedPixel},Size)
+  name: FlipHorizontal(Memory<IndexedPixel>, Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_Memory_Texim_Pixels_IndexedPixel__Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory{Texim.Pixels.IndexedPixel},Size)
+  name.vb: FlipHorizontal(Memory(Of IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory<Texim.Pixels.IndexedPixel>, Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory(Of Texim.Pixels.IndexedPixel), Size)
+  nameWithType: TileExtensions.FlipHorizontal(Memory<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipHorizontal(Memory(Of IndexedPixel), Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span{Texim.Pixels.IndexedPixel},Size)
+  name: FlipHorizontal(Span<IndexedPixel>, Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_Span_Texim_Pixels_IndexedPixel__Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span{Texim.Pixels.IndexedPixel},Size)
+  name.vb: FlipHorizontal(Span(Of IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span<Texim.Pixels.IndexedPixel>, Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span(Of Texim.Pixels.IndexedPixel), Size)
+  nameWithType: TileExtensions.FlipHorizontal(Span<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipHorizontal(Span(Of IndexedPixel), Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal*
+  name: FlipHorizontal
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_
+  commentId: Overload:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal
+  nameWithType: TileExtensions.FlipHorizontal
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory{Texim.Pixels.IndexedPixel},Size)
+  name: FlipVertical(Memory<IndexedPixel>, Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_Memory_Texim_Pixels_IndexedPixel__Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory{Texim.Pixels.IndexedPixel},Size)
+  name.vb: FlipVertical(Memory(Of IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory<Texim.Pixels.IndexedPixel>, Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory(Of Texim.Pixels.IndexedPixel), Size)
+  nameWithType: TileExtensions.FlipVertical(Memory<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipVertical(Memory(Of IndexedPixel), Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span{Texim.Pixels.IndexedPixel},Size)
+  name: FlipVertical(Span<IndexedPixel>, Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_Span_Texim_Pixels_IndexedPixel__Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span{Texim.Pixels.IndexedPixel},Size)
+  name.vb: FlipVertical(Span(Of IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span<Texim.Pixels.IndexedPixel>, Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span(Of Texim.Pixels.IndexedPixel), Size)
+  nameWithType: TileExtensions.FlipVertical(Span<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipVertical(Span(Of IndexedPixel), Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical*
+  name: FlipVertical
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_
+  commentId: Overload:Texim.Compressions.Nitro.TileExtensions.FlipVertical
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical
+  nameWithType: TileExtensions.FlipVertical
+- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory{Texim.Pixels.IndexedPixel},Memory{Texim.Pixels.IndexedPixel})
+  name: HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_Memory_Texim_Pixels_IndexedPixel__Memory_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory{Texim.Pixels.IndexedPixel},Memory{Texim.Pixels.IndexedPixel})
+  name.vb: HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
+  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory<Texim.Pixels.IndexedPixel>, Memory<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory(Of Texim.Pixels.IndexedPixel), Memory(Of Texim.Pixels.IndexedPixel))
+  nameWithType: TileExtensions.HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
+  nameWithType.vb: TileExtensions.HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
+- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span{Texim.Pixels.IndexedPixel},Span{Texim.Pixels.IndexedPixel})
+  name: HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_Span_Texim_Pixels_IndexedPixel__Span_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span{Texim.Pixels.IndexedPixel},Span{Texim.Pixels.IndexedPixel})
+  name.vb: HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
+  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span<Texim.Pixels.IndexedPixel>, Span<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span(Of Texim.Pixels.IndexedPixel), Span(Of Texim.Pixels.IndexedPixel))
+  nameWithType: TileExtensions.HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
+  nameWithType.vb: TileExtensions.HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
+- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes*
+  name: HasEquivalentIndexes
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_
+  commentId: Overload:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes
+  nameWithType: TileExtensions.HasEquivalentIndexes
 - uid: Texim.Formats
   name: Texim.Formats
   href: api/Texim.Formats.html

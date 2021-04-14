@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.CollectionExtensions.html",
-          "hash": "B5fn3lyFxcSR2Xt9DfMPkQ=="
+          "hash": "i/2G7cTr0isiPxB0HONzOQ=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.Bgr555.html",
-          "hash": "2DTpsVYTydqA/myLnA1JXw=="
+          "hash": "OFfp4S7sUOGN0hr4g1rv2w=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.IColorEncoding.html",
-          "hash": "+9R+DsUye+ba6F1UNdNGgw=="
+          "hash": "h97P/PfWvIEu2PNjj8bPEw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.IOExtensions.html",
-          "hash": "b8eJBfCEoBv1DAXHOJJKCQ=="
+          "hash": "7jSzMgUoj4jY540QcGokYw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.Rgb.html",
-          "hash": "wY2wa9u/8+JqZpadtv6z6g=="
+          "hash": "i4Z5iRXzHBuMTNfePUViIg=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.Rgb32.html",
-          "hash": "y3BFQypzCqKff8rbaT9eQw=="
+          "hash": "dSnDE9d4OcjEAh0GZsP3NA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.Rgba32.html",
-          "hash": "zueUyYO4jiev0gAfBQO+Mg=="
+          "hash": "nXUEXpNHEmXqPmKl7cketA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,127 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Colors.html",
-          "hash": "ZDDZ5P7XD0aC3cFg0nbj0g=="
+          "hash": "MYnM6HfktJ2eJ8pdsVhvWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.IOExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.IOExtensions.html",
+          "hash": "UtzZGQ2B3XzdxV+ne6rMsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.IScreenMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.IScreenMap.html",
+          "hash": "ELGmJPKHPyrm+rUEfd1Xvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.IndexedMapImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.IndexedMapImage.html",
+          "hash": "5qht/E5fmf7RAoIJXvrfAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.MapCompression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.MapCompression.html",
+          "hash": "rMSGmw8RUxAa9DBrWgfI7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.MapDecompression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.MapDecompression.html",
+          "hash": "o0T0884RK0HjAzldIYLWpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.MapDecompressionParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.MapDecompressionParameters.html",
+          "hash": "ud8WS56E3zrRRVXeE9nmDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.MapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.MapInfo.html",
+          "hash": "bBkKPyVt/B3+Gx/jU+qi9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.ScreenMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.ScreenMap.html",
+          "hash": "8zxzNltABSRF6yVwjYc73A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.TileExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.TileExtensions.html",
+          "hash": "f5zNJ29aV3ZOrmw7+wcumA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Texim.Compressions.Nitro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Texim.Compressions.Nitro.html",
+          "hash": "4Hw+wG0uAF0UftYKTQHNYA=="
         }
       },
       "is_incremental": false,
@@ -138,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.Bitmap2FullImage.html",
-          "hash": "KlJQD6KklBik1gWQJFnlxg=="
+          "hash": "jSfyo1fpjXlMK9qNXXqRiQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.FullImage2BinaryBitmap.html",
-          "hash": "3EM5ZrdSVgls6VVAuxIeeA=="
+          "hash": "kCtLjRdag7RprSkJrP5OBg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.IndexedImage2BinaryBitmap.html",
-          "hash": "V4wojAUccPxhiziFiisaaA=="
+          "hash": "MA+JB5g4S2R6avUuNY7WPQ=="
         }
       },
       "is_incremental": false,
@@ -174,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.IndexedImageBitmapParameters.html",
-          "hash": "+De/X9DqNb95WOkwJ9bwlw=="
+          "hash": "YQ/dfFMUJ3gLoZ6EV6Umjg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.Palette2BinaryBitmap.html",
-          "hash": "qowZKXLilljs42ded9t7sg=="
+          "hash": "VAy1Myb4qhitKXsGQL1abA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.Palette2BinaryRiff.html",
-          "hash": "nvKqlN22Fq0s0+ToL9WnZA=="
+          "hash": "cYRLL8ACMK6SaBw2l64zUg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.PaletteCollection2ContainerBitmap.html",
-          "hash": "TQqDkdi0XFWAnQ7csybUXQ=="
+          "hash": "NGdmYGZFqrrL9Nwo/6OHTQ=="
         }
       },
       "is_incremental": false,
@@ -222,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.RawBinary2Palette.html",
-          "hash": "zPZnZRidSpd1YQ6Hn3J0gA=="
+          "hash": "8mXakgMuCY2yOCmzFcqEMA=="
         }
       },
       "is_incremental": false,
@@ -234,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.RawPaletteParameters.html",
-          "hash": "fniQv4/J6nDUVXbFq0UWvQ=="
+          "hash": "2uuL19UykDCDsXGosFSCcg=="
         }
       },
       "is_incremental": false,
@@ -246,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Formats.html",
-          "hash": "jyIFmyQzYvhxyL3tBQqgVQ=="
+          "hash": "+jaqaGy/n6hQPihKc4ZxCQ=="
         }
       },
       "is_incremental": false,
@@ -258,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.FullImage.html",
-          "hash": "Fr1DXLfcWMU4NTBdgCdWkw=="
+          "hash": "aIcG6xJcVNPeVae/CWT3aw=="
         }
       },
       "is_incremental": false,
@@ -270,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.FullImage2IndexedPalette.html",
-          "hash": "spmlHaYG2ae9rAwjywxkeQ=="
+          "hash": "gmiuAad6OnbiDR+T+hz3Pw=="
         }
       },
       "is_incremental": false,
@@ -282,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.IFullImage.html",
-          "hash": "XecdjR5kQlHTK2jqmMCmzA=="
+          "hash": "U9psU43jmAd+trLIatwcxw=="
         }
       },
       "is_incremental": false,
@@ -294,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.IIndexedImage.html",
-          "hash": "Ouclm3jaimc7u+lRW7WocQ=="
+          "hash": "5hD+QLqIfg5h75xD+NVKBA=="
         }
       },
       "is_incremental": false,
@@ -306,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.Indexed2FullImage.html",
-          "hash": "uhKfYHTQQGn1jBv4Twa0EA=="
+          "hash": "Pov70nO2ljSI0xEY+800ig=="
         }
       },
       "is_incremental": false,
@@ -318,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.IndexedImage.html",
-          "hash": "D50utM+iMjfIRMRJZryVpQ=="
+          "hash": "/rKQIEppiG/jRZAA1fYq3w=="
         }
       },
       "is_incremental": false,
@@ -330,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.IndexedPaletteImage.html",
-          "hash": "+SIkyt8kDGlpQfatZIugEQ=="
+          "hash": "cw5XjYr4h9+mnKLJloPGvw=="
         }
       },
       "is_incremental": false,
@@ -342,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Images.html",
-          "hash": "z8J02nffhXnpSO9UmnrlwA=="
+          "hash": "caA+cd93BbyTHx2uopuz8g=="
         }
       },
       "is_incremental": false,
@@ -354,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Palettes.IPalette.html",
-          "hash": "zrguWTgV9Vv2pHWfhPJXrg=="
+          "hash": "nJgJDmM97RQAlxSFxD509A=="
         }
       },
       "is_incremental": false,
@@ -366,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Palettes.IPaletteCollection.html",
-          "hash": "bEV2F4G5ouBmU5sXBgyKkg=="
+          "hash": "1SZ4bBifdE2G94avqQ4hVg=="
         }
       },
       "is_incremental": false,
@@ -378,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Palettes.Palette.html",
-          "hash": "SdJEWnelncf5Par6csemUw=="
+          "hash": "u7yXcFVDD8v/PPm9M9VRxw=="
         }
       },
       "is_incremental": false,
@@ -390,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Palettes.PaletteCollection.html",
-          "hash": "dl/pVASBRFkYy/mE7d040g=="
+          "hash": "A7zHaqnFRiZyRhuCwK9jzQ=="
         }
       },
       "is_incremental": false,
@@ -402,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Palettes.html",
-          "hash": "Ovhsij9X3lQWl6EdciWNwA=="
+          "hash": "oBE0yJ6n/LAs0PFBwC0gOw=="
         }
       },
       "is_incremental": false,
@@ -414,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.BytePixelEncoding.html",
-          "hash": "LZ6ngjcv1/QRsHhy5mxnEg=="
+          "hash": "eCWM6gGCngoBNl4rn7+6Yg=="
         }
       },
       "is_incremental": false,
@@ -426,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.IIndexedPixelEncoding.html",
-          "hash": "zeK8s2DUkoDx9P0V/szOnQ=="
+          "hash": "h5cQCTXm3vCVgSWXpA3SJg=="
         }
       },
       "is_incremental": false,
@@ -438,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.IOExtensions.html",
-          "hash": "WvIiPxjQw3G0xhNXaaV6OA=="
+          "hash": "UOeNZdaAUbVROfsFcwktsQ=="
         }
       },
       "is_incremental": false,
@@ -450,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.ISwizzling-1.html",
-          "hash": "B5yRvOVR3zvygGICJPkdQA=="
+          "hash": "zkh5NnHycnta5PwIRc6gaA=="
         }
       },
       "is_incremental": false,
@@ -462,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.Indexed4Bpp.html",
-          "hash": "q3/H7O26t7+4rd4Q+fXQnQ=="
+          "hash": "LRVkUWHCSUR9rzg7wOEdjQ=="
         }
       },
       "is_incremental": false,
@@ -474,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.Indexed8Bpp.html",
-          "hash": "j31cKXx6l2fTFq51cDUYPw=="
+          "hash": "oW+Uua3xqz0JuhqhWUzWiA=="
         }
       },
       "is_incremental": false,
@@ -486,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.IndexedA3I5.html",
-          "hash": "ZeuivR02D+iwDXwJ0bVf0w=="
+          "hash": "hLOF/iIHKo0EKPu4ftbm4Q=="
         }
       },
       "is_incremental": false,
@@ -498,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.IndexedA5I3.html",
-          "hash": "HjzXl1FoX3EmE/njGXqtsw=="
+          "hash": "AB5p+RjlE32xU4woXD5nXA=="
         }
       },
       "is_incremental": false,
@@ -510,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.IndexedPixel.html",
-          "hash": "vTVhsvPDicPBaedRL2xhNA=="
+          "hash": "q5i5tinBtxmV/Vb8xdk89A=="
         }
       },
       "is_incremental": false,
@@ -522,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.TileSwizzling-1.html",
-          "hash": "8SevbMACqsZ8Gsgf4f6nyA=="
+          "hash": "+ljik9wuIT+OeQ77FvDDeg=="
         }
       },
       "is_incremental": false,
@@ -534,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Pixels.html",
-          "hash": "RGUZDNUFdteFf7kGIQOjMw=="
+          "hash": "58Nsgm0NPpPvG4QVssi4MQ=="
         }
       },
       "is_incremental": false,
@@ -546,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Processing.ExhaustiveColorSearch.html",
-          "hash": "Xy51samRvpQQd/apeRJ3Qw=="
+          "hash": "WnmOw6fYNbJTATUVMLRrfQ=="
         }
       },
       "is_incremental": false,
@@ -558,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Processing.FixedPaletteQuantization.html",
-          "hash": "UbI8tPQNsm8/oSKf5hPNOA=="
+          "hash": "K9gZGAN5tyBpJbRZnge1nA=="
         }
       },
       "is_incremental": false,
@@ -570,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Processing.IQuantization.html",
-          "hash": "m9KPHfrvtD5XopjeRsAHnA=="
+          "hash": "pknO0me7UGp0eg2wdBvt/A=="
         }
       },
       "is_incremental": false,
@@ -582,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Processing.MedianCutQuantization.html",
-          "hash": "AGhGNRgz4wvPT+bcufdL/A=="
+          "hash": "OZLAulvfiypEx/EFfnZuwA=="
         }
       },
       "is_incremental": false,
@@ -594,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Processing.Quantization.html",
-          "hash": "nENGIHh6pUEJv3uUUlaxtA=="
+          "hash": "GHBJxqQEKcGb5dC1szfA5Q=="
         }
       },
       "is_incremental": false,
@@ -606,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Processing.html",
-          "hash": "berv/mZ57SGvoBmi2/UHkw=="
+          "hash": "s192P4fxm8S3ONRJnJqLXw=="
         }
       },
       "is_incremental": false,
@@ -618,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.html",
-          "hash": "9uAPD13+ZhjIJcUhjkGvEw=="
+          "hash": "VQxeq/fYlzUOBzzMKBQBZw=="
         }
       },
       "is_incremental": false,
@@ -630,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/Changelog.html",
-          "hash": "cibahy0y3rShdi5T645O0w=="
+          "hash": "2vcJnJCu1edf40x45XzjYA=="
         }
       },
       "is_incremental": false,
@@ -642,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/toc.html",
-          "hash": "gBX2uIGYm16J0mpfSzPC2Q=="
+          "hash": "7BdZdmF22EOutljirpCZFw=="
         }
       },
       "is_incremental": false,
@@ -717,7 +837,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 49,
+          "total_file_count": 59,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
