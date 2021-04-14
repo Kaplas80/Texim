@@ -27,7 +27,7 @@
   "api/Texim.Colors.Rgb.html": {
     "href": "api/Texim.Colors.Rgb.html",
     "title": "Struct Rgb | Texim extensible image API",
-    "keywords": "Struct Rgb Namespace : Texim.Colors Assembly : Texim.dll Syntax public struct Rgb Constructors | Improve this Doc View Source Rgb(Byte, Byte, Byte) Declaration public Rgb(byte red, byte green, byte blue) Parameters Type Name Description Byte red Byte green Byte blue | Improve this Doc View Source Rgb(Byte, Byte, Byte, Byte) Declaration public Rgb(byte red, byte green, byte blue, byte alpha) Parameters Type Name Description Byte red Byte green Byte blue Byte alpha | Improve this Doc View Source Rgb(Rgb, Byte) Declaration public Rgb(Rgb color, byte alpha) Parameters Type Name Description Rgb color Byte alpha Properties | Improve this Doc View Source Alpha Declaration public byte Alpha { get; } Property Value Type Description Byte | Improve this Doc View Source Blue Declaration public byte Blue { get; } Property Value Type Description Byte | Improve this Doc View Source Green Declaration public byte Green { get; } Property Value Type Description Byte | Improve this Doc View Source Red Declaration public byte Red { get; } Property Value Type Description Byte Methods | Improve this Doc View Source ToColor() Declaration public Color ToColor() Returns Type Description Color"
+    "keywords": "Struct Rgb Namespace : Texim.Colors Assembly : Texim.dll Syntax public struct Rgb Constructors | Improve this Doc View Source Rgb(Color) Declaration public Rgb(Color color) Parameters Type Name Description Color color | Improve this Doc View Source Rgb(Byte, Byte, Byte) Declaration public Rgb(byte red, byte green, byte blue) Parameters Type Name Description Byte red Byte green Byte blue | Improve this Doc View Source Rgb(Byte, Byte, Byte, Byte) Declaration public Rgb(byte red, byte green, byte blue, byte alpha) Parameters Type Name Description Byte red Byte green Byte blue Byte alpha | Improve this Doc View Source Rgb(Rgb, Byte) Declaration public Rgb(Rgb color, byte alpha) Parameters Type Name Description Rgb color Byte alpha Properties | Improve this Doc View Source Alpha Declaration public byte Alpha { get; } Property Value Type Description Byte | Improve this Doc View Source Blue Declaration public byte Blue { get; } Property Value Type Description Byte | Improve this Doc View Source Green Declaration public byte Green { get; } Property Value Type Description Byte | Improve this Doc View Source Red Declaration public byte Red { get; } Property Value Type Description Byte Methods | Improve this Doc View Source GetDistanceSquared(Rgb) Declaration public double GetDistanceSquared(Rgb other) Parameters Type Name Description Rgb other Returns Type Description Double | Improve this Doc View Source ToColor() Declaration public Color ToColor() Returns Type Description Color"
   },
   "api/Texim.Colors.Rgb32.html": {
     "href": "api/Texim.Colors.Rgb32.html",
@@ -39,6 +39,11 @@
     "title": "Class Rgba32 | Texim extensible image API",
     "keywords": "Class Rgba32 Inheritance Object Rgba32 Rgb32 Implements IColorEncoding Namespace : Texim.Colors Assembly : Texim.dll Syntax public class Rgba32 : object, IColorEncoding Constructors | Improve this Doc View Source Rgba32() Declaration public Rgba32() Properties | Improve this Doc View Source BytesPerColor Declaration public static int BytesPerColor { get; } Property Value Type Description Int32 | Improve this Doc View Source Instance Declaration public static Rgba32 Instance { get; } Property Value Type Description Rgba32 Methods | Improve this Doc View Source Decode(Span<Byte>) Declaration public Rgb[] Decode(Span<byte> data) Parameters Type Name Description Span < Byte > data Returns Type Description Rgb [] | Improve this Doc View Source Decode(Stream) Declaration public Rgb Decode(Stream stream) Parameters Type Name Description Stream stream Returns Type Description Rgb | Improve this Doc View Source Decode(Stream, Int32) Declaration public Rgb[] Decode(Stream stream, int numColors) Parameters Type Name Description Stream stream Int32 numColors Returns Type Description Rgb [] | Improve this Doc View Source Encode(IEnumerable<Rgb>) Declaration public byte[] Encode(IEnumerable<Rgb> colors) Parameters Type Name Description IEnumerable < Rgb > colors Returns Type Description Byte [] | Improve this Doc View Source Encode(Rgb) Declaration public byte[] Encode(Rgb color) Parameters Type Name Description Rgb color Returns Type Description Byte [] Implements IColorEncoding"
   },
+  "api/Texim.Formats.Bitmap2FullImage.html": {
+    "href": "api/Texim.Formats.Bitmap2FullImage.html",
+    "title": "Class Bitmap2FullImage | Texim extensible image API",
+    "keywords": "Class Bitmap2FullImage Inheritance Object Bitmap2FullImage Namespace : Texim.Formats Assembly : Texim.dll Syntax public class Bitmap2FullImage : IConverter<BinaryFormat, FullImage> Methods | Improve this Doc View Source Convert(BinaryFormat) Declaration public FullImage Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source Returns Type Description FullImage"
+  },
   "api/Texim.Formats.FullImage2BinaryBitmap.html": {
     "href": "api/Texim.Formats.FullImage2BinaryBitmap.html",
     "title": "Class FullImage2BinaryBitmap | Texim extensible image API",
@@ -47,7 +52,7 @@
   "api/Texim.Formats.html": {
     "href": "api/Texim.Formats.html",
     "title": "Namespace Texim.Formats | Texim extensible image API",
-    "keywords": "Namespace Texim.Formats Classes FullImage2BinaryBitmap IndexedImage2BinaryBitmap IndexedImageBitmapParameters Palette2BinaryBitmap Palette2BinaryRiff PaletteCollection2ContainerBitmap RawBinary2Palette RawPaletteParameters"
+    "keywords": "Namespace Texim.Formats Classes Bitmap2FullImage FullImage2BinaryBitmap IndexedImage2BinaryBitmap IndexedImageBitmapParameters Palette2BinaryBitmap Palette2BinaryRiff PaletteCollection2ContainerBitmap RawBinary2Palette RawPaletteParameters"
   },
   "api/Texim.Formats.IndexedImage2BinaryBitmap.html": {
     "href": "api/Texim.Formats.IndexedImage2BinaryBitmap.html",
@@ -94,10 +99,15 @@
     "title": "Class FullImage | Texim extensible image API",
     "keywords": "Class FullImage Inheritance Object FullImage Implements IFullImage IFormat Namespace : Texim.Images Assembly : Texim.dll Syntax public class FullImage : object, IFullImage, IFormat Constructors | Improve this Doc View Source FullImage(Int32, Int32) Declaration public FullImage(int width, int height) Parameters Type Name Description Int32 width Int32 height Properties | Improve this Doc View Source Height Declaration public int Height { get; } Property Value Type Description Int32 | Improve this Doc View Source Pixels Declaration public Rgb[] Pixels { get; } Property Value Type Description Rgb [] | Improve this Doc View Source Width Declaration public int Width { get; } Property Value Type Description Int32 Implements IFullImage IFormat"
   },
+  "api/Texim.Images.FullImage2IndexedPalette.html": {
+    "href": "api/Texim.Images.FullImage2IndexedPalette.html",
+    "title": "Class FullImage2IndexedPalette | Texim extensible image API",
+    "keywords": "Class FullImage2IndexedPalette Inheritance Object FullImage2IndexedPalette Implements IConverter < IFullImage , IndexedPaletteImage > Namespace : Texim.Images Assembly : Texim.dll Syntax public class FullImage2IndexedPalette : IInitializer<IQuantization>, IConverter<IFullImage, IndexedPaletteImage> Methods | Improve this Doc View Source Convert(IFullImage) Declaration public IndexedPaletteImage Convert(IFullImage source) Parameters Type Name Description IFullImage source Returns Type Description IndexedPaletteImage | Improve this Doc View Source Initialize(IQuantization) Declaration public void Initialize(IQuantization parameters) Parameters Type Name Description IQuantization parameters Implements IConverter<, >"
+  },
   "api/Texim.Images.html": {
     "href": "api/Texim.Images.html",
     "title": "Namespace Texim.Images | Texim extensible image API",
-    "keywords": "Namespace Texim.Images Classes FullImage Indexed2FullImage IndexedImage Interfaces IFullImage IIndexedImage"
+    "keywords": "Namespace Texim.Images Classes FullImage FullImage2IndexedPalette Indexed2FullImage IndexedImage IndexedPaletteImage Interfaces IFullImage IIndexedImage"
   },
   "api/Texim.Images.IFullImage.html": {
     "href": "api/Texim.Images.IFullImage.html",
@@ -118,6 +128,11 @@
     "href": "api/Texim.Images.IndexedImage.html",
     "title": "Class IndexedImage | Texim extensible image API",
     "keywords": "Class IndexedImage Inheritance Object IndexedImage Implements IIndexedImage IFormat Namespace : Texim.Images Assembly : Texim.dll Syntax public class IndexedImage : object, IIndexedImage, IFormat Constructors | Improve this Doc View Source IndexedImage() Declaration public IndexedImage() | Improve this Doc View Source IndexedImage(Int32, Int32) Declaration public IndexedImage(int width, int height) Parameters Type Name Description Int32 width Int32 height | Improve this Doc View Source IndexedImage(Int32, Int32, IndexedPixel[]) Declaration public IndexedImage(int width, int height, IndexedPixel[] pixels) Parameters Type Name Description Int32 width Int32 height IndexedPixel [] pixels Properties | Improve this Doc View Source Height Declaration public int Height { get; } Property Value Type Description Int32 | Improve this Doc View Source Pixels Declaration public IndexedPixel[] Pixels { get; } Property Value Type Description IndexedPixel [] | Improve this Doc View Source Width Declaration public int Width { get; } Property Value Type Description Int32 Methods | Improve this Doc View Source CreateFullImage(IPalette) Declaration public FullImage CreateFullImage(IPalette palette) Parameters Type Name Description IPalette palette Returns Type Description FullImage | Improve this Doc View Source CreateFullImage(IPaletteCollection) Declaration public FullImage CreateFullImage(IPaletteCollection palettes) Parameters Type Name Description IPaletteCollection palettes Returns Type Description FullImage Implements IIndexedImage IFormat"
+  },
+  "api/Texim.Images.IndexedPaletteImage.html": {
+    "href": "api/Texim.Images.IndexedPaletteImage.html",
+    "title": "Class IndexedPaletteImage | Texim extensible image API",
+    "keywords": "Class IndexedPaletteImage Inheritance Object IndexedPaletteImage Implements IIndexedImage IPaletteCollection IFormat Namespace : Texim.Images Assembly : Texim.dll Syntax public class IndexedPaletteImage : object, IIndexedImage, IPaletteCollection, IFormat Properties | Improve this Doc View Source Height Declaration public int Height { get; } Property Value Type Description Int32 | Improve this Doc View Source Palettes Declaration public Collection<IPalette> Palettes { get; } Property Value Type Description Collection < IPalette > | Improve this Doc View Source Pixels Declaration public IndexedPixel[] Pixels { get; } Property Value Type Description IndexedPixel [] | Improve this Doc View Source Width Declaration public int Width { get; } Property Value Type Description Int32 Methods | Improve this Doc View Source CreateFullImage() Declaration public FullImage CreateFullImage() Returns Type Description FullImage Implements IIndexedImage IPaletteCollection IFormat"
   },
   "api/Texim.Palettes.html": {
     "href": "api/Texim.Palettes.html",
@@ -142,7 +157,7 @@
   "api/Texim.Palettes.PaletteCollection.html": {
     "href": "api/Texim.Palettes.PaletteCollection.html",
     "title": "Class PaletteCollection | Texim extensible image API",
-    "keywords": "Class PaletteCollection Inheritance Object PaletteCollection Implements IPaletteCollection IFormat Namespace : Texim.Palettes Assembly : Texim.dll Syntax public class PaletteCollection : object, IPaletteCollection, IFormat Constructors | Improve this Doc View Source PaletteCollection() Declaration public PaletteCollection() | Improve this Doc View Source PaletteCollection(IEnumerable<IPalette>) Declaration public PaletteCollection(IEnumerable<IPalette> initialPalettes) Parameters Type Name Description IEnumerable < IPalette > initialPalettes Properties | Improve this Doc View Source Palettes Declaration public Collection<IPalette> Palettes { get; } Property Value Type Description Collection < IPalette > Implements IPaletteCollection IFormat"
+    "keywords": "Class PaletteCollection Inheritance Object PaletteCollection Implements IPaletteCollection IFormat Namespace : Texim.Palettes Assembly : Texim.dll Syntax public class PaletteCollection : object, IPaletteCollection, IFormat Constructors | Improve this Doc View Source PaletteCollection() Declaration public PaletteCollection() | Improve this Doc View Source PaletteCollection(IEnumerable<IPalette>) Declaration public PaletteCollection(IEnumerable<IPalette> initialPalettes) Parameters Type Name Description IEnumerable < IPalette > initialPalettes | Improve this Doc View Source PaletteCollection(IPalette) Declaration public PaletteCollection(IPalette initialPalette) Parameters Type Name Description IPalette initialPalette Properties | Improve this Doc View Source Palettes Declaration public Collection<IPalette> Palettes { get; } Property Value Type Description Collection < IPalette > Implements IPaletteCollection IFormat"
   },
   "api/Texim.Pixels.BytePixelEncoding.html": {
     "href": "api/Texim.Pixels.BytePixelEncoding.html",
@@ -199,6 +214,36 @@
     "title": "Class TileSwizzling<T> | Texim extensible image API",
     "keywords": "Class TileSwizzling<T> Inheritance Object TileSwizzling<T> Implements ISwizzling <T> Namespace : Texim.Pixels Assembly : Texim.dll Syntax public class TileSwizzling<T> : object, ISwizzling<T> Type Parameters Name Description T Constructors | Improve this Doc View Source TileSwizzling() Declaration public TileSwizzling() | Improve this Doc View Source TileSwizzling(Size, Int32) Declaration public TileSwizzling(Size tileSize, int width) Parameters Type Name Description Size tileSize Int32 width | Improve this Doc View Source TileSwizzling(Int32) Declaration public TileSwizzling(int width) Parameters Type Name Description Int32 width Properties | Improve this Doc View Source TileSize Declaration public Size TileSize { get; set; } Property Value Type Description Size | Improve this Doc View Source Width Declaration public int Width { get; set; } Property Value Type Description Int32 Methods | Improve this Doc View Source Swizzle(IEnumerable<T>) Declaration public T[] Swizzle(IEnumerable<T> data) Parameters Type Name Description IEnumerable <T> data Returns Type Description T[] | Improve this Doc View Source Unswizzle(IEnumerable<T>) Declaration public T[] Unswizzle(IEnumerable<T> data) Parameters Type Name Description IEnumerable <T> data Returns Type Description T[] Implements ISwizzling<T>"
   },
+  "api/Texim.Processing.ExhaustiveColorSearch.html": {
+    "href": "api/Texim.Processing.ExhaustiveColorSearch.html",
+    "title": "Class ExhaustiveColorSearch | Texim extensible image API",
+    "keywords": "Class ExhaustiveColorSearch Inheritance Object ExhaustiveColorSearch Namespace : Texim.Processing Assembly : Texim.dll Syntax public class ExhaustiveColorSearch : object Constructors | Improve this Doc View Source ExhaustiveColorSearch(IEnumerable<Rgb>) Declaration public ExhaustiveColorSearch(IEnumerable<Rgb> vertex) Parameters Type Name Description IEnumerable < Rgb > vertex Methods | Improve this Doc View Source Search(Rgb) Declaration public int Search(Rgb color) Parameters Type Name Description Rgb color Returns Type Description Int32"
+  },
+  "api/Texim.Processing.FixedPaletteQuantization.html": {
+    "href": "api/Texim.Processing.FixedPaletteQuantization.html",
+    "title": "Class FixedPaletteQuantization | Texim extensible image API",
+    "keywords": "Class FixedPaletteQuantization Inheritance Object FixedPaletteQuantization Implements IQuantization Namespace : Texim.Processing Assembly : Texim.dll Syntax public class FixedPaletteQuantization : object, IQuantization Constructors | Improve this Doc View Source FixedPaletteQuantization(IPalette) Declaration public FixedPaletteQuantization(IPalette palette) Parameters Type Name Description IPalette palette Properties | Improve this Doc View Source FirstAsTransparent Declaration public bool FirstAsTransparent { get; set; } Property Value Type Description Boolean Methods | Improve this Doc View Source Quantize(Rgb[]) Declaration public (IndexedPixel[], IPaletteCollection) Quantize(Rgb[] pixels) Parameters Type Name Description Rgb [] pixels Returns Type Description ValueTuple < IndexedPixel [], IPaletteCollection > Implements IQuantization"
+  },
+  "api/Texim.Processing.html": {
+    "href": "api/Texim.Processing.html",
+    "title": "Namespace Texim.Processing | Texim extensible image API",
+    "keywords": "Namespace Texim.Processing Classes ExhaustiveColorSearch FixedPaletteQuantization MedianCutQuantization Quantization Interfaces IQuantization"
+  },
+  "api/Texim.Processing.IQuantization.html": {
+    "href": "api/Texim.Processing.IQuantization.html",
+    "title": "Interface IQuantization | Texim extensible image API",
+    "keywords": "Interface IQuantization Namespace : Texim.Processing Assembly : Texim.dll Syntax public interface IQuantization Methods | Improve this Doc View Source Quantize(Rgb[]) Declaration (IndexedPixel[], IPaletteCollection) Quantize(Rgb[] pixels) Parameters Type Name Description Rgb [] pixels Returns Type Description ValueTuple < IndexedPixel [], IPaletteCollection >"
+  },
+  "api/Texim.Processing.MedianCutQuantization.html": {
+    "href": "api/Texim.Processing.MedianCutQuantization.html",
+    "title": "Class MedianCutQuantization | Texim extensible image API",
+    "keywords": "Class MedianCutQuantization Inheritance Object MedianCutQuantization Implements IQuantization Namespace : Texim.Processing Assembly : Texim.dll Syntax public class MedianCutQuantization : object, IQuantization Constructors | Improve this Doc View Source MedianCutQuantization(Int32) Declaration public MedianCutQuantization(int maxColors) Parameters Type Name Description Int32 maxColors Properties | Improve this Doc View Source MaxColors Declaration public int MaxColors { get; } Property Value Type Description Int32 Methods | Improve this Doc View Source Quantize(Rgb[]) Declaration public (IndexedPixel[], IPaletteCollection) Quantize(Rgb[] pixels) Parameters Type Name Description Rgb [] pixels Returns Type Description ValueTuple < IndexedPixel [], IPaletteCollection > Implements IQuantization"
+  },
+  "api/Texim.Processing.Quantization.html": {
+    "href": "api/Texim.Processing.Quantization.html",
+    "title": "Class Quantization | Texim extensible image API",
+    "keywords": "Class Quantization Inheritance Object Quantization Implements IQuantization Namespace : Texim.Processing Assembly : Texim.dll Syntax public class Quantization : object, IQuantization Properties | Improve this Doc View Source AlphaColor Declaration public Rgb AlphaColor { get; set; } Property Value Type Description Rgb | Improve this Doc View Source FirstAsTransparent Declaration public bool FirstAsTransparent { get; set; } Property Value Type Description Boolean Methods | Improve this Doc View Source Quantize(Rgb[]) Declaration public (IndexedPixel[], IPaletteCollection) Quantize(Rgb[] pixels) Parameters Type Name Description Rgb [] pixels Returns Type Description ValueTuple < IndexedPixel [], IPaletteCollection > Implements IQuantization"
+  },
   "CONTRIBUTING.html": {
     "href": "CONTRIBUTING.html",
     "title": "Contributing to the project | Texim extensible image API",
@@ -207,7 +252,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (April 09, 2021) | Texim extensible image API",
-    "keywords": "vNext (April 09, 2021) As part of this release we had 10 issues closed. Breaking #8 Remove old API Bug #9 Fix warnings and issues Enhancements #10 Implement NCGR format #7 Re-implementation of image API #6 Implement NCLR palette format #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
+    "keywords": "vNext (April 09, 2021) As part of this release we had 11 issues closed. Breaking #8 Remove old API Bug #9 Fix warnings and issues Enhancements #11 Implement color quantization API, algorithms and importers #10 Implement NCGR format #7 Re-implementation of image API #6 Implement NCLR palette format #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
