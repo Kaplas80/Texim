@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FullImage2IndexedPalette
+    <title>Class RawPaletteParams
    | Texim extensible image API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FullImage2IndexedPalette
+    <meta name="title" content="Class RawPaletteParams
    | Texim extensible image API ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -323,63 +323,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Texim.Images.FullImage2IndexedPalette">
+            <article class="content wrap" id="_content" data-uid="Texim.Formats.RawPaletteParams">
   
   
-  <h1 id="Texim_Images_FullImage2IndexedPalette" data-uid="Texim.Images.FullImage2IndexedPalette" class="text-break">Class FullImage2IndexedPalette
+  <h1 id="Texim_Formats_RawPaletteParams" data-uid="Texim.Formats.RawPaletteParams" class="text-break">Class RawPaletteParams
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">FullImage2IndexedPalette</span></div>
+    <div class="level1"><span class="xref">RawPaletteParams</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IConverter</span>&lt;<a class="xref" href="Texim.Images.IFullImage.html">IFullImage</a>, <a class="xref" href="Texim.Images.IndexedPaletteImage.html">IndexedPaletteImage</a>&gt;</div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Images.html">Texim.Images</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Formats.html">Texim.Formats</a></h6>
   <h6><strong>Assembly</strong>: Texim.dll</h6>
-  <h5 id="Texim_Images_FullImage2IndexedPalette_syntax">Syntax</h5>
+  <h5 id="Texim_Formats_RawPaletteParams_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FullImage2IndexedPalette : IInitializer&lt;IQuantization&gt;, IConverter&lt;IFullImage, IndexedPaletteImage&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class RawPaletteParams : object</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Images_FullImage2IndexedPalette_Convert_Texim_Images_IFullImage_.md&amp;value=---%0Auid%3A%20Texim.Images.FullImage2IndexedPalette.Convert(Texim.Images.IFullImage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Formats_RawPaletteParams_ColorEncoding.md&amp;value=---%0Auid%3A%20Texim.Formats.RawPaletteParams.ColorEncoding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Images/FullImage2IndexedPalette.cs/#L38">View Source</a>
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Formats/RawPaletteParams.cs/#L36">View Source</a>
   </span>
-  <a id="Texim_Images_FullImage2IndexedPalette_Convert_" data-uid="Texim.Images.FullImage2IndexedPalette.Convert*"></a>
-  <h4 id="Texim_Images_FullImage2IndexedPalette_Convert_Texim_Images_IFullImage_" data-uid="Texim.Images.FullImage2IndexedPalette.Convert(Texim.Images.IFullImage)">Convert(IFullImage)</h4>
+  <a id="Texim_Formats_RawPaletteParams_ColorEncoding_" data-uid="Texim.Formats.RawPaletteParams.ColorEncoding*"></a>
+  <h4 id="Texim_Formats_RawPaletteParams_ColorEncoding" data-uid="Texim.Formats.RawPaletteParams.ColorEncoding">ColorEncoding</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IndexedPaletteImage Convert(IFullImage source)</code></pre>
+    <pre><code class="lang-csharp hljs">public IColorEncoding ColorEncoding { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Images.IFullImage.html">IFullImage</a></td>
-        <td><span class="parametername">source</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -389,47 +368,101 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Texim.Images.IndexedPaletteImage.html">IndexedPaletteImage</a></td>
+        <td><a class="xref" href="Texim.Colors.IColorEncoding.html">IColorEncoding</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Images_FullImage2IndexedPalette_Initialize_Texim_Processing_IQuantization_.md&amp;value=---%0Auid%3A%20Texim.Images.FullImage2IndexedPalette.Initialize(Texim.Processing.IQuantization)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Formats_RawPaletteParams_Default.md&amp;value=---%0Auid%3A%20Texim.Formats.RawPaletteParams.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Images/FullImage2IndexedPalette.cs/#L33">View Source</a>
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Formats/RawPaletteParams.cs/#L26">View Source</a>
   </span>
-  <a id="Texim_Images_FullImage2IndexedPalette_Initialize_" data-uid="Texim.Images.FullImage2IndexedPalette.Initialize*"></a>
-  <h4 id="Texim_Images_FullImage2IndexedPalette_Initialize_Texim_Processing_IQuantization_" data-uid="Texim.Images.FullImage2IndexedPalette.Initialize(Texim.Processing.IQuantization)">Initialize(IQuantization)</h4>
+  <a id="Texim_Formats_RawPaletteParams_Default_" data-uid="Texim.Formats.RawPaletteParams.Default*"></a>
+  <h4 id="Texim_Formats_RawPaletteParams_Default" data-uid="Texim.Formats.RawPaletteParams.Default">Default</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(IQuantization parameters)</code></pre>
+    <pre><code class="lang-csharp hljs">public static RawPaletteParams Default { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Texim.Processing.IQuantization.html">IQuantization</a></td>
-        <td><span class="parametername">parameters</span></td>
+        <td><a class="xref" href="Texim.Formats.RawPaletteParams.html">RawPaletteParams</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IConverter&lt;, &gt;</span>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Formats_RawPaletteParams_Offset.md&amp;value=---%0Auid%3A%20Texim.Formats.RawPaletteParams.Offset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Formats/RawPaletteParams.cs/#L32">View Source</a>
+  </span>
+  <a id="Texim_Formats_RawPaletteParams_Offset_" data-uid="Texim.Formats.RawPaletteParams.Offset*"></a>
+  <h4 id="Texim_Formats_RawPaletteParams_Offset" data-uid="Texim.Formats.RawPaletteParams.Offset">Offset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Offset { get; set; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Formats_RawPaletteParams_Size.md&amp;value=---%0Auid%3A%20Texim.Formats.RawPaletteParams.Size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Formats/RawPaletteParams.cs/#L34">View Source</a>
+  </span>
+  <a id="Texim_Formats_RawPaletteParams_Size_" data-uid="Texim.Formats.RawPaletteParams.Size*"></a>
+  <h4 id="Texim_Formats_RawPaletteParams_Size" data-uid="Texim.Formats.RawPaletteParams.Size">Size</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Size { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -438,10 +471,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Images_FullImage2IndexedPalette.md&amp;value=---%0Auid%3A%20Texim.Images.FullImage2IndexedPalette%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SceneGate/Texim/new/main/docs/apidoc/new?filename=Texim_Formats_RawPaletteParams.md&amp;value=---%0Auid%3A%20Texim.Formats.RawPaletteParams%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Images/FullImage2IndexedPalette.cs/#L28" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SceneGate/Texim/blob/main/src/Texim/Formats/RawPaletteParams.cs/#L24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

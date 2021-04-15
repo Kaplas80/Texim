@@ -532,64 +532,57 @@ references:
   commentId: N:Texim.Compressions.Nitro
   fullName: Texim.Compressions.Nitro
   nameWithType: Texim.Compressions.Nitro
-- uid: Texim.Compressions.Nitro.IndexedMapImage
-  name: IndexedMapImage
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html
-  commentId: T:Texim.Compressions.Nitro.IndexedMapImage
-  fullName: Texim.Compressions.Nitro.IndexedMapImage
-  nameWithType: IndexedMapImage
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Height
-  name: Height
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Height
-  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Height
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Height
-  nameWithType: IndexedMapImage.Height
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Height*
-  name: Height
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Height_
-  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Height
+- uid: Texim.Compressions.Nitro.FullImageMapCompression
+  name: FullImageMapCompression
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html
+  commentId: T:Texim.Compressions.Nitro.FullImageMapCompression
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression
+  nameWithType: FullImageMapCompression
+- uid: Texim.Compressions.Nitro.FullImageMapCompression.Convert(Texim.Images.IFullImage)
+  name: Convert(IFullImage)
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Convert_Texim_Images_IFullImage_
+  commentId: M:Texim.Compressions.Nitro.FullImageMapCompression.Convert(Texim.Images.IFullImage)
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression.Convert(Texim.Images.IFullImage)
+  nameWithType: FullImageMapCompression.Convert(IFullImage)
+- uid: Texim.Compressions.Nitro.FullImageMapCompression.Convert*
+  name: Convert
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Convert_
+  commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompression.Convert
   isSpec: "True"
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Height
-  nameWithType: IndexedMapImage.Height
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Maps
-  name: Maps
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Maps
-  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Maps
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Maps
-  nameWithType: IndexedMapImage.Maps
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Maps*
-  name: Maps
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Maps_
-  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Maps
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression.Convert
+  nameWithType: FullImageMapCompression.Convert
+- uid: Texim.Compressions.Nitro.FullImageMapCompression.Initialize(Texim.Compressions.Nitro.FullImageMapCompressionParams)
+  name: Initialize(FullImageMapCompressionParams)
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Initialize_Texim_Compressions_Nitro_FullImageMapCompressionParams_
+  commentId: M:Texim.Compressions.Nitro.FullImageMapCompression.Initialize(Texim.Compressions.Nitro.FullImageMapCompressionParams)
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression.Initialize(Texim.Compressions.Nitro.FullImageMapCompressionParams)
+  nameWithType: FullImageMapCompression.Initialize(FullImageMapCompressionParams)
+- uid: Texim.Compressions.Nitro.FullImageMapCompression.Initialize*
+  name: Initialize
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Initialize_
+  commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompression.Initialize
   isSpec: "True"
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Maps
-  nameWithType: IndexedMapImage.Maps
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Pixels
-  name: Pixels
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Pixels
-  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Pixels
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Pixels
-  nameWithType: IndexedMapImage.Pixels
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Pixels*
-  name: Pixels
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Pixels_
-  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Pixels
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression.Initialize
+  nameWithType: FullImageMapCompression.Initialize
+- uid: Texim.Compressions.Nitro.FullImageMapCompressionParams
+  name: FullImageMapCompressionParams
+  href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html
+  commentId: T:Texim.Compressions.Nitro.FullImageMapCompressionParams
+  fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams
+  nameWithType: FullImageMapCompressionParams
+- uid: Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
+  name: Palettes
+  href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html#Texim_Compressions_Nitro_FullImageMapCompressionParams_Palettes
+  commentId: P:Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
+  fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
+  nameWithType: FullImageMapCompressionParams.Palettes
+- uid: Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes*
+  name: Palettes
+  href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html#Texim_Compressions_Nitro_FullImageMapCompressionParams_Palettes_
+  commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
   isSpec: "True"
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Pixels
-  nameWithType: IndexedMapImage.Pixels
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Width
-  name: Width
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Width
-  commentId: P:Texim.Compressions.Nitro.IndexedMapImage.Width
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Width
-  nameWithType: IndexedMapImage.Width
-- uid: Texim.Compressions.Nitro.IndexedMapImage.Width*
-  name: Width
-  href: api/Texim.Compressions.Nitro.IndexedMapImage.html#Texim_Compressions_Nitro_IndexedMapImage_Width_
-  commentId: Overload:Texim.Compressions.Nitro.IndexedMapImage.Width
-  isSpec: "True"
-  fullName: Texim.Compressions.Nitro.IndexedMapImage.Width
-  nameWithType: IndexedMapImage.Width
+  fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
+  nameWithType: FullImageMapCompressionParams.Palettes
 - uid: Texim.Compressions.Nitro.IOExtensions
   name: IOExtensions
   href: api/Texim.Compressions.Nitro.IOExtensions.html
@@ -708,12 +701,12 @@ references:
   isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapCompression.Convert
   nameWithType: MapCompression.Convert
-- uid: Texim.Compressions.Nitro.MapCompression.Initialize(Size)
-  name: Initialize(Size)
-  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Initialize_Size_
-  commentId: M:Texim.Compressions.Nitro.MapCompression.Initialize(Size)
-  fullName: Texim.Compressions.Nitro.MapCompression.Initialize(Size)
-  nameWithType: MapCompression.Initialize(Size)
+- uid: Texim.Compressions.Nitro.MapCompression.Initialize(Texim.Compressions.Nitro.MapCompressionParams)
+  name: Initialize(MapCompressionParams)
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Initialize_Texim_Compressions_Nitro_MapCompressionParams_
+  commentId: M:Texim.Compressions.Nitro.MapCompression.Initialize(Texim.Compressions.Nitro.MapCompressionParams)
+  fullName: Texim.Compressions.Nitro.MapCompression.Initialize(Texim.Compressions.Nitro.MapCompressionParams)
+  nameWithType: MapCompression.Initialize(MapCompressionParams)
 - uid: Texim.Compressions.Nitro.MapCompression.Initialize*
   name: Initialize
   href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Initialize_
@@ -721,6 +714,38 @@ references:
   isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapCompression.Initialize
   nameWithType: MapCompression.Initialize
+- uid: Texim.Compressions.Nitro.MapCompressionParams
+  name: MapCompressionParams
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html
+  commentId: T:Texim.Compressions.Nitro.MapCompressionParams
+  fullName: Texim.Compressions.Nitro.MapCompressionParams
+  nameWithType: MapCompressionParams
+- uid: Texim.Compressions.Nitro.MapCompressionParams.MergeImage
+  name: MergeImage
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_MergeImage
+  commentId: P:Texim.Compressions.Nitro.MapCompressionParams.MergeImage
+  fullName: Texim.Compressions.Nitro.MapCompressionParams.MergeImage
+  nameWithType: MapCompressionParams.MergeImage
+- uid: Texim.Compressions.Nitro.MapCompressionParams.MergeImage*
+  name: MergeImage
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_MergeImage_
+  commentId: Overload:Texim.Compressions.Nitro.MapCompressionParams.MergeImage
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapCompressionParams.MergeImage
+  nameWithType: MapCompressionParams.MergeImage
+- uid: Texim.Compressions.Nitro.MapCompressionParams.TileSize
+  name: TileSize
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_TileSize
+  commentId: P:Texim.Compressions.Nitro.MapCompressionParams.TileSize
+  fullName: Texim.Compressions.Nitro.MapCompressionParams.TileSize
+  nameWithType: MapCompressionParams.TileSize
+- uid: Texim.Compressions.Nitro.MapCompressionParams.TileSize*
+  name: TileSize
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_TileSize_
+  commentId: Overload:Texim.Compressions.Nitro.MapCompressionParams.TileSize
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapCompressionParams.TileSize
+  nameWithType: MapCompressionParams.TileSize
 - uid: Texim.Compressions.Nitro.MapDecompression
   name: MapDecompression
   href: api/Texim.Compressions.Nitro.MapDecompression.html
@@ -749,12 +774,12 @@ references:
   isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompression.Convert
   nameWithType: MapDecompression.Convert
-- uid: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParameters)
-  name: Initialize(MapDecompressionParameters)
-  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Initialize_Texim_Compressions_Nitro_MapDecompressionParameters_
-  commentId: M:Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParameters)
-  fullName: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParameters)
-  nameWithType: MapDecompression.Initialize(MapDecompressionParameters)
+- uid: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParams)
+  name: Initialize(MapDecompressionParams)
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Initialize_Texim_Compressions_Nitro_MapDecompressionParams_
+  commentId: M:Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParams)
+  fullName: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParams)
+  nameWithType: MapDecompression.Initialize(MapDecompressionParams)
 - uid: Texim.Compressions.Nitro.MapDecompression.Initialize*
   name: Initialize
   href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Initialize_
@@ -762,38 +787,38 @@ references:
   isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompression.Initialize
   nameWithType: MapDecompression.Initialize
-- uid: Texim.Compressions.Nitro.MapDecompressionParameters
-  name: MapDecompressionParameters
-  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html
-  commentId: T:Texim.Compressions.Nitro.MapDecompressionParameters
-  fullName: Texim.Compressions.Nitro.MapDecompressionParameters
-  nameWithType: MapDecompressionParameters
-- uid: Texim.Compressions.Nitro.MapDecompressionParameters.Map
+- uid: Texim.Compressions.Nitro.MapDecompressionParams
+  name: MapDecompressionParams
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html
+  commentId: T:Texim.Compressions.Nitro.MapDecompressionParams
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams
+  nameWithType: MapDecompressionParams
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.Map
   name: Map
-  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_Map
-  commentId: P:Texim.Compressions.Nitro.MapDecompressionParameters.Map
-  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.Map
-  nameWithType: MapDecompressionParameters.Map
-- uid: Texim.Compressions.Nitro.MapDecompressionParameters.Map*
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_Map
+  commentId: P:Texim.Compressions.Nitro.MapDecompressionParams.Map
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.Map
+  nameWithType: MapDecompressionParams.Map
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.Map*
   name: Map
-  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_Map_
-  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParameters.Map
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_Map_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.Map
   isSpec: "True"
-  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.Map
-  nameWithType: MapDecompressionParameters.Map
-- uid: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.Map
+  nameWithType: MapDecompressionParams.Map
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.TileSize
   name: TileSize
-  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_TileSize
-  commentId: P:Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
-  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
-  nameWithType: MapDecompressionParameters.TileSize
-- uid: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize*
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_TileSize
+  commentId: P:Texim.Compressions.Nitro.MapDecompressionParams.TileSize
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.TileSize
+  nameWithType: MapDecompressionParams.TileSize
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.TileSize*
   name: TileSize
-  href: api/Texim.Compressions.Nitro.MapDecompressionParameters.html#Texim_Compressions_Nitro_MapDecompressionParameters_TileSize_
-  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_TileSize_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.TileSize
   isSpec: "True"
-  fullName: Texim.Compressions.Nitro.MapDecompressionParameters.TileSize
-  nameWithType: MapDecompressionParameters.TileSize
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.TileSize
+  nameWithType: MapDecompressionParams.TileSize
 - uid: Texim.Compressions.Nitro.MapInfo
   name: MapInfo
   href: api/Texim.Compressions.Nitro.MapInfo.html
@@ -812,6 +837,12 @@ references:
   commentId: M:Texim.Compressions.Nitro.MapInfo.#ctor(System.Int16)
   fullName: Texim.Compressions.Nitro.MapInfo.MapInfo(System.Int16)
   nameWithType: MapInfo.MapInfo(Int16)
+- uid: Texim.Compressions.Nitro.MapInfo.#ctor(System.UInt16)
+  name: MapInfo(UInt16)
+  href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo__ctor_System_UInt16_
+  commentId: M:Texim.Compressions.Nitro.MapInfo.#ctor(System.UInt16)
+  fullName: Texim.Compressions.Nitro.MapInfo.MapInfo(System.UInt16)
+  nameWithType: MapInfo.MapInfo(UInt16)
 - uid: Texim.Compressions.Nitro.MapInfo.#ctor*
   name: MapInfo
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo__ctor_
@@ -1048,147 +1079,115 @@ references:
   isSpec: "True"
   fullName: Texim.Formats.Bitmap2FullImage.Convert
   nameWithType: Bitmap2FullImage.Convert
-- uid: Texim.Formats.FullImage2BinaryBitmap
-  name: FullImage2BinaryBitmap
-  href: api/Texim.Formats.FullImage2BinaryBitmap.html
-  commentId: T:Texim.Formats.FullImage2BinaryBitmap
-  fullName: Texim.Formats.FullImage2BinaryBitmap
-  nameWithType: FullImage2BinaryBitmap
-- uid: Texim.Formats.FullImage2BinaryBitmap.Convert(Texim.Images.IFullImage)
+- uid: Texim.Formats.FullImage2Bitmap
+  name: FullImage2Bitmap
+  href: api/Texim.Formats.FullImage2Bitmap.html
+  commentId: T:Texim.Formats.FullImage2Bitmap
+  fullName: Texim.Formats.FullImage2Bitmap
+  nameWithType: FullImage2Bitmap
+- uid: Texim.Formats.FullImage2Bitmap.Convert(Texim.Images.IFullImage)
   name: Convert(IFullImage)
-  href: api/Texim.Formats.FullImage2BinaryBitmap.html#Texim_Formats_FullImage2BinaryBitmap_Convert_Texim_Images_IFullImage_
-  commentId: M:Texim.Formats.FullImage2BinaryBitmap.Convert(Texim.Images.IFullImage)
-  fullName: Texim.Formats.FullImage2BinaryBitmap.Convert(Texim.Images.IFullImage)
-  nameWithType: FullImage2BinaryBitmap.Convert(IFullImage)
-- uid: Texim.Formats.FullImage2BinaryBitmap.Convert*
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Convert_Texim_Images_IFullImage_
+  commentId: M:Texim.Formats.FullImage2Bitmap.Convert(Texim.Images.IFullImage)
+  fullName: Texim.Formats.FullImage2Bitmap.Convert(Texim.Images.IFullImage)
+  nameWithType: FullImage2Bitmap.Convert(IFullImage)
+- uid: Texim.Formats.FullImage2Bitmap.Convert*
   name: Convert
-  href: api/Texim.Formats.FullImage2BinaryBitmap.html#Texim_Formats_FullImage2BinaryBitmap_Convert_
-  commentId: Overload:Texim.Formats.FullImage2BinaryBitmap.Convert
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Convert_
+  commentId: Overload:Texim.Formats.FullImage2Bitmap.Convert
   isSpec: "True"
-  fullName: Texim.Formats.FullImage2BinaryBitmap.Convert
-  nameWithType: FullImage2BinaryBitmap.Convert
-- uid: Texim.Formats.FullImage2BinaryBitmap.Initialize(ImageFormat)
+  fullName: Texim.Formats.FullImage2Bitmap.Convert
+  nameWithType: FullImage2Bitmap.Convert
+- uid: Texim.Formats.FullImage2Bitmap.Initialize(ImageFormat)
   name: Initialize(ImageFormat)
-  href: api/Texim.Formats.FullImage2BinaryBitmap.html#Texim_Formats_FullImage2BinaryBitmap_Initialize_ImageFormat_
-  commentId: M:Texim.Formats.FullImage2BinaryBitmap.Initialize(ImageFormat)
-  fullName: Texim.Formats.FullImage2BinaryBitmap.Initialize(ImageFormat)
-  nameWithType: FullImage2BinaryBitmap.Initialize(ImageFormat)
-- uid: Texim.Formats.FullImage2BinaryBitmap.Initialize*
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Initialize_ImageFormat_
+  commentId: M:Texim.Formats.FullImage2Bitmap.Initialize(ImageFormat)
+  fullName: Texim.Formats.FullImage2Bitmap.Initialize(ImageFormat)
+  nameWithType: FullImage2Bitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.FullImage2Bitmap.Initialize*
   name: Initialize
-  href: api/Texim.Formats.FullImage2BinaryBitmap.html#Texim_Formats_FullImage2BinaryBitmap_Initialize_
-  commentId: Overload:Texim.Formats.FullImage2BinaryBitmap.Initialize
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Initialize_
+  commentId: Overload:Texim.Formats.FullImage2Bitmap.Initialize
   isSpec: "True"
-  fullName: Texim.Formats.FullImage2BinaryBitmap.Initialize
-  nameWithType: FullImage2BinaryBitmap.Initialize
-- uid: Texim.Formats.IndexedImage2BinaryBitmap
-  name: IndexedImage2BinaryBitmap
-  href: api/Texim.Formats.IndexedImage2BinaryBitmap.html
-  commentId: T:Texim.Formats.IndexedImage2BinaryBitmap
-  fullName: Texim.Formats.IndexedImage2BinaryBitmap
-  nameWithType: IndexedImage2BinaryBitmap
-- uid: Texim.Formats.IndexedImage2BinaryBitmap.Convert(Texim.Images.IIndexedImage)
+  fullName: Texim.Formats.FullImage2Bitmap.Initialize
+  nameWithType: FullImage2Bitmap.Initialize
+- uid: Texim.Formats.IndexedImage2Bitmap
+  name: IndexedImage2Bitmap
+  href: api/Texim.Formats.IndexedImage2Bitmap.html
+  commentId: T:Texim.Formats.IndexedImage2Bitmap
+  fullName: Texim.Formats.IndexedImage2Bitmap
+  nameWithType: IndexedImage2Bitmap
+- uid: Texim.Formats.IndexedImage2Bitmap.Convert(Texim.Images.IIndexedImage)
   name: Convert(IIndexedImage)
-  href: api/Texim.Formats.IndexedImage2BinaryBitmap.html#Texim_Formats_IndexedImage2BinaryBitmap_Convert_Texim_Images_IIndexedImage_
-  commentId: M:Texim.Formats.IndexedImage2BinaryBitmap.Convert(Texim.Images.IIndexedImage)
-  fullName: Texim.Formats.IndexedImage2BinaryBitmap.Convert(Texim.Images.IIndexedImage)
-  nameWithType: IndexedImage2BinaryBitmap.Convert(IIndexedImage)
-- uid: Texim.Formats.IndexedImage2BinaryBitmap.Convert*
+  href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Convert_Texim_Images_IIndexedImage_
+  commentId: M:Texim.Formats.IndexedImage2Bitmap.Convert(Texim.Images.IIndexedImage)
+  fullName: Texim.Formats.IndexedImage2Bitmap.Convert(Texim.Images.IIndexedImage)
+  nameWithType: IndexedImage2Bitmap.Convert(IIndexedImage)
+- uid: Texim.Formats.IndexedImage2Bitmap.Convert*
   name: Convert
-  href: api/Texim.Formats.IndexedImage2BinaryBitmap.html#Texim_Formats_IndexedImage2BinaryBitmap_Convert_
-  commentId: Overload:Texim.Formats.IndexedImage2BinaryBitmap.Convert
+  href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Convert_
+  commentId: Overload:Texim.Formats.IndexedImage2Bitmap.Convert
   isSpec: "True"
-  fullName: Texim.Formats.IndexedImage2BinaryBitmap.Convert
-  nameWithType: IndexedImage2BinaryBitmap.Convert
-- uid: Texim.Formats.IndexedImage2BinaryBitmap.Initialize(Texim.Formats.IndexedImageBitmapParameters)
-  name: Initialize(IndexedImageBitmapParameters)
-  href: api/Texim.Formats.IndexedImage2BinaryBitmap.html#Texim_Formats_IndexedImage2BinaryBitmap_Initialize_Texim_Formats_IndexedImageBitmapParameters_
-  commentId: M:Texim.Formats.IndexedImage2BinaryBitmap.Initialize(Texim.Formats.IndexedImageBitmapParameters)
-  fullName: Texim.Formats.IndexedImage2BinaryBitmap.Initialize(Texim.Formats.IndexedImageBitmapParameters)
-  nameWithType: IndexedImage2BinaryBitmap.Initialize(IndexedImageBitmapParameters)
-- uid: Texim.Formats.IndexedImage2BinaryBitmap.Initialize*
+  fullName: Texim.Formats.IndexedImage2Bitmap.Convert
+  nameWithType: IndexedImage2Bitmap.Convert
+- uid: Texim.Formats.IndexedImage2Bitmap.Initialize(Texim.Formats.IndexedImageBitmapParams)
+  name: Initialize(IndexedImageBitmapParams)
+  href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Initialize_Texim_Formats_IndexedImageBitmapParams_
+  commentId: M:Texim.Formats.IndexedImage2Bitmap.Initialize(Texim.Formats.IndexedImageBitmapParams)
+  fullName: Texim.Formats.IndexedImage2Bitmap.Initialize(Texim.Formats.IndexedImageBitmapParams)
+  nameWithType: IndexedImage2Bitmap.Initialize(IndexedImageBitmapParams)
+- uid: Texim.Formats.IndexedImage2Bitmap.Initialize*
   name: Initialize
-  href: api/Texim.Formats.IndexedImage2BinaryBitmap.html#Texim_Formats_IndexedImage2BinaryBitmap_Initialize_
-  commentId: Overload:Texim.Formats.IndexedImage2BinaryBitmap.Initialize
+  href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Initialize_
+  commentId: Overload:Texim.Formats.IndexedImage2Bitmap.Initialize
   isSpec: "True"
-  fullName: Texim.Formats.IndexedImage2BinaryBitmap.Initialize
-  nameWithType: IndexedImage2BinaryBitmap.Initialize
-- uid: Texim.Formats.IndexedImageBitmapParameters
-  name: IndexedImageBitmapParameters
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html
-  commentId: T:Texim.Formats.IndexedImageBitmapParameters
-  fullName: Texim.Formats.IndexedImageBitmapParameters
-  nameWithType: IndexedImageBitmapParameters
-- uid: Texim.Formats.IndexedImageBitmapParameters.Format
+  fullName: Texim.Formats.IndexedImage2Bitmap.Initialize
+  nameWithType: IndexedImage2Bitmap.Initialize
+- uid: Texim.Formats.IndexedImageBitmapParams
+  name: IndexedImageBitmapParams
+  href: api/Texim.Formats.IndexedImageBitmapParams.html
+  commentId: T:Texim.Formats.IndexedImageBitmapParams
+  fullName: Texim.Formats.IndexedImageBitmapParams
+  nameWithType: IndexedImageBitmapParams
+- uid: Texim.Formats.IndexedImageBitmapParams.Format
   name: Format
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html#Texim_Formats_IndexedImageBitmapParameters_Format
-  commentId: P:Texim.Formats.IndexedImageBitmapParameters.Format
-  fullName: Texim.Formats.IndexedImageBitmapParameters.Format
-  nameWithType: IndexedImageBitmapParameters.Format
-- uid: Texim.Formats.IndexedImageBitmapParameters.Format*
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Format
+  commentId: P:Texim.Formats.IndexedImageBitmapParams.Format
+  fullName: Texim.Formats.IndexedImageBitmapParams.Format
+  nameWithType: IndexedImageBitmapParams.Format
+- uid: Texim.Formats.IndexedImageBitmapParams.Format*
   name: Format
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html#Texim_Formats_IndexedImageBitmapParameters_Format_
-  commentId: Overload:Texim.Formats.IndexedImageBitmapParameters.Format
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Format_
+  commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Format
   isSpec: "True"
-  fullName: Texim.Formats.IndexedImageBitmapParameters.Format
-  nameWithType: IndexedImageBitmapParameters.Format
-- uid: Texim.Formats.IndexedImageBitmapParameters.Palette
+  fullName: Texim.Formats.IndexedImageBitmapParams.Format
+  nameWithType: IndexedImageBitmapParams.Format
+- uid: Texim.Formats.IndexedImageBitmapParams.Palette
   name: Palette
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html#Texim_Formats_IndexedImageBitmapParameters_Palette
-  commentId: P:Texim.Formats.IndexedImageBitmapParameters.Palette
-  fullName: Texim.Formats.IndexedImageBitmapParameters.Palette
-  nameWithType: IndexedImageBitmapParameters.Palette
-- uid: Texim.Formats.IndexedImageBitmapParameters.Palette*
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palette
+  commentId: P:Texim.Formats.IndexedImageBitmapParams.Palette
+  fullName: Texim.Formats.IndexedImageBitmapParams.Palette
+  nameWithType: IndexedImageBitmapParams.Palette
+- uid: Texim.Formats.IndexedImageBitmapParams.Palette*
   name: Palette
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html#Texim_Formats_IndexedImageBitmapParameters_Palette_
-  commentId: Overload:Texim.Formats.IndexedImageBitmapParameters.Palette
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palette_
+  commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Palette
   isSpec: "True"
-  fullName: Texim.Formats.IndexedImageBitmapParameters.Palette
-  nameWithType: IndexedImageBitmapParameters.Palette
-- uid: Texim.Formats.IndexedImageBitmapParameters.Palettes
+  fullName: Texim.Formats.IndexedImageBitmapParams.Palette
+  nameWithType: IndexedImageBitmapParams.Palette
+- uid: Texim.Formats.IndexedImageBitmapParams.Palettes
   name: Palettes
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html#Texim_Formats_IndexedImageBitmapParameters_Palettes
-  commentId: P:Texim.Formats.IndexedImageBitmapParameters.Palettes
-  fullName: Texim.Formats.IndexedImageBitmapParameters.Palettes
-  nameWithType: IndexedImageBitmapParameters.Palettes
-- uid: Texim.Formats.IndexedImageBitmapParameters.Palettes*
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palettes
+  commentId: P:Texim.Formats.IndexedImageBitmapParams.Palettes
+  fullName: Texim.Formats.IndexedImageBitmapParams.Palettes
+  nameWithType: IndexedImageBitmapParams.Palettes
+- uid: Texim.Formats.IndexedImageBitmapParams.Palettes*
   name: Palettes
-  href: api/Texim.Formats.IndexedImageBitmapParameters.html#Texim_Formats_IndexedImageBitmapParameters_Palettes_
-  commentId: Overload:Texim.Formats.IndexedImageBitmapParameters.Palettes
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palettes_
+  commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Palettes
   isSpec: "True"
-  fullName: Texim.Formats.IndexedImageBitmapParameters.Palettes
-  nameWithType: IndexedImageBitmapParameters.Palettes
-- uid: Texim.Formats.Palette2BinaryBitmap
-  name: Palette2BinaryBitmap
-  href: api/Texim.Formats.Palette2BinaryBitmap.html
-  commentId: T:Texim.Formats.Palette2BinaryBitmap
-  fullName: Texim.Formats.Palette2BinaryBitmap
-  nameWithType: Palette2BinaryBitmap
-- uid: Texim.Formats.Palette2BinaryBitmap.Convert(Texim.Palettes.IPalette)
-  name: Convert(IPalette)
-  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Convert_Texim_Palettes_IPalette_
-  commentId: M:Texim.Formats.Palette2BinaryBitmap.Convert(Texim.Palettes.IPalette)
-  fullName: Texim.Formats.Palette2BinaryBitmap.Convert(Texim.Palettes.IPalette)
-  nameWithType: Palette2BinaryBitmap.Convert(IPalette)
-- uid: Texim.Formats.Palette2BinaryBitmap.Convert*
-  name: Convert
-  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Convert_
-  commentId: Overload:Texim.Formats.Palette2BinaryBitmap.Convert
-  isSpec: "True"
-  fullName: Texim.Formats.Palette2BinaryBitmap.Convert
-  nameWithType: Palette2BinaryBitmap.Convert
-- uid: Texim.Formats.Palette2BinaryBitmap.Initialize(ImageFormat)
-  name: Initialize(ImageFormat)
-  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Initialize_ImageFormat_
-  commentId: M:Texim.Formats.Palette2BinaryBitmap.Initialize(ImageFormat)
-  fullName: Texim.Formats.Palette2BinaryBitmap.Initialize(ImageFormat)
-  nameWithType: Palette2BinaryBitmap.Initialize(ImageFormat)
-- uid: Texim.Formats.Palette2BinaryBitmap.Initialize*
-  name: Initialize
-  href: api/Texim.Formats.Palette2BinaryBitmap.html#Texim_Formats_Palette2BinaryBitmap_Initialize_
-  commentId: Overload:Texim.Formats.Palette2BinaryBitmap.Initialize
-  isSpec: "True"
-  fullName: Texim.Formats.Palette2BinaryBitmap.Initialize
-  nameWithType: Palette2BinaryBitmap.Initialize
+  fullName: Texim.Formats.IndexedImageBitmapParams.Palettes
+  nameWithType: IndexedImageBitmapParams.Palettes
 - uid: Texim.Formats.Palette2BinaryRiff
   name: Palette2BinaryRiff
   href: api/Texim.Formats.Palette2BinaryRiff.html
@@ -1247,6 +1246,38 @@ references:
   isSpec: "True"
   fullName: Texim.Formats.Palette2BinaryRiff.Version
   nameWithType: Palette2BinaryRiff.Version
+- uid: Texim.Formats.Palette2Bitmap
+  name: Palette2Bitmap
+  href: api/Texim.Formats.Palette2Bitmap.html
+  commentId: T:Texim.Formats.Palette2Bitmap
+  fullName: Texim.Formats.Palette2Bitmap
+  nameWithType: Palette2Bitmap
+- uid: Texim.Formats.Palette2Bitmap.Convert(Texim.Palettes.IPalette)
+  name: Convert(IPalette)
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Convert_Texim_Palettes_IPalette_
+  commentId: M:Texim.Formats.Palette2Bitmap.Convert(Texim.Palettes.IPalette)
+  fullName: Texim.Formats.Palette2Bitmap.Convert(Texim.Palettes.IPalette)
+  nameWithType: Palette2Bitmap.Convert(IPalette)
+- uid: Texim.Formats.Palette2Bitmap.Convert*
+  name: Convert
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Convert_
+  commentId: Overload:Texim.Formats.Palette2Bitmap.Convert
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2Bitmap.Convert
+  nameWithType: Palette2Bitmap.Convert
+- uid: Texim.Formats.Palette2Bitmap.Initialize(ImageFormat)
+  name: Initialize(ImageFormat)
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Initialize_ImageFormat_
+  commentId: M:Texim.Formats.Palette2Bitmap.Initialize(ImageFormat)
+  fullName: Texim.Formats.Palette2Bitmap.Initialize(ImageFormat)
+  nameWithType: Palette2Bitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.Palette2Bitmap.Initialize*
+  name: Initialize
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Initialize_
+  commentId: Overload:Texim.Formats.Palette2Bitmap.Initialize
+  isSpec: "True"
+  fullName: Texim.Formats.Palette2Bitmap.Initialize
+  nameWithType: Palette2Bitmap.Initialize
 - uid: Texim.Formats.PaletteCollection2ContainerBitmap
   name: PaletteCollection2ContainerBitmap
   href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html
@@ -1298,12 +1329,12 @@ references:
   isSpec: "True"
   fullName: Texim.Formats.RawBinary2Palette.Convert
   nameWithType: RawBinary2Palette.Convert
-- uid: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParameters)
-  name: Initialize(RawPaletteParameters)
-  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_Texim_Formats_RawPaletteParameters_
-  commentId: M:Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParameters)
-  fullName: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParameters)
-  nameWithType: RawBinary2Palette.Initialize(RawPaletteParameters)
+- uid: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParams)
+  name: Initialize(RawPaletteParams)
+  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_Texim_Formats_RawPaletteParams_
+  commentId: M:Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParams)
+  fullName: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParams)
+  nameWithType: RawBinary2Palette.Initialize(RawPaletteParams)
 - uid: Texim.Formats.RawBinary2Palette.Initialize*
   name: Initialize
   href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_
@@ -1311,64 +1342,64 @@ references:
   isSpec: "True"
   fullName: Texim.Formats.RawBinary2Palette.Initialize
   nameWithType: RawBinary2Palette.Initialize
-- uid: Texim.Formats.RawPaletteParameters
-  name: RawPaletteParameters
-  href: api/Texim.Formats.RawPaletteParameters.html
-  commentId: T:Texim.Formats.RawPaletteParameters
-  fullName: Texim.Formats.RawPaletteParameters
-  nameWithType: RawPaletteParameters
-- uid: Texim.Formats.RawPaletteParameters.ColorEncoding
+- uid: Texim.Formats.RawPaletteParams
+  name: RawPaletteParams
+  href: api/Texim.Formats.RawPaletteParams.html
+  commentId: T:Texim.Formats.RawPaletteParams
+  fullName: Texim.Formats.RawPaletteParams
+  nameWithType: RawPaletteParams
+- uid: Texim.Formats.RawPaletteParams.ColorEncoding
   name: ColorEncoding
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_ColorEncoding
-  commentId: P:Texim.Formats.RawPaletteParameters.ColorEncoding
-  fullName: Texim.Formats.RawPaletteParameters.ColorEncoding
-  nameWithType: RawPaletteParameters.ColorEncoding
-- uid: Texim.Formats.RawPaletteParameters.ColorEncoding*
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorEncoding
+  commentId: P:Texim.Formats.RawPaletteParams.ColorEncoding
+  fullName: Texim.Formats.RawPaletteParams.ColorEncoding
+  nameWithType: RawPaletteParams.ColorEncoding
+- uid: Texim.Formats.RawPaletteParams.ColorEncoding*
   name: ColorEncoding
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_ColorEncoding_
-  commentId: Overload:Texim.Formats.RawPaletteParameters.ColorEncoding
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorEncoding_
+  commentId: Overload:Texim.Formats.RawPaletteParams.ColorEncoding
   isSpec: "True"
-  fullName: Texim.Formats.RawPaletteParameters.ColorEncoding
-  nameWithType: RawPaletteParameters.ColorEncoding
-- uid: Texim.Formats.RawPaletteParameters.Default
+  fullName: Texim.Formats.RawPaletteParams.ColorEncoding
+  nameWithType: RawPaletteParams.ColorEncoding
+- uid: Texim.Formats.RawPaletteParams.Default
   name: Default
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Default
-  commentId: P:Texim.Formats.RawPaletteParameters.Default
-  fullName: Texim.Formats.RawPaletteParameters.Default
-  nameWithType: RawPaletteParameters.Default
-- uid: Texim.Formats.RawPaletteParameters.Default*
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Default
+  commentId: P:Texim.Formats.RawPaletteParams.Default
+  fullName: Texim.Formats.RawPaletteParams.Default
+  nameWithType: RawPaletteParams.Default
+- uid: Texim.Formats.RawPaletteParams.Default*
   name: Default
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Default_
-  commentId: Overload:Texim.Formats.RawPaletteParameters.Default
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Default_
+  commentId: Overload:Texim.Formats.RawPaletteParams.Default
   isSpec: "True"
-  fullName: Texim.Formats.RawPaletteParameters.Default
-  nameWithType: RawPaletteParameters.Default
-- uid: Texim.Formats.RawPaletteParameters.Offset
+  fullName: Texim.Formats.RawPaletteParams.Default
+  nameWithType: RawPaletteParams.Default
+- uid: Texim.Formats.RawPaletteParams.Offset
   name: Offset
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Offset
-  commentId: P:Texim.Formats.RawPaletteParameters.Offset
-  fullName: Texim.Formats.RawPaletteParameters.Offset
-  nameWithType: RawPaletteParameters.Offset
-- uid: Texim.Formats.RawPaletteParameters.Offset*
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Offset
+  commentId: P:Texim.Formats.RawPaletteParams.Offset
+  fullName: Texim.Formats.RawPaletteParams.Offset
+  nameWithType: RawPaletteParams.Offset
+- uid: Texim.Formats.RawPaletteParams.Offset*
   name: Offset
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Offset_
-  commentId: Overload:Texim.Formats.RawPaletteParameters.Offset
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Offset_
+  commentId: Overload:Texim.Formats.RawPaletteParams.Offset
   isSpec: "True"
-  fullName: Texim.Formats.RawPaletteParameters.Offset
-  nameWithType: RawPaletteParameters.Offset
-- uid: Texim.Formats.RawPaletteParameters.Size
+  fullName: Texim.Formats.RawPaletteParams.Offset
+  nameWithType: RawPaletteParams.Offset
+- uid: Texim.Formats.RawPaletteParams.Size
   name: Size
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Size
-  commentId: P:Texim.Formats.RawPaletteParameters.Size
-  fullName: Texim.Formats.RawPaletteParameters.Size
-  nameWithType: RawPaletteParameters.Size
-- uid: Texim.Formats.RawPaletteParameters.Size*
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Size
+  commentId: P:Texim.Formats.RawPaletteParams.Size
+  fullName: Texim.Formats.RawPaletteParams.Size
+  nameWithType: RawPaletteParams.Size
+- uid: Texim.Formats.RawPaletteParams.Size*
   name: Size
-  href: api/Texim.Formats.RawPaletteParameters.html#Texim_Formats_RawPaletteParameters_Size_
-  commentId: Overload:Texim.Formats.RawPaletteParameters.Size
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Size_
+  commentId: Overload:Texim.Formats.RawPaletteParams.Size
   isSpec: "True"
-  fullName: Texim.Formats.RawPaletteParameters.Size
-  nameWithType: RawPaletteParameters.Size
+  fullName: Texim.Formats.RawPaletteParams.Size
+  nameWithType: RawPaletteParams.Size
 - uid: Texim.Images
   name: Texim.Images
   href: api/Texim.Images.html
@@ -2594,6 +2625,15 @@ references:
   isSpec: "True"
   fullName: Texim.Processing.ExhaustiveColorSearch.ExhaustiveColorSearch
   nameWithType: ExhaustiveColorSearch.ExhaustiveColorSearch
+- uid: Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable{Texim.Colors.Rgb},Texim.Colors.Rgb)
+  name: Search(IEnumerable<Rgb>, Rgb)
+  href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch_Search_IEnumerable_Texim_Colors_Rgb__Texim_Colors_Rgb_
+  commentId: M:Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable{Texim.Colors.Rgb},Texim.Colors.Rgb)
+  name.vb: Search(IEnumerable(Of Rgb), Rgb)
+  fullName: Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable<Texim.Colors.Rgb>, Texim.Colors.Rgb)
+  fullName.vb: Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable(Of Texim.Colors.Rgb), Texim.Colors.Rgb)
+  nameWithType: ExhaustiveColorSearch.Search(IEnumerable<Rgb>, Rgb)
+  nameWithType.vb: ExhaustiveColorSearch.Search(IEnumerable(Of Rgb), Rgb)
 - uid: Texim.Processing.ExhaustiveColorSearch.Search(Texim.Colors.Rgb)
   name: Search(Rgb)
   href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch_Search_Texim_Colors_Rgb_
@@ -2655,6 +2695,54 @@ references:
   isSpec: "True"
   fullName: Texim.Processing.FixedPaletteQuantization.Quantize
   nameWithType: FixedPaletteQuantization.Quantize
+- uid: Texim.Processing.FixedPaletteTileQuantization
+  name: FixedPaletteTileQuantization
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html
+  commentId: T:Texim.Processing.FixedPaletteTileQuantization
+  fullName: Texim.Processing.FixedPaletteTileQuantization
+  nameWithType: FixedPaletteTileQuantization
+- uid: Texim.Processing.FixedPaletteTileQuantization.#ctor(Texim.Palettes.IPaletteCollection,Size,System.Int32)
+  name: FixedPaletteTileQuantization(IPaletteCollection, Size, Int32)
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization__ctor_Texim_Palettes_IPaletteCollection_Size_System_Int32_
+  commentId: M:Texim.Processing.FixedPaletteTileQuantization.#ctor(Texim.Palettes.IPaletteCollection,Size,System.Int32)
+  fullName: Texim.Processing.FixedPaletteTileQuantization.FixedPaletteTileQuantization(Texim.Palettes.IPaletteCollection, Size, System.Int32)
+  nameWithType: FixedPaletteTileQuantization.FixedPaletteTileQuantization(IPaletteCollection, Size, Int32)
+- uid: Texim.Processing.FixedPaletteTileQuantization.#ctor*
+  name: FixedPaletteTileQuantization
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization__ctor_
+  commentId: Overload:Texim.Processing.FixedPaletteTileQuantization.#ctor
+  isSpec: "True"
+  fullName: Texim.Processing.FixedPaletteTileQuantization.FixedPaletteTileQuantization
+  nameWithType: FixedPaletteTileQuantization.FixedPaletteTileQuantization
+- uid: Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
+  name: FirstAsTransparent
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization_FirstAsTransparent
+  commentId: P:Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
+  fullName: Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
+  nameWithType: FixedPaletteTileQuantization.FirstAsTransparent
+- uid: Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent*
+  name: FirstAsTransparent
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization_FirstAsTransparent_
+  commentId: Overload:Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
+  isSpec: "True"
+  fullName: Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
+  nameWithType: FixedPaletteTileQuantization.FirstAsTransparent
+- uid: Texim.Processing.FixedPaletteTileQuantization.Quantize(Texim.Colors.Rgb[])
+  name: Quantize(Rgb[])
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization_Quantize_Texim_Colors_Rgb___
+  commentId: M:Texim.Processing.FixedPaletteTileQuantization.Quantize(Texim.Colors.Rgb[])
+  name.vb: Quantize(Rgb())
+  fullName: Texim.Processing.FixedPaletteTileQuantization.Quantize(Texim.Colors.Rgb[])
+  fullName.vb: Texim.Processing.FixedPaletteTileQuantization.Quantize(Texim.Colors.Rgb())
+  nameWithType: FixedPaletteTileQuantization.Quantize(Rgb[])
+  nameWithType.vb: FixedPaletteTileQuantization.Quantize(Rgb())
+- uid: Texim.Processing.FixedPaletteTileQuantization.Quantize*
+  name: Quantize
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization_Quantize_
+  commentId: Overload:Texim.Processing.FixedPaletteTileQuantization.Quantize
+  isSpec: "True"
+  fullName: Texim.Processing.FixedPaletteTileQuantization.Quantize
+  nameWithType: FixedPaletteTileQuantization.Quantize
 - uid: Texim.Processing.IQuantization
   name: IQuantization
   href: api/Texim.Processing.IQuantization.html
