@@ -2666,19 +2666,6 @@ references:
   isSpec: "True"
   fullName: Texim.Processing.FixedPaletteQuantization.FixedPaletteQuantization
   nameWithType: FixedPaletteQuantization.FixedPaletteQuantization
-- uid: Texim.Processing.FixedPaletteQuantization.FirstAsTransparent
-  name: FirstAsTransparent
-  href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_FirstAsTransparent
-  commentId: P:Texim.Processing.FixedPaletteQuantization.FirstAsTransparent
-  fullName: Texim.Processing.FixedPaletteQuantization.FirstAsTransparent
-  nameWithType: FixedPaletteQuantization.FirstAsTransparent
-- uid: Texim.Processing.FixedPaletteQuantization.FirstAsTransparent*
-  name: FirstAsTransparent
-  href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_FirstAsTransparent_
-  commentId: Overload:Texim.Processing.FixedPaletteQuantization.FirstAsTransparent
-  isSpec: "True"
-  fullName: Texim.Processing.FixedPaletteQuantization.FirstAsTransparent
-  nameWithType: FixedPaletteQuantization.FirstAsTransparent
 - uid: Texim.Processing.FixedPaletteQuantization.Quantize(Texim.Colors.Rgb[])
   name: Quantize(Rgb[])
   href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_Quantize_Texim_Colors_Rgb___
@@ -2695,6 +2682,19 @@ references:
   isSpec: "True"
   fullName: Texim.Processing.FixedPaletteQuantization.Quantize
   nameWithType: FixedPaletteQuantization.Quantize
+- uid: Texim.Processing.FixedPaletteQuantization.TransparentIndex
+  name: TransparentIndex
+  href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_TransparentIndex
+  commentId: P:Texim.Processing.FixedPaletteQuantization.TransparentIndex
+  fullName: Texim.Processing.FixedPaletteQuantization.TransparentIndex
+  nameWithType: FixedPaletteQuantization.TransparentIndex
+- uid: Texim.Processing.FixedPaletteQuantization.TransparentIndex*
+  name: TransparentIndex
+  href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_TransparentIndex_
+  commentId: Overload:Texim.Processing.FixedPaletteQuantization.TransparentIndex
+  isSpec: "True"
+  fullName: Texim.Processing.FixedPaletteQuantization.TransparentIndex
+  nameWithType: FixedPaletteQuantization.TransparentIndex
 - uid: Texim.Processing.FixedPaletteTileQuantization
   name: FixedPaletteTileQuantization
   href: api/Texim.Processing.FixedPaletteTileQuantization.html
