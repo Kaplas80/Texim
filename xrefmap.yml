@@ -806,6 +806,19 @@ references:
   isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompressionParams.Map
   nameWithType: MapDecompressionParams.Map
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
+  name: OutOfBoundsTileIndex
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_OutOfBoundsTileIndex
+  commentId: P:Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
+  nameWithType: MapDecompressionParams.OutOfBoundsTileIndex
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex*
+  name: OutOfBoundsTileIndex
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_OutOfBoundsTileIndex_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
+  isSpec: "True"
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
+  nameWithType: MapDecompressionParams.OutOfBoundsTileIndex
 - uid: Texim.Compressions.Nitro.MapDecompressionParams.TileSize
   name: TileSize
   href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_TileSize
@@ -1451,38 +1464,38 @@ references:
   isSpec: "True"
   fullName: Texim.Formats.RawBinary2IndexedImage.Initialize
   nameWithType: RawBinary2IndexedImage.Initialize
-- uid: Texim.Formats.RawBinary2Palette
-  name: RawBinary2Palette
-  href: api/Texim.Formats.RawBinary2Palette.html
-  commentId: T:Texim.Formats.RawBinary2Palette
-  fullName: Texim.Formats.RawBinary2Palette
-  nameWithType: RawBinary2Palette
-- uid: Texim.Formats.RawBinary2Palette.Convert(BinaryFormat)
+- uid: Texim.Formats.RawBinary2PaletteCollection
+  name: RawBinary2PaletteCollection
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html
+  commentId: T:Texim.Formats.RawBinary2PaletteCollection
+  fullName: Texim.Formats.RawBinary2PaletteCollection
+  nameWithType: RawBinary2PaletteCollection
+- uid: Texim.Formats.RawBinary2PaletteCollection.Convert(BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Convert_BinaryFormat_
-  commentId: M:Texim.Formats.RawBinary2Palette.Convert(BinaryFormat)
-  fullName: Texim.Formats.RawBinary2Palette.Convert(BinaryFormat)
-  nameWithType: RawBinary2Palette.Convert(BinaryFormat)
-- uid: Texim.Formats.RawBinary2Palette.Convert*
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Convert_BinaryFormat_
+  commentId: M:Texim.Formats.RawBinary2PaletteCollection.Convert(BinaryFormat)
+  fullName: Texim.Formats.RawBinary2PaletteCollection.Convert(BinaryFormat)
+  nameWithType: RawBinary2PaletteCollection.Convert(BinaryFormat)
+- uid: Texim.Formats.RawBinary2PaletteCollection.Convert*
   name: Convert
-  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Convert_
-  commentId: Overload:Texim.Formats.RawBinary2Palette.Convert
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Convert_
+  commentId: Overload:Texim.Formats.RawBinary2PaletteCollection.Convert
   isSpec: "True"
-  fullName: Texim.Formats.RawBinary2Palette.Convert
-  nameWithType: RawBinary2Palette.Convert
-- uid: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParams)
+  fullName: Texim.Formats.RawBinary2PaletteCollection.Convert
+  nameWithType: RawBinary2PaletteCollection.Convert
+- uid: Texim.Formats.RawBinary2PaletteCollection.Initialize(Texim.Formats.RawPaletteParams)
   name: Initialize(RawPaletteParams)
-  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_Texim_Formats_RawPaletteParams_
-  commentId: M:Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParams)
-  fullName: Texim.Formats.RawBinary2Palette.Initialize(Texim.Formats.RawPaletteParams)
-  nameWithType: RawBinary2Palette.Initialize(RawPaletteParams)
-- uid: Texim.Formats.RawBinary2Palette.Initialize*
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Initialize_Texim_Formats_RawPaletteParams_
+  commentId: M:Texim.Formats.RawBinary2PaletteCollection.Initialize(Texim.Formats.RawPaletteParams)
+  fullName: Texim.Formats.RawBinary2PaletteCollection.Initialize(Texim.Formats.RawPaletteParams)
+  nameWithType: RawBinary2PaletteCollection.Initialize(RawPaletteParams)
+- uid: Texim.Formats.RawBinary2PaletteCollection.Initialize*
   name: Initialize
-  href: api/Texim.Formats.RawBinary2Palette.html#Texim_Formats_RawBinary2Palette_Initialize_
-  commentId: Overload:Texim.Formats.RawBinary2Palette.Initialize
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Initialize_
+  commentId: Overload:Texim.Formats.RawBinary2PaletteCollection.Initialize
   isSpec: "True"
-  fullName: Texim.Formats.RawBinary2Palette.Initialize
-  nameWithType: RawBinary2Palette.Initialize
+  fullName: Texim.Formats.RawBinary2PaletteCollection.Initialize
+  nameWithType: RawBinary2PaletteCollection.Initialize
 - uid: Texim.Formats.RawIndexedImageParams
   name: RawIndexedImageParams
   href: api/Texim.Formats.RawIndexedImageParams.html
@@ -1599,6 +1612,19 @@ references:
   isSpec: "True"
   fullName: Texim.Formats.RawPaletteParams.ColorEncoding
   nameWithType: RawPaletteParams.ColorEncoding
+- uid: Texim.Formats.RawPaletteParams.ColorsPerPalette
+  name: ColorsPerPalette
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorsPerPalette
+  commentId: P:Texim.Formats.RawPaletteParams.ColorsPerPalette
+  fullName: Texim.Formats.RawPaletteParams.ColorsPerPalette
+  nameWithType: RawPaletteParams.ColorsPerPalette
+- uid: Texim.Formats.RawPaletteParams.ColorsPerPalette*
+  name: ColorsPerPalette
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorsPerPalette_
+  commentId: Overload:Texim.Formats.RawPaletteParams.ColorsPerPalette
+  isSpec: "True"
+  fullName: Texim.Formats.RawPaletteParams.ColorsPerPalette
+  nameWithType: RawPaletteParams.ColorsPerPalette
 - uid: Texim.Formats.RawPaletteParams.Default
   name: Default
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Default

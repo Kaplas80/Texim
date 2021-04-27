@@ -82,7 +82,7 @@
   "api/Texim.Compressions.Nitro.MapDecompressionParams.html": {
     "href": "api/Texim.Compressions.Nitro.MapDecompressionParams.html",
     "title": "Class MapDecompressionParams | Texim extensible image API",
-    "keywords": "Class MapDecompressionParams Inheritance Object MapDecompressionParams Namespace : Texim.Compressions.Nitro Assembly : Texim.dll Syntax public class MapDecompressionParams : object Properties | Improve this Doc View Source Map Declaration public IScreenMap Map { get; set; } Property Value Type Description IScreenMap | Improve this Doc View Source TileSize Declaration public Size TileSize { get; set; } Property Value Type Description Size"
+    "keywords": "Class MapDecompressionParams Inheritance Object MapDecompressionParams Namespace : Texim.Compressions.Nitro Assembly : Texim.dll Syntax public class MapDecompressionParams : object Properties | Improve this Doc View Source Map Declaration public IScreenMap Map { get; set; } Property Value Type Description IScreenMap | Improve this Doc View Source OutOfBoundsTileIndex Declaration public int OutOfBoundsTileIndex { get; set; } Property Value Type Description Int32 | Improve this Doc View Source TileSize Declaration public Size TileSize { get; set; } Property Value Type Description Size"
   },
   "api/Texim.Compressions.Nitro.MapInfo.html": {
     "href": "api/Texim.Compressions.Nitro.MapInfo.html",
@@ -122,7 +122,7 @@
   "api/Texim.Formats.html": {
     "href": "api/Texim.Formats.html",
     "title": "Namespace Texim.Formats | Texim extensible image API",
-    "keywords": "Namespace Texim.Formats Classes Bitmap2FullImage FullImage2Bitmap IndexedImage2Bitmap IndexedImageBitmapParams Palette2BinaryRiff Palette2Bitmap PaletteCollection2ContainerBitmap RawBinary2IndexedImage RawBinary2Palette RawIndexedImageParams RawPaletteParams"
+    "keywords": "Namespace Texim.Formats Classes Bitmap2FullImage FullImage2Bitmap IndexedImage2Bitmap IndexedImageBitmapParams Palette2BinaryRiff Palette2Bitmap PaletteCollection2ContainerBitmap RawBinary2IndexedImage RawBinary2PaletteCollection RawIndexedImageParams RawPaletteParams"
   },
   "api/Texim.Formats.IndexedImage2Bitmap.html": {
     "href": "api/Texim.Formats.IndexedImage2Bitmap.html",
@@ -154,10 +154,10 @@
     "title": "Class RawBinary2IndexedImage | Texim extensible image API",
     "keywords": "Class RawBinary2IndexedImage Inheritance Object RawBinary2IndexedImage Implements IConverter < IBinary , IndexedImage > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawBinary2IndexedImage : IInitializer<RawIndexedImageParams>, IConverter<IBinary, IndexedImage> Methods | Improve this Doc View Source Convert(IBinary) Declaration public IndexedImage Convert(IBinary source) Parameters Type Name Description IBinary source Returns Type Description IndexedImage | Improve this Doc View Source Initialize(RawIndexedImageParams) Declaration public void Initialize(RawIndexedImageParams parameters) Parameters Type Name Description RawIndexedImageParams parameters Implements IConverter<, >"
   },
-  "api/Texim.Formats.RawBinary2Palette.html": {
-    "href": "api/Texim.Formats.RawBinary2Palette.html",
-    "title": "Class RawBinary2Palette | Texim extensible image API",
-    "keywords": "Class RawBinary2Palette Inheritance Object RawBinary2Palette Implements IConverter < BinaryFormat , Palette > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawBinary2Palette : IInitializer<RawPaletteParams>, IConverter<BinaryFormat, Palette> Methods | Improve this Doc View Source Convert(BinaryFormat) Declaration public Palette Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source Returns Type Description Palette | Improve this Doc View Source Initialize(RawPaletteParams) Declaration public void Initialize(RawPaletteParams parameters) Parameters Type Name Description RawPaletteParams parameters Implements IConverter<, >"
+  "api/Texim.Formats.RawBinary2PaletteCollection.html": {
+    "href": "api/Texim.Formats.RawBinary2PaletteCollection.html",
+    "title": "Class RawBinary2PaletteCollection | Texim extensible image API",
+    "keywords": "Class RawBinary2PaletteCollection Inheritance Object RawBinary2PaletteCollection Implements IConverter < BinaryFormat , PaletteCollection > Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawBinary2PaletteCollection : IInitializer<RawPaletteParams>, IConverter<BinaryFormat, PaletteCollection> Methods | Improve this Doc View Source Convert(BinaryFormat) Declaration public PaletteCollection Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source Returns Type Description PaletteCollection | Improve this Doc View Source Initialize(RawPaletteParams) Declaration public void Initialize(RawPaletteParams parameters) Parameters Type Name Description RawPaletteParams parameters Implements IConverter<, >"
   },
   "api/Texim.Formats.RawIndexedImageParams.html": {
     "href": "api/Texim.Formats.RawIndexedImageParams.html",
@@ -167,7 +167,7 @@
   "api/Texim.Formats.RawPaletteParams.html": {
     "href": "api/Texim.Formats.RawPaletteParams.html",
     "title": "Class RawPaletteParams | Texim extensible image API",
-    "keywords": "Class RawPaletteParams Inheritance Object RawPaletteParams Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawPaletteParams : object Properties | Improve this Doc View Source ColorEncoding Declaration public IColorEncoding ColorEncoding { get; set; } Property Value Type Description IColorEncoding | Improve this Doc View Source Default Declaration public static RawPaletteParams Default { get; } Property Value Type Description RawPaletteParams | Improve this Doc View Source Offset Declaration public long Offset { get; set; } Property Value Type Description Int64 | Improve this Doc View Source Size Declaration public int Size { get; set; } Property Value Type Description Int32"
+    "keywords": "Class RawPaletteParams Inheritance Object RawPaletteParams Namespace : Texim.Formats Assembly : Texim.dll Syntax public class RawPaletteParams : object Properties | Improve this Doc View Source ColorEncoding Declaration public IColorEncoding ColorEncoding { get; set; } Property Value Type Description IColorEncoding | Improve this Doc View Source ColorsPerPalette Declaration public int ColorsPerPalette { get; set; } Property Value Type Description Int32 | Improve this Doc View Source Default Declaration public static RawPaletteParams Default { get; } Property Value Type Description RawPaletteParams | Improve this Doc View Source Offset Declaration public long Offset { get; set; } Property Value Type Description Int64 | Improve this Doc View Source Size Declaration public int Size { get; set; } Property Value Type Description Int32"
   },
   "api/Texim.html": {
     "href": "api/Texim.html",
@@ -337,7 +337,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (April 09, 2021) | Texim extensible image API",
-    "keywords": "vNext (April 09, 2021) As part of this release we had 17 issues closed. Breaking #8 Remove old API Bug #9 Fix warnings and issues Enhancements #17 Improve the CLI command to import compressed Nitro images #16 Implement read converters for \"raw\" formats and configure stable feed #15 Re-implement CLI #14 Implement serializers for Nitro formats #13 Implement tile quantization with fixed palettes and merge image with map compression #12 Implement Nitro tile compression via map/screen data #11 Implement color quantization API, algorithms and importers #10 Implement NCGR format #7 Re-implementation of image API #6 Implement NCLR palette format #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
+    "keywords": "vNext (April 09, 2021) As part of this release we had 18 issues closed. Breaking #8 Remove old API Bug #9 Fix warnings and issues Enhancements #18 Implement CLI for raw formats and support for Megaman BG #17 Improve the CLI command to import compressed Nitro images #16 Implement read converters for \"raw\" formats and configure stable feed #15 Re-implement CLI #14 Implement serializers for Nitro formats #13 Implement tile quantization with fixed palettes and merge image with map compression #12 Implement Nitro tile compression via map/screen data #11 Implement color quantization API, algorithms and importers #10 Implement NCGR format #7 Re-implementation of image API #6 Implement NCLR palette format #5 Implement NCCL format from Layton games #4 Re-implementation of color and palette API #3 Upgrade Yarhl #2 Performance test for different types of Pixel structures #1 Implement workflow and C# template repo"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
