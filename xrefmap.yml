@@ -23,16 +23,15 @@ references:
   name: Add
   href: api/Texim.CollectionExtensions.html#Texim_CollectionExtensions_Add_
   commentId: Overload:Texim.CollectionExtensions.Add
-  isSpec: "True"
   fullName: Texim.CollectionExtensions.Add
   nameWithType: CollectionExtensions.Add
-- uid: Texim.CollectionExtensions.Add``1(Collection{``0},IEnumerable{``0})
+- uid: Texim.CollectionExtensions.Add``1(System.Collections.ObjectModel.Collection{``0},System.Collections.Generic.IEnumerable{``0})
   name: Add<T>(Collection<T>, IEnumerable<T>)
-  href: api/Texim.CollectionExtensions.html#Texim_CollectionExtensions_Add__1_Collection___0__IEnumerable___0__
-  commentId: M:Texim.CollectionExtensions.Add``1(Collection{``0},IEnumerable{``0})
+  href: api/Texim.CollectionExtensions.html#Texim_CollectionExtensions_Add__1_System_Collections_ObjectModel_Collection___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:Texim.CollectionExtensions.Add``1(System.Collections.ObjectModel.Collection{``0},System.Collections.Generic.IEnumerable{``0})
   name.vb: Add(Of T)(Collection(Of T), IEnumerable(Of T))
-  fullName: Texim.CollectionExtensions.Add<T>(Collection<T>, IEnumerable<T>)
-  fullName.vb: Texim.CollectionExtensions.Add(Of T)(Collection(Of T), IEnumerable(Of T))
+  fullName: Texim.CollectionExtensions.Add<T>(System.Collections.ObjectModel.Collection<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Texim.CollectionExtensions.Add(Of T)(System.Collections.ObjectModel.Collection(Of T), System.Collections.Generic.IEnumerable(Of T))
   nameWithType: CollectionExtensions.Add<T>(Collection<T>, IEnumerable<T>)
   nameWithType.vb: CollectionExtensions.Add(Of T)(Collection(Of T), IEnumerable(Of T))
 - uid: Texim.Colors
@@ -47,6 +46,18 @@ references:
   commentId: T:Texim.Colors.Bgr555
   fullName: Texim.Colors.Bgr555
   nameWithType: Bgr555
+- uid: Texim.Colors.Bgr555.#ctor
+  name: Bgr555()
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555__ctor
+  commentId: M:Texim.Colors.Bgr555.#ctor
+  fullName: Texim.Colors.Bgr555.Bgr555()
+  nameWithType: Bgr555.Bgr555()
+- uid: Texim.Colors.Bgr555.#ctor*
+  name: Bgr555
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555__ctor_
+  commentId: Overload:Texim.Colors.Bgr555.#ctor
+  fullName: Texim.Colors.Bgr555.Bgr555
+  nameWithType: Bgr555.Bgr555
 - uid: Texim.Colors.Bgr555.BytesPerColor
   name: BytesPerColor
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_BytesPerColor
@@ -57,44 +68,42 @@ references:
   name: BytesPerColor
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_BytesPerColor_
   commentId: Overload:Texim.Colors.Bgr555.BytesPerColor
-  isSpec: "True"
   fullName: Texim.Colors.Bgr555.BytesPerColor
   nameWithType: Bgr555.BytesPerColor
-- uid: Texim.Colors.Bgr555.Decode(Span{System.Byte})
+- uid: Texim.Colors.Bgr555.Decode(System.IO.Stream)
+  name: Decode(Stream)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_System_IO_Stream_
+  commentId: M:Texim.Colors.Bgr555.Decode(System.IO.Stream)
+  fullName: Texim.Colors.Bgr555.Decode(System.IO.Stream)
+  nameWithType: Bgr555.Decode(Stream)
+- uid: Texim.Colors.Bgr555.Decode(System.IO.Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_System_IO_Stream_System_Int32_
+  commentId: M:Texim.Colors.Bgr555.Decode(System.IO.Stream,System.Int32)
+  fullName: Texim.Colors.Bgr555.Decode(System.IO.Stream, System.Int32)
+  nameWithType: Bgr555.Decode(Stream, Int32)
+- uid: Texim.Colors.Bgr555.Decode(System.Span{System.Byte})
   name: Decode(Span<Byte>)
-  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_Span_System_Byte__
-  commentId: M:Texim.Colors.Bgr555.Decode(Span{System.Byte})
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_System_Span_System_Byte__
+  commentId: M:Texim.Colors.Bgr555.Decode(System.Span{System.Byte})
   name.vb: Decode(Span(Of Byte))
-  fullName: Texim.Colors.Bgr555.Decode(Span<System.Byte>)
-  fullName.vb: Texim.Colors.Bgr555.Decode(Span(Of System.Byte))
+  fullName: Texim.Colors.Bgr555.Decode(System.Span<System.Byte>)
+  fullName.vb: Texim.Colors.Bgr555.Decode(System.Span(Of System.Byte))
   nameWithType: Bgr555.Decode(Span<Byte>)
   nameWithType.vb: Bgr555.Decode(Span(Of Byte))
-- uid: Texim.Colors.Bgr555.Decode(Stream)
-  name: Decode(Stream)
-  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_Stream_
-  commentId: M:Texim.Colors.Bgr555.Decode(Stream)
-  fullName: Texim.Colors.Bgr555.Decode(Stream)
-  nameWithType: Bgr555.Decode(Stream)
-- uid: Texim.Colors.Bgr555.Decode(Stream,System.Int32)
-  name: Decode(Stream, Int32)
-  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_Stream_System_Int32_
-  commentId: M:Texim.Colors.Bgr555.Decode(Stream,System.Int32)
-  fullName: Texim.Colors.Bgr555.Decode(Stream, System.Int32)
-  nameWithType: Bgr555.Decode(Stream, Int32)
 - uid: Texim.Colors.Bgr555.Decode*
   name: Decode
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Decode_
   commentId: Overload:Texim.Colors.Bgr555.Decode
-  isSpec: "True"
   fullName: Texim.Colors.Bgr555.Decode
   nameWithType: Bgr555.Decode
-- uid: Texim.Colors.Bgr555.Encode(IEnumerable{Texim.Colors.Rgb})
+- uid: Texim.Colors.Bgr555.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name: Encode(IEnumerable<Rgb>)
-  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Encode_IEnumerable_Texim_Colors_Rgb__
-  commentId: M:Texim.Colors.Bgr555.Encode(IEnumerable{Texim.Colors.Rgb})
+  href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Encode_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.Bgr555.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name.vb: Encode(IEnumerable(Of Rgb))
-  fullName: Texim.Colors.Bgr555.Encode(IEnumerable<Texim.Colors.Rgb>)
-  fullName.vb: Texim.Colors.Bgr555.Encode(IEnumerable(Of Texim.Colors.Rgb))
+  fullName: Texim.Colors.Bgr555.Encode(System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.Bgr555.Encode(System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb))
   nameWithType: Bgr555.Encode(IEnumerable<Rgb>)
   nameWithType.vb: Bgr555.Encode(IEnumerable(Of Rgb))
 - uid: Texim.Colors.Bgr555.Encode(Texim.Colors.Rgb)
@@ -107,7 +116,6 @@ references:
   name: Encode
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Encode_
   commentId: Overload:Texim.Colors.Bgr555.Encode
-  isSpec: "True"
   fullName: Texim.Colors.Bgr555.Encode
   nameWithType: Bgr555.Encode
 - uid: Texim.Colors.Bgr555.FromUInt16(System.UInt16)
@@ -120,7 +128,6 @@ references:
   name: FromUInt16
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_FromUInt16_
   commentId: Overload:Texim.Colors.Bgr555.FromUInt16
-  isSpec: "True"
   fullName: Texim.Colors.Bgr555.FromUInt16
   nameWithType: Bgr555.FromUInt16
 - uid: Texim.Colors.Bgr555.Instance
@@ -133,7 +140,6 @@ references:
   name: Instance
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_Instance_
   commentId: Overload:Texim.Colors.Bgr555.Instance
-  isSpec: "True"
   fullName: Texim.Colors.Bgr555.Instance
   nameWithType: Bgr555.Instance
 - uid: Texim.Colors.Bgr555.ToUInt16(Texim.Colors.Rgb)
@@ -146,7 +152,6 @@ references:
   name: ToUInt16
   href: api/Texim.Colors.Bgr555.html#Texim_Colors_Bgr555_ToUInt16_
   commentId: Overload:Texim.Colors.Bgr555.ToUInt16
-  isSpec: "True"
   fullName: Texim.Colors.Bgr555.ToUInt16
   nameWithType: Bgr555.ToUInt16
 - uid: Texim.Colors.IColorEncoding
@@ -155,41 +160,40 @@ references:
   commentId: T:Texim.Colors.IColorEncoding
   fullName: Texim.Colors.IColorEncoding
   nameWithType: IColorEncoding
-- uid: Texim.Colors.IColorEncoding.Decode(Span{System.Byte})
+- uid: Texim.Colors.IColorEncoding.Decode(System.IO.Stream)
+  name: Decode(Stream)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_System_IO_Stream_
+  commentId: M:Texim.Colors.IColorEncoding.Decode(System.IO.Stream)
+  fullName: Texim.Colors.IColorEncoding.Decode(System.IO.Stream)
+  nameWithType: IColorEncoding.Decode(Stream)
+- uid: Texim.Colors.IColorEncoding.Decode(System.IO.Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_System_IO_Stream_System_Int32_
+  commentId: M:Texim.Colors.IColorEncoding.Decode(System.IO.Stream,System.Int32)
+  fullName: Texim.Colors.IColorEncoding.Decode(System.IO.Stream, System.Int32)
+  nameWithType: IColorEncoding.Decode(Stream, Int32)
+- uid: Texim.Colors.IColorEncoding.Decode(System.Span{System.Byte})
   name: Decode(Span<Byte>)
-  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_Span_System_Byte__
-  commentId: M:Texim.Colors.IColorEncoding.Decode(Span{System.Byte})
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_System_Span_System_Byte__
+  commentId: M:Texim.Colors.IColorEncoding.Decode(System.Span{System.Byte})
   name.vb: Decode(Span(Of Byte))
-  fullName: Texim.Colors.IColorEncoding.Decode(Span<System.Byte>)
-  fullName.vb: Texim.Colors.IColorEncoding.Decode(Span(Of System.Byte))
+  fullName: Texim.Colors.IColorEncoding.Decode(System.Span<System.Byte>)
+  fullName.vb: Texim.Colors.IColorEncoding.Decode(System.Span(Of System.Byte))
   nameWithType: IColorEncoding.Decode(Span<Byte>)
   nameWithType.vb: IColorEncoding.Decode(Span(Of Byte))
-- uid: Texim.Colors.IColorEncoding.Decode(Stream)
-  name: Decode(Stream)
-  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_Stream_
-  commentId: M:Texim.Colors.IColorEncoding.Decode(Stream)
-  fullName: Texim.Colors.IColorEncoding.Decode(Stream)
-  nameWithType: IColorEncoding.Decode(Stream)
-- uid: Texim.Colors.IColorEncoding.Decode(Stream,System.Int32)
-  name: Decode(Stream, Int32)
-  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_Stream_System_Int32_
-  commentId: M:Texim.Colors.IColorEncoding.Decode(Stream,System.Int32)
-  fullName: Texim.Colors.IColorEncoding.Decode(Stream, System.Int32)
-  nameWithType: IColorEncoding.Decode(Stream, Int32)
 - uid: Texim.Colors.IColorEncoding.Decode*
   name: Decode
   href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Decode_
   commentId: Overload:Texim.Colors.IColorEncoding.Decode
-  isSpec: "True"
   fullName: Texim.Colors.IColorEncoding.Decode
   nameWithType: IColorEncoding.Decode
-- uid: Texim.Colors.IColorEncoding.Encode(IEnumerable{Texim.Colors.Rgb})
+- uid: Texim.Colors.IColorEncoding.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name: Encode(IEnumerable<Rgb>)
-  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Encode_IEnumerable_Texim_Colors_Rgb__
-  commentId: M:Texim.Colors.IColorEncoding.Encode(IEnumerable{Texim.Colors.Rgb})
+  href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Encode_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.IColorEncoding.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name.vb: Encode(IEnumerable(Of Rgb))
-  fullName: Texim.Colors.IColorEncoding.Encode(IEnumerable<Texim.Colors.Rgb>)
-  fullName.vb: Texim.Colors.IColorEncoding.Encode(IEnumerable(Of Texim.Colors.Rgb))
+  fullName: Texim.Colors.IColorEncoding.Encode(System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.IColorEncoding.Encode(System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb))
   nameWithType: IColorEncoding.Encode(IEnumerable<Rgb>)
   nameWithType.vb: IColorEncoding.Encode(IEnumerable(Of Rgb))
 - uid: Texim.Colors.IColorEncoding.Encode(Texim.Colors.Rgb)
@@ -202,7 +206,6 @@ references:
   name: Encode
   href: api/Texim.Colors.IColorEncoding.html#Texim_Colors_IColorEncoding_Encode_
   commentId: Overload:Texim.Colors.IColorEncoding.Encode
-  isSpec: "True"
   fullName: Texim.Colors.IColorEncoding.Encode
   nameWithType: IColorEncoding.Encode
 - uid: Texim.Colors.IOExtensions
@@ -215,7 +218,6 @@ references:
   name: DecodeColorsAs
   href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_DecodeColorsAs_
   commentId: Overload:Texim.Colors.IOExtensions.DecodeColorsAs
-  isSpec: "True"
   fullName: Texim.Colors.IOExtensions.DecodeColorsAs
   nameWithType: IOExtensions.DecodeColorsAs
 - uid: Texim.Colors.IOExtensions.DecodeColorsAs``1(System.Byte[])
@@ -231,57 +233,54 @@ references:
   name: ReadColor
   href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColor_
   commentId: Overload:Texim.Colors.IOExtensions.ReadColor
-  isSpec: "True"
   fullName: Texim.Colors.IOExtensions.ReadColor
   nameWithType: IOExtensions.ReadColor
-- uid: Texim.Colors.IOExtensions.ReadColor``1(DataReader)
+- uid: Texim.Colors.IOExtensions.ReadColor``1(Yarhl.IO.DataReader)
   name: ReadColor<T>(DataReader)
-  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColor__1_DataReader_
-  commentId: M:Texim.Colors.IOExtensions.ReadColor``1(DataReader)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColor__1_Yarhl_IO_DataReader_
+  commentId: M:Texim.Colors.IOExtensions.ReadColor``1(Yarhl.IO.DataReader)
   name.vb: ReadColor(Of T)(DataReader)
-  fullName: Texim.Colors.IOExtensions.ReadColor<T>(DataReader)
-  fullName.vb: Texim.Colors.IOExtensions.ReadColor(Of T)(DataReader)
+  fullName: Texim.Colors.IOExtensions.ReadColor<T>(Yarhl.IO.DataReader)
+  fullName.vb: Texim.Colors.IOExtensions.ReadColor(Of T)(Yarhl.IO.DataReader)
   nameWithType: IOExtensions.ReadColor<T>(DataReader)
   nameWithType.vb: IOExtensions.ReadColor(Of T)(DataReader)
 - uid: Texim.Colors.IOExtensions.ReadColors*
   name: ReadColors
   href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColors_
   commentId: Overload:Texim.Colors.IOExtensions.ReadColors
-  isSpec: "True"
   fullName: Texim.Colors.IOExtensions.ReadColors
   nameWithType: IOExtensions.ReadColors
-- uid: Texim.Colors.IOExtensions.ReadColors``1(DataReader,System.Int32)
+- uid: Texim.Colors.IOExtensions.ReadColors``1(Yarhl.IO.DataReader,System.Int32)
   name: ReadColors<T>(DataReader, Int32)
-  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColors__1_DataReader_System_Int32_
-  commentId: M:Texim.Colors.IOExtensions.ReadColors``1(DataReader,System.Int32)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_ReadColors__1_Yarhl_IO_DataReader_System_Int32_
+  commentId: M:Texim.Colors.IOExtensions.ReadColors``1(Yarhl.IO.DataReader,System.Int32)
   name.vb: ReadColors(Of T)(DataReader, Int32)
-  fullName: Texim.Colors.IOExtensions.ReadColors<T>(DataReader, System.Int32)
-  fullName.vb: Texim.Colors.IOExtensions.ReadColors(Of T)(DataReader, System.Int32)
+  fullName: Texim.Colors.IOExtensions.ReadColors<T>(Yarhl.IO.DataReader, System.Int32)
+  fullName.vb: Texim.Colors.IOExtensions.ReadColors(Of T)(Yarhl.IO.DataReader, System.Int32)
   nameWithType: IOExtensions.ReadColors<T>(DataReader, Int32)
   nameWithType.vb: IOExtensions.ReadColors(Of T)(DataReader, Int32)
 - uid: Texim.Colors.IOExtensions.Write*
   name: Write
   href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write_
   commentId: Overload:Texim.Colors.IOExtensions.Write
-  isSpec: "True"
   fullName: Texim.Colors.IOExtensions.Write
   nameWithType: IOExtensions.Write
-- uid: Texim.Colors.IOExtensions.Write``1(DataWriter,IEnumerable{Texim.Colors.Rgb})
+- uid: Texim.Colors.IOExtensions.Write``1(Yarhl.IO.DataWriter,System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name: Write<T>(DataWriter, IEnumerable<Rgb>)
-  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write__1_DataWriter_IEnumerable_Texim_Colors_Rgb__
-  commentId: M:Texim.Colors.IOExtensions.Write``1(DataWriter,IEnumerable{Texim.Colors.Rgb})
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write__1_Yarhl_IO_DataWriter_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.IOExtensions.Write``1(Yarhl.IO.DataWriter,System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name.vb: Write(Of T)(DataWriter, IEnumerable(Of Rgb))
-  fullName: Texim.Colors.IOExtensions.Write<T>(DataWriter, IEnumerable<Texim.Colors.Rgb>)
-  fullName.vb: Texim.Colors.IOExtensions.Write(Of T)(DataWriter, IEnumerable(Of Texim.Colors.Rgb))
+  fullName: Texim.Colors.IOExtensions.Write<T>(Yarhl.IO.DataWriter, System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.IOExtensions.Write(Of T)(Yarhl.IO.DataWriter, System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb))
   nameWithType: IOExtensions.Write<T>(DataWriter, IEnumerable<Rgb>)
   nameWithType.vb: IOExtensions.Write(Of T)(DataWriter, IEnumerable(Of Rgb))
-- uid: Texim.Colors.IOExtensions.Write``1(DataWriter,Texim.Colors.Rgb)
+- uid: Texim.Colors.IOExtensions.Write``1(Yarhl.IO.DataWriter,Texim.Colors.Rgb)
   name: Write<T>(DataWriter, Rgb)
-  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write__1_DataWriter_Texim_Colors_Rgb_
-  commentId: M:Texim.Colors.IOExtensions.Write``1(DataWriter,Texim.Colors.Rgb)
+  href: api/Texim.Colors.IOExtensions.html#Texim_Colors_IOExtensions_Write__1_Yarhl_IO_DataWriter_Texim_Colors_Rgb_
+  commentId: M:Texim.Colors.IOExtensions.Write``1(Yarhl.IO.DataWriter,Texim.Colors.Rgb)
   name.vb: Write(Of T)(DataWriter, Rgb)
-  fullName: Texim.Colors.IOExtensions.Write<T>(DataWriter, Texim.Colors.Rgb)
-  fullName.vb: Texim.Colors.IOExtensions.Write(Of T)(DataWriter, Texim.Colors.Rgb)
+  fullName: Texim.Colors.IOExtensions.Write<T>(Yarhl.IO.DataWriter, Texim.Colors.Rgb)
+  fullName.vb: Texim.Colors.IOExtensions.Write(Of T)(Yarhl.IO.DataWriter, Texim.Colors.Rgb)
   nameWithType: IOExtensions.Write<T>(DataWriter, Rgb)
   nameWithType.vb: IOExtensions.Write(Of T)(DataWriter, Rgb)
 - uid: Texim.Colors.Rgb
@@ -290,12 +289,12 @@ references:
   commentId: T:Texim.Colors.Rgb
   fullName: Texim.Colors.Rgb
   nameWithType: Rgb
-- uid: Texim.Colors.Rgb.#ctor(Color)
-  name: Rgb(Color)
-  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_Color_
-  commentId: M:Texim.Colors.Rgb.#ctor(Color)
-  fullName: Texim.Colors.Rgb.Rgb(Color)
-  nameWithType: Rgb.Rgb(Color)
+- uid: Texim.Colors.Rgb.#ctor(SixLabors.ImageSharp.PixelFormats.Rgba32)
+  name: Rgb(Rgba32)
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_SixLabors_ImageSharp_PixelFormats_Rgba32_
+  commentId: M:Texim.Colors.Rgb.#ctor(SixLabors.ImageSharp.PixelFormats.Rgba32)
+  fullName: Texim.Colors.Rgb.Rgb(SixLabors.ImageSharp.PixelFormats.Rgba32)
+  nameWithType: Rgb.Rgb(Rgba32)
 - uid: Texim.Colors.Rgb.#ctor(System.Byte,System.Byte,System.Byte)
   name: Rgb(Byte, Byte, Byte)
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_System_Byte_System_Byte_System_Byte_
@@ -308,6 +307,12 @@ references:
   commentId: M:Texim.Colors.Rgb.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
   fullName: Texim.Colors.Rgb.Rgb(System.Byte, System.Byte, System.Byte, System.Byte)
   nameWithType: Rgb.Rgb(Byte, Byte, Byte, Byte)
+- uid: Texim.Colors.Rgb.#ctor(System.Drawing.Color)
+  name: Rgb(Color)
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_System_Drawing_Color_
+  commentId: M:Texim.Colors.Rgb.#ctor(System.Drawing.Color)
+  fullName: Texim.Colors.Rgb.Rgb(System.Drawing.Color)
+  nameWithType: Rgb.Rgb(Color)
 - uid: Texim.Colors.Rgb.#ctor(Texim.Colors.Rgb,System.Byte)
   name: Rgb(Rgb, Byte)
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_Texim_Colors_Rgb_System_Byte_
@@ -318,7 +323,6 @@ references:
   name: Rgb
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb__ctor_
   commentId: Overload:Texim.Colors.Rgb.#ctor
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.Rgb
   nameWithType: Rgb.Rgb
 - uid: Texim.Colors.Rgb.Alpha
@@ -331,7 +335,6 @@ references:
   name: Alpha
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Alpha_
   commentId: Overload:Texim.Colors.Rgb.Alpha
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.Alpha
   nameWithType: Rgb.Alpha
 - uid: Texim.Colors.Rgb.Blue
@@ -344,7 +347,6 @@ references:
   name: Blue
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Blue_
   commentId: Overload:Texim.Colors.Rgb.Blue
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.Blue
   nameWithType: Rgb.Blue
 - uid: Texim.Colors.Rgb.GetDistanceSquared(Texim.Colors.Rgb)
@@ -357,7 +359,6 @@ references:
   name: GetDistanceSquared
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_GetDistanceSquared_
   commentId: Overload:Texim.Colors.Rgb.GetDistanceSquared
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.GetDistanceSquared
   nameWithType: Rgb.GetDistanceSquared
 - uid: Texim.Colors.Rgb.Green
@@ -370,7 +371,6 @@ references:
   name: Green
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Green_
   commentId: Overload:Texim.Colors.Rgb.Green
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.Green
   nameWithType: Rgb.Green
 - uid: Texim.Colors.Rgb.Red
@@ -383,7 +383,6 @@ references:
   name: Red
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_Red_
   commentId: Overload:Texim.Colors.Rgb.Red
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.Red
   nameWithType: Rgb.Red
 - uid: Texim.Colors.Rgb.ToColor
@@ -396,9 +395,20 @@ references:
   name: ToColor
   href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_ToColor_
   commentId: Overload:Texim.Colors.Rgb.ToColor
-  isSpec: "True"
   fullName: Texim.Colors.Rgb.ToColor
   nameWithType: Rgb.ToColor
+- uid: Texim.Colors.Rgb.ToImageSharpColor
+  name: ToImageSharpColor()
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_ToImageSharpColor
+  commentId: M:Texim.Colors.Rgb.ToImageSharpColor
+  fullName: Texim.Colors.Rgb.ToImageSharpColor()
+  nameWithType: Rgb.ToImageSharpColor()
+- uid: Texim.Colors.Rgb.ToImageSharpColor*
+  name: ToImageSharpColor
+  href: api/Texim.Colors.Rgb.html#Texim_Colors_Rgb_ToImageSharpColor_
+  commentId: Overload:Texim.Colors.Rgb.ToImageSharpColor
+  fullName: Texim.Colors.Rgb.ToImageSharpColor
+  nameWithType: Rgb.ToImageSharpColor
 - uid: Texim.Colors.Rgb32
   name: Rgb32
   href: api/Texim.Colors.Rgb32.html
@@ -415,7 +425,6 @@ references:
   name: Rgb32
   href: api/Texim.Colors.Rgb32.html#Texim_Colors_Rgb32__ctor_
   commentId: Overload:Texim.Colors.Rgb32.#ctor
-  isSpec: "True"
   fullName: Texim.Colors.Rgb32.Rgb32
   nameWithType: Rgb32.Rgb32
 - uid: Texim.Colors.Rgb32.Instance
@@ -428,7 +437,6 @@ references:
   name: Instance
   href: api/Texim.Colors.Rgb32.html#Texim_Colors_Rgb32_Instance_
   commentId: Overload:Texim.Colors.Rgb32.Instance
-  isSpec: "True"
   fullName: Texim.Colors.Rgb32.Instance
   nameWithType: Rgb32.Instance
 - uid: Texim.Colors.Rgba32
@@ -447,7 +455,6 @@ references:
   name: Rgba32
   href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32__ctor_
   commentId: Overload:Texim.Colors.Rgba32.#ctor
-  isSpec: "True"
   fullName: Texim.Colors.Rgba32.Rgba32
   nameWithType: Rgba32.Rgba32
 - uid: Texim.Colors.Rgba32.BytesPerColor
@@ -460,44 +467,42 @@ references:
   name: BytesPerColor
   href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_BytesPerColor_
   commentId: Overload:Texim.Colors.Rgba32.BytesPerColor
-  isSpec: "True"
   fullName: Texim.Colors.Rgba32.BytesPerColor
   nameWithType: Rgba32.BytesPerColor
-- uid: Texim.Colors.Rgba32.Decode(Span{System.Byte})
+- uid: Texim.Colors.Rgba32.Decode(System.IO.Stream)
+  name: Decode(Stream)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_System_IO_Stream_
+  commentId: M:Texim.Colors.Rgba32.Decode(System.IO.Stream)
+  fullName: Texim.Colors.Rgba32.Decode(System.IO.Stream)
+  nameWithType: Rgba32.Decode(Stream)
+- uid: Texim.Colors.Rgba32.Decode(System.IO.Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_System_IO_Stream_System_Int32_
+  commentId: M:Texim.Colors.Rgba32.Decode(System.IO.Stream,System.Int32)
+  fullName: Texim.Colors.Rgba32.Decode(System.IO.Stream, System.Int32)
+  nameWithType: Rgba32.Decode(Stream, Int32)
+- uid: Texim.Colors.Rgba32.Decode(System.Span{System.Byte})
   name: Decode(Span<Byte>)
-  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_Span_System_Byte__
-  commentId: M:Texim.Colors.Rgba32.Decode(Span{System.Byte})
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_System_Span_System_Byte__
+  commentId: M:Texim.Colors.Rgba32.Decode(System.Span{System.Byte})
   name.vb: Decode(Span(Of Byte))
-  fullName: Texim.Colors.Rgba32.Decode(Span<System.Byte>)
-  fullName.vb: Texim.Colors.Rgba32.Decode(Span(Of System.Byte))
+  fullName: Texim.Colors.Rgba32.Decode(System.Span<System.Byte>)
+  fullName.vb: Texim.Colors.Rgba32.Decode(System.Span(Of System.Byte))
   nameWithType: Rgba32.Decode(Span<Byte>)
   nameWithType.vb: Rgba32.Decode(Span(Of Byte))
-- uid: Texim.Colors.Rgba32.Decode(Stream)
-  name: Decode(Stream)
-  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_Stream_
-  commentId: M:Texim.Colors.Rgba32.Decode(Stream)
-  fullName: Texim.Colors.Rgba32.Decode(Stream)
-  nameWithType: Rgba32.Decode(Stream)
-- uid: Texim.Colors.Rgba32.Decode(Stream,System.Int32)
-  name: Decode(Stream, Int32)
-  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_Stream_System_Int32_
-  commentId: M:Texim.Colors.Rgba32.Decode(Stream,System.Int32)
-  fullName: Texim.Colors.Rgba32.Decode(Stream, System.Int32)
-  nameWithType: Rgba32.Decode(Stream, Int32)
 - uid: Texim.Colors.Rgba32.Decode*
   name: Decode
   href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Decode_
   commentId: Overload:Texim.Colors.Rgba32.Decode
-  isSpec: "True"
   fullName: Texim.Colors.Rgba32.Decode
   nameWithType: Rgba32.Decode
-- uid: Texim.Colors.Rgba32.Encode(IEnumerable{Texim.Colors.Rgb})
+- uid: Texim.Colors.Rgba32.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name: Encode(IEnumerable<Rgb>)
-  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Encode_IEnumerable_Texim_Colors_Rgb__
-  commentId: M:Texim.Colors.Rgba32.Encode(IEnumerable{Texim.Colors.Rgb})
+  href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Encode_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Colors.Rgba32.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name.vb: Encode(IEnumerable(Of Rgb))
-  fullName: Texim.Colors.Rgba32.Encode(IEnumerable<Texim.Colors.Rgb>)
-  fullName.vb: Texim.Colors.Rgba32.Encode(IEnumerable(Of Texim.Colors.Rgb))
+  fullName: Texim.Colors.Rgba32.Encode(System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Colors.Rgba32.Encode(System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb))
   nameWithType: Rgba32.Encode(IEnumerable<Rgb>)
   nameWithType.vb: Rgba32.Encode(IEnumerable(Of Rgb))
 - uid: Texim.Colors.Rgba32.Encode(Texim.Colors.Rgb)
@@ -510,7 +515,6 @@ references:
   name: Encode
   href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Encode_
   commentId: Overload:Texim.Colors.Rgba32.Encode
-  isSpec: "True"
   fullName: Texim.Colors.Rgba32.Encode
   nameWithType: Rgba32.Encode
 - uid: Texim.Colors.Rgba32.Instance
@@ -523,7 +527,6 @@ references:
   name: Instance
   href: api/Texim.Colors.Rgba32.html#Texim_Colors_Rgba32_Instance_
   commentId: Overload:Texim.Colors.Rgba32.Instance
-  isSpec: "True"
   fullName: Texim.Colors.Rgba32.Instance
   nameWithType: Rgba32.Instance
 - uid: Texim.Compressions.Nitro
@@ -538,6 +541,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.FullImageMapCompression
   fullName: Texim.Compressions.Nitro.FullImageMapCompression
   nameWithType: FullImageMapCompression
+- uid: Texim.Compressions.Nitro.FullImageMapCompression.#ctor
+  name: FullImageMapCompression()
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression__ctor
+  commentId: M:Texim.Compressions.Nitro.FullImageMapCompression.#ctor
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression.FullImageMapCompression()
+  nameWithType: FullImageMapCompression.FullImageMapCompression()
+- uid: Texim.Compressions.Nitro.FullImageMapCompression.#ctor*
+  name: FullImageMapCompression
+  href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompression.#ctor
+  fullName: Texim.Compressions.Nitro.FullImageMapCompression.FullImageMapCompression
+  nameWithType: FullImageMapCompression.FullImageMapCompression
 - uid: Texim.Compressions.Nitro.FullImageMapCompression.Convert(Texim.Images.IFullImage)
   name: Convert(IFullImage)
   href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Convert_Texim_Images_IFullImage_
@@ -548,7 +563,6 @@ references:
   name: Convert
   href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Convert_
   commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompression.Convert
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.FullImageMapCompression.Convert
   nameWithType: FullImageMapCompression.Convert
 - uid: Texim.Compressions.Nitro.FullImageMapCompression.Initialize(Texim.Compressions.Nitro.FullImageMapCompressionParams)
@@ -561,7 +575,6 @@ references:
   name: Initialize
   href: api/Texim.Compressions.Nitro.FullImageMapCompression.html#Texim_Compressions_Nitro_FullImageMapCompression_Initialize_
   commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompression.Initialize
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.FullImageMapCompression.Initialize
   nameWithType: FullImageMapCompression.Initialize
 - uid: Texim.Compressions.Nitro.FullImageMapCompressionParams
@@ -570,6 +583,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.FullImageMapCompressionParams
   fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams
   nameWithType: FullImageMapCompressionParams
+- uid: Texim.Compressions.Nitro.FullImageMapCompressionParams.#ctor
+  name: FullImageMapCompressionParams()
+  href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html#Texim_Compressions_Nitro_FullImageMapCompressionParams__ctor
+  commentId: M:Texim.Compressions.Nitro.FullImageMapCompressionParams.#ctor
+  fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams.FullImageMapCompressionParams()
+  nameWithType: FullImageMapCompressionParams.FullImageMapCompressionParams()
+- uid: Texim.Compressions.Nitro.FullImageMapCompressionParams.#ctor*
+  name: FullImageMapCompressionParams
+  href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html#Texim_Compressions_Nitro_FullImageMapCompressionParams__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompressionParams.#ctor
+  fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams.FullImageMapCompressionParams
+  nameWithType: FullImageMapCompressionParams.FullImageMapCompressionParams
 - uid: Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
   name: Palettes
   href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html#Texim_Compressions_Nitro_FullImageMapCompressionParams_Palettes
@@ -580,7 +605,6 @@ references:
   name: Palettes
   href: api/Texim.Compressions.Nitro.FullImageMapCompressionParams.html#Texim_Compressions_Nitro_FullImageMapCompressionParams_Palettes_
   commentId: Overload:Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.FullImageMapCompressionParams.Palettes
   nameWithType: FullImageMapCompressionParams.Palettes
 - uid: Texim.Compressions.Nitro.IOExtensions
@@ -589,52 +613,49 @@ references:
   commentId: T:Texim.Compressions.Nitro.IOExtensions
   fullName: Texim.Compressions.Nitro.IOExtensions
   nameWithType: IOExtensions
-- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(DataReader)
+- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(Yarhl.IO.DataReader)
   name: ReadMapInfo(DataReader)
-  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfo_DataReader_
-  commentId: M:Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(DataReader)
-  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(DataReader)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfo_Yarhl_IO_DataReader_
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(Yarhl.IO.DataReader)
+  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo(Yarhl.IO.DataReader)
   nameWithType: IOExtensions.ReadMapInfo(DataReader)
 - uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo*
   name: ReadMapInfo
   href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfo_
   commentId: Overload:Texim.Compressions.Nitro.IOExtensions.ReadMapInfo
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfo
   nameWithType: IOExtensions.ReadMapInfo
-- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(DataReader,System.Int32)
+- uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(Yarhl.IO.DataReader,System.Int32)
   name: ReadMapInfos(DataReader, Int32)
-  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfos_DataReader_System_Int32_
-  commentId: M:Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(DataReader,System.Int32)
-  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(DataReader, System.Int32)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfos_Yarhl_IO_DataReader_System_Int32_
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(Yarhl.IO.DataReader,System.Int32)
+  fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos(Yarhl.IO.DataReader, System.Int32)
   nameWithType: IOExtensions.ReadMapInfos(DataReader, Int32)
 - uid: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos*
   name: ReadMapInfos
   href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_ReadMapInfos_
   commentId: Overload:Texim.Compressions.Nitro.IOExtensions.ReadMapInfos
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.IOExtensions.ReadMapInfos
   nameWithType: IOExtensions.ReadMapInfos
-- uid: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,IEnumerable{Texim.Compressions.Nitro.MapInfo})
+- uid: Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter,System.Collections.Generic.IEnumerable{Texim.Compressions.Nitro.MapInfo})
   name: Write(DataWriter, IEnumerable<MapInfo>)
-  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_DataWriter_IEnumerable_Texim_Compressions_Nitro_MapInfo__
-  commentId: M:Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,IEnumerable{Texim.Compressions.Nitro.MapInfo})
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_Yarhl_IO_DataWriter_System_Collections_Generic_IEnumerable_Texim_Compressions_Nitro_MapInfo__
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter,System.Collections.Generic.IEnumerable{Texim.Compressions.Nitro.MapInfo})
   name.vb: Write(DataWriter, IEnumerable(Of MapInfo))
-  fullName: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter, IEnumerable<Texim.Compressions.Nitro.MapInfo>)
-  fullName.vb: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter, IEnumerable(Of Texim.Compressions.Nitro.MapInfo))
+  fullName: Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter, System.Collections.Generic.IEnumerable<Texim.Compressions.Nitro.MapInfo>)
+  fullName.vb: Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter, System.Collections.Generic.IEnumerable(Of Texim.Compressions.Nitro.MapInfo))
   nameWithType: IOExtensions.Write(DataWriter, IEnumerable<MapInfo>)
   nameWithType.vb: IOExtensions.Write(DataWriter, IEnumerable(Of MapInfo))
-- uid: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,Texim.Compressions.Nitro.MapInfo)
+- uid: Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter,Texim.Compressions.Nitro.MapInfo)
   name: Write(DataWriter, MapInfo)
-  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_DataWriter_Texim_Compressions_Nitro_MapInfo_
-  commentId: M:Texim.Compressions.Nitro.IOExtensions.Write(DataWriter,Texim.Compressions.Nitro.MapInfo)
-  fullName: Texim.Compressions.Nitro.IOExtensions.Write(DataWriter, Texim.Compressions.Nitro.MapInfo)
+  href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_Yarhl_IO_DataWriter_Texim_Compressions_Nitro_MapInfo_
+  commentId: M:Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter,Texim.Compressions.Nitro.MapInfo)
+  fullName: Texim.Compressions.Nitro.IOExtensions.Write(Yarhl.IO.DataWriter, Texim.Compressions.Nitro.MapInfo)
   nameWithType: IOExtensions.Write(DataWriter, MapInfo)
 - uid: Texim.Compressions.Nitro.IOExtensions.Write*
   name: Write
   href: api/Texim.Compressions.Nitro.IOExtensions.html#Texim_Compressions_Nitro_IOExtensions_Write_
   commentId: Overload:Texim.Compressions.Nitro.IOExtensions.Write
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.IOExtensions.Write
   nameWithType: IOExtensions.Write
 - uid: Texim.Compressions.Nitro.IScreenMap
@@ -653,7 +674,6 @@ references:
   name: Height
   href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Height_
   commentId: Overload:Texim.Compressions.Nitro.IScreenMap.Height
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.IScreenMap.Height
   nameWithType: IScreenMap.Height
 - uid: Texim.Compressions.Nitro.IScreenMap.Maps
@@ -666,7 +686,6 @@ references:
   name: Maps
   href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Maps_
   commentId: Overload:Texim.Compressions.Nitro.IScreenMap.Maps
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.IScreenMap.Maps
   nameWithType: IScreenMap.Maps
 - uid: Texim.Compressions.Nitro.IScreenMap.Width
@@ -679,7 +698,6 @@ references:
   name: Width
   href: api/Texim.Compressions.Nitro.IScreenMap.html#Texim_Compressions_Nitro_IScreenMap_Width_
   commentId: Overload:Texim.Compressions.Nitro.IScreenMap.Width
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.IScreenMap.Width
   nameWithType: IScreenMap.Width
 - uid: Texim.Compressions.Nitro.MapCompression
@@ -688,6 +706,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.MapCompression
   fullName: Texim.Compressions.Nitro.MapCompression
   nameWithType: MapCompression
+- uid: Texim.Compressions.Nitro.MapCompression.#ctor
+  name: MapCompression()
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression__ctor
+  commentId: M:Texim.Compressions.Nitro.MapCompression.#ctor
+  fullName: Texim.Compressions.Nitro.MapCompression.MapCompression()
+  nameWithType: MapCompression.MapCompression()
+- uid: Texim.Compressions.Nitro.MapCompression.#ctor*
+  name: MapCompression
+  href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.MapCompression.#ctor
+  fullName: Texim.Compressions.Nitro.MapCompression.MapCompression
+  nameWithType: MapCompression.MapCompression
 - uid: Texim.Compressions.Nitro.MapCompression.Convert(Texim.Images.IIndexedImage)
   name: Convert(IIndexedImage)
   href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Convert_Texim_Images_IIndexedImage_
@@ -698,7 +728,6 @@ references:
   name: Convert
   href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Convert_
   commentId: Overload:Texim.Compressions.Nitro.MapCompression.Convert
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapCompression.Convert
   nameWithType: MapCompression.Convert
 - uid: Texim.Compressions.Nitro.MapCompression.Initialize(Texim.Compressions.Nitro.MapCompressionParams)
@@ -711,7 +740,6 @@ references:
   name: Initialize
   href: api/Texim.Compressions.Nitro.MapCompression.html#Texim_Compressions_Nitro_MapCompression_Initialize_
   commentId: Overload:Texim.Compressions.Nitro.MapCompression.Initialize
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapCompression.Initialize
   nameWithType: MapCompression.Initialize
 - uid: Texim.Compressions.Nitro.MapCompressionParams
@@ -720,6 +748,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.MapCompressionParams
   fullName: Texim.Compressions.Nitro.MapCompressionParams
   nameWithType: MapCompressionParams
+- uid: Texim.Compressions.Nitro.MapCompressionParams.#ctor
+  name: MapCompressionParams()
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams__ctor
+  commentId: M:Texim.Compressions.Nitro.MapCompressionParams.#ctor
+  fullName: Texim.Compressions.Nitro.MapCompressionParams.MapCompressionParams()
+  nameWithType: MapCompressionParams.MapCompressionParams()
+- uid: Texim.Compressions.Nitro.MapCompressionParams.#ctor*
+  name: MapCompressionParams
+  href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.MapCompressionParams.#ctor
+  fullName: Texim.Compressions.Nitro.MapCompressionParams.MapCompressionParams
+  nameWithType: MapCompressionParams.MapCompressionParams
 - uid: Texim.Compressions.Nitro.MapCompressionParams.MergeImage
   name: MergeImage
   href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_MergeImage
@@ -730,7 +770,6 @@ references:
   name: MergeImage
   href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_MergeImage_
   commentId: Overload:Texim.Compressions.Nitro.MapCompressionParams.MergeImage
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapCompressionParams.MergeImage
   nameWithType: MapCompressionParams.MergeImage
 - uid: Texim.Compressions.Nitro.MapCompressionParams.TileSize
@@ -743,7 +782,6 @@ references:
   name: TileSize
   href: api/Texim.Compressions.Nitro.MapCompressionParams.html#Texim_Compressions_Nitro_MapCompressionParams_TileSize_
   commentId: Overload:Texim.Compressions.Nitro.MapCompressionParams.TileSize
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapCompressionParams.TileSize
   nameWithType: MapCompressionParams.TileSize
 - uid: Texim.Compressions.Nitro.MapDecompression
@@ -752,6 +790,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.MapDecompression
   fullName: Texim.Compressions.Nitro.MapDecompression
   nameWithType: MapDecompression
+- uid: Texim.Compressions.Nitro.MapDecompression.#ctor
+  name: MapDecompression()
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression__ctor
+  commentId: M:Texim.Compressions.Nitro.MapDecompression.#ctor
+  fullName: Texim.Compressions.Nitro.MapDecompression.MapDecompression()
+  nameWithType: MapDecompression.MapDecompression()
+- uid: Texim.Compressions.Nitro.MapDecompression.#ctor*
+  name: MapDecompression
+  href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompression.#ctor
+  fullName: Texim.Compressions.Nitro.MapDecompression.MapDecompression
+  nameWithType: MapDecompression.MapDecompression
 - uid: Texim.Compressions.Nitro.MapDecompression.Convert(Texim.Images.IIndexedImage)
   name: Convert(IIndexedImage)
   href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Convert_Texim_Images_IIndexedImage_
@@ -771,7 +821,6 @@ references:
   name: Convert
   href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Convert_
   commentId: Overload:Texim.Compressions.Nitro.MapDecompression.Convert
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompression.Convert
   nameWithType: MapDecompression.Convert
 - uid: Texim.Compressions.Nitro.MapDecompression.Initialize(Texim.Compressions.Nitro.MapDecompressionParams)
@@ -784,7 +833,6 @@ references:
   name: Initialize
   href: api/Texim.Compressions.Nitro.MapDecompression.html#Texim_Compressions_Nitro_MapDecompression_Initialize_
   commentId: Overload:Texim.Compressions.Nitro.MapDecompression.Initialize
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompression.Initialize
   nameWithType: MapDecompression.Initialize
 - uid: Texim.Compressions.Nitro.MapDecompressionParams
@@ -793,6 +841,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.MapDecompressionParams
   fullName: Texim.Compressions.Nitro.MapDecompressionParams
   nameWithType: MapDecompressionParams
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.#ctor
+  name: MapDecompressionParams()
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams__ctor
+  commentId: M:Texim.Compressions.Nitro.MapDecompressionParams.#ctor
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.MapDecompressionParams()
+  nameWithType: MapDecompressionParams.MapDecompressionParams()
+- uid: Texim.Compressions.Nitro.MapDecompressionParams.#ctor*
+  name: MapDecompressionParams
+  href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.#ctor
+  fullName: Texim.Compressions.Nitro.MapDecompressionParams.MapDecompressionParams
+  nameWithType: MapDecompressionParams.MapDecompressionParams
 - uid: Texim.Compressions.Nitro.MapDecompressionParams.Map
   name: Map
   href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_Map
@@ -803,7 +863,6 @@ references:
   name: Map
   href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_Map_
   commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.Map
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompressionParams.Map
   nameWithType: MapDecompressionParams.Map
 - uid: Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
@@ -816,7 +875,6 @@ references:
   name: OutOfBoundsTileIndex
   href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_OutOfBoundsTileIndex_
   commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompressionParams.OutOfBoundsTileIndex
   nameWithType: MapDecompressionParams.OutOfBoundsTileIndex
 - uid: Texim.Compressions.Nitro.MapDecompressionParams.TileSize
@@ -829,7 +887,6 @@ references:
   name: TileSize
   href: api/Texim.Compressions.Nitro.MapDecompressionParams.html#Texim_Compressions_Nitro_MapDecompressionParams_TileSize_
   commentId: Overload:Texim.Compressions.Nitro.MapDecompressionParams.TileSize
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapDecompressionParams.TileSize
   nameWithType: MapDecompressionParams.TileSize
 - uid: Texim.Compressions.Nitro.MapInfo
@@ -860,7 +917,6 @@ references:
   name: MapInfo
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo__ctor_
   commentId: Overload:Texim.Compressions.Nitro.MapInfo.#ctor
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapInfo.MapInfo
   nameWithType: MapInfo.MapInfo
 - uid: Texim.Compressions.Nitro.MapInfo.HorizontalFlip
@@ -873,7 +929,6 @@ references:
   name: HorizontalFlip
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_HorizontalFlip_
   commentId: Overload:Texim.Compressions.Nitro.MapInfo.HorizontalFlip
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapInfo.HorizontalFlip
   nameWithType: MapInfo.HorizontalFlip
 - uid: Texim.Compressions.Nitro.MapInfo.PaletteIndex
@@ -886,7 +941,6 @@ references:
   name: PaletteIndex
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_PaletteIndex_
   commentId: Overload:Texim.Compressions.Nitro.MapInfo.PaletteIndex
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapInfo.PaletteIndex
   nameWithType: MapInfo.PaletteIndex
 - uid: Texim.Compressions.Nitro.MapInfo.TileIndex
@@ -899,7 +953,6 @@ references:
   name: TileIndex
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_TileIndex_
   commentId: Overload:Texim.Compressions.Nitro.MapInfo.TileIndex
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapInfo.TileIndex
   nameWithType: MapInfo.TileIndex
 - uid: Texim.Compressions.Nitro.MapInfo.ToInt16
@@ -912,7 +965,6 @@ references:
   name: ToInt16
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_ToInt16_
   commentId: Overload:Texim.Compressions.Nitro.MapInfo.ToInt16
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapInfo.ToInt16
   nameWithType: MapInfo.ToInt16
 - uid: Texim.Compressions.Nitro.MapInfo.VerticalFlip
@@ -925,7 +977,6 @@ references:
   name: VerticalFlip
   href: api/Texim.Compressions.Nitro.MapInfo.html#Texim_Compressions_Nitro_MapInfo_VerticalFlip_
   commentId: Overload:Texim.Compressions.Nitro.MapInfo.VerticalFlip
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.MapInfo.VerticalFlip
   nameWithType: MapInfo.VerticalFlip
 - uid: Texim.Compressions.Nitro.RawBinary2ScreenMap
@@ -934,17 +985,28 @@ references:
   commentId: T:Texim.Compressions.Nitro.RawBinary2ScreenMap
   fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap
   nameWithType: RawBinary2ScreenMap
-- uid: Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert(IBinary)
+- uid: Texim.Compressions.Nitro.RawBinary2ScreenMap.#ctor
+  name: RawBinary2ScreenMap()
+  href: api/Texim.Compressions.Nitro.RawBinary2ScreenMap.html#Texim_Compressions_Nitro_RawBinary2ScreenMap__ctor
+  commentId: M:Texim.Compressions.Nitro.RawBinary2ScreenMap.#ctor
+  fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap.RawBinary2ScreenMap()
+  nameWithType: RawBinary2ScreenMap.RawBinary2ScreenMap()
+- uid: Texim.Compressions.Nitro.RawBinary2ScreenMap.#ctor*
+  name: RawBinary2ScreenMap
+  href: api/Texim.Compressions.Nitro.RawBinary2ScreenMap.html#Texim_Compressions_Nitro_RawBinary2ScreenMap__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.RawBinary2ScreenMap.#ctor
+  fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap.RawBinary2ScreenMap
+  nameWithType: RawBinary2ScreenMap.RawBinary2ScreenMap
+- uid: Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert(Yarhl.IO.IBinary)
   name: Convert(IBinary)
-  href: api/Texim.Compressions.Nitro.RawBinary2ScreenMap.html#Texim_Compressions_Nitro_RawBinary2ScreenMap_Convert_IBinary_
-  commentId: M:Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert(IBinary)
-  fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert(IBinary)
+  href: api/Texim.Compressions.Nitro.RawBinary2ScreenMap.html#Texim_Compressions_Nitro_RawBinary2ScreenMap_Convert_Yarhl_IO_IBinary_
+  commentId: M:Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert(Yarhl.IO.IBinary)
+  fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert(Yarhl.IO.IBinary)
   nameWithType: RawBinary2ScreenMap.Convert(IBinary)
 - uid: Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert*
   name: Convert
   href: api/Texim.Compressions.Nitro.RawBinary2ScreenMap.html#Texim_Compressions_Nitro_RawBinary2ScreenMap_Convert_
   commentId: Overload:Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap.Convert
   nameWithType: RawBinary2ScreenMap.Convert
 - uid: Texim.Compressions.Nitro.RawBinary2ScreenMap.Initialize(Texim.Compressions.Nitro.RawScreenMapParams)
@@ -957,7 +1019,6 @@ references:
   name: Initialize
   href: api/Texim.Compressions.Nitro.RawBinary2ScreenMap.html#Texim_Compressions_Nitro_RawBinary2ScreenMap_Initialize_
   commentId: Overload:Texim.Compressions.Nitro.RawBinary2ScreenMap.Initialize
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawBinary2ScreenMap.Initialize
   nameWithType: RawBinary2ScreenMap.Initialize
 - uid: Texim.Compressions.Nitro.RawScreenMapParams
@@ -966,6 +1027,18 @@ references:
   commentId: T:Texim.Compressions.Nitro.RawScreenMapParams
   fullName: Texim.Compressions.Nitro.RawScreenMapParams
   nameWithType: RawScreenMapParams
+- uid: Texim.Compressions.Nitro.RawScreenMapParams.#ctor
+  name: RawScreenMapParams()
+  href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams__ctor
+  commentId: M:Texim.Compressions.Nitro.RawScreenMapParams.#ctor
+  fullName: Texim.Compressions.Nitro.RawScreenMapParams.RawScreenMapParams()
+  nameWithType: RawScreenMapParams.RawScreenMapParams()
+- uid: Texim.Compressions.Nitro.RawScreenMapParams.#ctor*
+  name: RawScreenMapParams
+  href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams__ctor_
+  commentId: Overload:Texim.Compressions.Nitro.RawScreenMapParams.#ctor
+  fullName: Texim.Compressions.Nitro.RawScreenMapParams.RawScreenMapParams
+  nameWithType: RawScreenMapParams.RawScreenMapParams
 - uid: Texim.Compressions.Nitro.RawScreenMapParams.Default
   name: Default
   href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams_Default
@@ -976,7 +1049,6 @@ references:
   name: Default
   href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams_Default_
   commentId: Overload:Texim.Compressions.Nitro.RawScreenMapParams.Default
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawScreenMapParams.Default
   nameWithType: RawScreenMapParams.Default
 - uid: Texim.Compressions.Nitro.RawScreenMapParams.Height
@@ -989,7 +1061,6 @@ references:
   name: Height
   href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams_Height_
   commentId: Overload:Texim.Compressions.Nitro.RawScreenMapParams.Height
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawScreenMapParams.Height
   nameWithType: RawScreenMapParams.Height
 - uid: Texim.Compressions.Nitro.RawScreenMapParams.Offset
@@ -1002,7 +1073,6 @@ references:
   name: Offset
   href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams_Offset_
   commentId: Overload:Texim.Compressions.Nitro.RawScreenMapParams.Offset
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawScreenMapParams.Offset
   nameWithType: RawScreenMapParams.Offset
 - uid: Texim.Compressions.Nitro.RawScreenMapParams.Size
@@ -1015,7 +1085,6 @@ references:
   name: Size
   href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams_Size_
   commentId: Overload:Texim.Compressions.Nitro.RawScreenMapParams.Size
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawScreenMapParams.Size
   nameWithType: RawScreenMapParams.Size
 - uid: Texim.Compressions.Nitro.RawScreenMapParams.Width
@@ -1028,7 +1097,6 @@ references:
   name: Width
   href: api/Texim.Compressions.Nitro.RawScreenMapParams.html#Texim_Compressions_Nitro_RawScreenMapParams_Width_
   commentId: Overload:Texim.Compressions.Nitro.RawScreenMapParams.Width
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.RawScreenMapParams.Width
   nameWithType: RawScreenMapParams.Width
 - uid: Texim.Compressions.Nitro.ScreenMap
@@ -1053,7 +1121,6 @@ references:
   name: ScreenMap
   href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap__ctor_
   commentId: Overload:Texim.Compressions.Nitro.ScreenMap.#ctor
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.ScreenMap.ScreenMap
   nameWithType: ScreenMap.ScreenMap
 - uid: Texim.Compressions.Nitro.ScreenMap.Height
@@ -1066,7 +1133,6 @@ references:
   name: Height
   href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Height_
   commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Height
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.ScreenMap.Height
   nameWithType: ScreenMap.Height
 - uid: Texim.Compressions.Nitro.ScreenMap.Maps
@@ -1079,7 +1145,6 @@ references:
   name: Maps
   href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Maps_
   commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Maps
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.ScreenMap.Maps
   nameWithType: ScreenMap.Maps
 - uid: Texim.Compressions.Nitro.ScreenMap.Width
@@ -1092,7 +1157,6 @@ references:
   name: Width
   href: api/Texim.Compressions.Nitro.ScreenMap.html#Texim_Compressions_Nitro_ScreenMap_Width_
   commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Width
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.ScreenMap.Width
   nameWithType: ScreenMap.Width
 - uid: Texim.Compressions.Nitro.TileExtensions
@@ -1101,79 +1165,76 @@ references:
   commentId: T:Texim.Compressions.Nitro.TileExtensions
   fullName: Texim.Compressions.Nitro.TileExtensions
   nameWithType: TileExtensions
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory{Texim.Pixels.IndexedPixel},Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name: FlipHorizontal(Memory<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_Memory_Texim_Pixels_IndexedPixel__Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory{Texim.Pixels.IndexedPixel},Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name.vb: FlipHorizontal(Memory(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory<Texim.Pixels.IndexedPixel>, Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Memory(Of Texim.Pixels.IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
   nameWithType: TileExtensions.FlipHorizontal(Memory<IndexedPixel>, Size)
   nameWithType.vb: TileExtensions.FlipHorizontal(Memory(Of IndexedPixel), Size)
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span{Texim.Pixels.IndexedPixel},Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name: FlipHorizontal(Span<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_Span_Texim_Pixels_IndexedPixel__Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span{Texim.Pixels.IndexedPixel},Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name.vb: FlipHorizontal(Span(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span<Texim.Pixels.IndexedPixel>, Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(Span(Of Texim.Pixels.IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
   nameWithType: TileExtensions.FlipHorizontal(Span<IndexedPixel>, Size)
   nameWithType.vb: TileExtensions.FlipHorizontal(Span(Of IndexedPixel), Size)
 - uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal*
   name: FlipHorizontal
   href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_
   commentId: Overload:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal
   nameWithType: TileExtensions.FlipHorizontal
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory{Texim.Pixels.IndexedPixel},Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name: FlipVertical(Memory<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_Memory_Texim_Pixels_IndexedPixel__Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory{Texim.Pixels.IndexedPixel},Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name.vb: FlipVertical(Memory(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory<Texim.Pixels.IndexedPixel>, Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Memory(Of Texim.Pixels.IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
   nameWithType: TileExtensions.FlipVertical(Memory<IndexedPixel>, Size)
   nameWithType.vb: TileExtensions.FlipVertical(Memory(Of IndexedPixel), Size)
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span{Texim.Pixels.IndexedPixel},Size)
+- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name: FlipVertical(Span<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_Span_Texim_Pixels_IndexedPixel__Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span{Texim.Pixels.IndexedPixel},Size)
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
   name.vb: FlipVertical(Span(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span<Texim.Pixels.IndexedPixel>, Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(Span(Of Texim.Pixels.IndexedPixel), Size)
+  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
   nameWithType: TileExtensions.FlipVertical(Span<IndexedPixel>, Size)
   nameWithType.vb: TileExtensions.FlipVertical(Span(Of IndexedPixel), Size)
 - uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical*
   name: FlipVertical
   href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_
   commentId: Overload:Texim.Compressions.Nitro.TileExtensions.FlipVertical
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical
   nameWithType: TileExtensions.FlipVertical
-- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory{Texim.Pixels.IndexedPixel},Memory{Texim.Pixels.IndexedPixel})
+- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})
   name: HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_Memory_Texim_Pixels_IndexedPixel__Memory_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory{Texim.Pixels.IndexedPixel},Memory{Texim.Pixels.IndexedPixel})
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_System_Memory_Texim_Pixels_IndexedPixel__System_Memory_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})
   name.vb: HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
-  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory<Texim.Pixels.IndexedPixel>, Memory<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Memory(Of Texim.Pixels.IndexedPixel), Memory(Of Texim.Pixels.IndexedPixel))
+  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory<Texim.Pixels.IndexedPixel>, System.Memory<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory(Of Texim.Pixels.IndexedPixel), System.Memory(Of Texim.Pixels.IndexedPixel))
   nameWithType: TileExtensions.HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
   nameWithType.vb: TileExtensions.HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
-- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span{Texim.Pixels.IndexedPixel},Span{Texim.Pixels.IndexedPixel})
+- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})
   name: HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_Span_Texim_Pixels_IndexedPixel__Span_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span{Texim.Pixels.IndexedPixel},Span{Texim.Pixels.IndexedPixel})
+  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_System_Span_Texim_Pixels_IndexedPixel__System_Span_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})
   name.vb: HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
-  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span<Texim.Pixels.IndexedPixel>, Span<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(Span(Of Texim.Pixels.IndexedPixel), Span(Of Texim.Pixels.IndexedPixel))
+  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span<Texim.Pixels.IndexedPixel>, System.Span<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span(Of Texim.Pixels.IndexedPixel), System.Span(Of Texim.Pixels.IndexedPixel))
   nameWithType: TileExtensions.HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
   nameWithType.vb: TileExtensions.HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
 - uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes*
   name: HasEquivalentIndexes
   href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_
   commentId: Overload:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes
-  isSpec: "True"
   fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes
   nameWithType: TileExtensions.HasEquivalentIndexes
 - uid: Texim.Formats
@@ -1188,17 +1249,28 @@ references:
   commentId: T:Texim.Formats.Bitmap2FullImage
   fullName: Texim.Formats.Bitmap2FullImage
   nameWithType: Bitmap2FullImage
-- uid: Texim.Formats.Bitmap2FullImage.Convert(BinaryFormat)
+- uid: Texim.Formats.Bitmap2FullImage.#ctor
+  name: Bitmap2FullImage()
+  href: api/Texim.Formats.Bitmap2FullImage.html#Texim_Formats_Bitmap2FullImage__ctor
+  commentId: M:Texim.Formats.Bitmap2FullImage.#ctor
+  fullName: Texim.Formats.Bitmap2FullImage.Bitmap2FullImage()
+  nameWithType: Bitmap2FullImage.Bitmap2FullImage()
+- uid: Texim.Formats.Bitmap2FullImage.#ctor*
+  name: Bitmap2FullImage
+  href: api/Texim.Formats.Bitmap2FullImage.html#Texim_Formats_Bitmap2FullImage__ctor_
+  commentId: Overload:Texim.Formats.Bitmap2FullImage.#ctor
+  fullName: Texim.Formats.Bitmap2FullImage.Bitmap2FullImage
+  nameWithType: Bitmap2FullImage.Bitmap2FullImage
+- uid: Texim.Formats.Bitmap2FullImage.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/Texim.Formats.Bitmap2FullImage.html#Texim_Formats_Bitmap2FullImage_Convert_BinaryFormat_
-  commentId: M:Texim.Formats.Bitmap2FullImage.Convert(BinaryFormat)
-  fullName: Texim.Formats.Bitmap2FullImage.Convert(BinaryFormat)
+  href: api/Texim.Formats.Bitmap2FullImage.html#Texim_Formats_Bitmap2FullImage_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:Texim.Formats.Bitmap2FullImage.Convert(Yarhl.IO.BinaryFormat)
+  fullName: Texim.Formats.Bitmap2FullImage.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: Bitmap2FullImage.Convert(BinaryFormat)
 - uid: Texim.Formats.Bitmap2FullImage.Convert*
   name: Convert
   href: api/Texim.Formats.Bitmap2FullImage.html#Texim_Formats_Bitmap2FullImage_Convert_
   commentId: Overload:Texim.Formats.Bitmap2FullImage.Convert
-  isSpec: "True"
   fullName: Texim.Formats.Bitmap2FullImage.Convert
   nameWithType: Bitmap2FullImage.Convert
 - uid: Texim.Formats.FullImage2Bitmap
@@ -1207,6 +1279,18 @@ references:
   commentId: T:Texim.Formats.FullImage2Bitmap
   fullName: Texim.Formats.FullImage2Bitmap
   nameWithType: FullImage2Bitmap
+- uid: Texim.Formats.FullImage2Bitmap.#ctor
+  name: FullImage2Bitmap()
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap__ctor
+  commentId: M:Texim.Formats.FullImage2Bitmap.#ctor
+  fullName: Texim.Formats.FullImage2Bitmap.FullImage2Bitmap()
+  nameWithType: FullImage2Bitmap.FullImage2Bitmap()
+- uid: Texim.Formats.FullImage2Bitmap.#ctor*
+  name: FullImage2Bitmap
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap__ctor_
+  commentId: Overload:Texim.Formats.FullImage2Bitmap.#ctor
+  fullName: Texim.Formats.FullImage2Bitmap.FullImage2Bitmap
+  nameWithType: FullImage2Bitmap.FullImage2Bitmap
 - uid: Texim.Formats.FullImage2Bitmap.Convert(Texim.Images.IFullImage)
   name: Convert(IFullImage)
   href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Convert_Texim_Images_IFullImage_
@@ -1217,20 +1301,18 @@ references:
   name: Convert
   href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Convert_
   commentId: Overload:Texim.Formats.FullImage2Bitmap.Convert
-  isSpec: "True"
   fullName: Texim.Formats.FullImage2Bitmap.Convert
   nameWithType: FullImage2Bitmap.Convert
-- uid: Texim.Formats.FullImage2Bitmap.Initialize(ImageFormat)
-  name: Initialize(ImageFormat)
-  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Initialize_ImageFormat_
-  commentId: M:Texim.Formats.FullImage2Bitmap.Initialize(ImageFormat)
-  fullName: Texim.Formats.FullImage2Bitmap.Initialize(ImageFormat)
-  nameWithType: FullImage2Bitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.FullImage2Bitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  name: Initialize(IImageEncoder)
+  href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Initialize_SixLabors_ImageSharp_Formats_IImageEncoder_
+  commentId: M:Texim.Formats.FullImage2Bitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  fullName: Texim.Formats.FullImage2Bitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  nameWithType: FullImage2Bitmap.Initialize(IImageEncoder)
 - uid: Texim.Formats.FullImage2Bitmap.Initialize*
   name: Initialize
   href: api/Texim.Formats.FullImage2Bitmap.html#Texim_Formats_FullImage2Bitmap_Initialize_
   commentId: Overload:Texim.Formats.FullImage2Bitmap.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.FullImage2Bitmap.Initialize
   nameWithType: FullImage2Bitmap.Initialize
 - uid: Texim.Formats.IndexedImage2Bitmap
@@ -1239,6 +1321,18 @@ references:
   commentId: T:Texim.Formats.IndexedImage2Bitmap
   fullName: Texim.Formats.IndexedImage2Bitmap
   nameWithType: IndexedImage2Bitmap
+- uid: Texim.Formats.IndexedImage2Bitmap.#ctor
+  name: IndexedImage2Bitmap()
+  href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap__ctor
+  commentId: M:Texim.Formats.IndexedImage2Bitmap.#ctor
+  fullName: Texim.Formats.IndexedImage2Bitmap.IndexedImage2Bitmap()
+  nameWithType: IndexedImage2Bitmap.IndexedImage2Bitmap()
+- uid: Texim.Formats.IndexedImage2Bitmap.#ctor*
+  name: IndexedImage2Bitmap
+  href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap__ctor_
+  commentId: Overload:Texim.Formats.IndexedImage2Bitmap.#ctor
+  fullName: Texim.Formats.IndexedImage2Bitmap.IndexedImage2Bitmap
+  nameWithType: IndexedImage2Bitmap.IndexedImage2Bitmap
 - uid: Texim.Formats.IndexedImage2Bitmap.Convert(Texim.Images.IIndexedImage)
   name: Convert(IIndexedImage)
   href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Convert_Texim_Images_IIndexedImage_
@@ -1249,7 +1343,6 @@ references:
   name: Convert
   href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Convert_
   commentId: Overload:Texim.Formats.IndexedImage2Bitmap.Convert
-  isSpec: "True"
   fullName: Texim.Formats.IndexedImage2Bitmap.Convert
   nameWithType: IndexedImage2Bitmap.Convert
 - uid: Texim.Formats.IndexedImage2Bitmap.Initialize(Texim.Formats.IndexedImageBitmapParams)
@@ -1262,7 +1355,6 @@ references:
   name: Initialize
   href: api/Texim.Formats.IndexedImage2Bitmap.html#Texim_Formats_IndexedImage2Bitmap_Initialize_
   commentId: Overload:Texim.Formats.IndexedImage2Bitmap.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.IndexedImage2Bitmap.Initialize
   nameWithType: IndexedImage2Bitmap.Initialize
 - uid: Texim.Formats.IndexedImageBitmapParams
@@ -1271,19 +1363,30 @@ references:
   commentId: T:Texim.Formats.IndexedImageBitmapParams
   fullName: Texim.Formats.IndexedImageBitmapParams
   nameWithType: IndexedImageBitmapParams
-- uid: Texim.Formats.IndexedImageBitmapParams.Format
-  name: Format
-  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Format
-  commentId: P:Texim.Formats.IndexedImageBitmapParams.Format
-  fullName: Texim.Formats.IndexedImageBitmapParams.Format
-  nameWithType: IndexedImageBitmapParams.Format
-- uid: Texim.Formats.IndexedImageBitmapParams.Format*
-  name: Format
-  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Format_
-  commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Format
-  isSpec: "True"
-  fullName: Texim.Formats.IndexedImageBitmapParams.Format
-  nameWithType: IndexedImageBitmapParams.Format
+- uid: Texim.Formats.IndexedImageBitmapParams.#ctor
+  name: IndexedImageBitmapParams()
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams__ctor
+  commentId: M:Texim.Formats.IndexedImageBitmapParams.#ctor
+  fullName: Texim.Formats.IndexedImageBitmapParams.IndexedImageBitmapParams()
+  nameWithType: IndexedImageBitmapParams.IndexedImageBitmapParams()
+- uid: Texim.Formats.IndexedImageBitmapParams.#ctor*
+  name: IndexedImageBitmapParams
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams__ctor_
+  commentId: Overload:Texim.Formats.IndexedImageBitmapParams.#ctor
+  fullName: Texim.Formats.IndexedImageBitmapParams.IndexedImageBitmapParams
+  nameWithType: IndexedImageBitmapParams.IndexedImageBitmapParams
+- uid: Texim.Formats.IndexedImageBitmapParams.Encoder
+  name: Encoder
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Encoder
+  commentId: P:Texim.Formats.IndexedImageBitmapParams.Encoder
+  fullName: Texim.Formats.IndexedImageBitmapParams.Encoder
+  nameWithType: IndexedImageBitmapParams.Encoder
+- uid: Texim.Formats.IndexedImageBitmapParams.Encoder*
+  name: Encoder
+  href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Encoder_
+  commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Encoder
+  fullName: Texim.Formats.IndexedImageBitmapParams.Encoder
+  nameWithType: IndexedImageBitmapParams.Encoder
 - uid: Texim.Formats.IndexedImageBitmapParams.Palette
   name: Palette
   href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palette
@@ -1294,7 +1397,6 @@ references:
   name: Palette
   href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palette_
   commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Palette
-  isSpec: "True"
   fullName: Texim.Formats.IndexedImageBitmapParams.Palette
   nameWithType: IndexedImageBitmapParams.Palette
 - uid: Texim.Formats.IndexedImageBitmapParams.Palettes
@@ -1307,7 +1409,6 @@ references:
   name: Palettes
   href: api/Texim.Formats.IndexedImageBitmapParams.html#Texim_Formats_IndexedImageBitmapParams_Palettes_
   commentId: Overload:Texim.Formats.IndexedImageBitmapParams.Palettes
-  isSpec: "True"
   fullName: Texim.Formats.IndexedImageBitmapParams.Palettes
   nameWithType: IndexedImageBitmapParams.Palettes
 - uid: Texim.Formats.Palette2BinaryRiff
@@ -1316,6 +1417,18 @@ references:
   commentId: T:Texim.Formats.Palette2BinaryRiff
   fullName: Texim.Formats.Palette2BinaryRiff
   nameWithType: Palette2BinaryRiff
+- uid: Texim.Formats.Palette2BinaryRiff.#ctor
+  name: Palette2BinaryRiff()
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff__ctor
+  commentId: M:Texim.Formats.Palette2BinaryRiff.#ctor
+  fullName: Texim.Formats.Palette2BinaryRiff.Palette2BinaryRiff()
+  nameWithType: Palette2BinaryRiff.Palette2BinaryRiff()
+- uid: Texim.Formats.Palette2BinaryRiff.#ctor*
+  name: Palette2BinaryRiff
+  href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff__ctor_
+  commentId: Overload:Texim.Formats.Palette2BinaryRiff.#ctor
+  fullName: Texim.Formats.Palette2BinaryRiff.Palette2BinaryRiff
+  nameWithType: Palette2BinaryRiff.Palette2BinaryRiff
 - uid: Texim.Formats.Palette2BinaryRiff.Convert(Texim.Palettes.IPalette)
   name: Convert(IPalette)
   href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Convert_Texim_Palettes_IPalette_
@@ -1326,7 +1439,6 @@ references:
   name: Convert
   href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Convert_
   commentId: Overload:Texim.Formats.Palette2BinaryRiff.Convert
-  isSpec: "True"
   fullName: Texim.Formats.Palette2BinaryRiff.Convert
   nameWithType: Palette2BinaryRiff.Convert
 - uid: Texim.Formats.Palette2BinaryRiff.GimpCompatibility
@@ -1339,7 +1451,6 @@ references:
   name: GimpCompatibility
   href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_GimpCompatibility_
   commentId: Overload:Texim.Formats.Palette2BinaryRiff.GimpCompatibility
-  isSpec: "True"
   fullName: Texim.Formats.Palette2BinaryRiff.GimpCompatibility
   nameWithType: Palette2BinaryRiff.GimpCompatibility
 - uid: Texim.Formats.Palette2BinaryRiff.Initialize(System.Boolean)
@@ -1352,7 +1463,6 @@ references:
   name: Initialize
   href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Initialize_
   commentId: Overload:Texim.Formats.Palette2BinaryRiff.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.Palette2BinaryRiff.Initialize
   nameWithType: Palette2BinaryRiff.Initialize
 - uid: Texim.Formats.Palette2BinaryRiff.Version
@@ -1365,7 +1475,6 @@ references:
   name: Version
   href: api/Texim.Formats.Palette2BinaryRiff.html#Texim_Formats_Palette2BinaryRiff_Version_
   commentId: Overload:Texim.Formats.Palette2BinaryRiff.Version
-  isSpec: "True"
   fullName: Texim.Formats.Palette2BinaryRiff.Version
   nameWithType: Palette2BinaryRiff.Version
 - uid: Texim.Formats.Palette2Bitmap
@@ -1374,6 +1483,18 @@ references:
   commentId: T:Texim.Formats.Palette2Bitmap
   fullName: Texim.Formats.Palette2Bitmap
   nameWithType: Palette2Bitmap
+- uid: Texim.Formats.Palette2Bitmap.#ctor
+  name: Palette2Bitmap()
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap__ctor
+  commentId: M:Texim.Formats.Palette2Bitmap.#ctor
+  fullName: Texim.Formats.Palette2Bitmap.Palette2Bitmap()
+  nameWithType: Palette2Bitmap.Palette2Bitmap()
+- uid: Texim.Formats.Palette2Bitmap.#ctor*
+  name: Palette2Bitmap
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap__ctor_
+  commentId: Overload:Texim.Formats.Palette2Bitmap.#ctor
+  fullName: Texim.Formats.Palette2Bitmap.Palette2Bitmap
+  nameWithType: Palette2Bitmap.Palette2Bitmap
 - uid: Texim.Formats.Palette2Bitmap.Convert(Texim.Palettes.IPalette)
   name: Convert(IPalette)
   href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Convert_Texim_Palettes_IPalette_
@@ -1384,20 +1505,18 @@ references:
   name: Convert
   href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Convert_
   commentId: Overload:Texim.Formats.Palette2Bitmap.Convert
-  isSpec: "True"
   fullName: Texim.Formats.Palette2Bitmap.Convert
   nameWithType: Palette2Bitmap.Convert
-- uid: Texim.Formats.Palette2Bitmap.Initialize(ImageFormat)
-  name: Initialize(ImageFormat)
-  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Initialize_ImageFormat_
-  commentId: M:Texim.Formats.Palette2Bitmap.Initialize(ImageFormat)
-  fullName: Texim.Formats.Palette2Bitmap.Initialize(ImageFormat)
-  nameWithType: Palette2Bitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.Palette2Bitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  name: Initialize(IImageEncoder)
+  href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Initialize_SixLabors_ImageSharp_Formats_IImageEncoder_
+  commentId: M:Texim.Formats.Palette2Bitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  fullName: Texim.Formats.Palette2Bitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  nameWithType: Palette2Bitmap.Initialize(IImageEncoder)
 - uid: Texim.Formats.Palette2Bitmap.Initialize*
   name: Initialize
   href: api/Texim.Formats.Palette2Bitmap.html#Texim_Formats_Palette2Bitmap_Initialize_
   commentId: Overload:Texim.Formats.Palette2Bitmap.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.Palette2Bitmap.Initialize
   nameWithType: Palette2Bitmap.Initialize
 - uid: Texim.Formats.PaletteCollection2ContainerBitmap
@@ -1406,6 +1525,18 @@ references:
   commentId: T:Texim.Formats.PaletteCollection2ContainerBitmap
   fullName: Texim.Formats.PaletteCollection2ContainerBitmap
   nameWithType: PaletteCollection2ContainerBitmap
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.#ctor
+  name: PaletteCollection2ContainerBitmap()
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap__ctor
+  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.#ctor
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.PaletteCollection2ContainerBitmap()
+  nameWithType: PaletteCollection2ContainerBitmap.PaletteCollection2ContainerBitmap()
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.#ctor*
+  name: PaletteCollection2ContainerBitmap
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap__ctor_
+  commentId: Overload:Texim.Formats.PaletteCollection2ContainerBitmap.#ctor
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.PaletteCollection2ContainerBitmap
+  nameWithType: PaletteCollection2ContainerBitmap.PaletteCollection2ContainerBitmap
 - uid: Texim.Formats.PaletteCollection2ContainerBitmap.Convert(Texim.Palettes.IPaletteCollection)
   name: Convert(IPaletteCollection)
   href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_Texim_Palettes_IPaletteCollection_
@@ -1416,20 +1547,18 @@ references:
   name: Convert
   href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Convert_
   commentId: Overload:Texim.Formats.PaletteCollection2ContainerBitmap.Convert
-  isSpec: "True"
   fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Convert
   nameWithType: PaletteCollection2ContainerBitmap.Convert
-- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
-  name: Initialize(ImageFormat)
-  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Initialize_ImageFormat_
-  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
-  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
-  nameWithType: PaletteCollection2ContainerBitmap.Initialize(ImageFormat)
+- uid: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  name: Initialize(IImageEncoder)
+  href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Initialize_SixLabors_ImageSharp_Formats_IImageEncoder_
+  commentId: M:Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize(SixLabors.ImageSharp.Formats.IImageEncoder)
+  nameWithType: PaletteCollection2ContainerBitmap.Initialize(IImageEncoder)
 - uid: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize*
   name: Initialize
   href: api/Texim.Formats.PaletteCollection2ContainerBitmap.html#Texim_Formats_PaletteCollection2ContainerBitmap_Initialize_
   commentId: Overload:Texim.Formats.PaletteCollection2ContainerBitmap.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.PaletteCollection2ContainerBitmap.Initialize
   nameWithType: PaletteCollection2ContainerBitmap.Initialize
 - uid: Texim.Formats.RawBinary2IndexedImage
@@ -1438,17 +1567,28 @@ references:
   commentId: T:Texim.Formats.RawBinary2IndexedImage
   fullName: Texim.Formats.RawBinary2IndexedImage
   nameWithType: RawBinary2IndexedImage
-- uid: Texim.Formats.RawBinary2IndexedImage.Convert(IBinary)
+- uid: Texim.Formats.RawBinary2IndexedImage.#ctor
+  name: RawBinary2IndexedImage()
+  href: api/Texim.Formats.RawBinary2IndexedImage.html#Texim_Formats_RawBinary2IndexedImage__ctor
+  commentId: M:Texim.Formats.RawBinary2IndexedImage.#ctor
+  fullName: Texim.Formats.RawBinary2IndexedImage.RawBinary2IndexedImage()
+  nameWithType: RawBinary2IndexedImage.RawBinary2IndexedImage()
+- uid: Texim.Formats.RawBinary2IndexedImage.#ctor*
+  name: RawBinary2IndexedImage
+  href: api/Texim.Formats.RawBinary2IndexedImage.html#Texim_Formats_RawBinary2IndexedImage__ctor_
+  commentId: Overload:Texim.Formats.RawBinary2IndexedImage.#ctor
+  fullName: Texim.Formats.RawBinary2IndexedImage.RawBinary2IndexedImage
+  nameWithType: RawBinary2IndexedImage.RawBinary2IndexedImage
+- uid: Texim.Formats.RawBinary2IndexedImage.Convert(Yarhl.IO.IBinary)
   name: Convert(IBinary)
-  href: api/Texim.Formats.RawBinary2IndexedImage.html#Texim_Formats_RawBinary2IndexedImage_Convert_IBinary_
-  commentId: M:Texim.Formats.RawBinary2IndexedImage.Convert(IBinary)
-  fullName: Texim.Formats.RawBinary2IndexedImage.Convert(IBinary)
+  href: api/Texim.Formats.RawBinary2IndexedImage.html#Texim_Formats_RawBinary2IndexedImage_Convert_Yarhl_IO_IBinary_
+  commentId: M:Texim.Formats.RawBinary2IndexedImage.Convert(Yarhl.IO.IBinary)
+  fullName: Texim.Formats.RawBinary2IndexedImage.Convert(Yarhl.IO.IBinary)
   nameWithType: RawBinary2IndexedImage.Convert(IBinary)
 - uid: Texim.Formats.RawBinary2IndexedImage.Convert*
   name: Convert
   href: api/Texim.Formats.RawBinary2IndexedImage.html#Texim_Formats_RawBinary2IndexedImage_Convert_
   commentId: Overload:Texim.Formats.RawBinary2IndexedImage.Convert
-  isSpec: "True"
   fullName: Texim.Formats.RawBinary2IndexedImage.Convert
   nameWithType: RawBinary2IndexedImage.Convert
 - uid: Texim.Formats.RawBinary2IndexedImage.Initialize(Texim.Formats.RawIndexedImageParams)
@@ -1461,7 +1601,6 @@ references:
   name: Initialize
   href: api/Texim.Formats.RawBinary2IndexedImage.html#Texim_Formats_RawBinary2IndexedImage_Initialize_
   commentId: Overload:Texim.Formats.RawBinary2IndexedImage.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.RawBinary2IndexedImage.Initialize
   nameWithType: RawBinary2IndexedImage.Initialize
 - uid: Texim.Formats.RawBinary2PaletteCollection
@@ -1470,17 +1609,28 @@ references:
   commentId: T:Texim.Formats.RawBinary2PaletteCollection
   fullName: Texim.Formats.RawBinary2PaletteCollection
   nameWithType: RawBinary2PaletteCollection
-- uid: Texim.Formats.RawBinary2PaletteCollection.Convert(BinaryFormat)
+- uid: Texim.Formats.RawBinary2PaletteCollection.#ctor
+  name: RawBinary2PaletteCollection()
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection__ctor
+  commentId: M:Texim.Formats.RawBinary2PaletteCollection.#ctor
+  fullName: Texim.Formats.RawBinary2PaletteCollection.RawBinary2PaletteCollection()
+  nameWithType: RawBinary2PaletteCollection.RawBinary2PaletteCollection()
+- uid: Texim.Formats.RawBinary2PaletteCollection.#ctor*
+  name: RawBinary2PaletteCollection
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection__ctor_
+  commentId: Overload:Texim.Formats.RawBinary2PaletteCollection.#ctor
+  fullName: Texim.Formats.RawBinary2PaletteCollection.RawBinary2PaletteCollection
+  nameWithType: RawBinary2PaletteCollection.RawBinary2PaletteCollection
+- uid: Texim.Formats.RawBinary2PaletteCollection.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Convert_BinaryFormat_
-  commentId: M:Texim.Formats.RawBinary2PaletteCollection.Convert(BinaryFormat)
-  fullName: Texim.Formats.RawBinary2PaletteCollection.Convert(BinaryFormat)
+  href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:Texim.Formats.RawBinary2PaletteCollection.Convert(Yarhl.IO.BinaryFormat)
+  fullName: Texim.Formats.RawBinary2PaletteCollection.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: RawBinary2PaletteCollection.Convert(BinaryFormat)
 - uid: Texim.Formats.RawBinary2PaletteCollection.Convert*
   name: Convert
   href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Convert_
   commentId: Overload:Texim.Formats.RawBinary2PaletteCollection.Convert
-  isSpec: "True"
   fullName: Texim.Formats.RawBinary2PaletteCollection.Convert
   nameWithType: RawBinary2PaletteCollection.Convert
 - uid: Texim.Formats.RawBinary2PaletteCollection.Initialize(Texim.Formats.RawPaletteParams)
@@ -1493,7 +1643,6 @@ references:
   name: Initialize
   href: api/Texim.Formats.RawBinary2PaletteCollection.html#Texim_Formats_RawBinary2PaletteCollection_Initialize_
   commentId: Overload:Texim.Formats.RawBinary2PaletteCollection.Initialize
-  isSpec: "True"
   fullName: Texim.Formats.RawBinary2PaletteCollection.Initialize
   nameWithType: RawBinary2PaletteCollection.Initialize
 - uid: Texim.Formats.RawIndexedImageParams
@@ -1502,6 +1651,18 @@ references:
   commentId: T:Texim.Formats.RawIndexedImageParams
   fullName: Texim.Formats.RawIndexedImageParams
   nameWithType: RawIndexedImageParams
+- uid: Texim.Formats.RawIndexedImageParams.#ctor
+  name: RawIndexedImageParams()
+  href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams__ctor
+  commentId: M:Texim.Formats.RawIndexedImageParams.#ctor
+  fullName: Texim.Formats.RawIndexedImageParams.RawIndexedImageParams()
+  nameWithType: RawIndexedImageParams.RawIndexedImageParams()
+- uid: Texim.Formats.RawIndexedImageParams.#ctor*
+  name: RawIndexedImageParams
+  href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams__ctor_
+  commentId: Overload:Texim.Formats.RawIndexedImageParams.#ctor
+  fullName: Texim.Formats.RawIndexedImageParams.RawIndexedImageParams
+  nameWithType: RawIndexedImageParams.RawIndexedImageParams
 - uid: Texim.Formats.RawIndexedImageParams.Default
   name: Default
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Default
@@ -1512,7 +1673,6 @@ references:
   name: Default
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Default_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.Default
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.Default
   nameWithType: RawIndexedImageParams.Default
 - uid: Texim.Formats.RawIndexedImageParams.Height
@@ -1525,7 +1685,6 @@ references:
   name: Height
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Height_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.Height
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.Height
   nameWithType: RawIndexedImageParams.Height
 - uid: Texim.Formats.RawIndexedImageParams.Offset
@@ -1538,7 +1697,6 @@ references:
   name: Offset
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Offset_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.Offset
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.Offset
   nameWithType: RawIndexedImageParams.Offset
 - uid: Texim.Formats.RawIndexedImageParams.PixelEncoding
@@ -1551,7 +1709,6 @@ references:
   name: PixelEncoding
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_PixelEncoding_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.PixelEncoding
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.PixelEncoding
   nameWithType: RawIndexedImageParams.PixelEncoding
 - uid: Texim.Formats.RawIndexedImageParams.Size
@@ -1564,7 +1721,6 @@ references:
   name: Size
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Size_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.Size
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.Size
   nameWithType: RawIndexedImageParams.Size
 - uid: Texim.Formats.RawIndexedImageParams.Swizzling
@@ -1577,7 +1733,6 @@ references:
   name: Swizzling
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Swizzling_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.Swizzling
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.Swizzling
   nameWithType: RawIndexedImageParams.Swizzling
 - uid: Texim.Formats.RawIndexedImageParams.Width
@@ -1590,7 +1745,6 @@ references:
   name: Width
   href: api/Texim.Formats.RawIndexedImageParams.html#Texim_Formats_RawIndexedImageParams_Width_
   commentId: Overload:Texim.Formats.RawIndexedImageParams.Width
-  isSpec: "True"
   fullName: Texim.Formats.RawIndexedImageParams.Width
   nameWithType: RawIndexedImageParams.Width
 - uid: Texim.Formats.RawPaletteParams
@@ -1599,6 +1753,18 @@ references:
   commentId: T:Texim.Formats.RawPaletteParams
   fullName: Texim.Formats.RawPaletteParams
   nameWithType: RawPaletteParams
+- uid: Texim.Formats.RawPaletteParams.#ctor
+  name: RawPaletteParams()
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams__ctor
+  commentId: M:Texim.Formats.RawPaletteParams.#ctor
+  fullName: Texim.Formats.RawPaletteParams.RawPaletteParams()
+  nameWithType: RawPaletteParams.RawPaletteParams()
+- uid: Texim.Formats.RawPaletteParams.#ctor*
+  name: RawPaletteParams
+  href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams__ctor_
+  commentId: Overload:Texim.Formats.RawPaletteParams.#ctor
+  fullName: Texim.Formats.RawPaletteParams.RawPaletteParams
+  nameWithType: RawPaletteParams.RawPaletteParams
 - uid: Texim.Formats.RawPaletteParams.ColorEncoding
   name: ColorEncoding
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorEncoding
@@ -1609,7 +1775,6 @@ references:
   name: ColorEncoding
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorEncoding_
   commentId: Overload:Texim.Formats.RawPaletteParams.ColorEncoding
-  isSpec: "True"
   fullName: Texim.Formats.RawPaletteParams.ColorEncoding
   nameWithType: RawPaletteParams.ColorEncoding
 - uid: Texim.Formats.RawPaletteParams.ColorsPerPalette
@@ -1622,7 +1787,6 @@ references:
   name: ColorsPerPalette
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_ColorsPerPalette_
   commentId: Overload:Texim.Formats.RawPaletteParams.ColorsPerPalette
-  isSpec: "True"
   fullName: Texim.Formats.RawPaletteParams.ColorsPerPalette
   nameWithType: RawPaletteParams.ColorsPerPalette
 - uid: Texim.Formats.RawPaletteParams.Default
@@ -1635,7 +1799,6 @@ references:
   name: Default
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Default_
   commentId: Overload:Texim.Formats.RawPaletteParams.Default
-  isSpec: "True"
   fullName: Texim.Formats.RawPaletteParams.Default
   nameWithType: RawPaletteParams.Default
 - uid: Texim.Formats.RawPaletteParams.Offset
@@ -1648,7 +1811,6 @@ references:
   name: Offset
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Offset_
   commentId: Overload:Texim.Formats.RawPaletteParams.Offset
-  isSpec: "True"
   fullName: Texim.Formats.RawPaletteParams.Offset
   nameWithType: RawPaletteParams.Offset
 - uid: Texim.Formats.RawPaletteParams.Size
@@ -1661,7 +1823,6 @@ references:
   name: Size
   href: api/Texim.Formats.RawPaletteParams.html#Texim_Formats_RawPaletteParams_Size_
   commentId: Overload:Texim.Formats.RawPaletteParams.Size
-  isSpec: "True"
   fullName: Texim.Formats.RawPaletteParams.Size
   nameWithType: RawPaletteParams.Size
 - uid: Texim.Images
@@ -1686,7 +1847,6 @@ references:
   name: FullImage
   href: api/Texim.Images.FullImage.html#Texim_Images_FullImage__ctor_
   commentId: Overload:Texim.Images.FullImage.#ctor
-  isSpec: "True"
   fullName: Texim.Images.FullImage.FullImage
   nameWithType: FullImage.FullImage
 - uid: Texim.Images.FullImage.Height
@@ -1699,7 +1859,6 @@ references:
   name: Height
   href: api/Texim.Images.FullImage.html#Texim_Images_FullImage_Height_
   commentId: Overload:Texim.Images.FullImage.Height
-  isSpec: "True"
   fullName: Texim.Images.FullImage.Height
   nameWithType: FullImage.Height
 - uid: Texim.Images.FullImage.Pixels
@@ -1712,7 +1871,6 @@ references:
   name: Pixels
   href: api/Texim.Images.FullImage.html#Texim_Images_FullImage_Pixels_
   commentId: Overload:Texim.Images.FullImage.Pixels
-  isSpec: "True"
   fullName: Texim.Images.FullImage.Pixels
   nameWithType: FullImage.Pixels
 - uid: Texim.Images.FullImage.Width
@@ -1725,7 +1883,6 @@ references:
   name: Width
   href: api/Texim.Images.FullImage.html#Texim_Images_FullImage_Width_
   commentId: Overload:Texim.Images.FullImage.Width
-  isSpec: "True"
   fullName: Texim.Images.FullImage.Width
   nameWithType: FullImage.Width
 - uid: Texim.Images.FullImage2IndexedPalette
@@ -1734,6 +1891,18 @@ references:
   commentId: T:Texim.Images.FullImage2IndexedPalette
   fullName: Texim.Images.FullImage2IndexedPalette
   nameWithType: FullImage2IndexedPalette
+- uid: Texim.Images.FullImage2IndexedPalette.#ctor
+  name: FullImage2IndexedPalette()
+  href: api/Texim.Images.FullImage2IndexedPalette.html#Texim_Images_FullImage2IndexedPalette__ctor
+  commentId: M:Texim.Images.FullImage2IndexedPalette.#ctor
+  fullName: Texim.Images.FullImage2IndexedPalette.FullImage2IndexedPalette()
+  nameWithType: FullImage2IndexedPalette.FullImage2IndexedPalette()
+- uid: Texim.Images.FullImage2IndexedPalette.#ctor*
+  name: FullImage2IndexedPalette
+  href: api/Texim.Images.FullImage2IndexedPalette.html#Texim_Images_FullImage2IndexedPalette__ctor_
+  commentId: Overload:Texim.Images.FullImage2IndexedPalette.#ctor
+  fullName: Texim.Images.FullImage2IndexedPalette.FullImage2IndexedPalette
+  nameWithType: FullImage2IndexedPalette.FullImage2IndexedPalette
 - uid: Texim.Images.FullImage2IndexedPalette.Convert(Texim.Images.IFullImage)
   name: Convert(IFullImage)
   href: api/Texim.Images.FullImage2IndexedPalette.html#Texim_Images_FullImage2IndexedPalette_Convert_Texim_Images_IFullImage_
@@ -1744,7 +1913,6 @@ references:
   name: Convert
   href: api/Texim.Images.FullImage2IndexedPalette.html#Texim_Images_FullImage2IndexedPalette_Convert_
   commentId: Overload:Texim.Images.FullImage2IndexedPalette.Convert
-  isSpec: "True"
   fullName: Texim.Images.FullImage2IndexedPalette.Convert
   nameWithType: FullImage2IndexedPalette.Convert
 - uid: Texim.Images.FullImage2IndexedPalette.Initialize(Texim.Processing.IQuantization)
@@ -1757,7 +1925,6 @@ references:
   name: Initialize
   href: api/Texim.Images.FullImage2IndexedPalette.html#Texim_Images_FullImage2IndexedPalette_Initialize_
   commentId: Overload:Texim.Images.FullImage2IndexedPalette.Initialize
-  isSpec: "True"
   fullName: Texim.Images.FullImage2IndexedPalette.Initialize
   nameWithType: FullImage2IndexedPalette.Initialize
 - uid: Texim.Images.IFullImage
@@ -1776,7 +1943,6 @@ references:
   name: Height
   href: api/Texim.Images.IFullImage.html#Texim_Images_IFullImage_Height_
   commentId: Overload:Texim.Images.IFullImage.Height
-  isSpec: "True"
   fullName: Texim.Images.IFullImage.Height
   nameWithType: IFullImage.Height
 - uid: Texim.Images.IFullImage.Pixels
@@ -1789,7 +1955,6 @@ references:
   name: Pixels
   href: api/Texim.Images.IFullImage.html#Texim_Images_IFullImage_Pixels_
   commentId: Overload:Texim.Images.IFullImage.Pixels
-  isSpec: "True"
   fullName: Texim.Images.IFullImage.Pixels
   nameWithType: IFullImage.Pixels
 - uid: Texim.Images.IFullImage.Width
@@ -1802,7 +1967,6 @@ references:
   name: Width
   href: api/Texim.Images.IFullImage.html#Texim_Images_IFullImage_Width_
   commentId: Overload:Texim.Images.IFullImage.Width
-  isSpec: "True"
   fullName: Texim.Images.IFullImage.Width
   nameWithType: IFullImage.Width
 - uid: Texim.Images.IIndexedImage
@@ -1821,7 +1985,6 @@ references:
   name: Height
   href: api/Texim.Images.IIndexedImage.html#Texim_Images_IIndexedImage_Height_
   commentId: Overload:Texim.Images.IIndexedImage.Height
-  isSpec: "True"
   fullName: Texim.Images.IIndexedImage.Height
   nameWithType: IIndexedImage.Height
 - uid: Texim.Images.IIndexedImage.Pixels
@@ -1834,7 +1997,6 @@ references:
   name: Pixels
   href: api/Texim.Images.IIndexedImage.html#Texim_Images_IIndexedImage_Pixels_
   commentId: Overload:Texim.Images.IIndexedImage.Pixels
-  isSpec: "True"
   fullName: Texim.Images.IIndexedImage.Pixels
   nameWithType: IIndexedImage.Pixels
 - uid: Texim.Images.IIndexedImage.Width
@@ -1847,7 +2009,6 @@ references:
   name: Width
   href: api/Texim.Images.IIndexedImage.html#Texim_Images_IIndexedImage_Width_
   commentId: Overload:Texim.Images.IIndexedImage.Width
-  isSpec: "True"
   fullName: Texim.Images.IIndexedImage.Width
   nameWithType: IIndexedImage.Width
 - uid: Texim.Images.Indexed2FullImage
@@ -1856,6 +2017,18 @@ references:
   commentId: T:Texim.Images.Indexed2FullImage
   fullName: Texim.Images.Indexed2FullImage
   nameWithType: Indexed2FullImage
+- uid: Texim.Images.Indexed2FullImage.#ctor
+  name: Indexed2FullImage()
+  href: api/Texim.Images.Indexed2FullImage.html#Texim_Images_Indexed2FullImage__ctor
+  commentId: M:Texim.Images.Indexed2FullImage.#ctor
+  fullName: Texim.Images.Indexed2FullImage.Indexed2FullImage()
+  nameWithType: Indexed2FullImage.Indexed2FullImage()
+- uid: Texim.Images.Indexed2FullImage.#ctor*
+  name: Indexed2FullImage
+  href: api/Texim.Images.Indexed2FullImage.html#Texim_Images_Indexed2FullImage__ctor_
+  commentId: Overload:Texim.Images.Indexed2FullImage.#ctor
+  fullName: Texim.Images.Indexed2FullImage.Indexed2FullImage
+  nameWithType: Indexed2FullImage.Indexed2FullImage
 - uid: Texim.Images.Indexed2FullImage.Convert(Texim.Images.IIndexedImage)
   name: Convert(IIndexedImage)
   href: api/Texim.Images.Indexed2FullImage.html#Texim_Images_Indexed2FullImage_Convert_Texim_Images_IIndexedImage_
@@ -1866,7 +2039,6 @@ references:
   name: Convert
   href: api/Texim.Images.Indexed2FullImage.html#Texim_Images_Indexed2FullImage_Convert_
   commentId: Overload:Texim.Images.Indexed2FullImage.Convert
-  isSpec: "True"
   fullName: Texim.Images.Indexed2FullImage.Convert
   nameWithType: Indexed2FullImage.Convert
 - uid: Texim.Images.Indexed2FullImage.Initialize(Texim.Palettes.IPalette)
@@ -1885,7 +2057,6 @@ references:
   name: Initialize
   href: api/Texim.Images.Indexed2FullImage.html#Texim_Images_Indexed2FullImage_Initialize_
   commentId: Overload:Texim.Images.Indexed2FullImage.Initialize
-  isSpec: "True"
   fullName: Texim.Images.Indexed2FullImage.Initialize
   nameWithType: Indexed2FullImage.Initialize
 - uid: Texim.Images.IndexedImage
@@ -1919,7 +2090,6 @@ references:
   name: IndexedImage
   href: api/Texim.Images.IndexedImage.html#Texim_Images_IndexedImage__ctor_
   commentId: Overload:Texim.Images.IndexedImage.#ctor
-  isSpec: "True"
   fullName: Texim.Images.IndexedImage.IndexedImage
   nameWithType: IndexedImage.IndexedImage
 - uid: Texim.Images.IndexedImage.CreateFullImage(Texim.Palettes.IPalette)
@@ -1938,7 +2108,6 @@ references:
   name: CreateFullImage
   href: api/Texim.Images.IndexedImage.html#Texim_Images_IndexedImage_CreateFullImage_
   commentId: Overload:Texim.Images.IndexedImage.CreateFullImage
-  isSpec: "True"
   fullName: Texim.Images.IndexedImage.CreateFullImage
   nameWithType: IndexedImage.CreateFullImage
 - uid: Texim.Images.IndexedImage.Height
@@ -1951,7 +2120,6 @@ references:
   name: Height
   href: api/Texim.Images.IndexedImage.html#Texim_Images_IndexedImage_Height_
   commentId: Overload:Texim.Images.IndexedImage.Height
-  isSpec: "True"
   fullName: Texim.Images.IndexedImage.Height
   nameWithType: IndexedImage.Height
 - uid: Texim.Images.IndexedImage.Pixels
@@ -1964,7 +2132,6 @@ references:
   name: Pixels
   href: api/Texim.Images.IndexedImage.html#Texim_Images_IndexedImage_Pixels_
   commentId: Overload:Texim.Images.IndexedImage.Pixels
-  isSpec: "True"
   fullName: Texim.Images.IndexedImage.Pixels
   nameWithType: IndexedImage.Pixels
 - uid: Texim.Images.IndexedImage.Width
@@ -1977,7 +2144,6 @@ references:
   name: Width
   href: api/Texim.Images.IndexedImage.html#Texim_Images_IndexedImage_Width_
   commentId: Overload:Texim.Images.IndexedImage.Width
-  isSpec: "True"
   fullName: Texim.Images.IndexedImage.Width
   nameWithType: IndexedImage.Width
 - uid: Texim.Images.IndexedPaletteImage
@@ -1986,6 +2152,18 @@ references:
   commentId: T:Texim.Images.IndexedPaletteImage
   fullName: Texim.Images.IndexedPaletteImage
   nameWithType: IndexedPaletteImage
+- uid: Texim.Images.IndexedPaletteImage.#ctor
+  name: IndexedPaletteImage()
+  href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage__ctor
+  commentId: M:Texim.Images.IndexedPaletteImage.#ctor
+  fullName: Texim.Images.IndexedPaletteImage.IndexedPaletteImage()
+  nameWithType: IndexedPaletteImage.IndexedPaletteImage()
+- uid: Texim.Images.IndexedPaletteImage.#ctor*
+  name: IndexedPaletteImage
+  href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage__ctor_
+  commentId: Overload:Texim.Images.IndexedPaletteImage.#ctor
+  fullName: Texim.Images.IndexedPaletteImage.IndexedPaletteImage
+  nameWithType: IndexedPaletteImage.IndexedPaletteImage
 - uid: Texim.Images.IndexedPaletteImage.CreateFullImage
   name: CreateFullImage()
   href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage_CreateFullImage
@@ -1996,7 +2174,6 @@ references:
   name: CreateFullImage
   href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage_CreateFullImage_
   commentId: Overload:Texim.Images.IndexedPaletteImage.CreateFullImage
-  isSpec: "True"
   fullName: Texim.Images.IndexedPaletteImage.CreateFullImage
   nameWithType: IndexedPaletteImage.CreateFullImage
 - uid: Texim.Images.IndexedPaletteImage.Height
@@ -2009,7 +2186,6 @@ references:
   name: Height
   href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage_Height_
   commentId: Overload:Texim.Images.IndexedPaletteImage.Height
-  isSpec: "True"
   fullName: Texim.Images.IndexedPaletteImage.Height
   nameWithType: IndexedPaletteImage.Height
 - uid: Texim.Images.IndexedPaletteImage.Palettes
@@ -2022,7 +2198,6 @@ references:
   name: Palettes
   href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage_Palettes_
   commentId: Overload:Texim.Images.IndexedPaletteImage.Palettes
-  isSpec: "True"
   fullName: Texim.Images.IndexedPaletteImage.Palettes
   nameWithType: IndexedPaletteImage.Palettes
 - uid: Texim.Images.IndexedPaletteImage.Pixels
@@ -2035,7 +2210,6 @@ references:
   name: Pixels
   href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage_Pixels_
   commentId: Overload:Texim.Images.IndexedPaletteImage.Pixels
-  isSpec: "True"
   fullName: Texim.Images.IndexedPaletteImage.Pixels
   nameWithType: IndexedPaletteImage.Pixels
 - uid: Texim.Images.IndexedPaletteImage.Width
@@ -2048,7 +2222,6 @@ references:
   name: Width
   href: api/Texim.Images.IndexedPaletteImage.html#Texim_Images_IndexedPaletteImage_Width_
   commentId: Overload:Texim.Images.IndexedPaletteImage.Width
-  isSpec: "True"
   fullName: Texim.Images.IndexedPaletteImage.Width
   nameWithType: IndexedPaletteImage.Width
 - uid: Texim.Palettes
@@ -2073,7 +2246,6 @@ references:
   name: Colors
   href: api/Texim.Palettes.IPalette.html#Texim_Palettes_IPalette_Colors_
   commentId: Overload:Texim.Palettes.IPalette.Colors
-  isSpec: "True"
   fullName: Texim.Palettes.IPalette.Colors
   nameWithType: IPalette.Colors
 - uid: Texim.Palettes.IPaletteCollection
@@ -2092,7 +2264,6 @@ references:
   name: Palettes
   href: api/Texim.Palettes.IPaletteCollection.html#Texim_Palettes_IPaletteCollection_Palettes_
   commentId: Overload:Texim.Palettes.IPaletteCollection.Palettes
-  isSpec: "True"
   fullName: Texim.Palettes.IPaletteCollection.Palettes
   nameWithType: IPaletteCollection.Palettes
 - uid: Texim.Palettes.Palette
@@ -2107,20 +2278,19 @@ references:
   commentId: M:Texim.Palettes.Palette.#ctor
   fullName: Texim.Palettes.Palette.Palette()
   nameWithType: Palette.Palette()
-- uid: Texim.Palettes.Palette.#ctor(IEnumerable{Texim.Colors.Rgb})
+- uid: Texim.Palettes.Palette.#ctor(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name: Palette(IEnumerable<Rgb>)
-  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette__ctor_IEnumerable_Texim_Colors_Rgb__
-  commentId: M:Texim.Palettes.Palette.#ctor(IEnumerable{Texim.Colors.Rgb})
+  href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette__ctor_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Palettes.Palette.#ctor(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name.vb: Palette(IEnumerable(Of Rgb))
-  fullName: Texim.Palettes.Palette.Palette(IEnumerable<Texim.Colors.Rgb>)
-  fullName.vb: Texim.Palettes.Palette.Palette(IEnumerable(Of Texim.Colors.Rgb))
+  fullName: Texim.Palettes.Palette.Palette(System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Palettes.Palette.Palette(System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb))
   nameWithType: Palette.Palette(IEnumerable<Rgb>)
   nameWithType.vb: Palette.Palette(IEnumerable(Of Rgb))
 - uid: Texim.Palettes.Palette.#ctor*
   name: Palette
   href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette__ctor_
   commentId: Overload:Texim.Palettes.Palette.#ctor
-  isSpec: "True"
   fullName: Texim.Palettes.Palette.Palette
   nameWithType: Palette.Palette
 - uid: Texim.Palettes.Palette.Colors
@@ -2133,7 +2303,6 @@ references:
   name: Colors
   href: api/Texim.Palettes.Palette.html#Texim_Palettes_Palette_Colors_
   commentId: Overload:Texim.Palettes.Palette.Colors
-  isSpec: "True"
   fullName: Texim.Palettes.Palette.Colors
   nameWithType: Palette.Colors
 - uid: Texim.Palettes.PaletteCollection
@@ -2148,13 +2317,13 @@ references:
   commentId: M:Texim.Palettes.PaletteCollection.#ctor
   fullName: Texim.Palettes.PaletteCollection.PaletteCollection()
   nameWithType: PaletteCollection.PaletteCollection()
-- uid: Texim.Palettes.PaletteCollection.#ctor(IEnumerable{Texim.Palettes.IPalette})
+- uid: Texim.Palettes.PaletteCollection.#ctor(System.Collections.Generic.IEnumerable{Texim.Palettes.IPalette})
   name: PaletteCollection(IEnumerable<IPalette>)
-  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection__ctor_IEnumerable_Texim_Palettes_IPalette__
-  commentId: M:Texim.Palettes.PaletteCollection.#ctor(IEnumerable{Texim.Palettes.IPalette})
+  href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection__ctor_System_Collections_Generic_IEnumerable_Texim_Palettes_IPalette__
+  commentId: M:Texim.Palettes.PaletteCollection.#ctor(System.Collections.Generic.IEnumerable{Texim.Palettes.IPalette})
   name.vb: PaletteCollection(IEnumerable(Of IPalette))
-  fullName: Texim.Palettes.PaletteCollection.PaletteCollection(IEnumerable<Texim.Palettes.IPalette>)
-  fullName.vb: Texim.Palettes.PaletteCollection.PaletteCollection(IEnumerable(Of Texim.Palettes.IPalette))
+  fullName: Texim.Palettes.PaletteCollection.PaletteCollection(System.Collections.Generic.IEnumerable<Texim.Palettes.IPalette>)
+  fullName.vb: Texim.Palettes.PaletteCollection.PaletteCollection(System.Collections.Generic.IEnumerable(Of Texim.Palettes.IPalette))
   nameWithType: PaletteCollection.PaletteCollection(IEnumerable<IPalette>)
   nameWithType.vb: PaletteCollection.PaletteCollection(IEnumerable(Of IPalette))
 - uid: Texim.Palettes.PaletteCollection.#ctor(Texim.Palettes.IPalette)
@@ -2167,7 +2336,6 @@ references:
   name: PaletteCollection
   href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection__ctor_
   commentId: Overload:Texim.Palettes.PaletteCollection.#ctor
-  isSpec: "True"
   fullName: Texim.Palettes.PaletteCollection.PaletteCollection
   nameWithType: PaletteCollection.PaletteCollection
 - uid: Texim.Palettes.PaletteCollection.Palettes
@@ -2180,7 +2348,6 @@ references:
   name: Palettes
   href: api/Texim.Palettes.PaletteCollection.html#Texim_Palettes_PaletteCollection_Palettes_
   commentId: Overload:Texim.Palettes.PaletteCollection.Palettes
-  isSpec: "True"
   fullName: Texim.Palettes.PaletteCollection.Palettes
   nameWithType: PaletteCollection.Palettes
 - uid: Texim.Pixels
@@ -2195,6 +2362,18 @@ references:
   commentId: T:Texim.Pixels.BytePixelEncoding
   fullName: Texim.Pixels.BytePixelEncoding
   nameWithType: BytePixelEncoding
+- uid: Texim.Pixels.BytePixelEncoding.#ctor
+  name: BytePixelEncoding()
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding__ctor
+  commentId: M:Texim.Pixels.BytePixelEncoding.#ctor
+  fullName: Texim.Pixels.BytePixelEncoding.BytePixelEncoding()
+  nameWithType: BytePixelEncoding.BytePixelEncoding()
+- uid: Texim.Pixels.BytePixelEncoding.#ctor*
+  name: BytePixelEncoding
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding__ctor_
+  commentId: Overload:Texim.Pixels.BytePixelEncoding.#ctor
+  fullName: Texim.Pixels.BytePixelEncoding.BytePixelEncoding
+  nameWithType: BytePixelEncoding.BytePixelEncoding
 - uid: Texim.Pixels.BytePixelEncoding.BitsPerPixel
   name: BitsPerPixel
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_BitsPerPixel
@@ -2205,7 +2384,6 @@ references:
   name: BitsPerPixel
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_BitsPerPixel_
   commentId: Overload:Texim.Pixels.BytePixelEncoding.BitsPerPixel
-  isSpec: "True"
   fullName: Texim.Pixels.BytePixelEncoding.BitsPerPixel
   nameWithType: BytePixelEncoding.BitsPerPixel
 - uid: Texim.Pixels.BytePixelEncoding.BitsToPixel(System.Byte)
@@ -2218,45 +2396,42 @@ references:
   name: BitsToPixel
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_BitsToPixel_
   commentId: Overload:Texim.Pixels.BytePixelEncoding.BitsToPixel
-  isSpec: "True"
   fullName: Texim.Pixels.BytePixelEncoding.BitsToPixel
   nameWithType: BytePixelEncoding.BitsToPixel
-- uid: Texim.Pixels.BytePixelEncoding.Decode(Span{System.Byte})
+- uid: Texim.Pixels.BytePixelEncoding.Decode(System.IO.Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_System_IO_Stream_System_Int32_
+  commentId: M:Texim.Pixels.BytePixelEncoding.Decode(System.IO.Stream,System.Int32)
+  fullName: Texim.Pixels.BytePixelEncoding.Decode(System.IO.Stream, System.Int32)
+  nameWithType: BytePixelEncoding.Decode(Stream, Int32)
+- uid: Texim.Pixels.BytePixelEncoding.Decode(System.Span{System.Byte})
   name: Decode(Span<Byte>)
-  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_Span_System_Byte__
-  commentId: M:Texim.Pixels.BytePixelEncoding.Decode(Span{System.Byte})
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_System_Span_System_Byte__
+  commentId: M:Texim.Pixels.BytePixelEncoding.Decode(System.Span{System.Byte})
   name.vb: Decode(Span(Of Byte))
-  fullName: Texim.Pixels.BytePixelEncoding.Decode(Span<System.Byte>)
-  fullName.vb: Texim.Pixels.BytePixelEncoding.Decode(Span(Of System.Byte))
+  fullName: Texim.Pixels.BytePixelEncoding.Decode(System.Span<System.Byte>)
+  fullName.vb: Texim.Pixels.BytePixelEncoding.Decode(System.Span(Of System.Byte))
   nameWithType: BytePixelEncoding.Decode(Span<Byte>)
   nameWithType.vb: BytePixelEncoding.Decode(Span(Of Byte))
-- uid: Texim.Pixels.BytePixelEncoding.Decode(Stream,System.Int32)
-  name: Decode(Stream, Int32)
-  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_Stream_System_Int32_
-  commentId: M:Texim.Pixels.BytePixelEncoding.Decode(Stream,System.Int32)
-  fullName: Texim.Pixels.BytePixelEncoding.Decode(Stream, System.Int32)
-  nameWithType: BytePixelEncoding.Decode(Stream, Int32)
 - uid: Texim.Pixels.BytePixelEncoding.Decode*
   name: Decode
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_
   commentId: Overload:Texim.Pixels.BytePixelEncoding.Decode
-  isSpec: "True"
   fullName: Texim.Pixels.BytePixelEncoding.Decode
   nameWithType: BytePixelEncoding.Decode
-- uid: Texim.Pixels.BytePixelEncoding.Encode(IEnumerable{Texim.Pixels.IndexedPixel})
+- uid: Texim.Pixels.BytePixelEncoding.Encode(System.Collections.Generic.IEnumerable{Texim.Pixels.IndexedPixel})
   name: Encode(IEnumerable<IndexedPixel>)
-  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Encode_IEnumerable_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Pixels.BytePixelEncoding.Encode(IEnumerable{Texim.Pixels.IndexedPixel})
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Encode_System_Collections_Generic_IEnumerable_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Pixels.BytePixelEncoding.Encode(System.Collections.Generic.IEnumerable{Texim.Pixels.IndexedPixel})
   name.vb: Encode(IEnumerable(Of IndexedPixel))
-  fullName: Texim.Pixels.BytePixelEncoding.Encode(IEnumerable<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Pixels.BytePixelEncoding.Encode(IEnumerable(Of Texim.Pixels.IndexedPixel))
+  fullName: Texim.Pixels.BytePixelEncoding.Encode(System.Collections.Generic.IEnumerable<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Pixels.BytePixelEncoding.Encode(System.Collections.Generic.IEnumerable(Of Texim.Pixels.IndexedPixel))
   nameWithType: BytePixelEncoding.Encode(IEnumerable<IndexedPixel>)
   nameWithType.vb: BytePixelEncoding.Encode(IEnumerable(Of IndexedPixel))
 - uid: Texim.Pixels.BytePixelEncoding.Encode*
   name: Encode
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Encode_
   commentId: Overload:Texim.Pixels.BytePixelEncoding.Encode
-  isSpec: "True"
   fullName: Texim.Pixels.BytePixelEncoding.Encode
   nameWithType: BytePixelEncoding.Encode
 - uid: Texim.Pixels.BytePixelEncoding.PixelToBits(Texim.Pixels.IndexedPixel)
@@ -2269,7 +2444,6 @@ references:
   name: PixelToBits
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_PixelToBits_
   commentId: Overload:Texim.Pixels.BytePixelEncoding.PixelToBits
-  isSpec: "True"
   fullName: Texim.Pixels.BytePixelEncoding.PixelToBits
   nameWithType: BytePixelEncoding.PixelToBits
 - uid: Texim.Pixels.IIndexedPixelEncoding
@@ -2278,42 +2452,40 @@ references:
   commentId: T:Texim.Pixels.IIndexedPixelEncoding
   fullName: Texim.Pixels.IIndexedPixelEncoding
   nameWithType: IIndexedPixelEncoding
-- uid: Texim.Pixels.IIndexedPixelEncoding.Decode(Span{System.Byte})
+- uid: Texim.Pixels.IIndexedPixelEncoding.Decode(System.IO.Stream,System.Int32)
+  name: Decode(Stream, Int32)
+  href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Decode_System_IO_Stream_System_Int32_
+  commentId: M:Texim.Pixels.IIndexedPixelEncoding.Decode(System.IO.Stream,System.Int32)
+  fullName: Texim.Pixels.IIndexedPixelEncoding.Decode(System.IO.Stream, System.Int32)
+  nameWithType: IIndexedPixelEncoding.Decode(Stream, Int32)
+- uid: Texim.Pixels.IIndexedPixelEncoding.Decode(System.Span{System.Byte})
   name: Decode(Span<Byte>)
-  href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Decode_Span_System_Byte__
-  commentId: M:Texim.Pixels.IIndexedPixelEncoding.Decode(Span{System.Byte})
+  href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Decode_System_Span_System_Byte__
+  commentId: M:Texim.Pixels.IIndexedPixelEncoding.Decode(System.Span{System.Byte})
   name.vb: Decode(Span(Of Byte))
-  fullName: Texim.Pixels.IIndexedPixelEncoding.Decode(Span<System.Byte>)
-  fullName.vb: Texim.Pixels.IIndexedPixelEncoding.Decode(Span(Of System.Byte))
+  fullName: Texim.Pixels.IIndexedPixelEncoding.Decode(System.Span<System.Byte>)
+  fullName.vb: Texim.Pixels.IIndexedPixelEncoding.Decode(System.Span(Of System.Byte))
   nameWithType: IIndexedPixelEncoding.Decode(Span<Byte>)
   nameWithType.vb: IIndexedPixelEncoding.Decode(Span(Of Byte))
-- uid: Texim.Pixels.IIndexedPixelEncoding.Decode(Stream,System.Int32)
-  name: Decode(Stream, Int32)
-  href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Decode_Stream_System_Int32_
-  commentId: M:Texim.Pixels.IIndexedPixelEncoding.Decode(Stream,System.Int32)
-  fullName: Texim.Pixels.IIndexedPixelEncoding.Decode(Stream, System.Int32)
-  nameWithType: IIndexedPixelEncoding.Decode(Stream, Int32)
 - uid: Texim.Pixels.IIndexedPixelEncoding.Decode*
   name: Decode
   href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Decode_
   commentId: Overload:Texim.Pixels.IIndexedPixelEncoding.Decode
-  isSpec: "True"
   fullName: Texim.Pixels.IIndexedPixelEncoding.Decode
   nameWithType: IIndexedPixelEncoding.Decode
-- uid: Texim.Pixels.IIndexedPixelEncoding.Encode(IEnumerable{Texim.Pixels.IndexedPixel})
+- uid: Texim.Pixels.IIndexedPixelEncoding.Encode(System.Collections.Generic.IEnumerable{Texim.Pixels.IndexedPixel})
   name: Encode(IEnumerable<IndexedPixel>)
-  href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Encode_IEnumerable_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Pixels.IIndexedPixelEncoding.Encode(IEnumerable{Texim.Pixels.IndexedPixel})
+  href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Encode_System_Collections_Generic_IEnumerable_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Pixels.IIndexedPixelEncoding.Encode(System.Collections.Generic.IEnumerable{Texim.Pixels.IndexedPixel})
   name.vb: Encode(IEnumerable(Of IndexedPixel))
-  fullName: Texim.Pixels.IIndexedPixelEncoding.Encode(IEnumerable<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Pixels.IIndexedPixelEncoding.Encode(IEnumerable(Of Texim.Pixels.IndexedPixel))
+  fullName: Texim.Pixels.IIndexedPixelEncoding.Encode(System.Collections.Generic.IEnumerable<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Pixels.IIndexedPixelEncoding.Encode(System.Collections.Generic.IEnumerable(Of Texim.Pixels.IndexedPixel))
   nameWithType: IIndexedPixelEncoding.Encode(IEnumerable<IndexedPixel>)
   nameWithType.vb: IIndexedPixelEncoding.Encode(IEnumerable(Of IndexedPixel))
 - uid: Texim.Pixels.IIndexedPixelEncoding.Encode*
   name: Encode
   href: api/Texim.Pixels.IIndexedPixelEncoding.html#Texim_Pixels_IIndexedPixelEncoding_Encode_
   commentId: Overload:Texim.Pixels.IIndexedPixelEncoding.Encode
-  isSpec: "True"
   fullName: Texim.Pixels.IIndexedPixelEncoding.Encode
   nameWithType: IIndexedPixelEncoding.Encode
 - uid: Texim.Pixels.Indexed4Bpp
@@ -2322,6 +2494,18 @@ references:
   commentId: T:Texim.Pixels.Indexed4Bpp
   fullName: Texim.Pixels.Indexed4Bpp
   nameWithType: Indexed4Bpp
+- uid: Texim.Pixels.Indexed4Bpp.#ctor
+  name: Indexed4Bpp()
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp__ctor
+  commentId: M:Texim.Pixels.Indexed4Bpp.#ctor
+  fullName: Texim.Pixels.Indexed4Bpp.Indexed4Bpp()
+  nameWithType: Indexed4Bpp.Indexed4Bpp()
+- uid: Texim.Pixels.Indexed4Bpp.#ctor*
+  name: Indexed4Bpp
+  href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp__ctor_
+  commentId: Overload:Texim.Pixels.Indexed4Bpp.#ctor
+  fullName: Texim.Pixels.Indexed4Bpp.Indexed4Bpp
+  nameWithType: Indexed4Bpp.Indexed4Bpp
 - uid: Texim.Pixels.Indexed4Bpp.BitsPerPixel
   name: BitsPerPixel
   href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsPerPixel
@@ -2332,7 +2516,6 @@ references:
   name: BitsPerPixel
   href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsPerPixel_
   commentId: Overload:Texim.Pixels.Indexed4Bpp.BitsPerPixel
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed4Bpp.BitsPerPixel
   nameWithType: Indexed4Bpp.BitsPerPixel
 - uid: Texim.Pixels.Indexed4Bpp.BitsToPixel(System.Byte)
@@ -2345,7 +2528,6 @@ references:
   name: BitsToPixel
   href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsToPixel_
   commentId: Overload:Texim.Pixels.Indexed4Bpp.BitsToPixel
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed4Bpp.BitsToPixel
   nameWithType: Indexed4Bpp.BitsToPixel
 - uid: Texim.Pixels.Indexed4Bpp.Instance
@@ -2358,7 +2540,6 @@ references:
   name: Instance
   href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_Instance_
   commentId: Overload:Texim.Pixels.Indexed4Bpp.Instance
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed4Bpp.Instance
   nameWithType: Indexed4Bpp.Instance
 - uid: Texim.Pixels.Indexed4Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
@@ -2371,7 +2552,6 @@ references:
   name: PixelToBits
   href: api/Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_PixelToBits_
   commentId: Overload:Texim.Pixels.Indexed4Bpp.PixelToBits
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed4Bpp.PixelToBits
   nameWithType: Indexed4Bpp.PixelToBits
 - uid: Texim.Pixels.Indexed8Bpp
@@ -2380,6 +2560,18 @@ references:
   commentId: T:Texim.Pixels.Indexed8Bpp
   fullName: Texim.Pixels.Indexed8Bpp
   nameWithType: Indexed8Bpp
+- uid: Texim.Pixels.Indexed8Bpp.#ctor
+  name: Indexed8Bpp()
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp__ctor
+  commentId: M:Texim.Pixels.Indexed8Bpp.#ctor
+  fullName: Texim.Pixels.Indexed8Bpp.Indexed8Bpp()
+  nameWithType: Indexed8Bpp.Indexed8Bpp()
+- uid: Texim.Pixels.Indexed8Bpp.#ctor*
+  name: Indexed8Bpp
+  href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp__ctor_
+  commentId: Overload:Texim.Pixels.Indexed8Bpp.#ctor
+  fullName: Texim.Pixels.Indexed8Bpp.Indexed8Bpp
+  nameWithType: Indexed8Bpp.Indexed8Bpp
 - uid: Texim.Pixels.Indexed8Bpp.BitsPerPixel
   name: BitsPerPixel
   href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsPerPixel
@@ -2390,7 +2582,6 @@ references:
   name: BitsPerPixel
   href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsPerPixel_
   commentId: Overload:Texim.Pixels.Indexed8Bpp.BitsPerPixel
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed8Bpp.BitsPerPixel
   nameWithType: Indexed8Bpp.BitsPerPixel
 - uid: Texim.Pixels.Indexed8Bpp.BitsToPixel(System.Byte)
@@ -2403,7 +2594,6 @@ references:
   name: BitsToPixel
   href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_BitsToPixel_
   commentId: Overload:Texim.Pixels.Indexed8Bpp.BitsToPixel
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed8Bpp.BitsToPixel
   nameWithType: Indexed8Bpp.BitsToPixel
 - uid: Texim.Pixels.Indexed8Bpp.Instance
@@ -2416,7 +2606,6 @@ references:
   name: Instance
   href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_Instance_
   commentId: Overload:Texim.Pixels.Indexed8Bpp.Instance
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed8Bpp.Instance
   nameWithType: Indexed8Bpp.Instance
 - uid: Texim.Pixels.Indexed8Bpp.PixelToBits(Texim.Pixels.IndexedPixel)
@@ -2429,7 +2618,6 @@ references:
   name: PixelToBits
   href: api/Texim.Pixels.Indexed8Bpp.html#Texim_Pixels_Indexed8Bpp_PixelToBits_
   commentId: Overload:Texim.Pixels.Indexed8Bpp.PixelToBits
-  isSpec: "True"
   fullName: Texim.Pixels.Indexed8Bpp.PixelToBits
   nameWithType: Indexed8Bpp.PixelToBits
 - uid: Texim.Pixels.IndexedA3I5
@@ -2438,6 +2626,18 @@ references:
   commentId: T:Texim.Pixels.IndexedA3I5
   fullName: Texim.Pixels.IndexedA3I5
   nameWithType: IndexedA3I5
+- uid: Texim.Pixels.IndexedA3I5.#ctor
+  name: IndexedA3I5()
+  href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5__ctor
+  commentId: M:Texim.Pixels.IndexedA3I5.#ctor
+  fullName: Texim.Pixels.IndexedA3I5.IndexedA3I5()
+  nameWithType: IndexedA3I5.IndexedA3I5()
+- uid: Texim.Pixels.IndexedA3I5.#ctor*
+  name: IndexedA3I5
+  href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5__ctor_
+  commentId: Overload:Texim.Pixels.IndexedA3I5.#ctor
+  fullName: Texim.Pixels.IndexedA3I5.IndexedA3I5
+  nameWithType: IndexedA3I5.IndexedA3I5
 - uid: Texim.Pixels.IndexedA3I5.BitsPerPixel
   name: BitsPerPixel
   href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_BitsPerPixel
@@ -2448,7 +2648,6 @@ references:
   name: BitsPerPixel
   href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_BitsPerPixel_
   commentId: Overload:Texim.Pixels.IndexedA3I5.BitsPerPixel
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA3I5.BitsPerPixel
   nameWithType: IndexedA3I5.BitsPerPixel
 - uid: Texim.Pixels.IndexedA3I5.BitsToPixel(System.Byte)
@@ -2461,7 +2660,6 @@ references:
   name: BitsToPixel
   href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_BitsToPixel_
   commentId: Overload:Texim.Pixels.IndexedA3I5.BitsToPixel
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA3I5.BitsToPixel
   nameWithType: IndexedA3I5.BitsToPixel
 - uid: Texim.Pixels.IndexedA3I5.Instance
@@ -2474,7 +2672,6 @@ references:
   name: Instance
   href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_Instance_
   commentId: Overload:Texim.Pixels.IndexedA3I5.Instance
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA3I5.Instance
   nameWithType: IndexedA3I5.Instance
 - uid: Texim.Pixels.IndexedA3I5.PixelToBits(Texim.Pixels.IndexedPixel)
@@ -2487,7 +2684,6 @@ references:
   name: PixelToBits
   href: api/Texim.Pixels.IndexedA3I5.html#Texim_Pixels_IndexedA3I5_PixelToBits_
   commentId: Overload:Texim.Pixels.IndexedA3I5.PixelToBits
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA3I5.PixelToBits
   nameWithType: IndexedA3I5.PixelToBits
 - uid: Texim.Pixels.IndexedA5I3
@@ -2496,6 +2692,18 @@ references:
   commentId: T:Texim.Pixels.IndexedA5I3
   fullName: Texim.Pixels.IndexedA5I3
   nameWithType: IndexedA5I3
+- uid: Texim.Pixels.IndexedA5I3.#ctor
+  name: IndexedA5I3()
+  href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3__ctor
+  commentId: M:Texim.Pixels.IndexedA5I3.#ctor
+  fullName: Texim.Pixels.IndexedA5I3.IndexedA5I3()
+  nameWithType: IndexedA5I3.IndexedA5I3()
+- uid: Texim.Pixels.IndexedA5I3.#ctor*
+  name: IndexedA5I3
+  href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3__ctor_
+  commentId: Overload:Texim.Pixels.IndexedA5I3.#ctor
+  fullName: Texim.Pixels.IndexedA5I3.IndexedA5I3
+  nameWithType: IndexedA5I3.IndexedA5I3
 - uid: Texim.Pixels.IndexedA5I3.BitsPerPixel
   name: BitsPerPixel
   href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_BitsPerPixel
@@ -2506,7 +2714,6 @@ references:
   name: BitsPerPixel
   href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_BitsPerPixel_
   commentId: Overload:Texim.Pixels.IndexedA5I3.BitsPerPixel
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA5I3.BitsPerPixel
   nameWithType: IndexedA5I3.BitsPerPixel
 - uid: Texim.Pixels.IndexedA5I3.BitsToPixel(System.Byte)
@@ -2519,7 +2726,6 @@ references:
   name: BitsToPixel
   href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_BitsToPixel_
   commentId: Overload:Texim.Pixels.IndexedA5I3.BitsToPixel
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA5I3.BitsToPixel
   nameWithType: IndexedA5I3.BitsToPixel
 - uid: Texim.Pixels.IndexedA5I3.Instance
@@ -2532,7 +2738,6 @@ references:
   name: Instance
   href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_Instance_
   commentId: Overload:Texim.Pixels.IndexedA5I3.Instance
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA5I3.Instance
   nameWithType: IndexedA5I3.Instance
 - uid: Texim.Pixels.IndexedA5I3.PixelToBits(Texim.Pixels.IndexedPixel)
@@ -2545,7 +2750,6 @@ references:
   name: PixelToBits
   href: api/Texim.Pixels.IndexedA5I3.html#Texim_Pixels_IndexedA5I3_PixelToBits_
   commentId: Overload:Texim.Pixels.IndexedA5I3.PixelToBits
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedA5I3.PixelToBits
   nameWithType: IndexedA5I3.PixelToBits
 - uid: Texim.Pixels.IndexedPixel
@@ -2576,7 +2780,6 @@ references:
   name: IndexedPixel
   href: api/Texim.Pixels.IndexedPixel.html#Texim_Pixels_IndexedPixel__ctor_
   commentId: Overload:Texim.Pixels.IndexedPixel.#ctor
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedPixel.IndexedPixel
   nameWithType: IndexedPixel.IndexedPixel
 - uid: Texim.Pixels.IndexedPixel.Alpha
@@ -2589,7 +2792,6 @@ references:
   name: Alpha
   href: api/Texim.Pixels.IndexedPixel.html#Texim_Pixels_IndexedPixel_Alpha_
   commentId: Overload:Texim.Pixels.IndexedPixel.Alpha
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedPixel.Alpha
   nameWithType: IndexedPixel.Alpha
 - uid: Texim.Pixels.IndexedPixel.Index
@@ -2602,7 +2804,6 @@ references:
   name: Index
   href: api/Texim.Pixels.IndexedPixel.html#Texim_Pixels_IndexedPixel_Index_
   commentId: Overload:Texim.Pixels.IndexedPixel.Index
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedPixel.Index
   nameWithType: IndexedPixel.Index
 - uid: Texim.Pixels.IndexedPixel.PaletteIndex
@@ -2615,7 +2816,6 @@ references:
   name: PaletteIndex
   href: api/Texim.Pixels.IndexedPixel.html#Texim_Pixels_IndexedPixel_PaletteIndex_
   commentId: Overload:Texim.Pixels.IndexedPixel.PaletteIndex
-  isSpec: "True"
   fullName: Texim.Pixels.IndexedPixel.PaletteIndex
   nameWithType: IndexedPixel.PaletteIndex
 - uid: Texim.Pixels.IOExtensions
@@ -2628,7 +2828,6 @@ references:
   name: DecodePixelsAs
   href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_DecodePixelsAs_
   commentId: Overload:Texim.Pixels.IOExtensions.DecodePixelsAs
-  isSpec: "True"
   fullName: Texim.Pixels.IOExtensions.DecodePixelsAs
   nameWithType: IOExtensions.DecodePixelsAs
 - uid: Texim.Pixels.IOExtensions.DecodePixelsAs``1(System.Byte[])
@@ -2644,7 +2843,6 @@ references:
   name: EncodePixelsAs
   href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_EncodePixelsAs_
   commentId: Overload:Texim.Pixels.IOExtensions.EncodePixelsAs
-  isSpec: "True"
   fullName: Texim.Pixels.IOExtensions.EncodePixelsAs
   nameWithType: IOExtensions.EncodePixelsAs
 - uid: Texim.Pixels.IOExtensions.EncodePixelsAs``1(Texim.Pixels.IndexedPixel[])
@@ -2660,16 +2858,15 @@ references:
   name: ReadPixels
   href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_ReadPixels_
   commentId: Overload:Texim.Pixels.IOExtensions.ReadPixels
-  isSpec: "True"
   fullName: Texim.Pixels.IOExtensions.ReadPixels
   nameWithType: IOExtensions.ReadPixels
-- uid: Texim.Pixels.IOExtensions.ReadPixels``1(DataReader,System.Int32)
+- uid: Texim.Pixels.IOExtensions.ReadPixels``1(Yarhl.IO.DataReader,System.Int32)
   name: ReadPixels<T>(DataReader, Int32)
-  href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_ReadPixels__1_DataReader_System_Int32_
-  commentId: M:Texim.Pixels.IOExtensions.ReadPixels``1(DataReader,System.Int32)
+  href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_ReadPixels__1_Yarhl_IO_DataReader_System_Int32_
+  commentId: M:Texim.Pixels.IOExtensions.ReadPixels``1(Yarhl.IO.DataReader,System.Int32)
   name.vb: ReadPixels(Of T)(DataReader, Int32)
-  fullName: Texim.Pixels.IOExtensions.ReadPixels<T>(DataReader, System.Int32)
-  fullName.vb: Texim.Pixels.IOExtensions.ReadPixels(Of T)(DataReader, System.Int32)
+  fullName: Texim.Pixels.IOExtensions.ReadPixels<T>(Yarhl.IO.DataReader, System.Int32)
+  fullName.vb: Texim.Pixels.IOExtensions.ReadPixels(Of T)(Yarhl.IO.DataReader, System.Int32)
   nameWithType: IOExtensions.ReadPixels<T>(DataReader, Int32)
   nameWithType.vb: IOExtensions.ReadPixels(Of T)(DataReader, Int32)
 - uid: Texim.Pixels.IOExtensions.UnswizzleWith(Texim.Pixels.IndexedPixel[],Texim.Pixels.ISwizzling{Texim.Pixels.IndexedPixel})
@@ -2685,23 +2882,21 @@ references:
   name: UnswizzleWith
   href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_UnswizzleWith_
   commentId: Overload:Texim.Pixels.IOExtensions.UnswizzleWith
-  isSpec: "True"
   fullName: Texim.Pixels.IOExtensions.UnswizzleWith
   nameWithType: IOExtensions.UnswizzleWith
 - uid: Texim.Pixels.IOExtensions.Write*
   name: Write
   href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_Write_
   commentId: Overload:Texim.Pixels.IOExtensions.Write
-  isSpec: "True"
   fullName: Texim.Pixels.IOExtensions.Write
   nameWithType: IOExtensions.Write
-- uid: Texim.Pixels.IOExtensions.Write``1(DataWriter,IEnumerable{Texim.Pixels.IndexedPixel})
+- uid: Texim.Pixels.IOExtensions.Write``1(Yarhl.IO.DataWriter,System.Collections.Generic.IEnumerable{Texim.Pixels.IndexedPixel})
   name: Write<T>(DataWriter, IEnumerable<IndexedPixel>)
-  href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_Write__1_DataWriter_IEnumerable_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Pixels.IOExtensions.Write``1(DataWriter,IEnumerable{Texim.Pixels.IndexedPixel})
+  href: api/Texim.Pixels.IOExtensions.html#Texim_Pixels_IOExtensions_Write__1_Yarhl_IO_DataWriter_System_Collections_Generic_IEnumerable_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Pixels.IOExtensions.Write``1(Yarhl.IO.DataWriter,System.Collections.Generic.IEnumerable{Texim.Pixels.IndexedPixel})
   name.vb: Write(Of T)(DataWriter, IEnumerable(Of IndexedPixel))
-  fullName: Texim.Pixels.IOExtensions.Write<T>(DataWriter, IEnumerable<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Pixels.IOExtensions.Write(Of T)(DataWriter, IEnumerable(Of Texim.Pixels.IndexedPixel))
+  fullName: Texim.Pixels.IOExtensions.Write<T>(Yarhl.IO.DataWriter, System.Collections.Generic.IEnumerable<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Pixels.IOExtensions.Write(Of T)(Yarhl.IO.DataWriter, System.Collections.Generic.IEnumerable(Of Texim.Pixels.IndexedPixel))
   nameWithType: IOExtensions.Write<T>(DataWriter, IEnumerable<IndexedPixel>)
   nameWithType.vb: IOExtensions.Write(Of T)(DataWriter, IEnumerable(Of IndexedPixel))
 - uid: Texim.Pixels.ISwizzling`1
@@ -2713,38 +2908,36 @@ references:
   fullName.vb: Texim.Pixels.ISwizzling(Of T)
   nameWithType: ISwizzling<T>
   nameWithType.vb: ISwizzling(Of T)
-- uid: Texim.Pixels.ISwizzling`1.Swizzle(IEnumerable{`0})
+- uid: Texim.Pixels.ISwizzling`1.Swizzle(System.Collections.Generic.IEnumerable{`0})
   name: Swizzle(IEnumerable<T>)
-  href: api/Texim.Pixels.ISwizzling-1.html#Texim_Pixels_ISwizzling_1_Swizzle_IEnumerable__0__
-  commentId: M:Texim.Pixels.ISwizzling`1.Swizzle(IEnumerable{`0})
+  href: api/Texim.Pixels.ISwizzling-1.html#Texim_Pixels_ISwizzling_1_Swizzle_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Texim.Pixels.ISwizzling`1.Swizzle(System.Collections.Generic.IEnumerable{`0})
   name.vb: Swizzle(IEnumerable(Of T))
-  fullName: Texim.Pixels.ISwizzling<T>.Swizzle(IEnumerable<T>)
-  fullName.vb: Texim.Pixels.ISwizzling(Of T).Swizzle(IEnumerable(Of T))
+  fullName: Texim.Pixels.ISwizzling<T>.Swizzle(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Texim.Pixels.ISwizzling(Of T).Swizzle(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: ISwizzling<T>.Swizzle(IEnumerable<T>)
   nameWithType.vb: ISwizzling(Of T).Swizzle(IEnumerable(Of T))
 - uid: Texim.Pixels.ISwizzling`1.Swizzle*
   name: Swizzle
   href: api/Texim.Pixels.ISwizzling-1.html#Texim_Pixels_ISwizzling_1_Swizzle_
   commentId: Overload:Texim.Pixels.ISwizzling`1.Swizzle
-  isSpec: "True"
   fullName: Texim.Pixels.ISwizzling<T>.Swizzle
   fullName.vb: Texim.Pixels.ISwizzling(Of T).Swizzle
   nameWithType: ISwizzling<T>.Swizzle
   nameWithType.vb: ISwizzling(Of T).Swizzle
-- uid: Texim.Pixels.ISwizzling`1.Unswizzle(IEnumerable{`0})
+- uid: Texim.Pixels.ISwizzling`1.Unswizzle(System.Collections.Generic.IEnumerable{`0})
   name: Unswizzle(IEnumerable<T>)
-  href: api/Texim.Pixels.ISwizzling-1.html#Texim_Pixels_ISwizzling_1_Unswizzle_IEnumerable__0__
-  commentId: M:Texim.Pixels.ISwizzling`1.Unswizzle(IEnumerable{`0})
+  href: api/Texim.Pixels.ISwizzling-1.html#Texim_Pixels_ISwizzling_1_Unswizzle_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Texim.Pixels.ISwizzling`1.Unswizzle(System.Collections.Generic.IEnumerable{`0})
   name.vb: Unswizzle(IEnumerable(Of T))
-  fullName: Texim.Pixels.ISwizzling<T>.Unswizzle(IEnumerable<T>)
-  fullName.vb: Texim.Pixels.ISwizzling(Of T).Unswizzle(IEnumerable(Of T))
+  fullName: Texim.Pixels.ISwizzling<T>.Unswizzle(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Texim.Pixels.ISwizzling(Of T).Unswizzle(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: ISwizzling<T>.Unswizzle(IEnumerable<T>)
   nameWithType.vb: ISwizzling(Of T).Unswizzle(IEnumerable(Of T))
 - uid: Texim.Pixels.ISwizzling`1.Unswizzle*
   name: Unswizzle
   href: api/Texim.Pixels.ISwizzling-1.html#Texim_Pixels_ISwizzling_1_Unswizzle_
   commentId: Overload:Texim.Pixels.ISwizzling`1.Unswizzle
-  isSpec: "True"
   fullName: Texim.Pixels.ISwizzling<T>.Unswizzle
   fullName.vb: Texim.Pixels.ISwizzling(Of T).Unswizzle
   nameWithType: ISwizzling<T>.Unswizzle
@@ -2766,12 +2959,12 @@ references:
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSwizzling()
   nameWithType: TileSwizzling<T>.TileSwizzling()
   nameWithType.vb: TileSwizzling(Of T).TileSwizzling()
-- uid: Texim.Pixels.TileSwizzling`1.#ctor(Size,System.Int32)
+- uid: Texim.Pixels.TileSwizzling`1.#ctor(System.Drawing.Size,System.Int32)
   name: TileSwizzling(Size, Int32)
-  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1__ctor_Size_System_Int32_
-  commentId: M:Texim.Pixels.TileSwizzling`1.#ctor(Size,System.Int32)
-  fullName: Texim.Pixels.TileSwizzling<T>.TileSwizzling(Size, System.Int32)
-  fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSwizzling(Size, System.Int32)
+  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1__ctor_System_Drawing_Size_System_Int32_
+  commentId: M:Texim.Pixels.TileSwizzling`1.#ctor(System.Drawing.Size,System.Int32)
+  fullName: Texim.Pixels.TileSwizzling<T>.TileSwizzling(System.Drawing.Size, System.Int32)
+  fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSwizzling(System.Drawing.Size, System.Int32)
   nameWithType: TileSwizzling<T>.TileSwizzling(Size, Int32)
   nameWithType.vb: TileSwizzling(Of T).TileSwizzling(Size, Int32)
 - uid: Texim.Pixels.TileSwizzling`1.#ctor(System.Int32)
@@ -2786,25 +2979,23 @@ references:
   name: TileSwizzling
   href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1__ctor_
   commentId: Overload:Texim.Pixels.TileSwizzling`1.#ctor
-  isSpec: "True"
   fullName: Texim.Pixels.TileSwizzling<T>.TileSwizzling
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSwizzling
   nameWithType: TileSwizzling<T>.TileSwizzling
   nameWithType.vb: TileSwizzling(Of T).TileSwizzling
-- uid: Texim.Pixels.TileSwizzling`1.Swizzle(IEnumerable{`0})
+- uid: Texim.Pixels.TileSwizzling`1.Swizzle(System.Collections.Generic.IEnumerable{`0})
   name: Swizzle(IEnumerable<T>)
-  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Swizzle_IEnumerable__0__
-  commentId: M:Texim.Pixels.TileSwizzling`1.Swizzle(IEnumerable{`0})
+  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Swizzle_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Texim.Pixels.TileSwizzling`1.Swizzle(System.Collections.Generic.IEnumerable{`0})
   name.vb: Swizzle(IEnumerable(Of T))
-  fullName: Texim.Pixels.TileSwizzling<T>.Swizzle(IEnumerable<T>)
-  fullName.vb: Texim.Pixels.TileSwizzling(Of T).Swizzle(IEnumerable(Of T))
+  fullName: Texim.Pixels.TileSwizzling<T>.Swizzle(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Texim.Pixels.TileSwizzling(Of T).Swizzle(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: TileSwizzling<T>.Swizzle(IEnumerable<T>)
   nameWithType.vb: TileSwizzling(Of T).Swizzle(IEnumerable(Of T))
 - uid: Texim.Pixels.TileSwizzling`1.Swizzle*
   name: Swizzle
   href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Swizzle_
   commentId: Overload:Texim.Pixels.TileSwizzling`1.Swizzle
-  isSpec: "True"
   fullName: Texim.Pixels.TileSwizzling<T>.Swizzle
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).Swizzle
   nameWithType: TileSwizzling<T>.Swizzle
@@ -2821,25 +3012,23 @@ references:
   name: TileSize
   href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_TileSize_
   commentId: Overload:Texim.Pixels.TileSwizzling`1.TileSize
-  isSpec: "True"
   fullName: Texim.Pixels.TileSwizzling<T>.TileSize
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).TileSize
   nameWithType: TileSwizzling<T>.TileSize
   nameWithType.vb: TileSwizzling(Of T).TileSize
-- uid: Texim.Pixels.TileSwizzling`1.Unswizzle(IEnumerable{`0})
+- uid: Texim.Pixels.TileSwizzling`1.Unswizzle(System.Collections.Generic.IEnumerable{`0})
   name: Unswizzle(IEnumerable<T>)
-  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Unswizzle_IEnumerable__0__
-  commentId: M:Texim.Pixels.TileSwizzling`1.Unswizzle(IEnumerable{`0})
+  href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Unswizzle_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Texim.Pixels.TileSwizzling`1.Unswizzle(System.Collections.Generic.IEnumerable{`0})
   name.vb: Unswizzle(IEnumerable(Of T))
-  fullName: Texim.Pixels.TileSwizzling<T>.Unswizzle(IEnumerable<T>)
-  fullName.vb: Texim.Pixels.TileSwizzling(Of T).Unswizzle(IEnumerable(Of T))
+  fullName: Texim.Pixels.TileSwizzling<T>.Unswizzle(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Texim.Pixels.TileSwizzling(Of T).Unswizzle(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: TileSwizzling<T>.Unswizzle(IEnumerable<T>)
   nameWithType.vb: TileSwizzling(Of T).Unswizzle(IEnumerable(Of T))
 - uid: Texim.Pixels.TileSwizzling`1.Unswizzle*
   name: Unswizzle
   href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Unswizzle_
   commentId: Overload:Texim.Pixels.TileSwizzling`1.Unswizzle
-  isSpec: "True"
   fullName: Texim.Pixels.TileSwizzling<T>.Unswizzle
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).Unswizzle
   nameWithType: TileSwizzling<T>.Unswizzle
@@ -2856,7 +3045,6 @@ references:
   name: Width
   href: api/Texim.Pixels.TileSwizzling-1.html#Texim_Pixels_TileSwizzling_1_Width_
   commentId: Overload:Texim.Pixels.TileSwizzling`1.Width
-  isSpec: "True"
   fullName: Texim.Pixels.TileSwizzling<T>.Width
   fullName.vb: Texim.Pixels.TileSwizzling(Of T).Width
   nameWithType: TileSwizzling<T>.Width
@@ -2873,29 +3061,28 @@ references:
   commentId: T:Texim.Processing.ExhaustiveColorSearch
   fullName: Texim.Processing.ExhaustiveColorSearch
   nameWithType: ExhaustiveColorSearch
-- uid: Texim.Processing.ExhaustiveColorSearch.#ctor(IEnumerable{Texim.Colors.Rgb})
+- uid: Texim.Processing.ExhaustiveColorSearch.#ctor(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name: ExhaustiveColorSearch(IEnumerable<Rgb>)
-  href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch__ctor_IEnumerable_Texim_Colors_Rgb__
-  commentId: M:Texim.Processing.ExhaustiveColorSearch.#ctor(IEnumerable{Texim.Colors.Rgb})
+  href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch__ctor_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__
+  commentId: M:Texim.Processing.ExhaustiveColorSearch.#ctor(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})
   name.vb: ExhaustiveColorSearch(IEnumerable(Of Rgb))
-  fullName: Texim.Processing.ExhaustiveColorSearch.ExhaustiveColorSearch(IEnumerable<Texim.Colors.Rgb>)
-  fullName.vb: Texim.Processing.ExhaustiveColorSearch.ExhaustiveColorSearch(IEnumerable(Of Texim.Colors.Rgb))
+  fullName: Texim.Processing.ExhaustiveColorSearch.ExhaustiveColorSearch(System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>)
+  fullName.vb: Texim.Processing.ExhaustiveColorSearch.ExhaustiveColorSearch(System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb))
   nameWithType: ExhaustiveColorSearch.ExhaustiveColorSearch(IEnumerable<Rgb>)
   nameWithType.vb: ExhaustiveColorSearch.ExhaustiveColorSearch(IEnumerable(Of Rgb))
 - uid: Texim.Processing.ExhaustiveColorSearch.#ctor*
   name: ExhaustiveColorSearch
   href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch__ctor_
   commentId: Overload:Texim.Processing.ExhaustiveColorSearch.#ctor
-  isSpec: "True"
   fullName: Texim.Processing.ExhaustiveColorSearch.ExhaustiveColorSearch
   nameWithType: ExhaustiveColorSearch.ExhaustiveColorSearch
-- uid: Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable{Texim.Colors.Rgb},Texim.Colors.Rgb)
+- uid: Texim.Processing.ExhaustiveColorSearch.Search(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb},Texim.Colors.Rgb)
   name: Search(IEnumerable<Rgb>, Rgb)
-  href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch_Search_IEnumerable_Texim_Colors_Rgb__Texim_Colors_Rgb_
-  commentId: M:Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable{Texim.Colors.Rgb},Texim.Colors.Rgb)
+  href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch_Search_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__Texim_Colors_Rgb_
+  commentId: M:Texim.Processing.ExhaustiveColorSearch.Search(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb},Texim.Colors.Rgb)
   name.vb: Search(IEnumerable(Of Rgb), Rgb)
-  fullName: Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable<Texim.Colors.Rgb>, Texim.Colors.Rgb)
-  fullName.vb: Texim.Processing.ExhaustiveColorSearch.Search(IEnumerable(Of Texim.Colors.Rgb), Texim.Colors.Rgb)
+  fullName: Texim.Processing.ExhaustiveColorSearch.Search(System.Collections.Generic.IEnumerable<Texim.Colors.Rgb>, Texim.Colors.Rgb)
+  fullName.vb: Texim.Processing.ExhaustiveColorSearch.Search(System.Collections.Generic.IEnumerable(Of Texim.Colors.Rgb), Texim.Colors.Rgb)
   nameWithType: ExhaustiveColorSearch.Search(IEnumerable<Rgb>, Rgb)
   nameWithType.vb: ExhaustiveColorSearch.Search(IEnumerable(Of Rgb), Rgb)
 - uid: Texim.Processing.ExhaustiveColorSearch.Search(Texim.Colors.Rgb)
@@ -2908,7 +3095,6 @@ references:
   name: Search
   href: api/Texim.Processing.ExhaustiveColorSearch.html#Texim_Processing_ExhaustiveColorSearch_Search_
   commentId: Overload:Texim.Processing.ExhaustiveColorSearch.Search
-  isSpec: "True"
   fullName: Texim.Processing.ExhaustiveColorSearch.Search
   nameWithType: ExhaustiveColorSearch.Search
 - uid: Texim.Processing.FixedPaletteQuantization
@@ -2927,7 +3113,6 @@ references:
   name: FixedPaletteQuantization
   href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization__ctor_
   commentId: Overload:Texim.Processing.FixedPaletteQuantization.#ctor
-  isSpec: "True"
   fullName: Texim.Processing.FixedPaletteQuantization.FixedPaletteQuantization
   nameWithType: FixedPaletteQuantization.FixedPaletteQuantization
 - uid: Texim.Processing.FixedPaletteQuantization.Quantize(Texim.Colors.Rgb[])
@@ -2943,7 +3128,6 @@ references:
   name: Quantize
   href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_Quantize_
   commentId: Overload:Texim.Processing.FixedPaletteQuantization.Quantize
-  isSpec: "True"
   fullName: Texim.Processing.FixedPaletteQuantization.Quantize
   nameWithType: FixedPaletteQuantization.Quantize
 - uid: Texim.Processing.FixedPaletteQuantization.TransparentIndex
@@ -2956,7 +3140,6 @@ references:
   name: TransparentIndex
   href: api/Texim.Processing.FixedPaletteQuantization.html#Texim_Processing_FixedPaletteQuantization_TransparentIndex_
   commentId: Overload:Texim.Processing.FixedPaletteQuantization.TransparentIndex
-  isSpec: "True"
   fullName: Texim.Processing.FixedPaletteQuantization.TransparentIndex
   nameWithType: FixedPaletteQuantization.TransparentIndex
 - uid: Texim.Processing.FixedPaletteTileQuantization
@@ -2965,17 +3148,16 @@ references:
   commentId: T:Texim.Processing.FixedPaletteTileQuantization
   fullName: Texim.Processing.FixedPaletteTileQuantization
   nameWithType: FixedPaletteTileQuantization
-- uid: Texim.Processing.FixedPaletteTileQuantization.#ctor(Texim.Palettes.IPaletteCollection,Size,System.Int32)
+- uid: Texim.Processing.FixedPaletteTileQuantization.#ctor(Texim.Palettes.IPaletteCollection,System.Drawing.Size,System.Int32)
   name: FixedPaletteTileQuantization(IPaletteCollection, Size, Int32)
-  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization__ctor_Texim_Palettes_IPaletteCollection_Size_System_Int32_
-  commentId: M:Texim.Processing.FixedPaletteTileQuantization.#ctor(Texim.Palettes.IPaletteCollection,Size,System.Int32)
-  fullName: Texim.Processing.FixedPaletteTileQuantization.FixedPaletteTileQuantization(Texim.Palettes.IPaletteCollection, Size, System.Int32)
+  href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization__ctor_Texim_Palettes_IPaletteCollection_System_Drawing_Size_System_Int32_
+  commentId: M:Texim.Processing.FixedPaletteTileQuantization.#ctor(Texim.Palettes.IPaletteCollection,System.Drawing.Size,System.Int32)
+  fullName: Texim.Processing.FixedPaletteTileQuantization.FixedPaletteTileQuantization(Texim.Palettes.IPaletteCollection, System.Drawing.Size, System.Int32)
   nameWithType: FixedPaletteTileQuantization.FixedPaletteTileQuantization(IPaletteCollection, Size, Int32)
 - uid: Texim.Processing.FixedPaletteTileQuantization.#ctor*
   name: FixedPaletteTileQuantization
   href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization__ctor_
   commentId: Overload:Texim.Processing.FixedPaletteTileQuantization.#ctor
-  isSpec: "True"
   fullName: Texim.Processing.FixedPaletteTileQuantization.FixedPaletteTileQuantization
   nameWithType: FixedPaletteTileQuantization.FixedPaletteTileQuantization
 - uid: Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
@@ -2988,7 +3170,6 @@ references:
   name: FirstAsTransparent
   href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization_FirstAsTransparent_
   commentId: Overload:Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
-  isSpec: "True"
   fullName: Texim.Processing.FixedPaletteTileQuantization.FirstAsTransparent
   nameWithType: FixedPaletteTileQuantization.FirstAsTransparent
 - uid: Texim.Processing.FixedPaletteTileQuantization.Quantize(Texim.Colors.Rgb[])
@@ -3004,7 +3185,6 @@ references:
   name: Quantize
   href: api/Texim.Processing.FixedPaletteTileQuantization.html#Texim_Processing_FixedPaletteTileQuantization_Quantize_
   commentId: Overload:Texim.Processing.FixedPaletteTileQuantization.Quantize
-  isSpec: "True"
   fullName: Texim.Processing.FixedPaletteTileQuantization.Quantize
   nameWithType: FixedPaletteTileQuantization.Quantize
 - uid: Texim.Processing.IQuantization
@@ -3026,7 +3206,6 @@ references:
   name: Quantize
   href: api/Texim.Processing.IQuantization.html#Texim_Processing_IQuantization_Quantize_
   commentId: Overload:Texim.Processing.IQuantization.Quantize
-  isSpec: "True"
   fullName: Texim.Processing.IQuantization.Quantize
   nameWithType: IQuantization.Quantize
 - uid: Texim.Processing.MedianCutQuantization
@@ -3045,7 +3224,6 @@ references:
   name: MedianCutQuantization
   href: api/Texim.Processing.MedianCutQuantization.html#Texim_Processing_MedianCutQuantization__ctor_
   commentId: Overload:Texim.Processing.MedianCutQuantization.#ctor
-  isSpec: "True"
   fullName: Texim.Processing.MedianCutQuantization.MedianCutQuantization
   nameWithType: MedianCutQuantization.MedianCutQuantization
 - uid: Texim.Processing.MedianCutQuantization.MaxColors
@@ -3058,7 +3236,6 @@ references:
   name: MaxColors
   href: api/Texim.Processing.MedianCutQuantization.html#Texim_Processing_MedianCutQuantization_MaxColors_
   commentId: Overload:Texim.Processing.MedianCutQuantization.MaxColors
-  isSpec: "True"
   fullName: Texim.Processing.MedianCutQuantization.MaxColors
   nameWithType: MedianCutQuantization.MaxColors
 - uid: Texim.Processing.MedianCutQuantization.Quantize(Texim.Colors.Rgb[])
@@ -3074,7 +3251,6 @@ references:
   name: Quantize
   href: api/Texim.Processing.MedianCutQuantization.html#Texim_Processing_MedianCutQuantization_Quantize_
   commentId: Overload:Texim.Processing.MedianCutQuantization.Quantize
-  isSpec: "True"
   fullName: Texim.Processing.MedianCutQuantization.Quantize
   nameWithType: MedianCutQuantization.Quantize
 - uid: Texim.Processing.Quantization
@@ -3083,6 +3259,18 @@ references:
   commentId: T:Texim.Processing.Quantization
   fullName: Texim.Processing.Quantization
   nameWithType: Quantization
+- uid: Texim.Processing.Quantization.#ctor
+  name: Quantization()
+  href: api/Texim.Processing.Quantization.html#Texim_Processing_Quantization__ctor
+  commentId: M:Texim.Processing.Quantization.#ctor
+  fullName: Texim.Processing.Quantization.Quantization()
+  nameWithType: Quantization.Quantization()
+- uid: Texim.Processing.Quantization.#ctor*
+  name: Quantization
+  href: api/Texim.Processing.Quantization.html#Texim_Processing_Quantization__ctor_
+  commentId: Overload:Texim.Processing.Quantization.#ctor
+  fullName: Texim.Processing.Quantization.Quantization
+  nameWithType: Quantization.Quantization
 - uid: Texim.Processing.Quantization.AlphaColor
   name: AlphaColor
   href: api/Texim.Processing.Quantization.html#Texim_Processing_Quantization_AlphaColor
@@ -3093,7 +3281,6 @@ references:
   name: AlphaColor
   href: api/Texim.Processing.Quantization.html#Texim_Processing_Quantization_AlphaColor_
   commentId: Overload:Texim.Processing.Quantization.AlphaColor
-  isSpec: "True"
   fullName: Texim.Processing.Quantization.AlphaColor
   nameWithType: Quantization.AlphaColor
 - uid: Texim.Processing.Quantization.FirstAsTransparent
@@ -3106,7 +3293,6 @@ references:
   name: FirstAsTransparent
   href: api/Texim.Processing.Quantization.html#Texim_Processing_Quantization_FirstAsTransparent_
   commentId: Overload:Texim.Processing.Quantization.FirstAsTransparent
-  isSpec: "True"
   fullName: Texim.Processing.Quantization.FirstAsTransparent
   nameWithType: Quantization.FirstAsTransparent
 - uid: Texim.Processing.Quantization.Quantize(Texim.Colors.Rgb[])
@@ -3122,6 +3308,5 @@ references:
   name: Quantize
   href: api/Texim.Processing.Quantization.html#Texim_Processing_Quantization_Quantize_
   commentId: Overload:Texim.Processing.Quantization.Quantize
-  isSpec: "True"
   fullName: Texim.Processing.Quantization.Quantize
   nameWithType: Quantization.Quantize
