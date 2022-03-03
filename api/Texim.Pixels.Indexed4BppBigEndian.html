@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Rgba32
+    <title>Class Indexed4BppBigEndian
    | Texim extensible image API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Rgba32
+    <meta name="title" content="Class Indexed4BppBigEndian
    | Texim extensible image API ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -338,313 +338,72 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Texim.Colors.Rgba32">
+            <article class="content wrap" id="_content" data-uid="Texim.Pixels.Indexed4BppBigEndian">
   
   
-  <h1 id="Texim_Colors_Rgba32" data-uid="Texim.Colors.Rgba32" class="text-break">Class Rgba32
+  <h1 id="Texim_Pixels_Indexed4BppBigEndian" data-uid="Texim.Pixels.Indexed4BppBigEndian" class="text-break">Class Indexed4BppBigEndian
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Rgba32</span></div>
-      <div class="level2"><a class="xref" href="Texim.Colors.Rgb32.html">Rgb32</a></div>
+    <div class="level1"><a class="xref" href="Texim.Pixels.BytePixelEncoding.html">BytePixelEncoding</a></div>
+    <div class="level2"><a class="xref" href="Texim.Pixels.Indexed4Bpp.html">Indexed4Bpp</a></div>
+    <div class="level3"><span class="xref">Indexed4BppBigEndian</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Texim.Colors.IColorEncoding.html">IColorEncoding</a></div>
+    <div><a class="xref" href="Texim.Pixels.IIndexedPixelEncoding.html">IIndexedPixelEncoding</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Colors.html">Texim.Colors</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsToPixel_System_Byte_">Indexed4Bpp.BitsToPixel(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_PixelToBits_Texim_Pixels_IndexedPixel_">Indexed4Bpp.PixelToBits(IndexedPixel)</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_Instance">Indexed4Bpp.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.Indexed4Bpp.html#Texim_Pixels_Indexed4Bpp_BitsPerPixel">Indexed4Bpp.BitsPerPixel</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_System_IO_Stream_System_Int32_">BytePixelEncoding.Decode(Stream, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Decode_System_Span_System_Byte__">BytePixelEncoding.Decode(Span&lt;Byte&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Encode_System_Collections_Generic_IEnumerable_Texim_Pixels_IndexedPixel__">BytePixelEncoding.Encode(IEnumerable&lt;IndexedPixel&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Endianness">BytePixelEncoding.Endianness</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Pixels.html">Texim.Pixels</a></h6>
   <h6><strong>Assembly</strong>: Texim.dll</h6>
-  <h5 id="Texim_Colors_Rgba32_syntax">Syntax</h5>
+  <h5 id="Texim_Pixels_Indexed4BppBigEndian_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Rgba32 : Object, IColorEncoding</code></pre>
+    <pre><code class="lang-csharp hljs">public class Indexed4BppBigEndian : Indexed4Bpp, IIndexedPixelEncoding</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Texim_Colors_Rgba32__ctor_" data-uid="Texim.Colors.Rgba32.#ctor*"></a>
-  <h4 id="Texim_Colors_Rgba32__ctor" data-uid="Texim.Colors.Rgba32.#ctor">Rgba32()</h4>
+  <a id="Texim_Pixels_Indexed4BppBigEndian__ctor_" data-uid="Texim.Pixels.Indexed4BppBigEndian.#ctor*"></a>
+  <h4 id="Texim_Pixels_Indexed4BppBigEndian__ctor" data-uid="Texim.Pixels.Indexed4BppBigEndian.#ctor">Indexed4BppBigEndian()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rgba32()</code></pre>
+    <pre><code class="lang-csharp hljs">public Indexed4BppBigEndian()</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Texim_Colors_Rgba32_BytesPerColor_" data-uid="Texim.Colors.Rgba32.BytesPerColor*"></a>
-  <h4 id="Texim_Colors_Rgba32_BytesPerColor" data-uid="Texim.Colors.Rgba32.BytesPerColor">BytesPerColor</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int BytesPerColor { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Texim_Colors_Rgba32_Instance_" data-uid="Texim.Colors.Rgba32.Instance*"></a>
-  <h4 id="Texim_Colors_Rgba32_Instance" data-uid="Texim.Colors.Rgba32.Instance">Instance</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Rgba32 Instance { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Colors.Rgba32.html">Rgba32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Texim_Colors_Rgba32_Decode_" data-uid="Texim.Colors.Rgba32.Decode*"></a>
-  <h4 id="Texim_Colors_Rgba32_Decode_System_IO_Stream_" data-uid="Texim.Colors.Rgba32.Decode(System.IO.Stream)">Decode(Stream)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rgb Decode(Stream stream)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
-        <td><span class="parametername">stream</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Colors.Rgb.html">Rgb</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Texim_Colors_Rgba32_Decode_" data-uid="Texim.Colors.Rgba32.Decode*"></a>
-  <h4 id="Texim_Colors_Rgba32_Decode_System_IO_Stream_System_Int32_" data-uid="Texim.Colors.Rgba32.Decode(System.IO.Stream,System.Int32)">Decode(Stream, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rgb[] Decode(Stream stream, int numColors)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
-        <td><span class="parametername">stream</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">numColors</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Colors.Rgb.html">Rgb</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Texim_Colors_Rgba32_Decode_" data-uid="Texim.Colors.Rgba32.Decode*"></a>
-  <h4 id="Texim_Colors_Rgba32_Decode_System_Span_System_Byte__" data-uid="Texim.Colors.Rgba32.Decode(System.Span{System.Byte})">Decode(Span&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Rgb[] Decode(Span&lt;byte&gt; data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
-        <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Colors.Rgb.html">Rgb</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Texim_Colors_Rgba32_Encode_" data-uid="Texim.Colors.Rgba32.Encode*"></a>
-  <h4 id="Texim_Colors_Rgba32_Encode_System_Collections_Generic_IEnumerable_Texim_Colors_Rgb__" data-uid="Texim.Colors.Rgba32.Encode(System.Collections.Generic.IEnumerable{Texim.Colors.Rgb})">Encode(IEnumerable&lt;Rgb&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] Encode(IEnumerable&lt;Rgb&gt; colors)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Texim.Colors.Rgb.html">Rgb</a>&gt;</td>
-        <td><span class="parametername">colors</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Texim_Colors_Rgba32_Encode_" data-uid="Texim.Colors.Rgba32.Encode*"></a>
-  <h4 id="Texim_Colors_Rgba32_Encode_Texim_Colors_Rgb_" data-uid="Texim.Colors.Rgba32.Encode(Texim.Colors.Rgb)">Encode(Rgb)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] Encode(Rgb color)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Colors.Rgb.html">Rgb</a></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Texim.Colors.IColorEncoding.html">IColorEncoding</a>
+      <a class="xref" href="Texim.Pixels.IIndexedPixelEncoding.html">IIndexedPixelEncoding</a>
   </div>
 </article>
           </div>

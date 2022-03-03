@@ -2434,6 +2434,18 @@ references:
   commentId: Overload:Texim.Pixels.BytePixelEncoding.Encode
   fullName: Texim.Pixels.BytePixelEncoding.Encode
   nameWithType: BytePixelEncoding.Encode
+- uid: Texim.Pixels.BytePixelEncoding.Endianness
+  name: Endianness
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Endianness
+  commentId: P:Texim.Pixels.BytePixelEncoding.Endianness
+  fullName: Texim.Pixels.BytePixelEncoding.Endianness
+  nameWithType: BytePixelEncoding.Endianness
+- uid: Texim.Pixels.BytePixelEncoding.Endianness*
+  name: Endianness
+  href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_Endianness_
+  commentId: Overload:Texim.Pixels.BytePixelEncoding.Endianness
+  fullName: Texim.Pixels.BytePixelEncoding.Endianness
+  nameWithType: BytePixelEncoding.Endianness
 - uid: Texim.Pixels.BytePixelEncoding.PixelToBits(Texim.Pixels.IndexedPixel)
   name: PixelToBits(IndexedPixel)
   href: api/Texim.Pixels.BytePixelEncoding.html#Texim_Pixels_BytePixelEncoding_PixelToBits_Texim_Pixels_IndexedPixel_
@@ -2554,6 +2566,24 @@ references:
   commentId: Overload:Texim.Pixels.Indexed4Bpp.PixelToBits
   fullName: Texim.Pixels.Indexed4Bpp.PixelToBits
   nameWithType: Indexed4Bpp.PixelToBits
+- uid: Texim.Pixels.Indexed4BppBigEndian
+  name: Indexed4BppBigEndian
+  href: api/Texim.Pixels.Indexed4BppBigEndian.html
+  commentId: T:Texim.Pixels.Indexed4BppBigEndian
+  fullName: Texim.Pixels.Indexed4BppBigEndian
+  nameWithType: Indexed4BppBigEndian
+- uid: Texim.Pixels.Indexed4BppBigEndian.#ctor
+  name: Indexed4BppBigEndian()
+  href: api/Texim.Pixels.Indexed4BppBigEndian.html#Texim_Pixels_Indexed4BppBigEndian__ctor
+  commentId: M:Texim.Pixels.Indexed4BppBigEndian.#ctor
+  fullName: Texim.Pixels.Indexed4BppBigEndian.Indexed4BppBigEndian()
+  nameWithType: Indexed4BppBigEndian.Indexed4BppBigEndian()
+- uid: Texim.Pixels.Indexed4BppBigEndian.#ctor*
+  name: Indexed4BppBigEndian
+  href: api/Texim.Pixels.Indexed4BppBigEndian.html#Texim_Pixels_Indexed4BppBigEndian__ctor_
+  commentId: Overload:Texim.Pixels.Indexed4BppBigEndian.#ctor
+  fullName: Texim.Pixels.Indexed4BppBigEndian.Indexed4BppBigEndian
+  nameWithType: Indexed4BppBigEndian.Indexed4BppBigEndian
 - uid: Texim.Pixels.Indexed8Bpp
   name: Indexed8Bpp
   href: api/Texim.Pixels.Indexed8Bpp.html
