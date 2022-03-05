@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TileExtensions
+    <title>Interface IImageSegment
    | Texim extensible image API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TileExtensions
+    <meta name="title" content="Interface IImageSegment
    | Texim extensible image API ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -179,9 +179,6 @@
                                 <li class="">
                                   <a href="../dev/../api/Texim.Compressions.Nitro.ScreenMap.html" title="ScreenMap" class="">ScreenMap</a>
                                 </li>
-                                <li class="">
-                                  <a href="../dev/../api/Texim.Compressions.Nitro.TileExtensions.html" title="TileExtensions" class="">TileExtensions</a>
-                                </li>
                               </ul>  </li>
                           <li class="">
                             <span class="expand-stub"></span>
@@ -303,6 +300,9 @@
                                   <a href="../dev/../api/Texim.Pixels.ISwizzling-1.html" title="ISwizzling&lt;T&gt;" class="">ISwizzling&lt;T&gt;</a>
                                 </li>
                                 <li class="">
+                                  <a href="../dev/../api/Texim.Pixels.TileExtensions.html" title="TileExtensions" class="">TileExtensions</a>
+                                </li>
+                                <li class="">
                                   <a href="../dev/../api/Texim.Pixels.TileSwizzling-1.html" title="TileSwizzling&lt;T&gt;" class="">TileSwizzling&lt;T&gt;</a>
                                 </li>
                               </ul>  </li>
@@ -330,6 +330,33 @@
                                   <a href="../dev/../api/Texim.Processing.Quantization.html" title="Quantization" class="">Quantization</a>
                                 </li>
                               </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Texim.Sprites.html" title="Texim.Sprites" class="">Texim.Sprites</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.IImageSegment.html" title="IImageSegment" class="">IImageSegment</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.ImageSegment.html" title="ImageSegment" class="">ImageSegment</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.ImageSegment2IndexedImage.html" title="ImageSegment2IndexedImage" class="">ImageSegment2IndexedImage</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.ImageSegment2IndexedImageParams.html" title="ImageSegment2IndexedImageParams" class="">ImageSegment2IndexedImageParams</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.ISprite.html" title="ISprite" class="">ISprite</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.Sprite.html" title="Sprite" class="">Sprite</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Texim.Sprites.Sprite2IndexedImage.html" title="Sprite2IndexedImage" class="">Sprite2IndexedImage</a>
+                                </li>
+                              </ul>  </li>
                         </ul>  </li>
                   </ul>        </div>
               </div>
@@ -338,187 +365,107 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Texim.Compressions.Nitro.TileExtensions">
+            <article class="content wrap" id="_content" data-uid="Texim.Sprites.IImageSegment">
   
   
-  <h1 id="Texim_Compressions_Nitro_TileExtensions" data-uid="Texim.Compressions.Nitro.TileExtensions" class="text-break">Class TileExtensions
+  <h1 id="Texim_Sprites_IImageSegment" data-uid="Texim.Sprites.IImageSegment" class="text-break">Interface IImageSegment
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">TileExtensions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Compressions.Nitro.html">Texim.Compressions.Nitro</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Sprites.html">Texim.Sprites</a></h6>
   <h6><strong>Assembly</strong>: Texim.dll</h6>
-  <h5 id="Texim_Compressions_Nitro_TileExtensions_syntax">Syntax</h5>
+  <h5 id="Texim_Sprites_IImageSegment_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TileExtensions : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IImageSegment</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipHorizontal*"></a>
-  <h4 id="Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)">FlipHorizontal(Memory&lt;IndexedPixel&gt;, Size)</h4>
+  <a id="Texim_Sprites_IImageSegment_CoordinateX_" data-uid="Texim.Sprites.IImageSegment.CoordinateX*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_CoordinateX" data-uid="Texim.Sprites.IImageSegment.CoordinateX">CoordinateX</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void FlipHorizontal(this Memory&lt;IndexedPixel&gt; tile, Size tileSize)</code></pre>
+    <pre><code class="lang-csharp hljs">int CoordinateX { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.memory-1">Memory</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.size">Size</a></td>
-        <td><span class="parametername">tileSize</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipHorizontal*"></a>
-  <h4 id="Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)">FlipHorizontal(Span&lt;IndexedPixel&gt;, Size)</h4>
+  <a id="Texim_Sprites_IImageSegment_CoordinateY_" data-uid="Texim.Sprites.IImageSegment.CoordinateY*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_CoordinateY" data-uid="Texim.Sprites.IImageSegment.CoordinateY">CoordinateY</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void FlipHorizontal(this Span&lt;IndexedPixel&gt; tile, Size tileSize)</code></pre>
+    <pre><code class="lang-csharp hljs">int CoordinateY { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.size">Size</a></td>
-        <td><span class="parametername">tileSize</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Texim_Compressions_Nitro_TileExtensions_FlipVertical_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipVertical*"></a>
-  <h4 id="Texim_Compressions_Nitro_TileExtensions_FlipVertical_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)">FlipVertical(Memory&lt;IndexedPixel&gt;, Size)</h4>
+  <a id="Texim_Sprites_IImageSegment_Height_" data-uid="Texim.Sprites.IImageSegment.Height*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_Height" data-uid="Texim.Sprites.IImageSegment.Height">Height</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void FlipVertical(this Memory&lt;IndexedPixel&gt; tile, Size tileSize)</code></pre>
+    <pre><code class="lang-csharp hljs">int Height { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.memory-1">Memory</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.size">Size</a></td>
-        <td><span class="parametername">tileSize</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Texim_Compressions_Nitro_TileExtensions_FlipVertical_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipVertical*"></a>
-  <h4 id="Texim_Compressions_Nitro_TileExtensions_FlipVertical_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_" data-uid="Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)">FlipVertical(Span&lt;IndexedPixel&gt;, Size)</h4>
+  <a id="Texim_Sprites_IImageSegment_HorizontalFlip_" data-uid="Texim.Sprites.IImageSegment.HorizontalFlip*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_HorizontalFlip" data-uid="Texim.Sprites.IImageSegment.HorizontalFlip">HorizontalFlip</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void FlipVertical(this Span&lt;IndexedPixel&gt; tile, Size tileSize)</code></pre>
+    <pre><code class="lang-csharp hljs">bool HorizontalFlip { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.size">Size</a></td>
-        <td><span class="parametername">tileSize</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_" data-uid="Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes*"></a>
-  <h4 id="Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_System_Memory_Texim_Pixels_IndexedPixel__System_Memory_Texim_Pixels_IndexedPixel__" data-uid="Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})">HasEquivalentIndexes(Memory&lt;IndexedPixel&gt;, Memory&lt;IndexedPixel&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasEquivalentIndexes(this Memory&lt;IndexedPixel&gt; tile1, Memory&lt;IndexedPixel&gt; tile2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.memory-1">Memory</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.memory-1">Memory</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -535,37 +482,90 @@
   </table>
   
   
-  <a id="Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_" data-uid="Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes*"></a>
-  <h4 id="Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_System_Span_Texim_Pixels_IndexedPixel__System_Span_Texim_Pixels_IndexedPixel__" data-uid="Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})">HasEquivalentIndexes(Span&lt;IndexedPixel&gt;, Span&lt;IndexedPixel&gt;)</h4>
+  <a id="Texim_Sprites_IImageSegment_Layer_" data-uid="Texim.Sprites.IImageSegment.Layer*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_Layer" data-uid="Texim.Sprites.IImageSegment.Layer">Layer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasEquivalentIndexes(this Span&lt;IndexedPixel&gt; tile1, Span&lt;IndexedPixel&gt; tile2)</code></pre>
+    <pre><code class="lang-csharp hljs">int Layer { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;<a class="xref" href="Texim.Pixels.IndexedPixel.html">IndexedPixel</a>&gt;</td>
-        <td><span class="parametername">tile2</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="Texim_Sprites_IImageSegment_PaletteIndex_" data-uid="Texim.Sprites.IImageSegment.PaletteIndex*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_PaletteIndex" data-uid="Texim.Sprites.IImageSegment.PaletteIndex">PaletteIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">byte PaletteIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Texim_Sprites_IImageSegment_TileIndex_" data-uid="Texim.Sprites.IImageSegment.TileIndex*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_TileIndex" data-uid="Texim.Sprites.IImageSegment.TileIndex">TileIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">short TileIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Texim_Sprites_IImageSegment_VerticalFlip_" data-uid="Texim.Sprites.IImageSegment.VerticalFlip*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_VerticalFlip" data-uid="Texim.Sprites.IImageSegment.VerticalFlip">VerticalFlip</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool VerticalFlip { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -576,6 +576,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Texim_Sprites_IImageSegment_Width_" data-uid="Texim.Sprites.IImageSegment.Width*"></a>
+  <h4 id="Texim_Sprites_IImageSegment_Width" data-uid="Texim.Sprites.IImageSegment.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>

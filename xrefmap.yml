@@ -1159,84 +1159,6 @@ references:
   commentId: Overload:Texim.Compressions.Nitro.ScreenMap.Width
   fullName: Texim.Compressions.Nitro.ScreenMap.Width
   nameWithType: ScreenMap.Width
-- uid: Texim.Compressions.Nitro.TileExtensions
-  name: TileExtensions
-  href: api/Texim.Compressions.Nitro.TileExtensions.html
-  commentId: T:Texim.Compressions.Nitro.TileExtensions
-  fullName: Texim.Compressions.Nitro.TileExtensions
-  nameWithType: TileExtensions
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name: FlipHorizontal(Memory<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name.vb: FlipHorizontal(Memory(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Memory(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
-  nameWithType: TileExtensions.FlipHorizontal(Memory<IndexedPixel>, Size)
-  nameWithType.vb: TileExtensions.FlipHorizontal(Memory(Of IndexedPixel), Size)
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name: FlipHorizontal(Span<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name.vb: FlipHorizontal(Span(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal(System.Span(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
-  nameWithType: TileExtensions.FlipHorizontal(Span<IndexedPixel>, Size)
-  nameWithType.vb: TileExtensions.FlipHorizontal(Span(Of IndexedPixel), Size)
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal*
-  name: FlipHorizontal
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipHorizontal_
-  commentId: Overload:Texim.Compressions.Nitro.TileExtensions.FlipHorizontal
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipHorizontal
-  nameWithType: TileExtensions.FlipHorizontal
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name: FlipVertical(Memory<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name.vb: FlipVertical(Memory(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Memory(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
-  nameWithType: TileExtensions.FlipVertical(Memory<IndexedPixel>, Size)
-  nameWithType.vb: TileExtensions.FlipVertical(Memory(Of IndexedPixel), Size)
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name: FlipVertical(Span<IndexedPixel>, Size)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
-  name.vb: FlipVertical(Span(Of IndexedPixel), Size)
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.FlipVertical(System.Span(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
-  nameWithType: TileExtensions.FlipVertical(Span<IndexedPixel>, Size)
-  nameWithType.vb: TileExtensions.FlipVertical(Span(Of IndexedPixel), Size)
-- uid: Texim.Compressions.Nitro.TileExtensions.FlipVertical*
-  name: FlipVertical
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_FlipVertical_
-  commentId: Overload:Texim.Compressions.Nitro.TileExtensions.FlipVertical
-  fullName: Texim.Compressions.Nitro.TileExtensions.FlipVertical
-  nameWithType: TileExtensions.FlipVertical
-- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})
-  name: HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_System_Memory_Texim_Pixels_IndexedPixel__System_Memory_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})
-  name.vb: HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
-  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory<Texim.Pixels.IndexedPixel>, System.Memory<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Memory(Of Texim.Pixels.IndexedPixel), System.Memory(Of Texim.Pixels.IndexedPixel))
-  nameWithType: TileExtensions.HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
-  nameWithType.vb: TileExtensions.HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
-- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})
-  name: HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_System_Span_Texim_Pixels_IndexedPixel__System_Span_Texim_Pixels_IndexedPixel__
-  commentId: M:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})
-  name.vb: HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
-  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span<Texim.Pixels.IndexedPixel>, System.Span<Texim.Pixels.IndexedPixel>)
-  fullName.vb: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes(System.Span(Of Texim.Pixels.IndexedPixel), System.Span(Of Texim.Pixels.IndexedPixel))
-  nameWithType: TileExtensions.HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
-  nameWithType.vb: TileExtensions.HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
-- uid: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes*
-  name: HasEquivalentIndexes
-  href: api/Texim.Compressions.Nitro.TileExtensions.html#Texim_Compressions_Nitro_TileExtensions_HasEquivalentIndexes_
-  commentId: Overload:Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes
-  fullName: Texim.Compressions.Nitro.TileExtensions.HasEquivalentIndexes
-  nameWithType: TileExtensions.HasEquivalentIndexes
 - uid: Texim.Formats
   name: Texim.Formats
   href: api/Texim.Formats.html
@@ -2972,6 +2894,84 @@ references:
   fullName.vb: Texim.Pixels.ISwizzling(Of T).Unswizzle
   nameWithType: ISwizzling<T>.Unswizzle
   nameWithType.vb: ISwizzling(Of T).Unswizzle
+- uid: Texim.Pixels.TileExtensions
+  name: TileExtensions
+  href: api/Texim.Pixels.TileExtensions.html
+  commentId: T:Texim.Pixels.TileExtensions
+  fullName: Texim.Pixels.TileExtensions
+  nameWithType: TileExtensions
+- uid: Texim.Pixels.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name: FlipHorizontal(Memory<IndexedPixel>, Size)
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_FlipHorizontal_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Pixels.TileExtensions.FlipHorizontal(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name.vb: FlipHorizontal(Memory(Of IndexedPixel), Size)
+  fullName: Texim.Pixels.TileExtensions.FlipHorizontal(System.Memory<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Pixels.TileExtensions.FlipHorizontal(System.Memory(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
+  nameWithType: TileExtensions.FlipHorizontal(Memory<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipHorizontal(Memory(Of IndexedPixel), Size)
+- uid: Texim.Pixels.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name: FlipHorizontal(Span<IndexedPixel>, Size)
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_FlipHorizontal_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Pixels.TileExtensions.FlipHorizontal(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name.vb: FlipHorizontal(Span(Of IndexedPixel), Size)
+  fullName: Texim.Pixels.TileExtensions.FlipHorizontal(System.Span<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Pixels.TileExtensions.FlipHorizontal(System.Span(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
+  nameWithType: TileExtensions.FlipHorizontal(Span<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipHorizontal(Span(Of IndexedPixel), Size)
+- uid: Texim.Pixels.TileExtensions.FlipHorizontal*
+  name: FlipHorizontal
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_FlipHorizontal_
+  commentId: Overload:Texim.Pixels.TileExtensions.FlipHorizontal
+  fullName: Texim.Pixels.TileExtensions.FlipHorizontal
+  nameWithType: TileExtensions.FlipHorizontal
+- uid: Texim.Pixels.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name: FlipVertical(Memory<IndexedPixel>, Size)
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_FlipVertical_System_Memory_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Pixels.TileExtensions.FlipVertical(System.Memory{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name.vb: FlipVertical(Memory(Of IndexedPixel), Size)
+  fullName: Texim.Pixels.TileExtensions.FlipVertical(System.Memory<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Pixels.TileExtensions.FlipVertical(System.Memory(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
+  nameWithType: TileExtensions.FlipVertical(Memory<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipVertical(Memory(Of IndexedPixel), Size)
+- uid: Texim.Pixels.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name: FlipVertical(Span<IndexedPixel>, Size)
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_FlipVertical_System_Span_Texim_Pixels_IndexedPixel__System_Drawing_Size_
+  commentId: M:Texim.Pixels.TileExtensions.FlipVertical(System.Span{Texim.Pixels.IndexedPixel},System.Drawing.Size)
+  name.vb: FlipVertical(Span(Of IndexedPixel), Size)
+  fullName: Texim.Pixels.TileExtensions.FlipVertical(System.Span<Texim.Pixels.IndexedPixel>, System.Drawing.Size)
+  fullName.vb: Texim.Pixels.TileExtensions.FlipVertical(System.Span(Of Texim.Pixels.IndexedPixel), System.Drawing.Size)
+  nameWithType: TileExtensions.FlipVertical(Span<IndexedPixel>, Size)
+  nameWithType.vb: TileExtensions.FlipVertical(Span(Of IndexedPixel), Size)
+- uid: Texim.Pixels.TileExtensions.FlipVertical*
+  name: FlipVertical
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_FlipVertical_
+  commentId: Overload:Texim.Pixels.TileExtensions.FlipVertical
+  fullName: Texim.Pixels.TileExtensions.FlipVertical
+  nameWithType: TileExtensions.FlipVertical
+- uid: Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})
+  name: HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_HasEquivalentIndexes_System_Memory_Texim_Pixels_IndexedPixel__System_Memory_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Memory{Texim.Pixels.IndexedPixel},System.Memory{Texim.Pixels.IndexedPixel})
+  name.vb: HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
+  fullName: Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Memory<Texim.Pixels.IndexedPixel>, System.Memory<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Memory(Of Texim.Pixels.IndexedPixel), System.Memory(Of Texim.Pixels.IndexedPixel))
+  nameWithType: TileExtensions.HasEquivalentIndexes(Memory<IndexedPixel>, Memory<IndexedPixel>)
+  nameWithType.vb: TileExtensions.HasEquivalentIndexes(Memory(Of IndexedPixel), Memory(Of IndexedPixel))
+- uid: Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})
+  name: HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_HasEquivalentIndexes_System_Span_Texim_Pixels_IndexedPixel__System_Span_Texim_Pixels_IndexedPixel__
+  commentId: M:Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Span{Texim.Pixels.IndexedPixel},System.Span{Texim.Pixels.IndexedPixel})
+  name.vb: HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
+  fullName: Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Span<Texim.Pixels.IndexedPixel>, System.Span<Texim.Pixels.IndexedPixel>)
+  fullName.vb: Texim.Pixels.TileExtensions.HasEquivalentIndexes(System.Span(Of Texim.Pixels.IndexedPixel), System.Span(Of Texim.Pixels.IndexedPixel))
+  nameWithType: TileExtensions.HasEquivalentIndexes(Span<IndexedPixel>, Span<IndexedPixel>)
+  nameWithType.vb: TileExtensions.HasEquivalentIndexes(Span(Of IndexedPixel), Span(Of IndexedPixel))
+- uid: Texim.Pixels.TileExtensions.HasEquivalentIndexes*
+  name: HasEquivalentIndexes
+  href: api/Texim.Pixels.TileExtensions.html#Texim_Pixels_TileExtensions_HasEquivalentIndexes_
+  commentId: Overload:Texim.Pixels.TileExtensions.HasEquivalentIndexes
+  fullName: Texim.Pixels.TileExtensions.HasEquivalentIndexes
+  nameWithType: TileExtensions.HasEquivalentIndexes
 - uid: Texim.Pixels.TileSwizzling`1
   name: TileSwizzling<T>
   href: api/Texim.Pixels.TileSwizzling-1.html
@@ -3340,3 +3340,483 @@ references:
   commentId: Overload:Texim.Processing.Quantization.Quantize
   fullName: Texim.Processing.Quantization.Quantize
   nameWithType: Quantization.Quantize
+- uid: Texim.Sprites
+  name: Texim.Sprites
+  href: api/Texim.Sprites.html
+  commentId: N:Texim.Sprites
+  fullName: Texim.Sprites
+  nameWithType: Texim.Sprites
+- uid: Texim.Sprites.IImageSegment
+  name: IImageSegment
+  href: api/Texim.Sprites.IImageSegment.html
+  commentId: T:Texim.Sprites.IImageSegment
+  fullName: Texim.Sprites.IImageSegment
+  nameWithType: IImageSegment
+- uid: Texim.Sprites.IImageSegment.CoordinateX
+  name: CoordinateX
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_CoordinateX
+  commentId: P:Texim.Sprites.IImageSegment.CoordinateX
+  fullName: Texim.Sprites.IImageSegment.CoordinateX
+  nameWithType: IImageSegment.CoordinateX
+- uid: Texim.Sprites.IImageSegment.CoordinateX*
+  name: CoordinateX
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_CoordinateX_
+  commentId: Overload:Texim.Sprites.IImageSegment.CoordinateX
+  fullName: Texim.Sprites.IImageSegment.CoordinateX
+  nameWithType: IImageSegment.CoordinateX
+- uid: Texim.Sprites.IImageSegment.CoordinateY
+  name: CoordinateY
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_CoordinateY
+  commentId: P:Texim.Sprites.IImageSegment.CoordinateY
+  fullName: Texim.Sprites.IImageSegment.CoordinateY
+  nameWithType: IImageSegment.CoordinateY
+- uid: Texim.Sprites.IImageSegment.CoordinateY*
+  name: CoordinateY
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_CoordinateY_
+  commentId: Overload:Texim.Sprites.IImageSegment.CoordinateY
+  fullName: Texim.Sprites.IImageSegment.CoordinateY
+  nameWithType: IImageSegment.CoordinateY
+- uid: Texim.Sprites.IImageSegment.Height
+  name: Height
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_Height
+  commentId: P:Texim.Sprites.IImageSegment.Height
+  fullName: Texim.Sprites.IImageSegment.Height
+  nameWithType: IImageSegment.Height
+- uid: Texim.Sprites.IImageSegment.Height*
+  name: Height
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_Height_
+  commentId: Overload:Texim.Sprites.IImageSegment.Height
+  fullName: Texim.Sprites.IImageSegment.Height
+  nameWithType: IImageSegment.Height
+- uid: Texim.Sprites.IImageSegment.HorizontalFlip
+  name: HorizontalFlip
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_HorizontalFlip
+  commentId: P:Texim.Sprites.IImageSegment.HorizontalFlip
+  fullName: Texim.Sprites.IImageSegment.HorizontalFlip
+  nameWithType: IImageSegment.HorizontalFlip
+- uid: Texim.Sprites.IImageSegment.HorizontalFlip*
+  name: HorizontalFlip
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_HorizontalFlip_
+  commentId: Overload:Texim.Sprites.IImageSegment.HorizontalFlip
+  fullName: Texim.Sprites.IImageSegment.HorizontalFlip
+  nameWithType: IImageSegment.HorizontalFlip
+- uid: Texim.Sprites.IImageSegment.Layer
+  name: Layer
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_Layer
+  commentId: P:Texim.Sprites.IImageSegment.Layer
+  fullName: Texim.Sprites.IImageSegment.Layer
+  nameWithType: IImageSegment.Layer
+- uid: Texim.Sprites.IImageSegment.Layer*
+  name: Layer
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_Layer_
+  commentId: Overload:Texim.Sprites.IImageSegment.Layer
+  fullName: Texim.Sprites.IImageSegment.Layer
+  nameWithType: IImageSegment.Layer
+- uid: Texim.Sprites.IImageSegment.PaletteIndex
+  name: PaletteIndex
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_PaletteIndex
+  commentId: P:Texim.Sprites.IImageSegment.PaletteIndex
+  fullName: Texim.Sprites.IImageSegment.PaletteIndex
+  nameWithType: IImageSegment.PaletteIndex
+- uid: Texim.Sprites.IImageSegment.PaletteIndex*
+  name: PaletteIndex
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_PaletteIndex_
+  commentId: Overload:Texim.Sprites.IImageSegment.PaletteIndex
+  fullName: Texim.Sprites.IImageSegment.PaletteIndex
+  nameWithType: IImageSegment.PaletteIndex
+- uid: Texim.Sprites.IImageSegment.TileIndex
+  name: TileIndex
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_TileIndex
+  commentId: P:Texim.Sprites.IImageSegment.TileIndex
+  fullName: Texim.Sprites.IImageSegment.TileIndex
+  nameWithType: IImageSegment.TileIndex
+- uid: Texim.Sprites.IImageSegment.TileIndex*
+  name: TileIndex
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_TileIndex_
+  commentId: Overload:Texim.Sprites.IImageSegment.TileIndex
+  fullName: Texim.Sprites.IImageSegment.TileIndex
+  nameWithType: IImageSegment.TileIndex
+- uid: Texim.Sprites.IImageSegment.VerticalFlip
+  name: VerticalFlip
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_VerticalFlip
+  commentId: P:Texim.Sprites.IImageSegment.VerticalFlip
+  fullName: Texim.Sprites.IImageSegment.VerticalFlip
+  nameWithType: IImageSegment.VerticalFlip
+- uid: Texim.Sprites.IImageSegment.VerticalFlip*
+  name: VerticalFlip
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_VerticalFlip_
+  commentId: Overload:Texim.Sprites.IImageSegment.VerticalFlip
+  fullName: Texim.Sprites.IImageSegment.VerticalFlip
+  nameWithType: IImageSegment.VerticalFlip
+- uid: Texim.Sprites.IImageSegment.Width
+  name: Width
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_Width
+  commentId: P:Texim.Sprites.IImageSegment.Width
+  fullName: Texim.Sprites.IImageSegment.Width
+  nameWithType: IImageSegment.Width
+- uid: Texim.Sprites.IImageSegment.Width*
+  name: Width
+  href: api/Texim.Sprites.IImageSegment.html#Texim_Sprites_IImageSegment_Width_
+  commentId: Overload:Texim.Sprites.IImageSegment.Width
+  fullName: Texim.Sprites.IImageSegment.Width
+  nameWithType: IImageSegment.Width
+- uid: Texim.Sprites.ImageSegment
+  name: ImageSegment
+  href: api/Texim.Sprites.ImageSegment.html
+  commentId: T:Texim.Sprites.ImageSegment
+  fullName: Texim.Sprites.ImageSegment
+  nameWithType: ImageSegment
+- uid: Texim.Sprites.ImageSegment.#ctor
+  name: ImageSegment()
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment__ctor
+  commentId: M:Texim.Sprites.ImageSegment.#ctor
+  fullName: Texim.Sprites.ImageSegment.ImageSegment()
+  nameWithType: ImageSegment.ImageSegment()
+- uid: Texim.Sprites.ImageSegment.#ctor*
+  name: ImageSegment
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment__ctor_
+  commentId: Overload:Texim.Sprites.ImageSegment.#ctor
+  fullName: Texim.Sprites.ImageSegment.ImageSegment
+  nameWithType: ImageSegment.ImageSegment
+- uid: Texim.Sprites.ImageSegment.CoordinateX
+  name: CoordinateX
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_CoordinateX
+  commentId: P:Texim.Sprites.ImageSegment.CoordinateX
+  fullName: Texim.Sprites.ImageSegment.CoordinateX
+  nameWithType: ImageSegment.CoordinateX
+- uid: Texim.Sprites.ImageSegment.CoordinateX*
+  name: CoordinateX
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_CoordinateX_
+  commentId: Overload:Texim.Sprites.ImageSegment.CoordinateX
+  fullName: Texim.Sprites.ImageSegment.CoordinateX
+  nameWithType: ImageSegment.CoordinateX
+- uid: Texim.Sprites.ImageSegment.CoordinateY
+  name: CoordinateY
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_CoordinateY
+  commentId: P:Texim.Sprites.ImageSegment.CoordinateY
+  fullName: Texim.Sprites.ImageSegment.CoordinateY
+  nameWithType: ImageSegment.CoordinateY
+- uid: Texim.Sprites.ImageSegment.CoordinateY*
+  name: CoordinateY
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_CoordinateY_
+  commentId: Overload:Texim.Sprites.ImageSegment.CoordinateY
+  fullName: Texim.Sprites.ImageSegment.CoordinateY
+  nameWithType: ImageSegment.CoordinateY
+- uid: Texim.Sprites.ImageSegment.Height
+  name: Height
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_Height
+  commentId: P:Texim.Sprites.ImageSegment.Height
+  fullName: Texim.Sprites.ImageSegment.Height
+  nameWithType: ImageSegment.Height
+- uid: Texim.Sprites.ImageSegment.Height*
+  name: Height
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_Height_
+  commentId: Overload:Texim.Sprites.ImageSegment.Height
+  fullName: Texim.Sprites.ImageSegment.Height
+  nameWithType: ImageSegment.Height
+- uid: Texim.Sprites.ImageSegment.HorizontalFlip
+  name: HorizontalFlip
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_HorizontalFlip
+  commentId: P:Texim.Sprites.ImageSegment.HorizontalFlip
+  fullName: Texim.Sprites.ImageSegment.HorizontalFlip
+  nameWithType: ImageSegment.HorizontalFlip
+- uid: Texim.Sprites.ImageSegment.HorizontalFlip*
+  name: HorizontalFlip
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_HorizontalFlip_
+  commentId: Overload:Texim.Sprites.ImageSegment.HorizontalFlip
+  fullName: Texim.Sprites.ImageSegment.HorizontalFlip
+  nameWithType: ImageSegment.HorizontalFlip
+- uid: Texim.Sprites.ImageSegment.Layer
+  name: Layer
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_Layer
+  commentId: P:Texim.Sprites.ImageSegment.Layer
+  fullName: Texim.Sprites.ImageSegment.Layer
+  nameWithType: ImageSegment.Layer
+- uid: Texim.Sprites.ImageSegment.Layer*
+  name: Layer
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_Layer_
+  commentId: Overload:Texim.Sprites.ImageSegment.Layer
+  fullName: Texim.Sprites.ImageSegment.Layer
+  nameWithType: ImageSegment.Layer
+- uid: Texim.Sprites.ImageSegment.PaletteIndex
+  name: PaletteIndex
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_PaletteIndex
+  commentId: P:Texim.Sprites.ImageSegment.PaletteIndex
+  fullName: Texim.Sprites.ImageSegment.PaletteIndex
+  nameWithType: ImageSegment.PaletteIndex
+- uid: Texim.Sprites.ImageSegment.PaletteIndex*
+  name: PaletteIndex
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_PaletteIndex_
+  commentId: Overload:Texim.Sprites.ImageSegment.PaletteIndex
+  fullName: Texim.Sprites.ImageSegment.PaletteIndex
+  nameWithType: ImageSegment.PaletteIndex
+- uid: Texim.Sprites.ImageSegment.TileIndex
+  name: TileIndex
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_TileIndex
+  commentId: P:Texim.Sprites.ImageSegment.TileIndex
+  fullName: Texim.Sprites.ImageSegment.TileIndex
+  nameWithType: ImageSegment.TileIndex
+- uid: Texim.Sprites.ImageSegment.TileIndex*
+  name: TileIndex
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_TileIndex_
+  commentId: Overload:Texim.Sprites.ImageSegment.TileIndex
+  fullName: Texim.Sprites.ImageSegment.TileIndex
+  nameWithType: ImageSegment.TileIndex
+- uid: Texim.Sprites.ImageSegment.VerticalFlip
+  name: VerticalFlip
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_VerticalFlip
+  commentId: P:Texim.Sprites.ImageSegment.VerticalFlip
+  fullName: Texim.Sprites.ImageSegment.VerticalFlip
+  nameWithType: ImageSegment.VerticalFlip
+- uid: Texim.Sprites.ImageSegment.VerticalFlip*
+  name: VerticalFlip
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_VerticalFlip_
+  commentId: Overload:Texim.Sprites.ImageSegment.VerticalFlip
+  fullName: Texim.Sprites.ImageSegment.VerticalFlip
+  nameWithType: ImageSegment.VerticalFlip
+- uid: Texim.Sprites.ImageSegment.Width
+  name: Width
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_Width
+  commentId: P:Texim.Sprites.ImageSegment.Width
+  fullName: Texim.Sprites.ImageSegment.Width
+  nameWithType: ImageSegment.Width
+- uid: Texim.Sprites.ImageSegment.Width*
+  name: Width
+  href: api/Texim.Sprites.ImageSegment.html#Texim_Sprites_ImageSegment_Width_
+  commentId: Overload:Texim.Sprites.ImageSegment.Width
+  fullName: Texim.Sprites.ImageSegment.Width
+  nameWithType: ImageSegment.Width
+- uid: Texim.Sprites.ImageSegment2IndexedImage
+  name: ImageSegment2IndexedImage
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html
+  commentId: T:Texim.Sprites.ImageSegment2IndexedImage
+  fullName: Texim.Sprites.ImageSegment2IndexedImage
+  nameWithType: ImageSegment2IndexedImage
+- uid: Texim.Sprites.ImageSegment2IndexedImage.#ctor
+  name: ImageSegment2IndexedImage()
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html#Texim_Sprites_ImageSegment2IndexedImage__ctor
+  commentId: M:Texim.Sprites.ImageSegment2IndexedImage.#ctor
+  fullName: Texim.Sprites.ImageSegment2IndexedImage.ImageSegment2IndexedImage()
+  nameWithType: ImageSegment2IndexedImage.ImageSegment2IndexedImage()
+- uid: Texim.Sprites.ImageSegment2IndexedImage.#ctor*
+  name: ImageSegment2IndexedImage
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html#Texim_Sprites_ImageSegment2IndexedImage__ctor_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImage.#ctor
+  fullName: Texim.Sprites.ImageSegment2IndexedImage.ImageSegment2IndexedImage
+  nameWithType: ImageSegment2IndexedImage.ImageSegment2IndexedImage
+- uid: Texim.Sprites.ImageSegment2IndexedImage.Convert(Texim.Sprites.IImageSegment)
+  name: Convert(IImageSegment)
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html#Texim_Sprites_ImageSegment2IndexedImage_Convert_Texim_Sprites_IImageSegment_
+  commentId: M:Texim.Sprites.ImageSegment2IndexedImage.Convert(Texim.Sprites.IImageSegment)
+  fullName: Texim.Sprites.ImageSegment2IndexedImage.Convert(Texim.Sprites.IImageSegment)
+  nameWithType: ImageSegment2IndexedImage.Convert(IImageSegment)
+- uid: Texim.Sprites.ImageSegment2IndexedImage.Convert*
+  name: Convert
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html#Texim_Sprites_ImageSegment2IndexedImage_Convert_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImage.Convert
+  fullName: Texim.Sprites.ImageSegment2IndexedImage.Convert
+  nameWithType: ImageSegment2IndexedImage.Convert
+- uid: Texim.Sprites.ImageSegment2IndexedImage.Initialize(Texim.Sprites.ImageSegment2IndexedImageParams)
+  name: Initialize(ImageSegment2IndexedImageParams)
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html#Texim_Sprites_ImageSegment2IndexedImage_Initialize_Texim_Sprites_ImageSegment2IndexedImageParams_
+  commentId: M:Texim.Sprites.ImageSegment2IndexedImage.Initialize(Texim.Sprites.ImageSegment2IndexedImageParams)
+  fullName: Texim.Sprites.ImageSegment2IndexedImage.Initialize(Texim.Sprites.ImageSegment2IndexedImageParams)
+  nameWithType: ImageSegment2IndexedImage.Initialize(ImageSegment2IndexedImageParams)
+- uid: Texim.Sprites.ImageSegment2IndexedImage.Initialize*
+  name: Initialize
+  href: api/Texim.Sprites.ImageSegment2IndexedImage.html#Texim_Sprites_ImageSegment2IndexedImage_Initialize_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImage.Initialize
+  fullName: Texim.Sprites.ImageSegment2IndexedImage.Initialize
+  nameWithType: ImageSegment2IndexedImage.Initialize
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams
+  name: ImageSegment2IndexedImageParams
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html
+  commentId: T:Texim.Sprites.ImageSegment2IndexedImageParams
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams
+  nameWithType: ImageSegment2IndexedImageParams
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.#ctor
+  name: ImageSegment2IndexedImageParams()
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams__ctor
+  commentId: M:Texim.Sprites.ImageSegment2IndexedImageParams.#ctor
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.ImageSegment2IndexedImageParams()
+  nameWithType: ImageSegment2IndexedImageParams.ImageSegment2IndexedImageParams()
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.#ctor*
+  name: ImageSegment2IndexedImageParams
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams__ctor_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImageParams.#ctor
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.ImageSegment2IndexedImageParams
+  nameWithType: ImageSegment2IndexedImageParams.ImageSegment2IndexedImageParams
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
+  name: FullImage
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_FullImage
+  commentId: P:Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
+  nameWithType: ImageSegment2IndexedImageParams.FullImage
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.FullImage*
+  name: FullImage
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_FullImage_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
+  nameWithType: ImageSegment2IndexedImageParams.FullImage
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+  name: OutOfBoundsTileIndex
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_OutOfBoundsTileIndex
+  commentId: P:Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+  nameWithType: ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex*
+  name: OutOfBoundsTileIndex
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_OutOfBoundsTileIndex_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+  nameWithType: ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.TileSize
+  name: TileSize
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_TileSize
+  commentId: P:Texim.Sprites.ImageSegment2IndexedImageParams.TileSize
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.TileSize
+  nameWithType: ImageSegment2IndexedImageParams.TileSize
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.TileSize*
+  name: TileSize
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_TileSize_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImageParams.TileSize
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.TileSize
+  nameWithType: ImageSegment2IndexedImageParams.TileSize
+- uid: Texim.Sprites.ISprite
+  name: ISprite
+  href: api/Texim.Sprites.ISprite.html
+  commentId: T:Texim.Sprites.ISprite
+  fullName: Texim.Sprites.ISprite
+  nameWithType: ISprite
+- uid: Texim.Sprites.ISprite.Height
+  name: Height
+  href: api/Texim.Sprites.ISprite.html#Texim_Sprites_ISprite_Height
+  commentId: P:Texim.Sprites.ISprite.Height
+  fullName: Texim.Sprites.ISprite.Height
+  nameWithType: ISprite.Height
+- uid: Texim.Sprites.ISprite.Height*
+  name: Height
+  href: api/Texim.Sprites.ISprite.html#Texim_Sprites_ISprite_Height_
+  commentId: Overload:Texim.Sprites.ISprite.Height
+  fullName: Texim.Sprites.ISprite.Height
+  nameWithType: ISprite.Height
+- uid: Texim.Sprites.ISprite.Segments
+  name: Segments
+  href: api/Texim.Sprites.ISprite.html#Texim_Sprites_ISprite_Segments
+  commentId: P:Texim.Sprites.ISprite.Segments
+  fullName: Texim.Sprites.ISprite.Segments
+  nameWithType: ISprite.Segments
+- uid: Texim.Sprites.ISprite.Segments*
+  name: Segments
+  href: api/Texim.Sprites.ISprite.html#Texim_Sprites_ISprite_Segments_
+  commentId: Overload:Texim.Sprites.ISprite.Segments
+  fullName: Texim.Sprites.ISprite.Segments
+  nameWithType: ISprite.Segments
+- uid: Texim.Sprites.ISprite.Width
+  name: Width
+  href: api/Texim.Sprites.ISprite.html#Texim_Sprites_ISprite_Width
+  commentId: P:Texim.Sprites.ISprite.Width
+  fullName: Texim.Sprites.ISprite.Width
+  nameWithType: ISprite.Width
+- uid: Texim.Sprites.ISprite.Width*
+  name: Width
+  href: api/Texim.Sprites.ISprite.html#Texim_Sprites_ISprite_Width_
+  commentId: Overload:Texim.Sprites.ISprite.Width
+  fullName: Texim.Sprites.ISprite.Width
+  nameWithType: ISprite.Width
+- uid: Texim.Sprites.Sprite
+  name: Sprite
+  href: api/Texim.Sprites.Sprite.html
+  commentId: T:Texim.Sprites.Sprite
+  fullName: Texim.Sprites.Sprite
+  nameWithType: Sprite
+- uid: Texim.Sprites.Sprite.#ctor
+  name: Sprite()
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite__ctor
+  commentId: M:Texim.Sprites.Sprite.#ctor
+  fullName: Texim.Sprites.Sprite.Sprite()
+  nameWithType: Sprite.Sprite()
+- uid: Texim.Sprites.Sprite.#ctor*
+  name: Sprite
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite__ctor_
+  commentId: Overload:Texim.Sprites.Sprite.#ctor
+  fullName: Texim.Sprites.Sprite.Sprite
+  nameWithType: Sprite.Sprite
+- uid: Texim.Sprites.Sprite.Height
+  name: Height
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite_Height
+  commentId: P:Texim.Sprites.Sprite.Height
+  fullName: Texim.Sprites.Sprite.Height
+  nameWithType: Sprite.Height
+- uid: Texim.Sprites.Sprite.Height*
+  name: Height
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite_Height_
+  commentId: Overload:Texim.Sprites.Sprite.Height
+  fullName: Texim.Sprites.Sprite.Height
+  nameWithType: Sprite.Height
+- uid: Texim.Sprites.Sprite.Segments
+  name: Segments
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite_Segments
+  commentId: P:Texim.Sprites.Sprite.Segments
+  fullName: Texim.Sprites.Sprite.Segments
+  nameWithType: Sprite.Segments
+- uid: Texim.Sprites.Sprite.Segments*
+  name: Segments
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite_Segments_
+  commentId: Overload:Texim.Sprites.Sprite.Segments
+  fullName: Texim.Sprites.Sprite.Segments
+  nameWithType: Sprite.Segments
+- uid: Texim.Sprites.Sprite.Width
+  name: Width
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite_Width
+  commentId: P:Texim.Sprites.Sprite.Width
+  fullName: Texim.Sprites.Sprite.Width
+  nameWithType: Sprite.Width
+- uid: Texim.Sprites.Sprite.Width*
+  name: Width
+  href: api/Texim.Sprites.Sprite.html#Texim_Sprites_Sprite_Width_
+  commentId: Overload:Texim.Sprites.Sprite.Width
+  fullName: Texim.Sprites.Sprite.Width
+  nameWithType: Sprite.Width
+- uid: Texim.Sprites.Sprite2IndexedImage
+  name: Sprite2IndexedImage
+  href: api/Texim.Sprites.Sprite2IndexedImage.html
+  commentId: T:Texim.Sprites.Sprite2IndexedImage
+  fullName: Texim.Sprites.Sprite2IndexedImage
+  nameWithType: Sprite2IndexedImage
+- uid: Texim.Sprites.Sprite2IndexedImage.#ctor
+  name: Sprite2IndexedImage()
+  href: api/Texim.Sprites.Sprite2IndexedImage.html#Texim_Sprites_Sprite2IndexedImage__ctor
+  commentId: M:Texim.Sprites.Sprite2IndexedImage.#ctor
+  fullName: Texim.Sprites.Sprite2IndexedImage.Sprite2IndexedImage()
+  nameWithType: Sprite2IndexedImage.Sprite2IndexedImage()
+- uid: Texim.Sprites.Sprite2IndexedImage.#ctor*
+  name: Sprite2IndexedImage
+  href: api/Texim.Sprites.Sprite2IndexedImage.html#Texim_Sprites_Sprite2IndexedImage__ctor_
+  commentId: Overload:Texim.Sprites.Sprite2IndexedImage.#ctor
+  fullName: Texim.Sprites.Sprite2IndexedImage.Sprite2IndexedImage
+  nameWithType: Sprite2IndexedImage.Sprite2IndexedImage
+- uid: Texim.Sprites.Sprite2IndexedImage.Convert(Texim.Sprites.ISprite)
+  name: Convert(ISprite)
+  href: api/Texim.Sprites.Sprite2IndexedImage.html#Texim_Sprites_Sprite2IndexedImage_Convert_Texim_Sprites_ISprite_
+  commentId: M:Texim.Sprites.Sprite2IndexedImage.Convert(Texim.Sprites.ISprite)
+  fullName: Texim.Sprites.Sprite2IndexedImage.Convert(Texim.Sprites.ISprite)
+  nameWithType: Sprite2IndexedImage.Convert(ISprite)
+- uid: Texim.Sprites.Sprite2IndexedImage.Convert*
+  name: Convert
+  href: api/Texim.Sprites.Sprite2IndexedImage.html#Texim_Sprites_Sprite2IndexedImage_Convert_
+  commentId: Overload:Texim.Sprites.Sprite2IndexedImage.Convert
+  fullName: Texim.Sprites.Sprite2IndexedImage.Convert
+  nameWithType: Sprite2IndexedImage.Convert
+- uid: Texim.Sprites.Sprite2IndexedImage.Initialize(Texim.Sprites.ImageSegment2IndexedImageParams)
+  name: Initialize(ImageSegment2IndexedImageParams)
+  href: api/Texim.Sprites.Sprite2IndexedImage.html#Texim_Sprites_Sprite2IndexedImage_Initialize_Texim_Sprites_ImageSegment2IndexedImageParams_
+  commentId: M:Texim.Sprites.Sprite2IndexedImage.Initialize(Texim.Sprites.ImageSegment2IndexedImageParams)
+  fullName: Texim.Sprites.Sprite2IndexedImage.Initialize(Texim.Sprites.ImageSegment2IndexedImageParams)
+  nameWithType: Sprite2IndexedImage.Initialize(ImageSegment2IndexedImageParams)
+- uid: Texim.Sprites.Sprite2IndexedImage.Initialize*
+  name: Initialize
+  href: api/Texim.Sprites.Sprite2IndexedImage.html#Texim_Sprites_Sprite2IndexedImage_Initialize_
+  commentId: Overload:Texim.Sprites.Sprite2IndexedImage.Initialize
+  fullName: Texim.Sprites.Sprite2IndexedImage.Initialize
+  nameWithType: Sprite2IndexedImage.Initialize
