@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Sprites.IImageSegment.html",
-          "hash": "1zks3pR6LdDdU7czdrWnBAHvfOAsEfyfa2nN/Ci+JT4="
+          "hash": "BwU6XDjQGOPuCfTjAJvQuG5V/dZQ++wiOp/zTAfaOd0="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Sprites.ImageSegment.html",
-          "hash": "pxfwm7qC/Irq2RVanp3B1jCEvx1Fsx3DKgmgRF93GPc="
+          "hash": "Zo9s4hjf2o+9fRhyewwQ4tjMdhDuAPLMIVfVdTcjTgA="
         }
       },
       "is_incremental": false,
@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Sprites.ImageSegment2IndexedImageParams.html",
-          "hash": "qR+hGHRNAiFpaj2PJ+zTItwfttuA98aSMzfszNlwDco="
+          "hash": "B/i3tfsQpenOfQCj2wholFpS3f5O4esrexVOC9Hlw8A="
         }
       },
       "is_incremental": false,
@@ -918,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Texim.Sprites.Sprite2IndexedImageParams.html",
-          "hash": "GsQCpfQ1C8alWYL+Te8S4Bjj5ZhW0nnH81mJskdAeoA="
+          "hash": "btZr/EvVEOfCzJCiOJhmTY5iQTHEJ7+fLRFqFae0MVU="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/Changelog.html",
-          "hash": "CLmLtBbmLPjoYYPGb2RVXFd7C+1gZ/x3YGnZXo6hfcM="
+          "hash": "U2lkcL/L3orB59Hx+N+GRFHw74ts7f/zVhtoman/dxg="
         }
       },
       "is_incremental": false,

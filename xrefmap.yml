@@ -3658,6 +3658,18 @@ references:
   commentId: Overload:Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
   fullName: Texim.Sprites.ImageSegment2IndexedImageParams.FullImage
   nameWithType: ImageSegment2IndexedImageParams.FullImage
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.IsTiled
+  name: IsTiled
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_IsTiled
+  commentId: P:Texim.Sprites.ImageSegment2IndexedImageParams.IsTiled
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.IsTiled
+  nameWithType: ImageSegment2IndexedImageParams.IsTiled
+- uid: Texim.Sprites.ImageSegment2IndexedImageParams.IsTiled*
+  name: IsTiled
+  href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_IsTiled_
+  commentId: Overload:Texim.Sprites.ImageSegment2IndexedImageParams.IsTiled
+  fullName: Texim.Sprites.ImageSegment2IndexedImageParams.IsTiled
+  nameWithType: ImageSegment2IndexedImageParams.IsTiled
 - uid: Texim.Sprites.ImageSegment2IndexedImageParams.OutOfBoundsTileIndex
   name: OutOfBoundsTileIndex
   href: api/Texim.Sprites.ImageSegment2IndexedImageParams.html#Texim_Sprites_ImageSegment2IndexedImageParams_OutOfBoundsTileIndex
@@ -3850,6 +3862,18 @@ references:
   commentId: Overload:Texim.Sprites.Sprite2IndexedImageParams.FullImage
   fullName: Texim.Sprites.Sprite2IndexedImageParams.FullImage
   nameWithType: Sprite2IndexedImageParams.FullImage
+- uid: Texim.Sprites.Sprite2IndexedImageParams.IsTiled
+  name: IsTiled
+  href: api/Texim.Sprites.Sprite2IndexedImageParams.html#Texim_Sprites_Sprite2IndexedImageParams_IsTiled
+  commentId: P:Texim.Sprites.Sprite2IndexedImageParams.IsTiled
+  fullName: Texim.Sprites.Sprite2IndexedImageParams.IsTiled
+  nameWithType: Sprite2IndexedImageParams.IsTiled
+- uid: Texim.Sprites.Sprite2IndexedImageParams.IsTiled*
+  name: IsTiled
+  href: api/Texim.Sprites.Sprite2IndexedImageParams.html#Texim_Sprites_Sprite2IndexedImageParams_IsTiled_
+  commentId: Overload:Texim.Sprites.Sprite2IndexedImageParams.IsTiled
+  fullName: Texim.Sprites.Sprite2IndexedImageParams.IsTiled
+  nameWithType: Sprite2IndexedImageParams.IsTiled
 - uid: Texim.Sprites.Sprite2IndexedImageParams.OutOfBoundsTileIndex
   name: OutOfBoundsTileIndex
   href: api/Texim.Sprites.Sprite2IndexedImageParams.html#Texim_Sprites_Sprite2IndexedImageParams_OutOfBoundsTileIndex
