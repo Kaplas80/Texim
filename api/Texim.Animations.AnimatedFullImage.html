@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Sprite2IndexedImage
+    <title>Class AnimatedFullImage
    | Texim extensible image API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Sprite2IndexedImage
+    <meta name="title" content="Class AnimatedFullImage
    | Texim extensible image API ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -392,72 +392,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Texim.Sprites.Sprite2IndexedImage">
+            <article class="content wrap" id="_content" data-uid="Texim.Animations.AnimatedFullImage">
   
   
-  <h1 id="Texim_Sprites_Sprite2IndexedImage" data-uid="Texim.Sprites.Sprite2IndexedImage" class="text-break">Class Sprite2IndexedImage
+  <h1 id="Texim_Animations_AnimatedFullImage" data-uid="Texim.Animations.AnimatedFullImage" class="text-break">Class AnimatedFullImage
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Sprite2IndexedImage</span></div>
+    <div class="level1"><span class="xref">AnimatedFullImage</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">Yarhl.FileFormat.IInitializer</span>&lt;<a class="xref" href="Texim.Sprites.Sprite2IndexedImageParams.html">Sprite2IndexedImageParams</a>&gt;</div>
-    <div><span class="xref">Yarhl.FileFormat.IConverter</span>&lt;<a class="xref" href="Texim.Sprites.ISprite.html">ISprite</a>, <a class="xref" href="Texim.Images.IndexedImage.html">IndexedImage</a>&gt;</div>
-    <div><span class="xref">Yarhl.FileFormat.IConverter</span></div>
+    <div><a class="xref" href="Texim.Animations.IAnimatedFullImage.html">IAnimatedFullImage</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Sprites.html">Texim.Sprites</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Texim.Animations.html">Texim.Animations</a></h6>
   <h6><strong>Assembly</strong>: Texim.dll</h6>
-  <h5 id="Texim_Sprites_Sprite2IndexedImage_syntax">Syntax</h5>
+  <h5 id="Texim_Animations_AnimatedFullImage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Sprite2IndexedImage : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public class AnimatedFullImage : Object, IAnimatedFullImage</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Texim_Sprites_Sprite2IndexedImage__ctor_" data-uid="Texim.Sprites.Sprite2IndexedImage.#ctor*"></a>
-  <h4 id="Texim_Sprites_Sprite2IndexedImage__ctor" data-uid="Texim.Sprites.Sprite2IndexedImage.#ctor">Sprite2IndexedImage()</h4>
+  <a id="Texim_Animations_AnimatedFullImage__ctor_" data-uid="Texim.Animations.AnimatedFullImage.#ctor*"></a>
+  <h4 id="Texim_Animations_AnimatedFullImage__ctor" data-uid="Texim.Animations.AnimatedFullImage.#ctor">AnimatedFullImage()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Sprite2IndexedImage()</code></pre>
+    <pre><code class="lang-csharp hljs">public AnimatedFullImage()</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Texim_Sprites_Sprite2IndexedImage_Convert_" data-uid="Texim.Sprites.Sprite2IndexedImage.Convert*"></a>
-  <h4 id="Texim_Sprites_Sprite2IndexedImage_Convert_Texim_Sprites_ISprite_" data-uid="Texim.Sprites.Sprite2IndexedImage.Convert(Texim.Sprites.ISprite)">Convert(ISprite)</h4>
+  <a id="Texim_Animations_AnimatedFullImage_Frames_" data-uid="Texim.Animations.AnimatedFullImage.Frames*"></a>
+  <h4 id="Texim_Animations_AnimatedFullImage_Frames" data-uid="Texim.Animations.AnimatedFullImage.Frames">Frames</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IndexedImage Convert(ISprite source)</code></pre>
+    <pre><code class="lang-csharp hljs">public Collection&lt;IFullImageFrame&gt; Frames { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Texim.Sprites.ISprite.html">ISprite</a></td>
-        <td><span class="parametername">source</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -467,47 +448,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Texim.Images.IndexedImage.html">IndexedImage</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1">Collection</a>&lt;<a class="xref" href="Texim.Animations.IFullImageFrame.html">IFullImageFrame</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Texim_Sprites_Sprite2IndexedImage_Initialize_" data-uid="Texim.Sprites.Sprite2IndexedImage.Initialize*"></a>
-  <h4 id="Texim_Sprites_Sprite2IndexedImage_Initialize_Texim_Sprites_Sprite2IndexedImageParams_" data-uid="Texim.Sprites.Sprite2IndexedImage.Initialize(Texim.Sprites.Sprite2IndexedImageParams)">Initialize(Sprite2IndexedImageParams)</h4>
+  <a id="Texim_Animations_AnimatedFullImage_Loops_" data-uid="Texim.Animations.AnimatedFullImage.Loops*"></a>
+  <h4 id="Texim_Animations_AnimatedFullImage_Loops" data-uid="Texim.Animations.AnimatedFullImage.Loops">Loops</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(Sprite2IndexedImageParams parameters)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Loops { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Texim.Sprites.Sprite2IndexedImageParams.html">Sprite2IndexedImageParams</a></td>
-        <td><span class="parametername">parameters</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">Yarhl.FileFormat.IInitializer&lt;&gt;</span>
-  </div>
-  <div>
-      <span class="xref">Yarhl.FileFormat.IConverter&lt;, &gt;</span>
-  </div>
-  <div>
-      <span class="xref">Yarhl.FileFormat.IConverter</span>
+      <a class="xref" href="Texim.Animations.IAnimatedFullImage.html">IAnimatedFullImage</a>
   </div>
 </article>
           </div>

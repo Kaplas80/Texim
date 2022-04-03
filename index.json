@@ -1,4 +1,29 @@
 {
+  "api/Texim.Animations.AnimatedFullImage.html": {
+    "href": "api/Texim.Animations.AnimatedFullImage.html",
+    "title": "Class AnimatedFullImage | Texim extensible image API",
+    "keywords": "Class AnimatedFullImage Inheritance Object AnimatedFullImage Implements IAnimatedFullImage Namespace : Texim.Animations Assembly : Texim.dll Syntax public class AnimatedFullImage : Object, IAnimatedFullImage Constructors AnimatedFullImage() Declaration public AnimatedFullImage() Properties Frames Declaration public Collection<IFullImageFrame> Frames { get; set; } Property Value Type Description Collection < IFullImageFrame > Loops Declaration public int Loops { get; set; } Property Value Type Description Int32 Implements IAnimatedFullImage"
+  },
+  "api/Texim.Animations.FullImageFrame.html": {
+    "href": "api/Texim.Animations.FullImageFrame.html",
+    "title": "Class FullImageFrame | Texim extensible image API",
+    "keywords": "Class FullImageFrame Inheritance Object FullImageFrame Implements IFullImageFrame Namespace : Texim.Animations Assembly : Texim.dll Syntax public class FullImageFrame : Object, IFullImageFrame Constructors FullImageFrame() Declaration public FullImageFrame() Properties Duration Declaration public int Duration { get; set; } Property Value Type Description Int32 Image Declaration public IFullImage Image { get; set; } Property Value Type Description IFullImage Implements IFullImageFrame"
+  },
+  "api/Texim.Animations.html": {
+    "href": "api/Texim.Animations.html",
+    "title": "Namespace Texim.Animations | Texim extensible image API",
+    "keywords": "Namespace Texim.Animations Classes AnimatedFullImage FullImageFrame Interfaces IAnimatedFullImage IFullImageFrame"
+  },
+  "api/Texim.Animations.IAnimatedFullImage.html": {
+    "href": "api/Texim.Animations.IAnimatedFullImage.html",
+    "title": "Interface IAnimatedFullImage | Texim extensible image API",
+    "keywords": "Interface IAnimatedFullImage Namespace : Texim.Animations Assembly : Texim.dll Syntax public interface IAnimatedFullImage Properties Frames Declaration Collection<IFullImageFrame> Frames { get; } Property Value Type Description Collection < IFullImageFrame > Loops Declaration int Loops { get; } Property Value Type Description Int32"
+  },
+  "api/Texim.Animations.IFullImageFrame.html": {
+    "href": "api/Texim.Animations.IFullImageFrame.html",
+    "title": "Interface IFullImageFrame | Texim extensible image API",
+    "keywords": "Interface IFullImageFrame Namespace : Texim.Animations Assembly : Texim.dll Syntax public interface IFullImageFrame Properties Duration Declaration int Duration { get; } Property Value Type Description Int32 Image Declaration IFullImage Image { get; } Property Value Type Description IFullImage"
+  },
   "api/Texim.CollectionExtensions.html": {
     "href": "api/Texim.CollectionExtensions.html",
     "title": "Class CollectionExtensions | Texim extensible image API",
@@ -104,6 +129,11 @@
     "title": "Class ScreenMap | Texim extensible image API",
     "keywords": "Class ScreenMap Inheritance Object ScreenMap Implements IScreenMap Yarhl.FileFormat.IFormat Namespace : Texim.Compressions.Nitro Assembly : Texim.dll Syntax public class ScreenMap : Object, IScreenMap Constructors ScreenMap() Declaration public ScreenMap() ScreenMap(Int32, Int32) Declaration public ScreenMap(int width, int height) Parameters Type Name Description Int32 width Int32 height Properties Height Declaration public int Height { get; set; } Property Value Type Description Int32 Maps Declaration public MapInfo[] Maps { get; set; } Property Value Type Description MapInfo [] Width Declaration public int Width { get; set; } Property Value Type Description Int32 Implements IScreenMap Yarhl.FileFormat.IFormat"
   },
+  "api/Texim.Formats.AnimatedFullImage2Gif.html": {
+    "href": "api/Texim.Formats.AnimatedFullImage2Gif.html",
+    "title": "Class AnimatedFullImage2Gif | Texim extensible image API",
+    "keywords": "Class AnimatedFullImage2Gif Inheritance Object AnimatedFullImage2Gif Implements Yarhl.FileFormat.IConverter < IAnimatedFullImage , Yarhl.IO.BinaryFormat > Yarhl.FileFormat.IConverter Namespace : Texim.Formats Assembly : Texim.dll Syntax public class AnimatedFullImage2Gif : Object Constructors AnimatedFullImage2Gif() Declaration public AnimatedFullImage2Gif() Methods Convert(IAnimatedFullImage) Declaration public BinaryFormat Convert(IAnimatedFullImage source) Parameters Type Name Description IAnimatedFullImage source Returns Type Description Yarhl.IO.BinaryFormat Implements Yarhl.FileFormat.IConverter<, > Yarhl.FileFormat.IConverter"
+  },
   "api/Texim.Formats.Bitmap2FullImage.html": {
     "href": "api/Texim.Formats.Bitmap2FullImage.html",
     "title": "Class Bitmap2FullImage | Texim extensible image API",
@@ -117,7 +147,7 @@
   "api/Texim.Formats.html": {
     "href": "api/Texim.Formats.html",
     "title": "Namespace Texim.Formats | Texim extensible image API",
-    "keywords": "Namespace Texim.Formats Classes Bitmap2FullImage FullImage2Bitmap IndexedImage2Bitmap IndexedImageBitmapParams Palette2BinaryRiff Palette2Bitmap PaletteCollection2ContainerBitmap RawBinary2IndexedImage RawBinary2PaletteCollection RawIndexedImageParams RawPaletteParams"
+    "keywords": "Namespace Texim.Formats Classes AnimatedFullImage2Gif Bitmap2FullImage FullImage2Bitmap IndexedImage2Bitmap IndexedImageBitmapParams Palette2BinaryRiff Palette2Bitmap PaletteCollection2ContainerBitmap RawBinary2IndexedImage RawBinary2PaletteCollection RawIndexedImageParams RawPaletteParams"
   },
   "api/Texim.Formats.IndexedImage2Bitmap.html": {
     "href": "api/Texim.Formats.IndexedImage2Bitmap.html",
@@ -392,7 +422,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (April 09, 2021) | Texim extensible image API",
-    "keywords": "vNext (April 09, 2021) As part of this release we had 23 issues closed. breaking #8 Remove old API bug #9 Fix warnings and issues enhancements #1 Implement workflow and C# template repo #2 Performance test for different types of Pixel structures #3 Upgrade Yarhl #4 Re-implementation of color and palette API #5 Implement NCCL format from Layton games #6 Implement NCLR palette format #7 Re-implementation of image API #10 Implement NCGR format #11 Implement color quantization API, algorithms and importers #12 Implement Nitro tile compression via map/screen data #13 Implement tile quantization with fixed palettes and merge image with map compression #14 Implement serializers for Nitro formats #15 Re-implement CLI #16 Implement read converters for \"raw\" formats and configure stable feed #17 Improve the CLI command to import compressed Nitro images #18 Implement CLI for raw formats and support for Megaman BG #19 ✨ 🐛 Implement 4bpp big endian and fix quantization bug #20 ✨ 🐛 Implement export sprites API and fix reading little endian pixels and quantization problems #21 ✨ Implement sprites of JUS (export) #22 ✨ Implement NCER deserialization #23 👕 Move game formats into NuGet package"
+    "keywords": "vNext (April 09, 2021) As part of this release we had 24 issues closed. breaking #8 Remove old API bug #9 Fix warnings and issues enhancements #1 Implement workflow and C# template repo #2 Performance test for different types of Pixel structures #3 Upgrade Yarhl #4 Re-implementation of color and palette API #5 Implement NCCL format from Layton games #6 Implement NCLR palette format #7 Re-implementation of image API #10 Implement NCGR format #11 Implement color quantization API, algorithms and importers #12 Implement Nitro tile compression via map/screen data #13 Implement tile quantization with fixed palettes and merge image with map compression #14 Implement serializers for Nitro formats #15 Re-implement CLI #16 Implement read converters for \"raw\" formats and configure stable feed #17 Improve the CLI command to import compressed Nitro images #18 Implement CLI for raw formats and support for Megaman BG #19 ✨ 🐛 Implement 4bpp big endian and fix quantization bug #20 ✨ 🐛 Implement export sprites API and fix reading little endian pixels and quantization problems #21 ✨ Implement sprites of JUS (export) #22 ✨ Implement NCER deserialization #23 👕 Move game formats into NuGet package #24 ✨ Implement animation API and GIF converter"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
